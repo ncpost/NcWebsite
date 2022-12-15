@@ -1,0 +1,1253 @@
+
+@mixin  story_title {
+    position: absolute;
+    background-color: white;
+}
+@mixin gold{
+    color:#987b30 !important;
+}
+
+
+
+@media (min-width: 1400px){
+
+.nice_project_page{
+
+  
+    
+    #triton_page_content_1{
+        padding:5% 20% 0;
+    }
+   
+  
+
+    .triton_intro{
+        height: 400px;
+        margin-top: 6%;
+        .triton_logo img{
+            margin-top: 23px;
+            width: 30px;
+        }
+.clip-svg {
+    width: 0;
+    height: 0;
+  }
+  
+  .clip-caption {
+    width: 100%;
+    position: absolute;
+    top: 26%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .clip-caption_center {
+    width: 100%;
+    position: absolute;
+    top: 44%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:white;
+    font-weight: 600;
+  }
+  .clip-caption_num_left,.clip-caption_num_right{
+    position: absolute;
+    top: 36%;
+    background: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    left: 36%;
+  
+  }
+  .clip-caption_num_center{
+    position: absolute;
+    top: 57%;
+    background: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    left: 24%;
+  }
+  .clip-caption_text{
+    position: absolute;
+    top: 49%;
+    left: 19%;
+    width: 66%;
+    font-size: 15px;
+    text-align: left;
+  }
+  .clip-caption_text_center{
+    position: absolute;
+    top: 75%;
+    left: 34%;
+    color: white;
+  }
+  p.clip-caption_num_left,  p.clip-caption_num_right,p.clip-caption_num_center{
+@include gold;
+font-weight:600;
+  }
+  
+  
+  .clip-each {
+    display: block;
+    position: relative;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    -webkit-clip-path: url("#hexagon-clip");
+    clip-path: url("#hexagon-clip");
+  }
+  
+
+  
+  .social-each {
+    font-size: 80%;
+  }
+  
+  .clip-gradient {
+    background: #f1eee8;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  }
+  
+  .clip-gradient_center {
+    background: #c3b180;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 235%;
+    top: 24%;
+    z-index: 1; 
+}
+  
+  .clip-gradient .clip-caption {
+@include gold;
+font-weight: 500;
+font-size: 25px;
+  }
+  #triton_intro01{
+    left:30%
+  }
+  #triton_intro03{
+    right:30%
+  }
+}
+  
+.triton_point_list{
+    margin-top: 5%;
+    h1{
+        margin-bottom: 10%;    
+    }
+    h4{
+        @include gold;
+    }
+    .triton_point_num{
+        display:contents;
+    }
+    p.triton_num{
+        height: 40px;
+        width: 40px;
+        background: #c3b180;
+        border-radius: 999em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    font-size:20px;
+ font-weight:600;
+   }
+
+    .triton_point_text{
+        text-align: left;
+    }
+    .triton_point_content01,.triton_point_content02{
+    
+        border-bottom: solid 1px #c3c3c3;
+        padding-bottom: 5%;
+        margin: 0 0 4% 13%;
+        width: 86%;
+    
+    
+    }
+    .triton_point_content03{
+        margin: 0 0 4% 13%;
+        width: 86%;
+      
+    }
+}
+   
+.triton_tech{
+    margin:10% 0 15%;
+p{
+    text-align: left;
+}
+    h1{
+        margin-bottom: 50px;
+    }
+    .triton_tech_img{
+        margin-top: 50px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.triton_body{
+    h1{
+        position: absolute;
+    background: white;
+    top: -5%;
+    left: 23%;
+    z-index: 1;
+    padding: 0 30px;
+    }
+    .story_content{
+        width: 100%;
+        p{
+            margin-top: 2%;
+    }
+}
+    .triton_body_img_xl{
+        display: flex !important;
+        margin-top: 4%;
+        justify-content: space-evenly;
+    }
+ 
+}
+
+.triton_grow_logic{
+    margin:7% 0;
+    text-align: left;
+ h1{
+    margin-bottom: 50px;
+ }
+ .triton_body_text{
+    .content{
+        width: 70%;
+        text-align: left;
+        margin:auto;
+    }
+    .title{
+        background: #c3ae76;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+        margin: 30px auto 20px;
+        color: white;
+        font-weight: 700;
+    }
+ }
+    .triton_hair_stage{
+        margin-top: 5%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+}
+
+ 
+  
+.triton_table{
+   position:relative; 
+    table{
+       
+        width:100%;
+    }
+    margin:5% 0 10%;
+    h1{
+        margin:5% 0;
+
+    }
+    img{
+        position: absolute;
+    }
+    .crown01{
+        top:68%
+    }
+    .crown02{
+        top: 35%;
+        left: 28%;
+    }
+    .crown03{
+        top: 52%;
+        left: 28%;
+    }
+    .crown04{
+        top:35%
+    }
+}
+
+
+.triton_alert{
+    text-align: left;
+    h1{
+        margin-bottom: 50px
+    }
+    p{
+        align-self: center;
+    }
+    .number{
+        margin-right: 4%;
+        height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .alert01,.alert02{
+        
+        border-bottom: dotted 6px #c3c3c3;
+        margin-bottom: 4%;
+        padding-bottom: 20px;
+    
+        }
+}
+
+
+.nice_extend_btn{
+    margin: 20px 0 50px;
+}
+}
+}
+
+
+@media (min-width: 992px) and (max-width:1400px){
+    .nice_project_page{
+
+  
+    
+        #triton_page_content_1{
+            padding:4% 13% 0 17%;
+        }
+       
+      
+    
+     
+        .triton_intro{
+            height: 400px;
+            margin-top: 6%;
+            .triton_logo img{
+                margin-top: 23px;
+                width: 30px;
+            }
+    .clip-svg {
+        width: 0;
+        height: 0;
+      }
+      
+      .clip-caption {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      .clip-caption_center {
+        width: 100%;
+        position: absolute;
+        top: 44%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color:white;
+        font-weight: 600;
+      }
+      .clip-caption_num_left,.clip-caption_num_right{
+        position: absolute;
+        top: 36%;
+        background: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 80px;
+        left: 36%;
+      
+      }
+      .clip-caption_num_center{
+        position: absolute;
+        top: 57%;
+        background: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 100px;
+        left: 24%;
+      }
+      .clip-caption_text{
+        position: absolute;
+        top: 49%;
+        left: 19%;
+        width: 66%;
+        font-size: 15px;
+        text-align: left;
+      }
+      .clip-caption_text_center{
+        position: absolute;
+        top: 75%;
+        left: 34%;
+        color: white;
+      }
+      p.clip-caption_num_left,  p.clip-caption_num_right,p.clip-caption_num_center{
+    @include gold;
+    font-weight:600;
+      }
+      
+      
+      .clip-each {
+        display: block;
+        position: relative;
+        -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        -webkit-clip-path: url("#hexagon-clip");
+        clip-path: url("#hexagon-clip");
+      }
+      
+    
+      
+      .social-each {
+        font-size: 80%;
+      }
+      
+      .clip-gradient {
+        background: #f1eee8;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+      }
+      
+      .clip-gradient_center {
+        background: #c3b180;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 184%;
+        top: 24%;
+        z-index: 1; 
+    }
+      
+      .clip-gradient .clip-caption {
+    @include gold;
+    font-weight: 500;
+    font-size: 25px;
+      }
+      #triton_intro01{
+        left:24%
+      }
+      #triton_intro03{
+        right:21%
+      }
+    }
+      
+    .triton_point_list{
+        margin-top: 5%;
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+        }
+        .triton_point_num{
+            display:contents;
+        }
+        p.triton_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+     font-weight:600;
+       }
+    
+        .triton_point_text{
+            text-align: left;
+        }
+        .triton_point_content01,.triton_point_content02{
+        
+            border-bottom: solid 1px #c3c3c3;
+            padding-bottom: 5%;
+       margin:5% 0;
+        
+        
+        }
+        .triton_point_content03{
+           margin-top:5%
+          
+        }
+    }
+       
+    .triton_tech{
+        margin:10% 0 15%;
+    p{
+        text-align: left;
+    }
+        h1{
+            margin-bottom: 50px;
+        }
+        .triton_tech_img{
+            margin-top: 50px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .triton_body{
+        h1{
+            position: absolute;
+        background: white;
+        top: -7%;
+        left: 20%;
+        z-index: 1;
+        padding: 0 30px;
+        }
+        .story_content{
+            width: 100%;
+            p{
+                margin-top: 2%;
+        }
+    }
+        .triton_body_img_xl{
+            display: flex !important;
+            margin-top: 4%;
+            justify-content: space-evenly;
+         img{
+            width: 80%;
+         }
+        }
+    }
+    
+    .triton_grow_logic{
+        margin:7% 0;
+        text-align: left;
+     h1{
+        margin-bottom: 50px;
+     }
+     .triton_body_text{
+        .content{
+            width: 70%;
+            text-align: left;
+            margin:auto;
+        }
+        .title{
+            background: #c3ae76;
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            margin: 30px auto 20px;
+            color: white;
+            font-weight: 700;
+        }
+     }
+        .triton_hair_stage{
+            margin-top: 5%;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+    
+    }
+    
+     
+      
+    .triton_table{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:5% 0 10%;
+        position:relative; 
+        img{
+            position: absolute;
+        }
+        .crown01{
+            top:61%
+        }
+        .crown02{
+            top: 32%;
+            left: 36%;
+        }
+        .crown03{
+            top: 46%;
+            left: 36%;
+        }
+        .crown04{
+            top:32%
+        }
+    }
+    
+    
+    .triton_alert{
+        text-align: left;
+        h1{
+            margin-bottom: 50px
+        }
+        p{
+            align-self: center;
+        }
+        .number{
+            margin-right: 4%;
+            height: 40px;
+        width: 40px;
+        background: #c3b180;
+        border-radius: 999em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        }
+        .alert01,.alert02{
+            
+            border-bottom: dotted 6px #c3c3c3;
+            margin-bottom: 4%;
+            padding-bottom: 20px;
+        
+            }
+    }
+    
+    
+    .nice_extend_btn{
+        margin: 20px 0 50px;
+    }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){
+        .nice_project_page{
+    
+      .banner{
+        width: 100%;
+      }
+        
+            #triton_page_content_1{
+                padding:8% 5% 0;
+            }
+           
+          
+      
+            .triton_intro{
+                height: 400px;
+                margin-top: 6%;
+                .triton_logo img{
+                    margin-top: 23px;
+                    width: 30px;
+                }
+        .clip-svg {
+            width: 0;
+            height: 0;
+          }
+          
+          .clip-caption {
+            width: 100%;
+            position: absolute;
+            top: 26%;
+            -ms-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+          }
+          .clip-caption_center {
+            width: 100%;
+            position: absolute;
+            top: 44%;
+            -ms-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color:white;
+            font-weight: 600;
+          }
+          .clip-caption_num_left,.clip-caption_num_right{
+            position: absolute;
+            top: 36%;
+            background: white;
+            border-radius: 20px;
+            height: 30px;
+            width: 80px;
+            left: 36%;
+          
+          }
+          .clip-caption_num_center{
+            position: absolute;
+            top: 57%;
+            background: white;
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            left: 24%;
+          }
+          .clip-caption_text{
+            position: absolute;
+            top: 49%;
+            left: 19%;
+            width: 66%;
+            font-size: 15px;
+            text-align: left;
+          }
+          .clip-caption_text_center{
+            position: absolute;
+            top: 75%;
+            left: 34%;
+            color: white;
+          }
+          p.clip-caption_num_left,  p.clip-caption_num_right,p.clip-caption_num_center{
+        @include gold;
+        font-weight:600;
+          }
+          
+          
+          .clip-each {
+            display: block;
+            position: relative;
+            -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+            -webkit-clip-path: url("#hexagon-clip");
+            clip-path: url("#hexagon-clip");
+          }
+          
+        
+          
+          .social-each {
+            font-size: 80%;
+          }
+          
+          .clip-gradient {
+            background: #f1eee8;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+          }
+          
+          .clip-gradient_center {
+            background: #c3b180;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 121%;
+            top: 24%;
+            z-index: 1; 
+        }
+          
+          .clip-gradient .clip-caption {
+        @include gold;
+        font-weight: 500;
+        font-size: 25px;
+          }
+          #triton_intro01{
+            left:3%
+          }
+          #triton_intro03{
+            right:4%
+          }
+        }
+          .triton_machine img{
+            width: 100%;
+          }
+        .triton_point_list{
+            margin-top: 5%;
+            h1{
+                margin-bottom: 10%;    
+            }
+            h4{
+                @include gold;
+            }
+            .triton_point_num{
+                display:contents;
+            }
+            p.triton_num{
+                height: 40px;
+                width: 40px;
+                background: #c3b180;
+                border-radius: 999em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:white;
+            font-size:20px;
+         font-weight:600;
+           }
+        
+            .triton_point_text{
+                text-align: left;
+            }
+            .triton_point_content01,.triton_point_content02{
+            
+                border-bottom: solid 1px #c3c3c3;
+                padding-bottom: 5%;
+           margin:5% 0;
+            
+            
+            }
+            .triton_point_content03{
+               margin-top:5%
+              
+            }
+        }
+           
+        .triton_tech{
+            margin:10% 0 15%;
+        p{
+            text-align: left;
+        }
+            h1{
+                margin-bottom: 50px;
+            }
+            .triton_tech_img{
+                margin-top: 50px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        
+        .triton_body{
+            h1{
+                position: absolute;
+            background: white;
+            top: -7%;
+            left: 20%;
+            z-index: 1;
+            padding: 0 30px;
+            }
+            .story_content{
+                width: 100%;
+                p{
+                    margin-top: 2%;
+            }
+        }
+            .triton_body_img_xl{
+                display: flex !important;
+                margin-top: 4%;
+                justify-content: space-evenly;
+             img{
+                width: 80%;
+             }
+            }
+        }
+        
+        .triton_grow_logic{
+            margin:7% 0;
+            text-align: left;
+         h1{
+            margin-bottom: 50px;
+         }
+         .triton_body_text{
+            .content{
+                width: 70%;
+                text-align: left;
+                margin:auto;
+            }
+            .title{
+                background: #c3ae76;
+                border-radius: 20px;
+                height: 30px;
+                width: 100px;
+                margin: 30px auto 20px;
+                color: white;
+                font-weight: 700;
+            }
+         }
+            .triton_hair_stage{
+                margin-top: 5%;
+                text-align: center;
+                justify-content: space-evenly;
+            }
+        
+        }
+        
+         
+          
+        .triton_table{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin:5% 0 10%;
+            position:relative; 
+            img{
+                position: absolute;
+                width:3%;
+            }
+            .crown01{
+                top:65%
+            }
+            .crown02{
+                top: 28%;
+                left: 36%;
+            }
+            .crown03{
+                top: 46%;
+                left: 36%;
+            }
+            .crown04{
+                top:28%
+            }
+        }
+        
+        
+        .triton_alert{
+            text-align: left;
+            h1{
+                margin-bottom: 50px
+            }
+            p{
+                align-self: center;
+            }
+            .number{    margin-right: 5%;
+                height: 35px;
+                width: 50px;
+                background: #c3b180;
+                border-radius: 999em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-weight: 600;
+            }
+            .alert01,.alert02{
+                
+                border-bottom: dotted 6px #c3c3c3;
+                margin-bottom: 4%;
+                padding-bottom: 20px;
+            
+                }
+        }
+        
+        
+        .nice_extend_btn{
+            margin: 20px 0 50px;
+        }
+        }
+      
+     
+        }
+
+@media (min-width: 0px) and (max-width: 576px){
+    .nice_project_page{
+ 
+  .sm_banner{
+    margin-top: 18%;
+  }
+  .crisp_btn{
+    margin:11% 0 26%;
+  }
+    
+        #triton_page_content_1{
+            padding:0 6%;
+        }
+       
+  
+        .triton_intro{
+            .triton_logo img{
+                margin-top: 23px;
+                width: 30px;
+            }
+    .clip-svg {
+        width: 0;
+        height: 0;
+      }
+      
+      .clip-caption {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      .clip-caption_center {
+        width: 100%;
+        position: absolute;
+        top: 44%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color:white;
+        font-weight: 600;
+      }
+      .clip-caption_num_left,.clip-caption_num_right{
+        position: absolute;
+        top: 36%;
+        background: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 80px;
+        left: 36%;
+      
+      }
+      .clip-caption_num_center{
+        top: 58%;
+    background: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    left: 24%;
+    position: absolute;
+      }
+      .clip-caption_text{
+        position: absolute;
+        top: 48%;
+        left: 22%;
+        width: 62%;
+        font-size: 17px;
+        text-align: left;
+      }
+      .clip-caption_text_center{
+        position: absolute;
+        top: 75%;
+        left: 27%;
+        color: white;
+      }
+      p.clip-caption_num_left,  p.clip-caption_num_right,p.clip-caption_num_center{
+    @include gold;
+    font-weight:600;
+font-size: 15px;      
+}
+      
+      
+      .clip-each {
+        display: block;
+        position: relative;
+        -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        -webkit-clip-path: url("#hexagon-clip");
+        clip-path: url("#hexagon-clip");
+      }
+      
+    .wrap{
+        display: flex;
+        flex-direction: column;
+         position:relative;
+    }
+      
+      .social-each {
+        font-size: 80%;
+      }
+      
+      .clip-gradient {
+        background: #f1eee8;
+        width: 320px;
+        height: 320px;
+      }
+      
+      .clip-gradient_center {
+       
+        background: #c3b180;
+        width: 200px;
+        height: 200px;
+    }
+      
+      .clip-gradient .clip-caption {
+    @include gold;
+    font-weight: 500;
+    font-size: 25px;
+      }
+      #triton_intro01{
+        right: 13%;
+        top: -47%;
+        position: absolute;
+      }
+      #triton_intro02{
+        right: -1%;
+        top: 264%;
+        z-index: 1;
+        position: absolute;
+      }
+      #triton_intro03{  
+          right: 9%;
+        top: 464%;
+        position: absolute;
+      }
+    }
+    .triton_machine{
+    margin-top:172%
+    }
+      
+    .triton_point_list{
+        margin-top: 5%;
+        h1{
+          
+            margin: 21% 0 10%;
+        }
+        h4{
+            @include gold;
+        }
+        p.triton_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+     font-weight:600;
+       }
+    
+        .triton_point_text{
+            text-align: left;
+        }
+        .triton_point_content01,.triton_point_content02{
+              flex-direction: column;
+            border-bottom: solid 1px #c3c3c3;
+            padding-bottom: 5%;
+       margin:5% 0;
+        
+        
+        }
+        .triton_point_content03{
+           margin-top:5%
+          
+        }
+    }
+       
+    .triton_tech{
+        margin:10% 0 25%;
+    p{
+        text-align: left;
+    }
+        h1{
+            margin-bottom: 50px;
+        }
+    }
+    
+    .triton_body{
+        h1{
+            position: absolute;
+            background: white;
+            top: -2%;
+            left: 2%;
+            z-index: 1;
+            font-size: 24px;
+        }
+        .story_content{
+            width: 100%;
+            p{
+                margin-top: 2%;
+        }
+    }
+  
+        .line_1{
+            justify-content: space-evenly;
+        }
+        .line_2{
+       justify-content: center;
+       .body04{
+        margin-right: 5%;
+       }
+        }
+        .line_1,.line_2{
+            display: flex;
+            img{
+                width: 80px;
+            }
+        }
+      
+    }
+    
+    .triton_grow_logic{
+        margin:7% 0 20%;
+        text-align: left;
+     h1{
+        margin-bottom: 50px;
+     }
+     .triton_body_text{
+        .content{
+            width: 70%;
+            text-align: left;
+            margin:auto;
+        }
+        .title{
+            background: #c3ae76;
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            margin: 30px auto 20px;
+            color: white;
+            font-weight: 700;
+        }
+     }
+        .triton_hair_stage{   
+             margin-top: 5%;
+            text-align: center;
+            flex-direction: column;
+        }
+        img{
+            width: 70%;
+        }
+    
+    }
+    
+     
+      
+    .triton_table{
+        margin:5% 0 20%;
+        position:relative; 
+        img{
+            position: absolute;
+            width: 6%;
+        }
+        .crown01{
+            top:70%
+        }
+        .crown02{
+            top: 39%;
+            left: 32%;
+        }
+        .crown03{
+            top: 39%;
+    left: 32%;
+        }
+        .crown04{
+    top: 38%;
+    left: 71%;
+        }
+    }
+    
+    
+    .triton_alert{
+        text-align: left;
+        margin-bottom: 9%;
+        h1{
+            margin-bottom: 50px
+        }
+        p{
+            align-self: center;
+        }
+        .number{    
+            margin-right: 5%;
+            height: 28px;
+            width: 77px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 600;
+            font-size:15px;
+        }
+        .alert01,.alert02{
+            
+            border-bottom: dotted 6px #c3c3c3;
+            margin-bottom: 4%;
+            padding-bottom: 20px;
+        
+            }
+    }
+    
+    
+    .nice_extend_btn{
+        margin: 20px 0 50px;
+    }
+    }
+
+    } 

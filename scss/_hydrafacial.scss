@@ -1,0 +1,1965 @@
+
+@mixin  story_title {
+    position: absolute;
+    background-color: white;
+}
+@mixin gold{
+    color:#987b30 !important;
+}
+@mixin bottom_border{
+  position: absolute;
+  background: #c8c8c8;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+}
+
+@mixin title_bg{
+  height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}
+
+@mixin step_css{
+    border-radius: 999em;
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+@media (min-width: 1400px){
+
+.nice_project_page{
+
+  .hydrafacial_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 40%;
+  }
+    
+    #hydrafacial_page_content_1{
+        padding:5% 20% 0;
+    }
+   
+  
+
+.hydrafacial_intro{
+  background-color: #fdf7f3;
+  padding:5% 18%;
+  h1{
+padding-bottom: 50px;
+  }
+  .intro_img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  
+    .logic01{ 
+       position: relative;
+     &:before{
+  @include bottom_border;
+  top: 176px;
+  content:'清潔'
+            }
+    
+}
+.logic02{ 
+  position: relative;
+&:before{
+  @include bottom_border;
+  top: 176px;
+  content:'酸類煥膚'
+       }
+
+}
+.logic03{ 
+  position: relative;
+&:before{
+  @include bottom_border;
+  top: 176px;
+  content:'深層除垢'
+       }
+
+}
+.logic04{ 
+  position: relative;
+&:before{
+  @include bottom_border;
+  top: 176px;
+  content:'真空渦漩導入'
+       }
+
+}
+ p{
+    font-weight:800;
+    padding-top: 20px;
+    color:#363636;
+  }
+  }
+.intro_text{
+  padding-top: 20px;
+}
+
+}
+
+  
+.hydrafacial_skin_intro{
+ padding-bottom: 10%;
+  h1{
+    padding-bottom: 50px;
+  }
+.content_img{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 16%;
+  .logic01,.logic03{
+    background-image: url('../img/RWD_img/hydrafacial/purple_bg.webp');
+    background-size: cover;
+    width: 135px;
+    height: 130px;
+    p{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      color: white;
+      text-shadow: #7c6794 0.1em 0.1em 0.2em;
+      font-size: 25px;
+    }
+  }
+  .logic02{
+    background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+    background-size: cover;
+    width: 135px;
+    height: 130px;
+    p{
+      display: flex;
+      justify-content: center;
+      margin-top: 37px;
+      color: white;
+      text-shadow: #7c6794 0.1em 0.1em 0.2em;
+      font-size: 25px;
+    }
+  }
+ .logic04{
+    background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+    background-size: cover;
+    width: 135px;
+    height: 130px;
+    p{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      color: white;
+      text-shadow: #7c6794 0.1em 0.1em 0.2em;
+      font-size: 25px;
+    }
+  }
+}
+.arrow{
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 18% 0;
+}
+.logic_img{
+  padding-bottom:50px;
+}
+}
+   
+.hydrafacial_probe_intro{
+  background-color: #f9f6f0;
+  padding:5% 18%;
+  h1.larger_h1{
+    font-size:50px;
+  }
+  .intro_img{
+  display: flex;
+    justify-content: space-around;
+    padding: 0 25%;
+.probe{
+  .blue{
+    background-color: #1fa0da;
+  }
+  .green{
+    background-color: #49b1bc;
+  }
+  .transparent{
+    background-color: #98969b;
+  }
+img{
+  padding-bottom: 20px;
+}
+h5{
+  font-weight:700
+}
+  h5.title_with_border{
+    @include title_bg;
+  }
+  padding:30px;
+}
+  }
+}
+.hydrafacial_tech_intro{
+  text-align: left;
+  h1.larger_h1{
+    font-size:50px;
+  }
+}
+
+.hydrafacial_body_part{
+  background-color: #f9f6f0;
+
+  padding:5% 22%;
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    .nav-item button{
+@include gold;
+background-color: white;
+border:solid 2px #987b30;
+padding:2px 20px;
+border-radius: 0;
+width: 120px;
+margin:20px 10px;
+}
+
+  }
+  .nav-pills .nav-link.active,.nav-pills .nav-link.active:focus{
+    background-color: #987b30;
+    color: white !important;
+    }
+
+
+  .style02{ 
+    padding:50px 40px 40px;
+    height: 460px;
+    background-color: white;
+    outline: 2px solid #987b30;
+    outline-offset: -22px;
+    .content{
+    align-self: center;
+    text-align: left;
+    h2{
+      @include gold;
+      font-weight: 700;
+    }
+    p{
+      font-size:20px;
+      line-height: 40px;
+    }
+  }
+ 
+  
+ 
+} 
+
+.style01{
+  padding:50px 40px 40px;
+  height: 460px;
+  background-color: white;
+  outline: 2px solid #987b30;
+  outline-offset: -22px;
+}
+#pills-face{
+  position: relative;
+  background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+  background-repeat: no-repeat;
+  background-position: left -63px top 20px;
+  .ribbon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 22px;
+    left: 66px;
+    background-image:linear-gradient(196deg, #c0a356, rgba(246, 240, 240, 0));
+    p{
+      color: white;
+      margin-top:20px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+    .content_face{ 
+  
+  .row01,.row02{
+    display: flex;
+    justify-content: end;
+    div{
+    margin:0 15px;
+    }
+img{
+      padding:0 20px;
+    } 
+   }  
+   .row01{
+    .blue,.green{
+      margin-top: 10px;
+      @include title_bg;
+    }
+    .blue{
+      background-color: #1fa0da;
+    }
+    .green{
+      background-color: #49b1bc;
+    }
+   }
+   .row02{
+    .grey,.purple,.orange{
+      margin-top: 10px;
+      @include title_bg;
+    }
+    .grey{
+      background-color: #98969b;
+    }
+    .purple{
+      background-color: #b068c8;
+    }
+    .orange{
+      background-color: #ec6941;
+    }
+   }
+.content_img{
+  right: 0.9%;
+  bottom: 22px;
+  position: absolute;
+}
+  }
+ 
+}
+
+#pills-body{
+  position: relative;
+  background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+  background-repeat: no-repeat;
+  background-position: left -63px top 20px;
+  .ribbon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 22px;
+    left: 66px;
+    background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+    p{
+      color: white;
+      margin-top:20px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+    .content_body{ 
+  
+.content_img{
+  left: 249px;
+  bottom: 6px;
+  position: absolute;
+  img{
+    width:90%
+  }
+}
+.blue_probe{
+  margin-top: 14%;
+  padding: 0 13%;
+  p{
+    @include title_bg;
+    background-color: #3365c1;
+    margin-top: 20px;
+  }
+}
+  }
+ 
+}
+
+}
+
+
+.hydrafacial_feature{
+  .point_list{
+    display: flex;
+    justify-content: space-evenly;
+    margin:5% 0 10%;
+  }
+  .point{
+    position:relative;
+    overflow: hidden;
+    height: 247px;
+    width: 250px;
+    box-shadow: 1px 0px 7px #827a663d;
+    border: solid 1px #9a7e3c3d;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    p{
+      margin:0;
+      padding-top:5px;
+      font-weight:800;
+      color:#6c6c6c;
+
+    }
+    .content_overlay{
+      background:#a28944d9;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      transition: all 0.4s ease-in-out 0s;
+    }
+  }
+  .point:hover .content_overlay{
+    opacity: 1;
+  }
+  .text_overlay{
+    position: absolute;
+                text-align: center;
+                padding-left: 1em;
+                padding-right: 1em;
+                width: 100%;
+                top: 50%;
+                left: 50%;
+                opacity: 0;
+                font-weight: 600;
+                font-size: 20px;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                -moz-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+                p{
+                  color:white;
+                  margin:0;
+                }
+              
+  }
+  
+  .point:hover .text_overlay {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.fade_bottom {
+  top:70%
+}
+}
+
+.hydrafacial_acne_logic{
+  text-align: left;
+  flex-direction: column;
+  margin: 11% 0 20%;
+  .title{
+    h1.larger_h1{
+      font-size:50px;
+      font-weight: 800;
+    }
+  }
+  .step_section{
+    justify-content: space-between;
+ padding:50px 0 20px;
+  .step_wrap{
+    display: flex;
+  .step01{
+    background-color: #1fa0da;
+    @include step_css;
+  }
+  .step02{
+    background-color: #49b1bc;
+    @include step_css;
+  }
+  .step03{
+    background-color: #98969b;
+    @include step_css;
+  }
+}
+ }
+   .step_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    p,h4{
+      margin:0;
+    }
+  }
+}
+
+.hydrafacial_clear_part01{
+  text-align: left;
+  position: relative;
+  img{
+    position: absolute;
+    bottom: -553px;
+  }
+}
+.hydrafacial_clear_part01,.hydrafacial_clear_part02{
+ padding:0 18%;
+}
+.hydrafacial_clear_part02{
+  background-color: #f9f6f0;
+  text-align: left;
+  padding: 5% 20%;
+}
+
+}
+}
+
+
+@media (min-width: 992px) and (max-width:1400px){
+  .nice_project_page{
+
+    .hydrafacial_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width: 60%;
+    }
+      
+      #hydrafacial_page_content_1{
+          padding:5% 20% 0;
+      }
+     
+    
+  
+  .hydrafacial_intro{
+    background-color: #fdf7f3;
+    padding:5% 18%;
+    h1{
+  padding-bottom: 50px;
+    }
+    .intro_img{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-between;
+    img{
+      width: 100%;
+    }
+      .logic01{ 
+         position: relative;
+       &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'清潔'
+              }
+      
+  }
+  .logic02{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'酸類煥膚'
+         }
+  
+  }
+  .logic03{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'深層除垢'
+         }
+  
+  }
+  .logic04{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'真空渦漩導入'
+         }
+  
+  }
+   p{
+      font-weight:800;
+      padding-top: 20px;
+      color:#363636;
+    }
+    }
+  .intro_text{
+    padding-top: 20px;
+  }
+  
+  }
+  
+    
+  .hydrafacial_skin_intro{
+   padding-bottom: 10%;
+    h1{
+      padding-bottom: 50px;
+    }
+  .content_img{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+    width: 100%; 
+    }
+    .logic_img img{
+      width:100% 
+    }
+    .logic01,.logic03{
+      background-image: url('../img/RWD_img/hydrafacial/purple_bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+    .logic02{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+   .logic04{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+  }
+  .arrow{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 18% 0;
+  }
+  .logic_img{
+    padding-bottom:50px;
+  }
+  }
+     
+  .hydrafacial_probe_intro{
+    background-color: #f9f6f0;
+    padding:5% 18%;
+    h1.larger_h1{
+      font-size:50px;
+    }
+    .intro_img{
+    display: flex;
+      justify-content: space-around;
+      padding: 0 25%;
+  .probe{
+    .blue{
+      background-color: #1fa0da;
+    }
+    .green{
+      background-color: #49b1bc;
+    }
+    .transparent{
+      background-color: #98969b;
+    }
+  img{
+    padding-bottom: 20px;
+  }
+  h5{
+    font-weight:700
+  }
+    h5.title_with_border{
+      @include title_bg;
+    }
+    padding:30px;
+  }
+    }
+  }
+  .hydrafacial_tech_intro{
+    text-align: left;
+    padding-bottom: 5%;
+    h1.larger_h1{
+      font-size:45px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  
+  .hydrafacial_body_part{
+    background-color: #f9f6f0;
+      padding:5% 15% 5% 18%;
+  img{
+    width: 90%;
+  }
+    .nav{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      .nav-item button{
+  @include gold;
+  background-color: white;
+  border:solid 2px #987b30;
+  padding:2px 20px;
+  border-radius: 0;
+  width: 120px;
+  margin:20px 10px;
+  }
+  
+    }
+    .nav-pills .nav-link.active,.nav-pills .nav-link.active:focus{
+      background-color: #987b30;
+      color: white !important;
+      }
+  
+    .style02{ 
+      padding:50px 40px 40px;
+      height: 460px;
+      background-color: white;
+      outline: 2px solid #987b30;
+      outline-offset: -22px;
+      img{
+        width: 90%;
+      }
+      .content{
+      align-self: center;
+      text-align: left;
+      h2{
+        @include gold;
+        font-weight: 700;
+      }
+      p{
+        line-height: 40px;
+      }
+    }
+   
+    
+   
+  } 
+  
+  .style01{
+    padding:50px 40px 40px;
+    height: 460px;
+    background-color: white;
+    outline: 2px solid #987b30;
+    outline-offset: -22px;
+  }
+  #pills-eye,#pills-lip{
+    height: auto;
+  }
+  #pills-face{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: left -214px top 20px;
+    .ribbon{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 22px;
+      left: 66px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_face{ 
+    
+    .row01,.row02{
+      display: flex;
+      justify-content: end;
+      div{
+      margin:0 15px;
+      }
+  img{
+        padding:0 10px;
+        width: 100%;
+      } 
+     }  
+     .row01{
+      .blue,.green{
+        margin-top: 10px;
+        @include title_bg;
+      }
+      .blue{
+        background-color: #1fa0da;
+      }
+      .green{
+        background-color: #49b1bc;
+      }
+     }
+     .row02{
+      .grey,.purple,.orange{
+        margin-top: 10px;
+        @include title_bg;
+      }
+      .grey{
+        background-color: #98969b;
+      }
+      .purple{
+        background-color: #b068c8;
+      }
+      .orange{
+        background-color: #ec6941;
+      }
+     }
+  .content_img{
+    right: 23px;
+    bottom: 23px;
+    position: absolute;
+img{
+  width: 100%;
+}
+  }
+    }
+   
+  }
+  
+  #pills-body{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: left -214px top 20px;
+    .ribbon{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 22px;
+      left: 66px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_body{ 
+    
+  .content_img{
+    left: 210px;
+    bottom: 6px;
+    position: absolute;
+    img{
+      width:85%
+    }
+  }
+  .blue_probe{
+    margin-top: 25%;
+    padding: 0 15% 0 17%;
+    img{
+      width: 80%;
+    }
+    p{
+      @include title_bg;
+      background-color: #3365c1;
+      margin-top: 20px;
+    }
+  }
+    }
+   
+  }
+  
+  }
+  
+  
+  .hydrafacial_feature{
+    .point_list{
+      display: flex;
+      justify-content: space-evenly;
+      margin:5% 0 10%;
+    }
+    .point{
+      position:relative;
+      overflow: hidden;
+      height: 247px;
+      width: 250px;
+      box-shadow: 1px 0px 7px #827a663d;
+      border: solid 1px #9a7e3c3d;
+      border-radius: 14px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      p{
+        margin:0;
+        padding-top:5px;
+        font-weight:800;
+        color:#6c6c6c;
+  
+      }
+      .content_overlay{
+        background:#a28944d9;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        transition: all 0.4s ease-in-out 0s;
+      }
+    }
+    .point:hover .content_overlay{
+      opacity: 1;
+    }
+    .text_overlay{
+      position: absolute;
+                  text-align: center;
+                  padding-left: 1em;
+                  padding-right: 1em;
+                  width: 100%;
+                  top: 50%;
+                  left: 50%;
+                  opacity: 0;
+                  font-weight: 600;
+                  font-size: 20px;
+                  -webkit-transform: translate(-50%, -50%);
+                  -moz-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  -webkit-transition: all 0.3s ease-in-out 0s;
+                  -moz-transition: all 0.3s ease-in-out 0s;
+                  transition: all 0.3s ease-in-out 0s;
+                  p{
+                    color:white;
+                    margin:0;
+                    font-size:13px;
+                  }
+                
+    }
+    
+    .point:hover .text_overlay {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+  }
+  .fade_bottom {
+    top:70%
+  }
+  }
+  
+  .hydrafacial_acne_logic{
+    text-align: left;
+    flex-direction: column;
+    margin: 11% 0 20%;
+    img{
+      width: 100%;
+    }
+    .title{
+      h1.larger_h1{
+        font-size:45px;
+        font-weight: 800;
+      }
+    }
+    .step_section{
+      justify-content: space-between;
+   padding:50px 0 20px;
+    .step_wrap{
+      display: flex;
+    .step01{
+      background-color: #1fa0da;
+      @include step_css;
+    }
+    .step02{
+      background-color: #49b1bc;
+      @include step_css;
+    }
+    .step03{
+      background-color: #98969b;
+      @include step_css;
+    }
+  }
+   }
+     .step_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+      p,h4{
+        margin:0;
+      }
+    }
+  }
+  
+  .hydrafacial_clear_part01{
+    text-align: left;
+    position: relative;
+    img{
+     
+      position: absolute;
+      top: -300px;
+      right: 71%;
+      width: 34%;
+    }
+  }
+  .hydrafacial_clear_part01,.hydrafacial_clear_part02{
+   padding:0 20%;
+  }
+  .hydrafacial_clear_part02{
+    background-color: #f9f6f0;
+    text-align: left;
+    padding: 5% 20%;
+  }
+  
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){
+  .nice_project_page{
+
+    .hydrafacial_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width: 65%;
+    }
+      
+      #hydrafacial_page_content_1{
+        padding:8% 5% 0;  
+      }
+     
+        
+  .story_content{
+    margin-bottom:5%
+  }
+  
+  .hydrafacial_intro{
+    background-color: #fdf7f3;
+    padding:5%;
+    h1{
+  padding-bottom: 50px;
+    }
+    .intro_img{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-between;
+
+      .logic01{ 
+         position: relative;
+       &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'清潔'
+              }
+      
+  }
+  .logic02{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'酸類煥膚'
+         }
+  
+  }
+  .logic03{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'深層除垢'
+         }
+  
+  }
+  .logic04{ 
+    position: relative;
+  &:before{
+    @include bottom_border;
+    top: 135px;
+    content:'真空渦漩導入'
+         }
+  
+  }
+   p{
+      font-weight:800;
+      padding-top: 50px;
+      color:#363636;
+    }
+    }
+  .intro_text{
+    padding-top: 20px;
+  }
+  
+  }
+  
+    
+  .hydrafacial_skin_intro{
+   padding-bottom: 10%;
+    h1{
+      padding-bottom: 50px;
+    } 
+     img{
+    width: 100%; 
+    }
+  .content_img{
+    display: flex;
+    justify-content: space-evenly;
+  
+    .logic01,.logic03{
+      background-image: url('../img/RWD_img/hydrafacial/purple_bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+    .logic02{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+   .logic04{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 135px;
+      height: 130px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 25px;
+      }
+    }
+  }
+  .arrow{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 18% 0;
+  }
+  .logic_img{
+    padding-bottom:50px;
+  }
+  }
+     
+  .hydrafacial_probe_intro{
+    background-color: #f9f6f0;
+    padding:5%;
+    h1.larger_h1{
+      font-size:50px;
+    }
+    .intro_img{
+    display: flex;
+      justify-content: space-around;
+   padding-top: 50px;
+  .probe{
+    width: 300px;
+    .blue{
+      background-color: #1fa0da;
+    }
+    .green{
+      background-color: #49b1bc;
+    }
+    .transparent{
+      background-color: #98969b;
+    }
+  img{
+    padding-bottom: 20px;
+
+  }
+  h5{
+    font-weight:700
+  }
+    h5.title_with_border{
+      @include title_bg;
+    }
+    padding:10px;
+  }
+    }
+  }
+  .hydrafacial_tech_intro{
+    text-align: left;
+    padding-bottom: 5%;
+    h1.larger_h1{
+      font-size:45px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  
+  .hydrafacial_body_part{
+    background-color: #f9f6f0;
+    h2{
+      margin:0 0 20px;
+    }
+      padding:5%;
+  img{
+    width: 90%;
+  }
+    .nav{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      .nav-item button{
+  @include gold;
+  background-color: white;
+  border:solid 2px #987b30;
+  padding:2px 20px;
+  border-radius: 0;
+  width: 120px;
+  margin:20px 10px;
+  }
+  
+    }
+
+  
+    .style02{ 
+      padding:50px 40px 40px;
+      background-color: white;
+      outline: 2px solid #987b30;
+      outline-offset: -22px;
+      img{
+        width: 90%;
+      }
+      .content{
+      text-align: left;
+      h2{
+        @include gold;
+        font-weight: 700;
+      }
+    
+    }
+   
+    
+   
+  } 
+  
+  .style01{
+    padding:50px 40px 40px;
+    background-color: white;
+    outline: 2px solid #987b30;
+    outline-offset: -22px;
+  }
+  #pills-eye,#pills-lip{
+    height: auto;
+  }
+  #pills-face{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: left -214px top 20px;
+    .ribbon{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 22px;
+      left: 40px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_face{ 
+    
+    .row01,.row02{
+      display: flex;
+      justify-content: end;
+      div{
+        margin: 0 9px;
+      }
+  img{
+        padding:0 10px;
+        width: 100%;
+      } 
+     }  
+     .row01{
+      .blue,.green{
+        margin-top: 10px;
+        @include title_bg;
+        font-size:10px
+      }
+      .blue{
+        background-color: #1fa0da;
+      }
+      .green{
+        background-color: #49b1bc;
+      }
+      img{
+        width: 70%;
+      }
+     }
+     .row02{
+      .grey,.purple,.orange{
+        margin-top: 10px;
+        @include title_bg;
+        font-size:10px;
+      }
+      img{
+        width: 80%;
+      }
+      .grey{
+        background-color: #98969b;
+      }
+      .purple{
+        background-color: #b068c8;
+      }
+      .orange{
+        background-color: #ec6941;
+      }
+     }
+  .content_img{
+    right: 4px;
+    bottom: 22px;
+    position: absolute;
+img{
+  width: 90%;
+}
+  }
+    }
+   
+  }
+  
+  #pills-body{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: left -214px top 20px;
+    .ribbon{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 22px;
+      left: 66px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_body{ 
+    
+  .content_img{
+    left: 140px;
+    bottom: 10px;
+    position: absolute;
+    img{
+      width:70%
+    }
+  }
+  .blue_probe{
+    margin-top: 25%;
+    padding:0 7% 0 22%;
+    img{
+      width: 80%;
+    }
+    p{
+      @include title_bg;
+      background-color: #3365c1;
+      margin-top: 20px;
+      font-size:10px
+    }
+  }
+    }
+   
+  }
+  
+  }
+  .hydrafacial_page_table{
+    table{
+      width:100%;
+  }
+}
+  
+  .hydrafacial_feature{
+h1{
+  padding-bottom:50px;
+}
+    h4{
+      @include gold;
+    }
+    .point_icon{
+      padding-right: 20px;
+    }
+
+}
+  .hydrafacial_acne_logic{
+    text-align: left;
+    flex-direction: column;
+    margin: 11% 0 20%;
+    img{
+      width: 100%;
+    }
+    .title{
+      h1.larger_h1{
+        font-size:45px;
+        font-weight: 800;
+      }
+    }
+    .step_section{
+      justify-content: space-between;
+   padding:50px 14px 20px;
+    .step_wrap{
+      display: flex;
+    .step01{
+      background-color: #1fa0da;
+      @include step_css;
+      width: 90px;
+      height: 70px;
+    }
+    .step02{
+      background-color: #49b1bc;
+      @include step_css;
+      width: 90px;
+      height: 70px;
+    }
+    .step03{
+      background-color: #98969b;
+      @include step_css;
+      width: 90px;
+      height: 70px;
+    }
+  }
+   }
+     .step_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 7px;
+      p,h4{
+        margin:0;
+      }
+    }
+  }
+  
+  .hydrafacial_clear_part01{
+    text-align: left;
+    position: relative;
+    img{
+      position: absolute;
+      top: 32%;
+      right: 60%;
+      width: 35%;
+    }
+  }
+  .hydrafacial_clear_part01,.hydrafacial_clear_part02{
+   padding:0 20%;
+  }
+  .hydrafacial_clear_part02{
+    background-color: #f9f6f0;
+    text-align: left;
+    padding: 5% 20%;
+  }
+
+  }
+        }
+
+@media (min-width: 0px) and (max-width: 576px){
+  .nice_project_page{
+
+    .hydrafacial_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width: 92%;
+    span{
+      font-size:30px
+    }
+    }
+      
+      #hydrafacial_page_content_1{
+        padding:8% 5% 0;  
+      }
+     
+    
+  
+  .hydrafacial_intro{
+    background-color: #fdf7f3;
+    padding:5%;
+    h1{
+padding:50px 0;
+    }
+    .intro_img_xs{
+.card{
+  .card-body{
+    text-align: center;
+    background-color: #c8c8c8;
+    color: white;
+    height: 53px;
+  }
+}
+
+
+   p{
+    font-weight: 800;
+    color: #565151;
+    font-size: 15px;
+    }
+    }
+  .intro_text{
+    padding-top: 20px;
+  }
+  
+  }
+  
+    
+  .hydrafacial_skin_intro{
+   padding-bottom: 10%;
+    h1{
+      padding-bottom: 50px;
+    } 
+     img{
+    width: 100%; 
+    }
+  .content_img{
+    display: flex;
+    justify-content: space-evenly;
+  
+    .logic01,.logic03{
+      background-image: url('../img/RWD_img/hydrafacial/purple_bg.webp');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 10px;
+      }
+    }
+    .logic02{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 55px;
+      height: 50px;
+      p{
+        display: flex;
+        justify-content: center;
+  margin-top: 9px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 10px;
+        line-height: 17px;
+      }
+    }
+   .logic04{
+      background-image: url('../img/RWD_img/hydrafacial/grey-bg.webp');
+      background-size: cover;
+      width: 55px;
+      height:50px;
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color: white;
+        text-shadow: #7c6794 0.1em 0.1em 0.2em;
+        font-size: 10px;
+      }
+    }
+  }
+  .arrow{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 18% 0;
+  }
+  .logic_img{
+    padding-bottom:50px;
+  }
+  }
+     
+  .hydrafacial_probe_intro{
+    background-color: #f9f6f0;
+    padding:5%;
+    h1.larger_h1{
+      font-size:30px;
+      font-weight: 800;
+    }
+    .intro_img{
+      display: flex;
+      padding-top: 50px;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+  .probe{
+    width: 300px;
+    .blue{
+      background-color: #1fa0da;
+    }
+    .green{
+      background-color: #49b1bc;
+    }
+    .transparent{
+      background-color: #98969b;
+    }
+  img{
+    padding-bottom: 20px;
+
+  }
+  h5{
+    font-weight:700
+  }
+    h5.title_with_border{
+      @include title_bg;
+    }
+    padding:10px;
+  }
+    }
+  }
+  .hydrafacial_tech_intro{
+    text-align: left;
+    padding-bottom: 5%;
+    h1.larger_h1{
+      font-size:30px;
+      font-weight: 800;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  
+  .hydrafacial_body_part{
+    background-color: #f9f6f0;
+  padding:15% 5%;
+      h2{
+      margin:0 0 20px;
+    }
+    
+  img{
+    width: 90%;
+  }
+    .nav{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      .nav-item button{
+  @include gold;
+  background-color: white;
+  border: solid 1px #987b30;
+  padding: 2px 10px;
+  border-radius: 0;
+  width: 92px;
+  }
+  
+  
+    }
+
+    .style02{ 
+      padding:50px 40px 40px;
+      background-color: white;
+      outline: 2px solid #987b30;
+      outline-offset: -22px;
+      img{
+        width: 90%;
+      }
+      .content{
+      text-align: left;
+      h2{
+        @include gold;
+        font-weight: 700;
+        padding-top: 20px;
+      }
+    
+    }
+   
+    
+   
+  } 
+  .content_eye,.content_lip{
+    flex-direction: column;
+  }
+  .style01{
+    padding:50px 40px 40px;
+    background-color: white;
+    outline: 2px solid #987b30;
+    outline-offset: -22px;
+  }
+  #pills-eye,#pills-lip{
+    height: auto;
+  }
+  #pills-face{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: right -200px top -5px;
+    .ribbon{
+      width: 56px;
+    height: 103px;
+    position: absolute;
+    top: 22px;
+    left: 28px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_face{ 
+    
+    .row01,.row02{
+      display: flex;
+      justify-content: end;
+      div{
+        margin: 0 9px;
+      }
+  img{
+        padding:0 10px;
+        width: 100%;
+      } 
+     }  
+     .row01{
+      .blue,.green{
+        margin-top: 10px;
+        @include title_bg;
+        font-size:10px
+      }
+      .blue{
+        background-color: #1fa0da;
+      }
+      .green{
+        background-color: #49b1bc;
+      }
+      img{
+        width: 70%;
+      }
+     }
+     .row02{
+      .grey,.purple,.orange{
+        margin-top: 10px;
+        @include title_bg;
+        font-size:10px;
+      }
+      img{
+        width: 80%;
+      }
+      .grey{
+        background-color: #98969b;
+      }
+      .purple{
+        background-color: #b068c8;
+      }
+      .orange{
+        background-color: #ec6941;
+      }
+     }
+  .content_img{
+display: none;
+  }
+    }
+   
+  }
+  
+  #pills-body{
+    position: relative;
+    background-image: url('../img/RWD_img/hydrafacial/body-bg.webp');
+    background-repeat: no-repeat;
+    background-position: right -200px top -5px;
+    .ribbon{
+      width: 56px;
+      height: 103px;
+      position: absolute;
+      top: 22px;
+      left: 28px;
+      background-image: linear-gradient(169deg, #c0a356, #f6f0f000);
+      p{
+        color: white;
+        margin-top:20px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+      .content_body{ 
+    
+  .content_img{
+    left: 117px;
+    bottom: 13px;
+    position: absolute;
+    img{
+      width:70%
+    }
+  }
+  .blue_probe{
+    margin-top: 25%;
+    padding: 6%;
+    img{
+      width: 80%;
+    }
+    p{
+      @include title_bg;
+      background-color: #3365c1;
+      margin-top: 20px;
+      font-size:10px
+    }
+  }
+    }
+   
+  }
+  
+  }
+  .hydrafacial_page_table{
+    table{
+      width:100%;
+  }
+}
+  
+  .hydrafacial_feature{
+h1{
+  padding-bottom:50px;
+}
+    h4{
+      @include gold;
+      text-align: center;
+  padding:15px 0;
+    }
+    .point_card{
+      flex-direction: column;
+    }
+
+}
+  .hydrafacial_acne_logic{
+    text-align: left;
+    flex-direction: column;
+    margin: 11% 0 20%;
+    img{
+      width: 100%;
+    }
+    .title{
+      h1.larger_h1{
+        font-size:30px;
+        font-weight: 800;
+      }
+    }
+    .step_action_xs{
+      justify-content: space-between;
+   padding:50px 14px 20px;
+ img{
+margin:50px 0;
+ }
+     .step_title_wrap{
+      display: flex;
+      align-items: center;
+      padding-bottom: 15px; 
+    .step01{
+      background-color: #1fa0da;
+      @include step_css;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+    } 
+   }
+   
+    .step02{
+      background-color: #49b1bc;
+      @include step_css;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+    }
+    .step03{
+      background-color: #98969b;
+      @include step_css;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+    }
+  
+  }
+     .step_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 7px;
+      p,h4{
+        margin:0;
+      }
+    }
+  }
+  
+  .hydrafacial_clear_part01{
+    text-align: left;
+    .part01{
+    h1{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+    }
+  }
+.machine{
+  display: none;
+}
+.machine_sm{
+  img{
+    width: 30%;
+    display: block;
+    margin: 17% auto;
+  }
+}
+  }
+  .hydrafacial_clear_part01,.hydrafacial_clear_part02{
+   padding:0 5%;
+  }
+  .hydrafacial_clear_part02{
+    background-color: #f9f6f0;
+    text-align: left;
+    padding:5%;
+    h1{
+      padding:5% 0;
+    }
+  }
+  
+   
+ .crisp_btn{
+ margin-bottom: 50px;
+ }
+  }
+    } 

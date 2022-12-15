@@ -1,0 +1,1711 @@
+@mixin gold {
+    color: #b8a16f !important;
+}
+
+.menu_call img {
+    width: 24px;
+    height: 24px;
+}
+.modal-backdrop.show {
+    opacity: 0;
+}
+.post_body,
+.knowledge_post_body {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    a {
+        text-decoration: none;
+      
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+
+    h2 {
+        color: #b8a16f;
+        margin-top: 50px;
+
+    }
+h5{
+    margin-top: 5%;
+}
+    h4 {
+        margin: 5% 0 2%;
+        font-weight: 600
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    .model {
+        margin: 20px 0;
+    }
+
+    a:link {
+        font-style: italic;
+        color: RGB(202, 182, 137);
+    }
+a.extend_link{
+    color: black;
+}
+    a.extend_link:hover {
+        color: white !important;
+        transition: ease 0.5s all;
+        background-color: #9d844b
+    }
+
+    p.shape,
+    p.material,
+    p.advantage,
+    p.fault {
+        font-weight: bolder
+    }
+    
+
+}
+.knowledge_main_post_body{
+    .post_lg{
+       
+   .post_lg_close{
+   background: linear-gradient(295deg, #b8a16f, rgb(255 255 255 / 46%) 70.71%), linear-gradient(188deg, #b8a16f, rgb(255 255 255 / 64%) 70.71%);
+        
+   }
+     button{ 
+        z-index: 5;
+        position: fixed;
+        top: 61.5%;
+    right: 0;
+       p{
+              margin:auto;
+       writing-mode: vertical-lr;
+     color:black;
+     font-weight:600;
+     letter-spacing: 10px;
+       }
+     }
+     .offcanvas{
+            position: fixed;
+     top: 60%;
+     right:0;
+       height: 270px;
+       border: none;
+       box-shadow: 1px 0px 3px #00000069;
+       .offcanvas-header .btn-close {
+      padding:33px 50px 0 0;
+    }
+    .offcanvas-header{
+        background:#d6c298a1;
+        h5{
+          font-weight:600
+        }
+            } 
+       .offcanvas-body{
+            max-height:200px;
+         overflow-y: scroll;
+             ul li{
+                border-bottom:1px solid grey;
+                a{
+                    color:black;
+                    text-decoration: none;
+                }                a:hover{
+                    color: #ae955c ;
+    background-color: transparent ;
+                }
+           }
+         }
+    }
+   
+   }
+   .related_post_sm{
+    .related_post_btn{
+      position: fixed;
+      top: 50%;
+      right:0;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+        background: linear-gradient(295deg, #b8a16f, rgb(255 255 255 / 46%) 70.71%), linear-gradient(188deg, #b8a16f, rgb(255 255 255 / 64%) 70.71%);
+      border:none;
+     border-radius:5px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      z-index: 5;
+    p{
+      margin:auto;
+        writing-mode: vertical-lr;
+      color:white;
+      font-weight:600;
+      letter-spacing: 10px;
+      }
+      }
+    button:focus{
+    box-shadow: transparent !important;
+    }
+    .offcanvas{
+        margin-bottom: 60px;
+        .offcanvas-header{
+        background:#d6c298;
+        h5{
+          font-weight:600
+        }
+      }
+      .offcanvas-body{
+         max-height:200px;
+      overflow-y: scroll;
+          ul li{
+             border-bottom:1px solid grey;
+             a{
+                color:black;
+                text-decoration: none;
+            }    
+        }
+      }
+      }
+    }
+}
+.post_title,
+.post_date {
+    margin: auto;
+    text-align: center;
+}
+
+.post_title {
+    color: RGB(6, 9, 24);
+    text-align: center;
+    border-bottom: 2px solid RGB(184, 161, 111);
+    padding-bottom: 20px;
+
+}
+
+.post_date {
+    margin-top: 20px;
+}
+
+.breast {
+    margin: 25px 0;
+}
+
+.text_hg {
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.87turn, rgb(84 83 50), rgb(210 193 153), #dfcd79);
+    border-image-slice: 7;
+    width: 100%;
+
+}
+
+.related_post_title {
+    border-bottom: 2px solid #b8a16f;
+    margin: 12% 0 2% !important;
+}
+
+.related_post_list {
+    h6 {
+        color: black;
+        font-style: normal;
+
+    }
+
+    a h6:hover {
+        color: #b8a16f !important;
+    }
+}
+
+.line_title {
+    text-align: center;
+    background-color: #b8a16f;
+
+}
+
+.breast_p4 {
+    width: 85% !important;
+    padding-bottom: 15px;
+
+    img {
+        text-align: center;
+        position: relative;
+        right: -17%;
+        margin-top: 20px;
+
+    }
+}
+
+table,
+.table_content,
+.line_title th,
+th {
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        list-style: none;
+
+    }
+
+    img {
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+
+    .star {
+        width: 60px;
+    }
+
+    .star1 {
+        width: 15px;
+    }
+
+    .star5 {
+        width: 85px
+    }
+
+    p {
+        padding: 10px 3px;
+    }
+}
+
+.table_title {
+    text-align: center;
+}
+
+.line_first,
+.line_second,
+.line_third,
+.line_four,
+.line_five,
+.line_six,
+.line_seven,
+.line_eight,
+.line_nine {
+    background-color: #F7EFE6;
+    border: white 1px solid;
+}
+span.post_crown{
+    float: right;
+    color: #e0c06c;
+}
+
+.point_all {
+    margin-top: 20px
+}
+
+p.point_num_title {
+    font-weight: 700;
+}
+
+.knowledge_post_sitemap {
+    padding: 9px 25px 10px;
+    border-left: #c5bdaa 2px outset;
+    border-bottom: #b99f5d outset 2px;
+    border-radius: 20px;
+    margin: 5% 0;
+
+    ul li {
+        color: #666666;
+        list-style-type: square;
+    }
+}
+
+.knowledge_post_sitemap ul li a {
+    color: #666666 !important;
+    text-decoration: none !important;
+    font-style: normal !important;
+
+}
+
+.knowledge_post_sitemap ul li a:hover {
+    @include gold;
+    background-color: transparent;
+}
+
+.scrolltop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: none;
+    background-color: #e5d9b7;
+z-index:5;
+    .icon {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 12px;
+        color: white;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+    .knowledge_main_post_body ,.post_main_body{
+        margin-top: 5%;
+
+        img {
+            width: 100%;
+            height: auto
+        }
+        .post_lg{
+       
+         
+              button{ 
+                 
+             padding:1% 6px;
+           
+              }
+            
+                .offcanvas-body{
+                    padding:0 2% 0 0;
+                      ul li{
+                      padding:2% 0;
+                    
+                    }
+                  }
+             }
+            
+            }
+   
+
+    .scrolltop {
+        bottom: 24px;
+        right: 135px;
+
+    }
+
+    .knowledge_post_body,.post_body {
+        padding: 0% 0% 5% 32%;
+    }
+
+
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .author {
+        margin-right: 20px;
+    }
+
+ 
+
+    .post_title {
+        margin: 0 50px;
+    }
+
+    .return span {
+        margin-left: 10%;
+    }
+
+    .line_second {
+        .table_title {
+            border: white solid 1px
+        }
+    }
+
+    .post_content p {
+        padding: 0 1%;
+    }
+
+
+
+    .post_detail {
+        text-align: center;
+        margin: 10px 0 50px;
+        color: rgb(46, 44, 44);
+
+    }
+
+    .post_detail span {
+        padding: 0 20px
+    }
+
+    .quote {
+        position: relative;
+        background-color: rgb(231 229 229);
+        display: inline-block;
+        padding: 40px;
+        margin: 20px auto 50px auto;
+        width:100%;
+        text-align: center;
+
+
+    }
+
+    .quote p {
+        padding: 14px 0 0 40px;
+    }
+
+    .quote p:before,
+    .quote p:after {
+        color: RGB(184, 161, 111);
+        position: absolute;
+
+
+    }
+
+    .quote p:before {
+        content: url('/img/RWD_img/gold_tri_left.webp');
+        bottom: 64%;
+        left: 4%;
+    }
+
+    .quote p:after {
+        content: url('/img/RWD_img/gold_tri_right.webp');
+        bottom: 7%;
+        left: 91%;
+    }
+
+    .article_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3% 29%;
+    }
+
+    .do {
+        margin-left: 20%;
+    }
+
+    .form-wrapper {
+        display: flex;
+    }
+
+    .form-field form-font-regular {
+        font-size: 50px;
+    }
+table{
+    width: 100%;
+}
+  
+    table,
+    .table_content, .point_box,
+    .point_box_logic {
+        position: relative;
+        margin: 5% 0 7%;
+
+        .surgery_side img {
+            width: 80%;
+            position: absolute;
+            left: 9%;
+            top: 27%;
+
+        }
+
+        p {
+            margin: 0 !important;
+        }
+
+        .point_title {
+            background-color: #CCA745;
+            display: inline-block;
+            height: 25px;
+            text-align: center;
+            padding: 0 10px;
+            position: absolute;
+            z-index: 1;
+            left: 42%;
+            top: -5%;
+        }
+
+        .point_content {
+            position: absolute;
+            border: gold solid 1px;
+            display: inline-block;
+            padding: 90px;
+            width: 800px;
+            height: 150%;
+
+            img {
+                width: 95%;
+            }
+        }
+
+        .point_text_1,
+        .point_text_2,
+        .point_text_3 {
+            position: absolute;
+
+
+            span {
+                background-color: black;
+                color: white;
+                border-radius: 999em;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                margin-right: 10px;
+            }
+        }
+
+        .point_text_1 {
+
+
+
+            left: 14%;
+            top: 123%;
+        }
+
+        .point_text_2 {
+            left: 48%;
+            top: 123%;
+        }
+
+        .point_text_3 {
+            left: 77%;
+            top: 123%;
+        }
+    }
+
+    .point_box_logic {
+        margin-bottom: 55%;
+
+        .point_content {
+            height: 750px !important;
+        }
+
+        img {
+            width: 450px !important;
+            margin-left: 11%;
+        }
+
+        .point_title {
+            left: 34% !important
+        }
+
+        .point_text p {
+            position: absolute;
+            top: 143%;
+            padding: 30px;
+        }
+    }
+
+    .breast_p4 img {
+        width: 95%;
+    }
+
+    .point_box_logic {
+
+        .point_content {
+            height: 750px !important;
+        }
+
+        img {
+            width: 450px !important;
+            margin: 10% 0 8% 11%;
+            left: 11%;
+            position: absolute;
+        }
+
+        .point_title {
+            left: 34% !important
+        }
+
+        .point_text p {
+            position: absolute;
+            top: 143%;
+            padding: 30px;
+        }
+    }
+
+    .point_text_logic {
+        position: relative;
+        border: gold solid 1px;
+        padding: 52% 13px 35%;
+        height: 50px;
+        top: -3%;
+    }
+
+    .point_title_logic {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        top: -5%;
+    }
+
+    .point_content_sidecut {
+        margin: 48px 30px 30px 30px
+    }
+
+    .point_text_sidecut {
+        position: relative;
+        border: gold solid 1px;
+        height: 500px;
+        top: -1%;
+
+        p {
+            padding: 40px 20px 0 !important
+        }
+    }
+
+    .surgery_side_sidecut img {
+        position: absolute;
+        left: 10%;
+        top: 32%;
+        width: 80%;
+    }
+
+    .point_title_sidecut {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 40%;
+        top: -3%;
+    }
+
+    .point_text_p1 p {
+        position: absolute;
+    }
+
+    p.point_text_1a,
+    p.point_text_2a,
+    p.point_text_3a,
+    p.point_text_1b,
+    p.point_text_2b,
+    p.point_text_3b {
+        position: absolute !important;
+    }
+
+    p.point_text_1a {
+        left: 15%;
+        top: 90%;
+    }
+
+    p.point_text_2a {
+        left: 47%;
+        top: 90%;
+    }
+
+    p.point_text_3a {
+        left: 77%;
+        top: 90%;
+    }
+
+    p.point_text_1b {
+        left: 9%;
+        top: 26%;
+    }
+
+    p.point_text_2b {
+        left: 40%;
+        top: 26%;
+    }
+
+    p.point_text_3b {
+        left: 71%;
+        top: 26%;
+    }
+
+
+    .hair_remove_table {
+        position: relative;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width:1400px) {
+
+    .knowledge_main_post_body,.post_main_body {
+        margin-top: 5%;
+
+        .knowledge_post_body {
+            padding: 0% 0% 5% 32%;
+        }
+
+        img {
+            width: 100%;
+            height: auto
+        }
+
+       
+    .post_lg{
+       
+ 
+     button{ 
+       
+    padding: 2% 6px;
+    
+     }
+   
+   }
+
+    }
+ .scrolltop {
+            bottom: 11px;
+            right: 129px;
+
+        }
+    .quote {
+        position: relative;
+        background-color: rgb(231 229 229);
+        display: inline-block;
+        padding: 40px;
+        margin: 20px auto 50px auto;
+        text-align: center;
+    }
+    .quote p:before,
+    .quote p:after {
+        color: RGB(184, 161, 111);
+        position: absolute;
+
+
+    }
+
+    .quote p:before {
+        content: url('/img/RWD_img/gold_tri_left.webp');
+        bottom: 64%;
+        left: 3%;
+    }
+
+    .quote p:after {
+        content: url('/img/RWD_img/gold_tri_right.webp');
+        bottom: 2%;
+        left: 93%;
+    }
+ 
+
+    .post_title {
+        margin: 0 50px;
+    }
+
+    .author {
+        margin-right: 20px;
+    }
+
+    .post_sitemap {
+        position: fixed;
+        width: 50%;
+        right: -27%;
+    }
+
+    .post_sitemap ul li a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .post_sitemap ul li a:hover {
+        @include gold
+    }
+
+    .line_second {
+        .table_title {
+            border: white solid 1px
+        }
+    }
+
+    .post_body {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .breast_p4 {
+        padding-bottom: 0 !important;
+    }
+
+    table,
+    .table_content,
+    .line_title th {
+
+        .table_content_w50 {
+            width: 23%;
+        }
+
+        .table_content_w200 {
+            width: 131px;
+        }
+
+        .table_contetn_w100 {
+            width: 109px;
+        }
+    }
+
+    .surgery_side {
+        width: 79%;
+        position: absolute;
+        top: 16%;
+        left: 10%;
+    }
+
+    .point_box,
+    .point_box_logic {
+        position: relative;
+        height: 300px;
+        margin: 5% 0 3%;
+
+        .point_title {
+            background-color: #CCA745;
+            display: inline-block;
+            height: 25px;
+            text-align: center;
+            padding: 0 10px;
+            position: absolute;
+            z-index: 1;
+            left: 39%;
+            top: -5%;
+        }
+
+        .point_content {
+            position: absolute;
+            border: gold solid 1px;
+            display: inline-block;
+            padding: 90px;
+            width: 100%;
+            height: 100%
+        }
+
+        .point_text_1,
+        .point_text_2,
+        .point_text_3 {
+            position: absolute;
+
+
+            span {
+                background-color: black;
+                color: white;
+                border-radius: 999em;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                margin-right: 10px;
+            }
+        }
+
+        .point_text_1 {
+
+            left: 14%;
+            top: 82%;
+        }
+
+        .point_text_2 {
+            left: 45%;
+            top: 82%;
+        }
+
+        .point_text_3 {
+            left: 74%;
+            top: 82%;
+        }
+    }
+
+    .point_box_logic {
+        p {
+            margin: 0 !important;
+        }
+
+        .point_content {
+            height: 750px !important;
+        }
+
+        img {
+            width: 450px !important;
+            margin: 10% 0 0 11%;
+        }
+
+        .point_title {
+            left: 34% !important
+        }
+
+        .point_text p {
+            position: absolute;
+            top: 143%;
+            padding: 30px;
+        }
+    }
+
+    .doc_consult {
+        margin-top: 66%;
+    }
+
+    .point_title p,
+    .point_title_sidecut p {
+        margin: 0 !important
+    }
+
+   
+   
+    .point_text_logic {
+        position: absolute;
+        border: gold solid 1px;
+        padding: 66% 13px 56%;
+        height: 50px;
+        top: -1%;
+    }
+
+    .point_title_logic {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 29%;
+        top: -5%;
+    }
+
+    .line_second {
+        .table_title {
+            border: white solid 1px
+        }
+    }
+
+    .point_content_sidecut {
+        margin: 1px 30px 30px 30px
+    }
+
+    .point_text_sidecut {
+        position: absolute;
+        border: gold solid 1px;
+        height: 143%;
+        top: -1%;
+
+        p {
+            padding: 10px 20px 0 !important
+        }
+    }
+
+    .surgery_side_sidecut img {
+        position: absolute;
+        left: 10%;
+        top: 58%;
+        width: 80%;
+    }
+
+    .point_title_sidecut {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 40%;
+        top: -5%;
+    }
+
+    .point_text_p1 p {
+        position: absolute;
+    }
+
+    p.point_text_1a,
+    p.point_text_2a,
+    p.point_text_3a,
+    p.point_text_1b,
+    p.point_text_2b,
+    p.point_text_3b {
+        position: absolute !important;
+    }
+
+    p.point_text_1a {
+        left: 9%;
+        top: 122%;
+    }
+
+    p.point_text_2a {
+        left: 44%;
+        top: 122%;
+    }
+
+    p.point_text_3a {
+        left: 73%;
+        top: 122%;
+    }
+
+    p.point_text_1b {
+        left: 5%;
+        top: 42%;
+    }
+
+    p.point_text_2b {
+        left: 37%;
+        top: 42%;
+    }
+
+    p.point_text_3b {
+        left: 66%;
+        top: 42%;
+    }
+
+    .surgery_point {
+        margin-top: 30%;
+    }
+
+    .hair_remove_table {
+        position: relative;
+    }
+
+  
+}
+
+@media (min-width: 576px) and (max-width: 992px)  {
+
+    .knowledge_main_post_body{
+       .related_post_sm{
+        z-index:5;
+        .related_post_btn{
+          padding:2% 8% 2% 2%;
+      p{
+        letter-spacing: 10px;
+        font-size: 17px;
+      }
+          }
+          .offcanvas-body{
+            padding:0 2% 0 0;
+              ul li{
+              padding:2% 0;
+                  
+            }
+          }
+          }
+        }
+
+    .knowledge_post_body,.post_body {
+        padding: 16% 5% 2%;
+        z-index: 1;
+   h2{
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+
+ }
+ .quote {
+    position: relative;
+    background-color: rgb(231 229 229);
+    display: inline-block;
+    padding: 40px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+}
+.quote p:before,
+.quote p:after {
+    color: RGB(184, 161, 111);
+    position: absolute;
+
+
+}
+
+.quote p:before {
+    content: url('/img/RWD_img/gold_tri_left.webp');
+    bottom: 64%;
+    left: 4%;
+}
+
+.quote p:after {
+    content: url('/img/RWD_img/gold_tri_right.webp');
+    bottom: 2%;
+    left: 92%;
+}
+    
+   
+
+    .scrolltop {
+        bottom: 94px;
+        right: 27px;
+    }
+
+    .post_date {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+
+    .footer_img {
+        width: 100px !important;
+        margin: auto
+    }
+
+    img {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .point_box,
+    .point_box_logic {
+        width: auto
+    }
+
+    .point_title_logic {
+        left: 20%;
+    }
+
+    .point_title {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 40%;
+
+        p {
+            margin: 0 !important
+        }
+    }
+
+    .point_all {
+        margin-top: 62%;
+    }
+
+    .point_content {
+        position: absolute;
+        border: gold solid 1px;
+        display: inline-block;
+        padding: 180px 10px;
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    .surgery_side img {
+        width: 77% !important;
+        position: absolute;
+        margin-top: 60px;
+        left: 10%;
+    }
+
+    .point_box,
+    .point_box_logic {
+        position: relative !important;
+margin-bottom: 10%;
+        .point_content_logic {
+            margin: 48px 30px 30px 30px
+        }
+
+        .point_text_logic {
+            position: absolute;
+            border: gold solid 1px;
+            padding:63% 13px 49%;
+            height: 50px;
+            top: -1%;
+        }
+
+        .point_title_logic {
+            background-color: #CCA745;
+            display: inline-block;
+            height: 25px;
+            text-align: center;
+            padding: 0 10px;
+            position: absolute;
+            z-index: 1;
+            left: 35%;
+            top: -5%;
+
+            p {
+                margin: 0 !important
+            }
+        }
+
+
+
+
+
+        .point_text_1,
+        .point_text_2,
+        .point_text_3 {
+            position: absolute;
+            align-items: center;
+display: flex;
+            span {
+                background-color: black;
+                color: white;
+                border-radius: 999em;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                text-align: center;
+                margin-right: 10px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .point_text_1 {
+            left: 14%;
+    margin-top: 44%;
+        }
+
+        .point_text_2 {
+            left: 42%;
+            margin-top: 44%;
+        }
+
+        .point_text_3 {
+            left: 71%;
+            margin-top: 44%;
+        }
+    }
+
+    .point_box_logic {
+        height: 300px;
+        margin: 5% 0 40%;
+    }
+
+    .point_text p {
+        font-size: 15px;
+    }
+
+    .point_content_sidecut {
+        margin: 1px 30px 30px 30px
+    }
+
+    .point_text_sidecut {
+        position: absolute;
+        border: gold solid 1px;
+        height: 109%;
+        top: -1%;
+
+        p {
+            padding: 10px 20px 0 !important
+        }
+    }
+
+    .surgery_side_sidecut img {
+        width: 91%;
+        padding: 29% 0 0 10%;
+    }
+
+    .point_title_sidecut {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 39%;
+        top: -3%;
+
+        p {
+            margin: 0 !important;
+        }
+    }
+
+    .point_text_p1 p {
+        position: absolute;
+    }
+
+    p.point_text_1a,
+    p.point_text_2a,
+    p.point_text_3a,
+    p.point_text_1b,
+    p.point_text_2b,
+    p.point_text_3b {
+        position: absolute !important;
+        font-size: 14px;
+    }
+
+    p.point_text_1a {
+        left: 15%;
+        top:440px;
+    }
+
+    p.point_text_2a {
+        left: 46%;
+        top:440px
+    }
+
+    p.point_text_3a {
+        left: 80%;
+        top:440px
+    }
+
+    p.point_text_1b {
+        left: 6%;
+        top: 160px;
+    }
+
+    p.point_text_2b {
+        left: 40%;
+        top: 160px
+    }
+
+    p.point_text_3b {
+        left: 70%;
+        top: 160px
+    }
+    .doc_consult{
+        margin-top: 80%;
+    }
+
+
+    .navbar_xs img {
+        width: 34px !important;
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .hair_remove_table {
+        width: 100%;
+        position: relative;
+    }
+
+  
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .knowledge_main_post_body{
+        .related_post_sm{
+            z-index:5;
+         .related_post_btn{
+           padding:5% 10% 5% 4%;
+           }
+   
+           .offcanvas-body{
+             padding:0 2% 0 0;
+               ul li{
+               padding:2% 0;
+                   
+             }
+           }
+           }
+         }
+span.post_crown{
+    display: none;
+}
+    .scrolltop {
+        bottom: 149px;
+        right: 17px;
+
+    }
+
+    .quote {
+        position: relative;
+        background-color: rgb(231 229 229);
+        display: inline-block;
+        padding: 40px;
+        margin: 20px auto 50px auto;
+        text-align: center;
+    }
+    .quote p:before,
+    .quote p:after {
+        color: RGB(184, 161, 111);
+        position: absolute;
+
+
+    }
+
+    .quote p:before {
+        content: url('/img/RWD_img/gold_tri_left.webp');
+        bottom: 67%;
+        left: 7%;
+    }
+
+    .quote p:after {
+        content: url('/img/RWD_img/gold_tri_right.webp');
+        bottom: 2%;
+        left: 87%;
+    }
+    .knowledge_post_body, .post_body {
+        padding: 30% 5% 10%;
+        z-index:1;
+        h2{
+            margin-top: -100px;
+            padding-top: 100px;
+        }
+    }
+
+    .post_date {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+   table {
+width:100%;
+
+    }
+
+    img {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .point_box,
+    .point_box_logic {
+        width: auto
+    }
+
+    .point_title_logic {
+        left: 20%;
+    }
+
+    .point_title {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        top: -5%;
+
+        p {
+            margin: 0 !important
+        }
+    }
+
+    .point_all {
+        margin-top: 74%;
+    }
+
+    .point_content {
+        position: absolute;
+        border: gold solid 1px;
+        display: inline-block;
+        padding: 105px 10px;
+        height: 80px;
+        width: 100%;
+        margin-top: 3%;
+
+    }
+
+    .surgery_side img {
+        width: 77% !important;
+        position: absolute;
+        margin-top: 60px;
+        left: 10%;
+    }
+
+    .point_box,
+    .point_box_logic {
+        position: relative !important;
+
+
+        .point_content_logic {
+            margin: 48px 30px 30px 30px
+        }
+
+        .point_text_logic {
+            position: absolute;
+            border: gold solid 1px;
+            padding: 76% 13px 134%;
+            height: 50px;
+            top: -1%;
+        }
+
+        .point_title_logic {
+            background-color: #CCA745;
+            display: inline-block;
+            height: 25px;
+            text-align: center;
+            padding: 0 10px;
+            position: absolute;
+            z-index: 1;
+            left: 18%;
+            top: -5%;
+
+            p {
+                margin: 0 !important
+            }
+        }
+
+
+
+
+
+        .point_text_1,
+        .point_text_2,
+        .point_text_3 {
+            position: absolute;
+            font-size: 10px;
+
+            span {
+                background-color: black;
+                color: white;
+                border-radius: 999em;
+                width: 17px;
+                height: 17px;
+                display: inline-block;
+                text-align: center;
+                margin-right: 10px;
+                align-self: center;
+            }
+        }
+
+        .point_text_1 {
+            left: 10%;
+            margin-top: 50%;
+        }
+
+        .point_text_2 {
+            left: 42%;
+            margin-top: 50%;
+        }
+
+        .point_text_3 {
+            left: 71%;
+            margin-top: 50%;
+        }
+    }
+
+    .point_box_logic {
+        height: 300px;
+        margin: 5% 0 40%;
+    }
+
+    .point_text p {
+        font-size: 15px;
+    }
+
+    .point_content_sidecut {
+        margin: 1px 30px 30px 30px
+    }
+
+    .point_text_sidecut {
+        position: absolute;
+        border: gold solid 1px;
+        height: 109%;
+        top: -1%;
+
+        p {
+            padding: 10px 20px 0 !important
+        }
+    }
+
+    .surgery_side_sidecut img {
+        width: 91%;
+        padding: 67% 0 0 7%;
+    }
+
+    .point_title_sidecut {
+        background-color: #CCA745;
+        display: inline-block;
+        height: 25px;
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        z-index: 1;
+        left: 30%;
+        top: -4%;
+
+        p {
+            margin: 0 !important;
+        }
+    }
+
+    .point_text_p1 p {
+        position: absolute;
+    }
+
+    p.point_text_1a,
+    p.point_text_2a,
+    p.point_text_3a,
+    p.point_text_1b,
+    p.point_text_2b,
+    p.point_text_3b {
+        position: absolute !important;
+        font-size: 14px;
+    }
+
+    p.point_text_1a {
+        left: 4%;
+        top: 350px;
+    }
+
+    p.point_text_2a {
+        left: 44%;
+        top: 350px
+    }
+
+    p.point_text_3a {
+        left: 73%;
+        top: 350px
+    }
+
+    p.point_text_1b {
+        left: 3%;
+        top: 195px
+    }
+
+    p.point_text_2b {
+        left: 37%;
+        top: 195px
+    }
+
+    p.point_text_3b {
+        left: 66%;
+        top: 195px
+    }
+
+    .surgery_point {
+        margin-top: 16%;
+    }
+
+    .doc_consult {
+        margin-top: 138%;
+    }
+
+    .line_second {
+        .table_title {
+            border: white solid 1px
+        }
+    }
+
+    .table_content_w100 {
+        width: 58px;
+        border: white solid 1px
+    }
+
+    .table_content_w50 {
+        width: 30px
+    }
+
+    .table_content_w80 {
+        width: 80px;
+    }
+
+    .breast_p4 {
+        padding-bottom: 0 !important;
+    }
+
+    span.author {
+        display: flex;
+    }
+
+    .footer_img {
+        width: 100px;
+        margin: auto
+    }
+
+    .hair_remove_table {
+        position: relative;
+    }
+
+   
+}

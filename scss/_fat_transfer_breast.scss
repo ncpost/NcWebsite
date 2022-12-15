@@ -1,0 +1,817 @@
+
+@mixin  story_title {
+    position: absolute;
+    background-color: white;
+}
+@mixin gold{
+    color:#987b30 !important;
+}
+
+@mixin flex_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px){
+
+.nice_project_page{
+    
+    .ftb_ba_02{
+        margin: 1% 0 6% 8.5%;
+    }
+   .ftb_story_title{
+    @include  flex_story_title;
+   width:40%;
+    }
+    .ftb_story_title02{
+        @include story_title;
+        left: 44%;
+        width: 12%;
+        bottom: 90%;
+    }
+    .ftb_story_title03{
+        @include story_title;
+        left: 44%;
+        width: 12%;
+        bottom: 34%;
+    }
+    .story_content_style2{
+        border-top: 1px solid #987b30;
+        display: inline-block;
+        padding: 40px 20px 15px;
+    }
+    .intro_bg{
+        margin-top: 4%;
+    }
+    .ftb_intro {
+        margin:20px 0 50px;
+        height: 150px;
+        .intro_text p{
+            position: absolute;
+            left: 7%;
+            top: 85%;
+        }
+        .intro_text h1{
+            margin-bottom: 45px;
+        }
+
+    }
+    .ftb_3point{
+        margin-top:2%;
+        .ftb_point_list{
+    position:relative;
+    margin:0 0 6.5%;
+    .ftb_point_list_text{
+      padding: 59px;  
+    }
+}
+    .ftb_point{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        padding: 3% 13% 4% 13%;
+        height: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), #f9f8f4);
+        background-size: 99% -1%;
+        background-repeat: no-repeat;
+        background-position: bottom;  
+         
+
+  img{
+         padding-bottom: 80px;
+        }
+    
+      
+        .point_num01,.point_num02,.point_num03{
+        position: absolute;
+        font-size:100px;
+        color:#ECE8DD;
+        font-weight: 800;
+        }
+        .point_num01{
+            left:31.5%;
+            bottom:29%;
+        }
+        .point_num02{
+            left:54%;
+            bottom:29%;
+        }
+        .point_num03{
+            bottom:29%;
+            left:76.5%;
+        }
+        .ftb_text{
+            text-align:left;
+        }
+   
+       } 
+       .ftb_model{
+        position: absolute;
+        left: 48%;
+        bottom: -16.5%;
+    img{
+        width:83%
+    }
+    }
+}
+    .ftb_text_layout{
+            color:#987b30;
+          p{
+                @include gold ;
+                border:1px solid #C69C3E;
+                padding:5px 10px;
+                border-radius: 20px;
+                margin:13px 5px;
+              } 
+             }
+        .vaser_link{
+            padding:5% 21% 0;
+        }
+        .ftb_success{
+            margin:5% 0;
+    .ftb_success_title{
+        position: absolute;
+        top: -5%;
+        background-color: white;
+        z-index: 1;
+        left: 27%;
+    }
+            .middle_line{
+                  position:absolute;
+                border:1px solid #987b30;
+                width:85%;
+                margin-left:10%;
+            }
+            .success01{
+                margin:5% 0;
+            }
+            .ftp_success_flex{
+                text-align: left;
+                margin:20px 0;
+            }
+       .vaser_machine{
+        
+    margin: 5% 2% 0 -9%;
+
+       }
+    .success_name{
+        font-size:30px; 
+        @include gold;
+        margin-top: 17px;
+        
+    }
+    .vaser_detail{
+        text-align:right;
+    }
+ }
+ p.ftb_success_02{
+    width: 80%;
+ }
+            .success_num{
+                border: #ae955c 1px solid;
+                border-radius: 20px;
+                padding: 5px 23px;
+                @include gold;
+                margin-right: 10px;
+            align-self: center;
+            }
+ .success03{
+    background-image:url("../img/RWD_img/fat_transfer_breast_augmentation_09.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 873px;
+    margin: auto;
+    text-align: left;
+    padding:10% 1% 0 42%;
+h2,span,p {
+    color: white !important;
+
+}
+}
+.success_num03{
+    border:white 1px solid !important;
+    border-radius: 20px;
+    padding: 5px 23px;
+}
+
+.nice_extend_btn{
+    margin: 20px 0 50px;
+}
+}
+}
+
+
+@media (min-width: 992px) and (max-width:1400px){
+
+.nice_project_page{
+    .story_content {
+  
+        margin-top: -24px;
+    }
+    #ftb_page_content_1,#ftb_page_content_2{
+        padding:4% 13% 0 18%;
+    }
+ 
+    .ftb_ba_02{
+        margin:0 0 5% 7%;
+    }
+    .ftb_story_title{
+        @include  flex_story_title;
+       width:50%;
+ 
+        }
+     .ftb_story_title02{
+         @include story_title;
+         left: 44%;
+         width: 12%;
+         bottom: 90%;
+     }
+     .ftb_story_title03{
+         @include story_title;
+         left: 44%;
+         width: 12%;
+         bottom: 32%;
+     }
+     .story_content_style2{
+         border-top: 1px solid #987b30;
+         display: inline-block;
+         padding: 40px 20px 15px;
+     }
+      .nice_extend_btn{
+            margin-bottom: 50px;
+         }
+     .ftb_intro {
+         margin:20px 0 50px;
+         height: 150px;
+         position: relative;
+         .intro_bg{
+             top: 46%;
+             left: -1%;
+         }
+         
+         .intro_text h1{
+             left:29%
+         }
+        
+         .intro_text p{
+             left: 4%;
+             top:56%;
+             width: 90%;
+         }
+         .intro_bg,.intro_text h1,.intro_text p{
+        position: absolute;
+         }
+     }
+     .ftb_3point{
+        
+         .ftb_point_list{
+     position:relative;
+     margin:0 0 3.5%;
+     .ftb_point_list_text{
+       padding:59px 0 0 50px !important;
+     }
+ }
+     .ftb_point{
+         display: flex;
+         justify-content: space-evenly;
+         position: relative;
+         padding: 3% 13% 4% 13%;
+         height: 100%;
+         background-image: linear-gradient(rgba(255, 255, 255, 0), #f9f8f4);
+         background-size: 99% -1%;
+         background-repeat: no-repeat;
+         background-position: bottom;  
+          
+ 
+   img{
+          padding-bottom: 80px;
+         }
+     
+       
+         .point_num01,.point_num02,.point_num03{
+         position: absolute;
+         font-size:100px;
+         color:#ECE8DD;
+         font-weight: 800;
+         }
+         .point_num01{
+             left:31.5%;
+             bottom:29%;
+         }
+         .point_num02{
+             left:54%;
+             bottom:29%;
+         }
+         .point_num03{
+             bottom:29%;
+             left:76.5%;
+         }
+         .ftb_text{
+             text-align:left;
+         }
+    
+        } 
+        .ftb_model{
+         position: absolute;
+         left: 48%;
+         bottom: -8.5%;
+         img{
+            width: 83%;
+         }
+     }}
+     .ftb_text_layout{
+             color:#987b30;
+           p{
+                 @include gold ;
+                 border:1px solid #C69C3E;
+                 padding:5px 10px;
+                 border-radius: 20px;
+                 margin:13px 5px;
+               } 
+              }
+         .vaser_link{
+             padding:5% 21% 0;
+         }
+         .ftb_success{
+             margin:5% 0;
+     .ftb_success_title{
+         position: absolute;
+         top: -5%;
+         background-color: white;
+         z-index: 1;
+         left: 16%;
+     }
+             .middle_line{
+                   position:absolute;
+                 border:1px solid #987b30;
+                 width:80%;
+                 margin-left:10%;
+             }
+             .success01{
+                 margin:5% 0;
+             }
+             .ftp_success_flex{
+                 text-align: left;
+                 margin:20px 0;
+             }
+        .vaser_machine{
+         
+     margin:5% 2% 0 1%;
+ 
+        }
+     .success_name{
+         font-size:30px; 
+         @include gold;
+         margin-top: 17px;
+         
+     }
+     .vaser_detail{
+         text-align:right;
+     }
+  }
+             .success_num{
+                 border: #ae955c 1px solid;
+                 border-radius: 20px;
+                 padding: 5px 23px;
+                 @include gold;
+                 margin-right: 10px;
+             align-self: center;
+             }
+  .success03{
+     background-image:url("../img/RWD_img/fat_transfer_breast_augmentation_09.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 600px;
+     width: 873px;
+     margin: auto;
+     text-align: left;
+     padding:11% 3% 0 50%;
+ h2,span,p {
+     color: white !important;
+ 
+ }
+ }
+ .success_num03{
+     border:white 1px solid !important;
+     border-radius: 20px;
+     padding: 5px 23px;
+ }
+ .nice_extend_btn{
+    margin:22px 60px 50px;
+ }
+ 
+ }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .nice_project_page{
+      
+        .ftb_ba_02{
+            margin-bottom:8%;
+        }
+        .ftb_story_title{
+            @include  flex_story_title;
+           width:50%;
+            }
+         .ftb_story_title02{
+             @include story_title;
+             left: 41%;
+             width: 17%;
+             bottom: 93%;
+         }
+         .ftb_story_title03{
+             @include story_title;
+             left: 43%;
+             width: 17%;
+             bottom: 34%;
+         }
+         .story_content_style2{
+             border-top: 1px solid #987b30;
+             display: inline-block;
+             padding: 40px 20px 15px;
+         }
+         .crisp_btn{
+            margin-bottom: 50px;
+         }
+          .nice_extend_btn{
+                margin-bottom: 50px;
+             }
+         .ftb_intro {
+             margin:20px 0 50px;
+             height: 150px;
+             position: relative;
+             .intro_bg{
+                 top: 46%;
+                 left: 3%;
+             }
+             
+             .intro_text h1{
+                 left:30%
+             }
+            
+             .intro_text p{
+                left: 10%;
+                top: 45%;
+                width: 81%;
+                font-size: 13px;
+             }
+             .intro_bg,.intro_text h1,.intro_text p{
+            position: absolute;
+             }
+         }
+         .ftb_3point{
+             .ftb_point_list{
+         position:relative;
+        
+     }
+         .ftb_point{
+             display: flex;
+             justify-content: space-evenly;
+             position: relative;
+             padding: 3% 4% 4% 3%;
+             height: 100%;
+             background-image: linear-gradient(rgba(255, 255, 255, 0), #f9f8f4);
+             background-size: 99% -1%;
+             background-repeat: no-repeat;
+             background-position: bottom;  
+              
+     
+       img{
+        width: 97%;
+        height: 65% !important;
+              padding-bottom: 50px;
+             }
+         
+           
+             .point_num01,.point_num02,.point_num03{
+             position: absolute;
+             font-size:100px;
+             color:#ECE8DD;
+             font-weight: 800;
+             }
+             .point_num01{
+                 left:20.5%;
+                 bottom:34%;
+             }
+             .point_num02{
+                 left:51%;
+                 bottom:34%;
+             }
+             .point_num03{
+            left:81.5%;
+                 bottom:34%;
+             }
+             .ftb_text{
+                 text-align:left;
+             }
+        
+            } 
+            .ftb_model{
+             position: absolute;
+             left: 48%;
+             bottom:0%;
+             img{
+                width: 100%;
+             }
+         }}
+         .ftb_text_layout{
+                 color:#987b30;
+                 h1{
+                    font-size: 30px;
+                 }
+               p{
+                     @include gold ;
+                     border:1px solid #C69C3E;
+                     padding:5px 10px;
+                     border-radius: 20px;
+                     margin:13px 5px;
+                   } 
+                  }
+             .vaser_link{
+                 padding:5% 5% 0;
+             }
+             .ftb_success{
+                 margin:5% 0;
+         .ftb_success_title{
+            position: absolute;
+            top: -5%;
+            background-color: white;
+            z-index: 1;
+            left: 15%;
+         }
+                 .middle_line{
+                    position: absolute;
+                    border: 1px solid #987b30;
+                    width: 96%;
+                    margin-left: 2%;
+                 }
+                 .success01{
+                     margin:5% 0;
+                 }
+                 .ftp_success_flex{
+                     text-align: left;
+                     margin:20px 0;
+                 }
+            .vaser_machine{
+             
+         margin:5% 2% 0 1%;
+     
+            }
+         .success_name{
+             font-size:30px; 
+             @include gold;
+             margin-top: 17px;
+             
+         }
+         .vaser_detail{
+             text-align:right;
+             margin-top: 40px;
+         }
+      }
+                 .success_num{
+                     border: #ae955c 1px solid;
+                     border-radius: 20px;
+                     padding: 5px 20px;
+                     @include gold;
+                     margin-right: 10px;
+                 align-self: center;
+                 }
+      .success03{
+         background-image:url("../img/RWD_img/fat_transfer_breast_augmentation_09.png");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin: auto;
+         text-align: left;
+         padding: 7% 3% 1% 52%;
+         height: 300px;
+     h2,span,p {
+         color: white !important;
+     
+     }
+     h2{
+        margin:18px 0 10px;
+     }
+     }
+     .success_num03{
+         border:white 1px solid !important;
+         border-radius: 20px;
+         padding: 5px 23px;
+     }
+     .nice_extend_btn{
+        margin:22px 60px 50px;
+     }
+     
+     }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    .nice_project_page{
+        .ftb_story_title{
+            @include  flex_story_title;
+           width:85%;
+           h1{
+            span{
+             font-size:30px;
+            }
+         }
+            }
+         .ftb_story_title02{
+             @include story_title;
+             left: 28%;
+             width: 43%;
+             bottom: 96%;
+         }
+         .ftb_story_title03{
+             @include story_title;
+             left: 32%;
+             width: 36%;
+             bottom: 32.5%;
+          
+         } 
+         .ftb_ba_01{
+            margin-bottom: 16%;
+         }
+         .story_content_style2{
+             border-top: 1px solid #987b30;
+             display: inline-block;
+             padding: 40px 20px 15px;
+         }
+         .crisp_btn{
+            margin-bottom: 50px;
+         }
+          .nice_extend_btn{
+                margin-bottom: 50px;
+             }
+         .ftb_intro {
+            height: 101px;
+            position: relative;
+             .intro_bg{
+                 top: 61%;
+                 left: 2%;
+             }
+             
+             .intro_text h1{
+                 left:12%
+             }
+            
+             .intro_text p{
+                left: 6%;
+                top: 73%;
+                width: 87%;
+                font-size: 18px;
+             }
+             .intro_bg,.intro_text h1,.intro_text p{
+            position: absolute;
+             }
+         }
+         .ftb_3point{
+            margin-top:35%;
+             .ftb_point_list{
+         position:relative;
+        
+     }
+         .ftb_point{
+             position: relative;
+             padding: 3% 4% 4% 3%;
+             height: 100%;
+             background-image: linear-gradient(rgba(255, 255, 255, 0), #f9f8f4);
+             background-size: 99% -1%;
+             background-repeat: no-repeat;
+             background-position: bottom;  
+              
+     
+       img{
+        width: 97%;
+        height: 65% !important;
+              padding-bottom: 50px;
+             }
+         
+           
+             .point_num01,.point_num02,.point_num03{
+             position: absolute;
+             font-size:100px;
+             color:#ECE8DD;
+             font-weight: 800;
+             }
+             .point_num01{
+                left: 68.5%;
+                bottom: 73%;
+             }
+             .point_num02{
+                left: 66%;
+                bottom: 41.5%;
+             }
+             .point_num03{
+                left: 65.5%;
+                bottom: 9.5%;
+             }
+             .ftb_text{
+                 text-align:left;
+             }
+        
+            } 
+            .ftb_model{
+             position: absolute;
+             left: 48%;
+             bottom: -16%;
+             img{
+                width: 100%;
+             }
+         }}
+         .ftb_text_layout{
+                 color:#987b30;
+               p{
+                     @include gold ;
+                     border:1px solid #C69C3E;
+                     padding:5px 10px;
+                     border-radius: 20px;
+                     margin:13px 5px;
+                   } 
+                  }
+             .vaser_link{
+                margin:50px 0 70px;
+                 padding:10% 4% 0;
+             }
+             .ftb_success{
+                 margin:5% 0;
+         .ftb_success_title{
+            position: absolute;
+            top: -1.7%;
+            background-color: white;
+            z-index: 1;
+            left: 7%;
+            h1{
+                font-size:20px;
+            }
+         }
+                 .middle_line{
+                    position: absolute;
+                    border: 1px solid #987b30;
+                    width: 96%;
+                    margin-left: 2%;
+                 }
+                 .success01{
+                     margin:5% 0;
+                 }
+                 .ftp_success_flex{
+                     text-align: left;
+                     margin:20px 0;
+                 }
+            .vaser_machine{
+             
+         margin:16% 2% 0 1%;
+     
+            }
+         .success_name{
+             font-size:23px !important; 
+             @include gold;
+             margin-top: 17px;
+             
+         }
+         .vaser_detail{
+             text-align:right;
+             margin-top: 40px;
+         }
+      }
+                 .success_num{
+                     border: #ae955c 1px solid;
+                     border-radius: 20px;
+                     padding: 5px 23px;
+                     @include gold;
+                     margin-right: 10px;
+                 align-self: center;
+                 }
+      .success03{
+         background-image:url("../img/RWD_img/fat_transfer_breast_augmentation_09.png");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin: auto;
+         text-align: left;
+         padding: 7% 3% 1% 52%;
+         height: 300px;
+     h2,span,p {
+         color: white !important;
+     
+     }
+     h2{
+        margin:18px 0 10px;
+     }
+     }
+     .success_num03{
+         border:white 1px solid !important;
+         border-radius: 20px;
+         padding: 5px 23px;
+     }
+     .nice_extend_btn{
+        margin:22px 60px 50px;
+     }
+     .sm_reverse{
+        display: flex;
+        flex-flow: column-reverse;
+     }
+     }
+} 

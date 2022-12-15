@@ -1,0 +1,658 @@
+@mixin card_padding {
+    padding: 10% 9%;
+}
+@mixin flex_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+.nice_project_page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    .card-img-top {
+        border-radius: 0px !important;
+    }
+
+    .card {
+        border: 1px solid transparent;
+    }
+  
+}
+
+.case_btn,
+.case_btn02 {
+    border-radius: 20px;
+    background-color: transparent;
+    border: solid 1px #987b30;
+    margin: 20px 0;
+
+    p {
+        color: black !important
+    }
+
+}
+
+.case_btn02 {
+    margin: 10px 0 40px !important;
+}
+
+.case_btn:hover {
+    p {
+        color: white !important;
+    }
+
+    background-color: #987b30;
+}
+
+@media (min-width: 1400px) {
+    .nice_project_page {
+     #motiva_page_content_1,
+        #motiva_page_content_2{
+            padding: 5% 18.4% 0 22%;
+        }
+   
+        .motiva_story_title{
+            
+                @include  flex_story_title;
+           width:33%;
+        
+            
+        }
+
+            .motiva_story_title p{
+                position: absolute;
+                background: white;
+                z-index: 1;
+                left: 36%;
+                top: -7%;
+            }
+                
+.motiva_story_title03{
+    z-index: 1;
+    position: absolute;
+    margin: 0 auto;
+    background: white;
+    left: 41.5%;
+    top: 51%;
+    padding: 0 10px;
+}
+
+     .motiva_story_content{
+        position:relative;
+        border-top: 1px solid #987b30;
+    display: inline-block;
+    padding: 40px 20px 15px;
+}
+     
+
+        .motiva_intro_content {
+            padding:3% 14% 2% 19%;
+            img{
+                margin:40px 0 0;
+            }
+        }
+
+       
+
+        #motiva_3point {
+            border-bottom: #987b30 solid 1px;
+            width: 27%;
+            margin-left:37%;
+            padding-bottom: 10px;
+        }
+
+        .motiva_point01 {
+            text-align: left;
+            padding: 5% 0 0 16%;
+        }
+
+        .motiva_point02 {
+            background-image: url('../img/RWD_img/motiva_03_lg_bg.jpg');
+            height: 580px;
+
+            .motiva_point02_content {
+                text-align: left;
+                padding: 4% 12% 0 53%
+            }
+        }
+
+        .motiva_point03 {
+            background-image: url('../img/RWD_img/motiva_04_lg_bg.jpg');
+            height: 550px;
+
+            .motiva_point03_content {
+                text-align: left;
+                padding: 6% 54% 0 15%
+            }
+        }
+
+        p.motiva_point_num {
+            font-size: 100px;
+            font-weight: 800;
+            border-bottom: #EBE5D7 5px solid;
+            padding-bottom: 34px;
+            width: 118px;
+            color: #EBE5D7;
+        }
+        .motiva_point_list {
+            position: relative;
+            height: 560px;
+            .motiva_text_layout{
+               padding:9% 0 0 49%;
+            }
+            .project_title{
+                position: absolute;
+    color: #987b30;
+    font-size: 40px;
+    background-color: #f8f8f8;
+    z-index: 1;
+    left: 56%;
+    top: 28%;
+    padding: 0 10px;
+            }  
+            .middle_line{
+                border: 1px #987b4a solid;
+                position: relative;
+                width: 650px;
+                left: 1%;
+            }
+    }
+    .motiva_client_list{
+ 
+        margin-top: 10%;
+        p{
+            display: flex;
+            align-items: center;
+            border: solid 5px #EEEFEA;
+            height: 150px;
+            width: 150px;
+            background: white;
+            border-radius: 999em;
+            justify-content: center;
+            font-size: 14px;
+            margin: 0 10px;
+            font-weight: 800;
+        }
+       
+    }
+    .motiva_table{
+        margin:5% 0;
+    } 
+  
+    .motiva_model{
+        position: absolute;
+        top: -6%;
+    left: 13%;
+    img{
+        width: 73%;
+    }
+        }
+        }
+
+    }
+
+
+@media (min-width: 992px) and (max-width:1400px) {
+    .nice_project_page {
+
+        #motiva_page_content_1,
+        #motiva_page_content_2 {
+            padding:5% 11.4% 0 19%;
+        }
+        .motiva_table{
+            padding:0 2% 0 8%;
+        }
+
+        .motiva_story_title{
+            
+            @include  flex_story_title;
+       width:40%;
+    
+        
+    }
+.motiva_story_title p{
+    position: absolute;
+    background: white;
+    z-index: 1;
+    left: 36%;
+    top: -7%;
+}
+        .motiva_story_title03 {
+            margin: auto;
+            left: 40%;
+            bottom: 34%;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+            padding: 0 20px;
+        }
+
+     .motiva_story_content{
+        position:relative;
+        border-top: 1px solid #987b30;
+    display: inline-block;
+    padding: 40px 20px 15px;
+}
+     
+
+        .motiva_intro_content {
+            padding:3% 8% 2% 18%;
+            img{
+                margin:40px 0 0;
+            }
+        }
+
+       
+
+      
+
+        #motiva_3point {
+            border-bottom: #987b30 solid 1px;
+            width: 27%;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+
+        .motiva_point01 {
+            text-align: left;
+            padding: 8% 13% 0 16%;
+            img{
+                width:148%;
+            }
+        }
+
+        .motiva_point02 {
+            background-image: url('../img/RWD_img/motiva_03_lg_bg.jpg');
+            height: 500px;
+           
+
+            .motiva_point02_content {
+                text-align: left;
+                padding:5% 12% 0 50%;
+            }
+        }
+
+        .motiva_point03 {
+            background-image: url('../img/RWD_img/motiva_04_lg_bg.jpg');
+ background-size: contain;
+            background-repeat: no-repeat;
+            height: 390px;
+            .motiva_point03_content {
+                text-align: left;
+                padding:5% 52% 0 16%;
+            }
+        }
+
+        p.motiva_point_num {
+            font-size: 63px;
+            font-weight: 800;
+            border-bottom: #EBE5D7 5px solid;
+            padding-bottom: 19px;
+            width: 83px;
+            color: #EBE5D7;
+        }
+        .motiva_point_list {
+            position: relative;
+            height: 510px;
+            .motiva_text_layout{
+               padding:13% 0% 0 47%
+            }
+            .project_title{
+                position: absolute;
+    color: #987b30;
+    font-size: 40px;
+    background-color: #f8f8f8;
+    z-index: 1;
+    left: 53%;
+    top: 31%;
+    padding: 0 10px;
+            }  
+            .middle_line{
+                border: 1px #987b4a solid;
+                position: relative;
+                width: 555px;
+                left: 1%;
+            }
+    }
+    .motiva_client_list{
+ 
+        margin-top: 10%;
+        p{
+            display: flex;
+            align-items: center;
+            border: solid 5px #EEEFEA;
+            height: 120px;
+            width: 120px;
+            background: white;
+            border-radius: 999em;
+            justify-content: center;
+            font-size: 10px;
+            margin: 0 10px;
+            font-weight: 800;
+        }
+       
+    } 
+    .motiva_table{
+        margin:5% 0;
+    } 
+    .motiva_model{
+        position: absolute;
+        top: -6%;
+    left: 5%;
+    img{
+        width: 66%;
+    }
+        }
+        }
+}
+
+@media (min-width: 576px) and (max-width: 992px)  {
+    .nice_project_page {
+
+        #motiva_page_content_1,
+        #motiva_page_content_2 {
+            padding:10% 5% 2%;
+        }
+
+    
+       
+        .motiva_story_title{
+            
+            @include  flex_story_title;
+       width:40%;
+    
+        
+    }
+.motiva_story_title p{
+    position: absolute;
+    background: white;
+    z-index: 1;
+    left: 30%;
+    top: -7%;
+}
+        .motiva_story_title03 {
+            margin: auto;
+            left: 36%;
+            bottom: 31%;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+            padding: 0 20px;
+        }
+
+     .motiva_story_content{
+        position:relative;
+        border-top: 1px solid #987b30;
+    display: inline-block;
+    padding: 40px 20px 15px;
+}
+     
+
+        .motiva_intro_content {
+            padding:5%;
+            img{
+                margin:40px 0 0;
+            }
+        }
+
+       
+
+      
+
+        #motiva_3point {
+            border-bottom: #987b30 solid 1px;
+            width: 40%;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+
+        .motiva_point01 {
+            text-align: left;
+            padding:5%;
+            img{
+             margin: 5%;
+            }
+        }
+
+        .motiva_point02 {
+            background-image: url('../img/RWD_img/motiva_03_lg_bg.jpg');
+            height: 500px;
+           
+
+            .motiva_point02_content {
+                text-align: left;
+                padding:3% 12% 0 9%;
+                background-color: #ffffff7d;
+                width:100%;
+                height: 100%;
+            p.motiva_point_num{
+                color:#b3a27be0;
+                border-color: #b3a27be0;;
+            }
+            }
+        }
+
+        .motiva_point03 {
+            background-image: url('../img/RWD_img/motiva_04_md_bg.png');
+            height: 380px;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .motiva_point03_content {
+                text-align: left;
+                padding:2% 50% 0% 5%;
+            }
+        }
+
+        p.motiva_point_num {
+            font-size: 63px;
+            font-weight: 800;
+            border-bottom: #EBE5D7 5px solid;
+            padding-bottom: 19px;
+            width: 83px;
+            color: #EBE5D7;
+        }
+        .motiva_point_list {
+            position: relative;
+            height: 400px;
+            .motiva_text_layout{
+               padding:13% 0% 0 47%;
+               width: 97%;
+            }
+            .project_title{
+                position: absolute;
+                color: #987b30;
+                font-size: 30px;
+                background-color: #f8f8f8;
+                z-index: 1;
+                left: 54%;
+                top: 23%;
+                padding: 0 10px;
+            }  
+            .middle_line{
+                border: 1px #987b4a solid;
+                position: relative;
+                width: 380px;
+                left: 5.5%;
+            }
+    }
+    .motiva_client_list{
+ flex-direction: column;
+ align-items: center;
+        margin-top: 10%;
+        p{
+            display: flex;
+            align-items: center;
+            border: solid 2px #987b4a94;
+            border-radius:999em;
+            height: 50px;
+            width: 200px;
+            line-height: 20px;
+            justify-content: center;
+            font-size: 15px;
+            margin: 3px 0;
+            font-weight: 800;
+        }
+       
+    } 
+    .motiva_table{
+     .table_title{
+        margin:5% 0;
+     }
+    } 
+    .motiva_model{
+        position: absolute;
+        top: -6%;
+    left: -15%;
+    img{
+        width: 52%;
+    }
+        }
+        }
+
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .nice_project_page {
+        .page_content_bottom {
+            padding: 0 5%;
+        }
+.motiva_table{
+    padding:0 2%;
+}
+        #motiva_page_content_1,
+        #motiva_page_content_2 {
+            padding:6%;
+        }
+.motiva_story_title{
+    h1{
+        span{
+            font-size:30px
+        }
+    }
+}
+    
+        .motiva_story_title{
+            
+            @include  flex_story_title;
+       width:75%;
+    
+        
+    }
+.motiva_story_title p{
+    position: absolute;
+    background: white;
+    z-index: 1;
+    left: 15%;
+    width: 73%;
+    bottom: 93%;
+}
+        .motiva_story_title03 {
+            left: 14%;
+    margin: auto;
+    bottom: 34%;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+            padding: 10px 20px 0;
+        
+            p{
+                line-height: 5px;
+            }
+        }
+
+     .motiva_story_content{
+        position:relative;
+        border-top: 1px solid #987b30;
+    display: inline-block;
+    padding: 40px 20px 15px;
+}
+     
+
+        .motiva_intro_content {
+            padding:7%;
+            img{
+                margin:40px 0 0;
+            }
+        }
+
+       
+        .motiva_content_3point h4,.motiva_content_3point p{
+        margin:6%;
+        text-align: left;
+          }
+       
+        #motiva_3point {
+            border-bottom: #987b30 solid 1px;
+            width: 60%;
+            margin: 20px auto;
+            padding-bottom: 10px;
+        }
+
+
+        p.motiva_point_num {
+            margin-bottom: 15px;
+            font-size: 63px;
+            font-weight: 800;
+            border-bottom: #EBE5D7 5px solid;
+            padding-bottom: 19px;
+            width: 83px;
+            color: #EBE5D7;
+        }
+        .motiva_point_list {
+            position: relative;
+            .motiva_text_layout{
+               width: 97%;
+               padding:70px 0;
+            }
+            .project_title{
+                position: absolute;
+                color: #987b30;
+                font-size: 20px !important;
+                background-color: #f8f8f8;
+                z-index: 1;
+                left: 23%;
+                top: 14%;
+                padding: 0 10px;
+            }  
+            .middle_line{
+                border: 1px #987b4a solid;
+                position: relative;
+                width: 355px;
+                margin: auto;
+            }
+    }
+    .motiva_client_list{
+ flex-direction: column;
+ align-items: center;
+        margin-top: 10%;
+        p{
+            display: flex;
+            align-items: center;
+            border: solid 2px #987b4a94;
+            border-radius:999em;
+            height: 50px;
+            width: 200px;
+            line-height: 20px;
+            justify-content: center;
+            font-size: 15px;
+            margin: 3px 0;
+            font-weight: 800;
+        }
+       
+    } 
+    .motiva_table{
+        .table_title{
+           margin:5% 0;
+        }
+       } 
+  .motiva_point_list{
+    background-color: #f9f9f9a1 !important;
+  }
+        }
+}

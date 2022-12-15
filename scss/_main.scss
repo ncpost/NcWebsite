@@ -1,0 +1,246 @@
+@mixin gold_border{
+    padding: 30px 30px 20px;
+    border: 1px solid #987b30;
+    position: relative;
+    margin-top: -24px;
+    margin-bottom: 50px;
+}
+
+h1,h2 {
+    font-weight: 800;
+}
+h2{
+    margin:20px 0;
+}
+
+
+html body {
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    font-size: 16px;
+}
+
+    
+.footer{
+    overflow-x:hidden;
+}
+
+.top_navbar_content{
+.tab-pane a:hover{
+    color: #000000 !important;
+}
+.tab-pane a:focus{
+    background-color:transparent !important;
+}
+}
+
+
+.breadcrumb-item.active{
+    color:black
+}
+
+
+
+.list-wrapper {
+	padding: 15px;
+	overflow: hidden;
+}
+
+
+.simple-pagination li {
+	display: inline-block;
+	margin-right: 15px;
+    margin-top: auto;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+	color:#c3b086;
+	padding: 5px 10px;
+}
+
+.simple-pagination span.current{
+     color: #ffffff;
+    background-color: #c3b086;
+    border-radius: 999em;
+} 
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    color:#c3b086;
+    background-color: transparent;
+}
+.page-link{
+    height: 30px;
+    width: 30px;
+    border-radius: 999em;
+    border:0px
+}
+.modal{
+
+.modal-content{
+    background:linear-gradient(340deg, #fffdf9, rgba(255, 248, 233, 0.4392156863) 0.71%), linear-gradient(116deg, #c5b086, white 70.71%), linear-gradient(119deg, #c1bfbf, #dec591 70.71%);
+    border-radius:20px;
+}
+
+
+.popover_crisp{
+    height: 24px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9f8a5a;
+    color: white;
+}
+.modal-title{
+    border-bottom: 1px solid #917d4c;
+    
+}
+
+
+.modal-header{
+    border-bottom:0px;
+}
+.modal-footer{
+    border-top:0px
+}
+
+.modal-body{
+.card{
+    border: none;
+    background: #fefaf200;
+    img{
+        margin-bottom:0px;
+    }
+h5.card-title{
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+}
+}
+}
+
+}
+@media (min-width: 1400px){
+    .simple-pagination ul {
+        margin:5% 0;
+        justify-content: center;
+        display: flex;
+    }
+    .page-link:hover{
+    color: #ffffff;
+    background-color: #c3b086;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    .card-group{
+        display: flex;
+        flex-direction: row;
+    }
+    .modal-title{
+        margin-left: 36%;
+    }
+}
+span.post_view_count{
+    color: #979797;
+    margin-left: 20px;
+    font-weight: 600;
+}
+    }
+@media (min-width:992px) and (max-width:1400px){
+    .simple-pagination ul {
+        margin:5% 0;
+        justify-content: center;
+        display: flex;
+    }
+    .page-link:hover{
+        color: #ffffff;
+        background-color: #c3b086;
+        border-radius: 999em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal{
+        .card-group{
+            display: flex;
+            flex-direction: row;
+        }
+        .modal-title{
+            margin-left: 36%;
+        }
+    }
+    span.post_view_count{
+        color: #979797;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+}
+ @media (min-width: 576px) and (max-width: 992px)  {
+.post_body{
+    padding:15% 5%
+}
+.simple-pagination {
+    ul {
+    margin:5% 0;
+    justify-content: center;
+    display: flex;
+    }
+// .tab-pane ul,.tab-pane li{
+//     margin:0
+// }
+}
+.modal{
+    .card-group{
+        display: flex;
+        flex-direction: row;
+    }
+    .modal-title{
+        margin-left: 27%;
+    }
+}
+span.post_view_count{
+    color: #979797;
+    font-weight: 600;
+}
+}
+
+@media (min-width: 0px) and (max-width: 576px){ 
+.post_body{
+    padding:25% 5%;
+}
+.simple-pagination ul {
+    margin:14% 0 10%;
+    justify-content: center;
+    display: flex;
+    span{
+        margin-top: -5px;
+    }
+}
+.modal{
+    .modal-body{
+        padding:20px 10px 0;
+    }
+    .card-group{
+        display: flex;
+            height: 280px;
+
+
+    }
+    .modal-title{
+        margin-left: 18%;
+    }
+}
+span.post_view_count{
+    color: #979797;
+    font-weight: 600;
+}
+}

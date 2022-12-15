@@ -1,0 +1,912 @@
+@mixin card_padding {
+    padding:10% 9%;
+}
+@mixin flex_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+.nice_project_page{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+.card-img-top{
+    border-radius:0px !important;
+}
+.card{
+    border:1px solid transparent;
+}
+}
+.case_btn,.case_btn02{
+    border-radius: 20px;
+    background-color: transparent;
+    border: solid 1px #987b30;
+    margin:20px 0;
+    p{
+        color:black !important
+    }
+   
+}
+.case_btn02{
+    margin:10px 0 40px !important;
+}
+.case_btn:hover{
+        p{
+            color:white !important;
+        }
+        background-color: #987b30;
+    }
+
+@media (min-width: 1400px){
+    .nice_project_page{
+        .banner{
+            width:1660px
+        }
+        #sebbin_page_content_1,#sebbin_page_content_2{
+            padding:5% 18.4% 0 22%;
+        }
+      
+       .sebbin_ba_02{
+        margin:6% 14% 2% 15%;
+       }
+       .sebbin_story_title{
+        @include  flex_story_title;
+       width:40%;
+     h1{
+       span{
+        font-size:40px
+       }  
+     } 
+        }
+        .slider_sec{
+            display: flex;
+        }
+        .sebbin_intro {
+            margin:20px 0 50px;
+            height: 150px;
+            .intro_text p{
+                position: absolute;
+                left: 7%;
+                top: 85%;
+            }
+        }
+        .intro_show_img img{
+            margin:5% 0 10%;
+        }
+        .card-body{
+            text-align: left;
+            .card-title{
+                padding-bottom: 40px;
+                font-weight: 600;
+            }
+        }
+        .no01{
+            background-image: url('../img/RWD_img/sebbin_no01.jpg');
+          .card-body{
+            padding:16% 0 18% 8%;
+          }
+        }
+        .no02
+        {
+            background-image: url('../img/RWD_img/sebbin_no02.jpg');
+            .card-body{
+                padding:16% 8% 12% 8%;
+              height: 353px;
+            }
+        }
+        .no03
+        {
+            background-image: url('../img/RWD_img/sebbin_no03.jpg');
+            .card-body{
+                padding:16% 0 12% 8%;
+              
+            }
+        }
+        .no04
+        {
+            background-image: url('../img/RWD_img/sebbin_no04.jpg');
+            .card-body{
+                padding:16% 0 23% 8%;
+              }
+            
+        }
+      
+    
+  
+      .material_point{
+        .point_layout{
+           margin: 60px 0 20px;
+            border: #987b30 solid 2px;
+            .card-body{
+                padding:0 39px;
+            }
+            .card-title{
+                padding-bottom: 0px;
+            }
+        }
+        
+      
+   
+}
+ 
+.page_full_img{
+    padding:0 7%;
+     position: relative;  
+  
+}
+.breast_text h2{
+    position: absolute;
+    top: 17%;
+    left: 70%;
+    color:#987b30;
+}
+.text_combine_wrap{
+    position: absolute;
+    left: 70%;
+    top: 38%;
+    p{
+        color:#987b30;
+        border:1px solid #C69C3E;
+        padding:5px 10px;
+        border-radius: 20px;
+        margin:6px 5px;
+      }}
+   
+
+.material_part{
+    position: relative;
+ .material_title {
+    background-color: #ae955c;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 10% auto 0;
+    width:40%;
+    h1{
+        color:white
+    }
+    }
+.material_content{
+    text-align-last: left;
+    padding: 40px 23px 24%;
+    margin:-30px 0 80px;
+        border: 1px solid #987b30;
+        position: relative;
+    
+    .middle_line{
+        border-left: 2px solid rgb(193, 190, 190);
+        margin:0 38px;
+        height: 160px;
+    }
+    
+
+.material_img01,.material_img02,.material_img03,.material_img04{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.material_img01{
+    margin-right: 30px;
+}
+.material_img03{
+    margin-right: 30px;
+}
+.material_img{
+    position: absolute;
+    margin:3% 3% 0 0;
+}
+.material_text p{
+    color:#987b30;
+}
+.versus_text_1{
+    position: absolute;
+    top: 76.5%;
+    left: 22%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+.versus_text_2{
+    position: absolute;
+    top: 76.5%;
+    left: 76%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+
+}
+}
+.breast_bg img{
+    width: 1650px;
+}
+}
+}
+@media (min-width: 992px) and (max-width:1400px){
+    .nice_project_page{
+        .sebbin_page_content{
+            padding:4% 13% 0 16%;
+        }
+        .sebbin_story_title{
+            @include  flex_story_title;
+           width:40%;
+      
+            }
+        .page_banner{
+            margin-bottom: 50px;
+        }
+       .page_banner img,.breast_bg img{
+        width: 100%;
+       }
+       .story_part{
+        margin-bottom: 50px;
+       }
+        
+   
+           .sebbin_ba_02{
+            margin:6% 9% 0 10%;
+           }
+        .slider_sec{
+            display: flex;
+        }
+        .intro_show_img img{
+                margin:50px 0;
+            }
+            .intro_bg img{
+                width: 100%;
+            }
+        .sebbin_intro {
+            margin:20px 0 50px;
+            height: 150px;
+            position: relative;
+            .intro_bg{
+                top: 47%;
+    left: 1%;
+            }
+            
+            .intro_text h1{
+                left:36%
+            }
+            .intro_text p{
+                left: 5%;
+                top: 64%;
+                width: 90%;
+            }
+            .intro_bg,.intro_text h1,.intro_text p{
+           position: absolute;
+            }
+        }
+        .card-body{
+            text-align: left;
+            .card-title{
+                padding-bottom: 20px;
+                font-weight: 600;
+            }
+        }
+        .no01{
+            background-image: url('../img/RWD_img/sebbin_no01_md.png');
+          .card-body{
+            padding:16% 0 12% 4%;
+            height: 260px;
+          }
+          .card-img-top{
+            height: 100%;
+        }
+        }
+        .no02
+        {
+            background-image:  url('../img/RWD_img/sebbin_no02_md.png');
+            .card-body{
+                padding:10% 0px 6% 4%;
+            }
+            .card-img-top{
+                height: 100%;
+            }
+        }
+        .no03
+        {
+            background-image: url('../img/RWD_img/sebbin_no03_md.png');
+            .card-body{
+                padding:16% 0 12% 4%;
+              background-repeat: no-repeat;
+            }
+            .card-img-top{
+                height: 100%;
+            }
+        }
+        .no04
+        {
+            background-image: url('../img/RWD_img/sebbin_no04_md.png');
+            .card-body{
+                padding:16% 0 23% 4%;
+                height: 335px;
+              }
+              .card-img-top{
+                height: 100%;
+            }
+            
+        }
+      
+    
+  
+      .material_point{
+        .point_layout{
+           margin: 60px 0 20px;
+            border: #987b30 solid 2px;
+            img{
+                width: 100%;
+            }
+            .card-body{
+                padding:0 39px;
+            }
+            .card-title{
+                padding-bottom: 0px;
+            }
+        }
+        
+      
+   
+}
+ 
+.page_full_img{
+  
+     position: relative;  
+  
+}
+.breast_text h2{
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    color:#987b30;
+}
+.text_combine_wrap{
+    position: absolute;
+    left: 65%;
+    top: 32%;
+    p{
+        color:#987b30;
+        border:1px solid #C69C3E;
+        padding:5px 10px;
+        border-radius: 20px;
+        margin:6px 5px;
+      }}
+   
+
+.material_part{
+    position: relative;
+    .material_title {
+        background-color: #ae955c;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 10% auto 0;
+        width:55%;
+        h1{
+            color:white
+        }
+        }
+.material_content{
+    text-align-last: left;
+    padding: 40px 23px 24%;
+    margin:-30px 0 80px;
+        border: 1px solid #987b30;
+        position: relative;
+    
+    .middle_line{
+        border-left: 2px solid rgb(193, 190, 190);
+        margin:0 41px 0 58px;
+        height: 160px;
+    }
+    
+
+.material_img01,.material_img02,.material_img03,.material_img04{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.material_img01{
+    margin-right:10%;
+    width: 140px;
+}
+.material_img03{
+    margin-right: 15%;
+    width: 170px;
+}
+.material_img04{
+    width: 170px;
+}
+.material_img02{
+    width: 170px;
+}
+.material_img{
+    position: absolute;
+    margin:3% 3% 0 3%;
+}
+.material_text p{
+    color:#987b30;
+}
+.versus_text_1{
+    position: absolute;
+    top: 76.5%;
+    left: 22%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+.versus_text_2{
+    position: absolute;
+    top: 76.5%;
+    left: 91%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+ .img01 img{
+    width:100% !important;
+}
+
+
+}
+}
+.jerry_sec_img img{
+    width: 100% !important;
+}}
+}
+@media (min-width: 576px) and (max-width: 992px) {
+.nice_project_page{
+    
+    #sebbin_page_content_1,#sebbin_page_content_2{
+        padding:5%;
+    }
+    .sebbin_story_title{
+        @include  flex_story_title;
+       width:40%;
+  
+        }
+    .page_banner{
+        margin-top: 50px;
+    }
+
+       .sebbin_ba_02{
+        margin:7% 1% 1% 4%;
+       }
+    .sebbin_intro {
+        margin:20px 0 50px;
+        height: 150px;
+        position: relative;
+        .intro_bg{
+            top: 35%;
+            left: -3%;
+          
+        }
+        .intro_text h1{
+            left:32%
+        }
+        .intro_text p{
+            top: 37%;
+            left: 5%;
+            width: 86%;
+            font-size: 15px;
+        }
+        .intro_bg,.intro_text h1,.intro_text p{
+       position: absolute;
+        }
+    }
+    .intro_show_img{
+      
+            img{
+                width: 40%;
+                margin: auto;
+                 margin-bottom: 50px;
+            }
+      
+    }
+    .card-body{
+        text-align: left;
+        .card-title{
+            padding-bottom: 10px;
+            font-weight: 600;
+           
+        }
+    }
+    .no01{
+        background-image: url('../img/RWD_img/sebbin_no01.jpg');
+      .card-body{
+       @include card_padding;
+       height: 322px;
+      }
+    }
+    .no02
+    {
+        background-image: url('../img/RWD_img/sebbin_no02.jpg');
+        .card-body{
+            @include card_padding
+           }
+    }
+    .no03
+    {
+        background-image: url('../img/RWD_img/sebbin_no03.jpg');
+        .card-body{
+            @include card_padding
+           }
+    }
+    .no04
+    {
+        background-image: url('../img/RWD_img/sebbin_no04.jpg');
+        .card-body{
+            @include card_padding;
+            height: 322px;  
+           }
+        
+    }
+    .material_point{
+        text-align: center;
+        .point_layout{
+           margin: 60px 0 20px;
+            border: #987b30 solid 2px;
+    
+            .card-text{
+                font-size: 10px;
+                line-height: 20px;
+            }
+            .card-title{
+                margin:0;
+                padding-bottom: 0px;
+            }
+        img{
+            height: 147px !important;
+        }
+        }
+        
+  
+   
+}
+.page_full_img{
+     position: relative;  
+  
+}
+.breast_text h2{
+    position: absolute;
+    top: -11%;
+    left: 62%;
+    color:#987b30;
+}
+.text_combine_wrap{
+    position: absolute;
+    left: 61%;
+    top: 26%;
+    p{
+        color: #987b30;
+        border: 1px solid #C69C3E;
+        padding: 0px 15px;
+        border-radius: 20px;
+        margin: 6px 5px;
+        font-size: 10px;
+    }
+   
+}
+.material_part{
+    position: relative;
+    .material_title {
+        background-color: #ae955c;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 10% auto 0;
+        width:55%;
+        h1{
+            color:white
+        }
+        }
+.material_content{
+    text-align-last: left;
+    padding: 40px 23px 30%;
+    margin:-30px 0 80px;
+        border: 1px solid #987b30;
+        position: relative;
+    
+    .middle_line{
+        border-left: 2px solid rgb(193, 190, 190);
+        margin:0 38px;
+        height: 160px;
+    }
+    
+
+.material_img01,.material_img02,.material_img03,.material_img04{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.material_img01{
+    margin-right: 30px;
+}
+.material_img03{
+    margin-right: 30px;
+}
+.material_img{
+    position: absolute;
+    margin:3% 3% 0 0;
+}
+.material_text p{
+    color:#987b30;
+}
+.versus_text_1{
+    position: absolute;
+    top: 76.5%;
+    left: 22%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+.versus_text_2{
+    position: absolute;
+    top: 76.5%;
+    left: 76%;
+    font-weight: 600;
+    p{
+        color:#987b30;
+        
+    }
+}
+
+}
+}
+   .sebbin_table{
+        .table_title{
+            margin-top:5%
+        }
+    }
+.nice_share {
+margin-bottom: 50px;
+    .share_line_text{
+    padding:0 24px !important;
+}
+    img{
+    width:70%
+}
+}
+
+}
+
+}
+@media (min-width: 0px) and (max-width: 576px){
+    .nice_project_page{
+        #sebbin_page_content_1,#sebbin_page_content_2{
+            padding:6%;
+        }
+        .nice_extend_btn{
+            margin-bottom: 20% !important;
+        }
+        .sebbin_ba_02{
+          margin-bottom:30px;
+        }
+  .page_banner{
+    margin-bottom: 20px;
+  }
+  .story_part{
+    margin-bottom: 50px;
+  }
+  .sebbin_story_title{
+    @include  flex_story_title;
+   width:75%;
+   h1{
+    span{
+        font-size:30px
+    }
+   }
+
+    }
+  .intro_show_img img{
+    width: 50%;
+margin: auto; 
+margin:34% 0 70px 30px;
+}
+.sebbin_intro {
+    margin:20px 0 50px;
+    height: 150px;
+    .intro_text p{
+        position: absolute;
+        left: 5%;
+        width: 89%;
+        top: 52%;
+        font-size: 16px;
+    }
+}
+        .card-body{
+            text-align: left;
+            .card-title{
+                padding-bottom: 10px;
+                font-weight: 600;
+               
+            }
+        }
+        .no01{
+            background-image: url('../img/RWD_img/sebbin_no01_sm.png');
+            
+          .card-body{
+           @include card_padding;
+       
+          }
+        }
+        .no02
+        {
+            background-image: url('../img/RWD_img/sebbin_no02_sm.png');
+            background-repeat: no-repeat;
+            background-color: #f7f7f7;
+            .card-body{
+                @include card_padding
+               }
+        }
+        .no03
+        {
+            background-image:url('../img/RWD_img/sebbin_no03_sm.png');
+            background-repeat: no-repeat;
+            background-color: #f7f7f7;
+            .card-body{
+                @include card_padding
+               }
+        }
+        .no04
+        {
+            background-image: url('../img/RWD_img/sebbin_no04_sm.png');
+            .card-body{
+                @include card_padding;
+               
+               }
+            
+        }
+        .material_point{
+            text-align: center;
+            .point_layout{
+               margin: 60px 0 20px;
+                border: #987b30 solid 2px;
+        
+                .card-text{
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-top: 5%;
+                }
+                .card-title{
+                    margin:0;
+                    padding-bottom: 0px;
+                }
+         }
+            }
+            
+      
+       
+    }
+    .page_full_img{
+         position: relative;  
+      
+    }
+    
+    .breast_text h2{
+        position: absolute;
+        top: 1%;
+        left: 60%;
+        color:#987b30;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .text_combine_wrap{
+   background-color: #f3f3f3;
+   padding: 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 50px;
+        p{
+            color: #987b30;
+            border: 1px solid #C69C3E;
+            padding: 0px 15px;
+            border-radius: 20px;
+            margin: 6px 5px;
+            font-size: 18px;
+        }
+       
+    }
+    .sebbin_table{
+        .table_title{
+            margin-top:20%
+        }
+    }
+    .material_part{
+        position: relative;
+        margin:10% 0;
+        .material_title {
+            background-color: #ae955c;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            margin: 10% auto 0;
+            width:93%;
+            h1{
+                color:white
+            }
+            }
+    .material_content{
+        text-align-last: left;
+        padding: 40px 23px 45%;
+        margin:-30px 0 80px;
+            border: 1px solid #987b30;
+            position: relative;
+        
+        .middle_line{
+            border-left: 2px solid rgb(193, 190, 190);
+            margin:0 10px;
+            height: 50px;
+        }
+        
+    
+    .material_img01,.material_img02,.material_img03,.material_img04{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .material_img01{
+        margin-right: 10px;
+    }
+    .material_img03{
+        margin-right: 10px;
+    }
+    .material_img{
+        position: absolute;
+        margin:3% 3% 0 0;
+    }
+    .material_text p{
+        color:#987b30;
+        font-size: 10px !important;
+    }
+    .versus_text_1{
+        position: absolute;
+        top: 76.5%;
+        left: 20%;
+        font-weight: 600;
+        p{
+            color:#987b30;
+            
+        }
+    }
+    .versus_text_2{
+        position: absolute;
+        top: 76.5%;
+        left: 72%;
+        font-weight: 600;
+        p{
+            color:#987b30;
+            
+        }
+    }
+    
+    }
+    }
+    .nice_share {
+    margin-bottom: 50px;
+        .share_line_text{
+        padding:0 24px !important;
+    }
+        img{
+        width:70%
+    }
+    }
+    .img01{
+        margin-bottom: 50px;
+    }
+    }
+    
+

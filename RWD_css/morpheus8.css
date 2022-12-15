@@ -1,0 +1,618 @@
+@media (min-width: 1400px) {
+  .nice_project_page .morpheus8_story_title {
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .nice_project_page #morpheus8_page_content_1 {
+    padding: 5% 19% 0;
+  }
+  .nice_project_page .morpheus8_story_caption {
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_logic_img {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .morpheus8_logic_img p {
+    font-weight: 800;
+    color: #3a3838;
+    padding-top: 20px;
+  }
+  .nice_project_page .morpheus8_logic_img .col {
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_client {
+    background-color: #f9f6f0;
+    height: 664px;
+    display: flex;
+    padding: 0 10%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout {
+    color: #987b30;
+    text-align: left;
+    color: #987b30;
+    align-self: center;
+    padding-right: 30%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout .point p {
+    color: #987b30 !important;
+    font-weight: 600;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+    width: 120px;
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_different_01 {
+    padding: 4% 23% 2% 10%;
+    background-color: #f9f6f0;
+    display: flex;
+  }
+  .nice_project_page .morpheus8_different_01 p, .nice_project_page .morpheus8_different_01 h1 {
+    text-align: left;
+  }
+  .nice_project_page .morpheus8_different_01 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 {
+    text-align: right;
+  }
+  .nice_project_page .morpheus8_different_02 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_02 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_care {
+    justify-content: space-evenly;
+  }
+  .nice_project_page .morpheus8_care h6 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nice_project_page .morpheus8_care .card {
+    width: 40%;
+    text-align: left;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2509803922);
+  }
+  .nice_project_page .morpheus8_care .card .card-body {
+    padding: 20px;
+  }
+  .nice_project_page .morpheus8_care .card .card-header {
+    background: linear-gradient(45deg, #bea764, #b2a687);
+    padding: 20px;
+    color: white;
+  }
+  .nice_project_page .morpheus8_care .card .card-header h4 {
+    margin-left: 20px;
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert {
+    text-align: left;
+    padding: 5% 0;
+  }
+  .nice_project_page .morpheus8_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .morpheus8_alert p {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert .number {
+    padding: 2%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .morpheus8_alert .alert {
+    text-align: left;
+    border-bottom: dotted 6px #c3c3c3;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .nice_project_page .morpheus8_story_title {
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 45%;
+  }
+  .nice_project_page #morpheus8_page_content_1 {
+    padding: 5% 20% 0;
+  }
+  .nice_project_page .morpheus8_story_caption {
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_logic_img {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .morpheus8_logic_img img {
+    width: 100%;
+  }
+  .nice_project_page .morpheus8_logic_img p {
+    font-weight: 800;
+    color: #3a3838;
+    padding-top: 20px;
+  }
+  .nice_project_page .morpheus8_logic_img .col {
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_client {
+    background-color: #f9f6f0;
+    height: 664px;
+    display: flex;
+    padding: 0 5%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout {
+    color: #987b30;
+    text-align: left;
+    color: #987b30;
+    align-self: center;
+    padding-right: 10%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout .point p {
+    color: #987b30 !important;
+    font-weight: 600;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+    width: 120px;
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_different_01 {
+    padding: 5% 12%;
+    background-color: #f9f6f0;
+    display: flex;
+  }
+  .nice_project_page .morpheus8_different_01 p, .nice_project_page .morpheus8_different_01 h1 {
+    text-align: left;
+  }
+  .nice_project_page .morpheus8_different_01 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 {
+    text-align: right;
+    padding: 5% 5% 5% 7%;
+  }
+  .nice_project_page .morpheus8_different_02 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_02 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_table {
+    padding: 0 15%;
+  }
+  .nice_project_page .morpheus8_care {
+    justify-content: space-evenly;
+    padding: 5% 7%;
+  }
+  .nice_project_page .morpheus8_care h6 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nice_project_page .morpheus8_care .card {
+    width: 40%;
+    text-align: left;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2509803922);
+  }
+  .nice_project_page .morpheus8_care .card .card-body {
+    padding: 20px;
+  }
+  .nice_project_page .morpheus8_care .card .card-header {
+    background: linear-gradient(45deg, #bea764, #b2a687);
+    padding: 20px;
+    color: white;
+  }
+  .nice_project_page .morpheus8_care .card .card-header h4 {
+    margin-left: 20px;
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert {
+    text-align: left;
+    padding: 5% 0;
+  }
+  .nice_project_page .morpheus8_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .morpheus8_alert p {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert .number {
+    padding: 2%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .morpheus8_alert .alert {
+    text-align: left;
+    border-bottom: dotted 6px #c3c3c3;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .nice_project_page .morpheus8_story_title {
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .nice_project_page #morpheus8_page_content_1 {
+    padding: 8% 5% 0;
+  }
+  .nice_project_page .morpheus8_story_caption {
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_logic_img {
+    margin: 5% 0;
+  }
+  .nice_project_page .morpheus8_logic_img img {
+    width: 100%;
+  }
+  .nice_project_page .morpheus8_logic_img p {
+    font-weight: 800;
+    color: #3a3838;
+    padding-top: 20px;
+  }
+  .nice_project_page .morpheus8_logic_img .col {
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_client {
+    background-color: #f9f6f0;
+    display: flex;
+    padding: 5% 0 0;
+    height: 480px;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout {
+    color: #987b30;
+    text-align: left;
+    color: #987b30;
+    align-self: center;
+    padding-right: 10%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout .point p {
+    color: #987b30 !important;
+    font-weight: 600;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+    width: 120px;
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_different_01 {
+    padding: 5%;
+    background-color: #f9f6f0;
+    display: flex;
+  }
+  .nice_project_page .morpheus8_different_01 img {
+    width: 80%;
+  }
+  .nice_project_page .morpheus8_different_01 p, .nice_project_page .morpheus8_different_01 h1 {
+    text-align: left;
+  }
+  .nice_project_page .morpheus8_different_01 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 {
+    text-align: right;
+  }
+  .nice_project_page .morpheus8_different_02 img {
+    width: 80%;
+  }
+  .nice_project_page .morpheus8_different_02 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_02 .machine p {
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_table {
+    padding: 5%;
+  }
+  .nice_project_page .morpheus8_care {
+    justify-content: space-evenly;
+  }
+  .nice_project_page .morpheus8_care h6 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nice_project_page .morpheus8_care .card {
+    width: 46%;
+    text-align: left;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2509803922);
+  }
+  .nice_project_page .morpheus8_care .card .card-body {
+    padding: 20px;
+  }
+  .nice_project_page .morpheus8_care .card .card-header {
+    background: linear-gradient(45deg, #bea764, #b2a687);
+    padding: 20px;
+    color: white;
+  }
+  .nice_project_page .morpheus8_care .card .card-header img {
+    width: 85%;
+  }
+  .nice_project_page .morpheus8_care .card .card-header h4 {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert {
+    text-align: left;
+    padding: 5% 0;
+  }
+  .nice_project_page .morpheus8_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .morpheus8_alert p {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert .number {
+    padding: 2%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .morpheus8_alert .alert {
+    text-align: left;
+    border-bottom: dotted 6px #c3c3c3;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .nice_project_page .morpheus8_story_title {
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .nice_project_page .morpheus8_story_title span {
+    font-size: 30px;
+  }
+  .nice_project_page #morpheus8_page_content_1 {
+    padding: 8% 5% 0;
+  }
+  .nice_project_page .morpheus8_story_caption {
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_feature img {
+    width: 100%;
+  }
+  .nice_project_page .morpheus8_logic_img {
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_logic_img img {
+    width: 100%;
+  }
+  .nice_project_page .morpheus8_logic_img p {
+    font-weight: 800;
+    color: #3a3838;
+    padding-top: 20px;
+  }
+  .nice_project_page .morpheus8_logic_img .col {
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_client {
+    background-color: #f9f6f0;
+    display: flex;
+    padding: 5% 0 0;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_model {
+    display: none;
+  }
+  .nice_project_page .morpheus8_client h1 {
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_client .point {
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout {
+    color: #987b30;
+    text-align: left;
+    color: #987b30;
+    align-self: center;
+    padding: 5%;
+  }
+  .nice_project_page .morpheus8_client .morpheus8_text_layout .point p {
+    color: #987b30 !important;
+    font-weight: 600;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+    text-align: center;
+  }
+  .nice_project_page .morpheus8_different_title {
+    padding: 0 5%;
+  }
+  .nice_project_page .morpheus8_different_01 {
+    padding: 8% 5% 5%;
+    background-color: #f9f6f0;
+  }
+  .nice_project_page .morpheus8_different_01 .morpheus8_point_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_different_01 p, .nice_project_page .morpheus8_different_01 h1 {
+    text-align: left;
+  }
+  .nice_project_page .morpheus8_different_01 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_01 .machine p {
+    padding-top: 5%;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 {
+    padding: 5% 0;
+    text-align: right;
+  }
+  .nice_project_page .morpheus8_different_02 .morpheus8_point_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_different_02 .machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nice_project_page .morpheus8_different_02 .machine p {
+    padding-top: 5%;
+    font-weight: 600;
+    color: #987b30 !important;
+  }
+  .nice_project_page .morpheus8_different_02 .morpheus8_text_layout {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_care {
+    flex-direction: column;
+  }
+  .nice_project_page .morpheus8_care h6 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nice_project_page .morpheus8_care .card {
+    margin-bottom: 5%;
+    text-align: left;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2509803922);
+  }
+  .nice_project_page .morpheus8_care .card .card-body {
+    padding: 20px;
+  }
+  .nice_project_page .morpheus8_care .card .card-header {
+    background: linear-gradient(45deg, #bea764, #b2a687);
+    padding: 20px;
+    color: white;
+  }
+  .nice_project_page .morpheus8_care .card .card-header img {
+    width: 85%;
+  }
+  .nice_project_page .morpheus8_care .card .card-header h4 {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert {
+    text-align: left;
+    padding: 5% 0;
+  }
+  .nice_project_page .morpheus8_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .morpheus8_alert p {
+    align-self: center;
+  }
+  .nice_project_page .morpheus8_alert .number {
+    padding: 2%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .morpheus8_alert .alert {
+    text-align: center;
+    border-bottom: dotted 6px #c3c3c3;
+    flex-direction: column;
+    display: flex;
+  }
+}/*# sourceMappingURL=morpheus8.css.map */

@@ -1,0 +1,545 @@
+@charset "UTF-8";
+@media (min-width: 1400px) {
+  .nice_project_page .wpr_intro {
+    position: relative;
+    margin: 5% 0 10%;
+  }
+  .nice_project_page .wpr_intro h1 {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::before {
+    content: "❝";
+    position: absolute;
+    left: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::after {
+    content: "❞";
+    position: absolute;
+    right: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery {
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery h1 {
+    padding: 3% 0;
+  }
+  .nice_project_page .wpr_list {
+    margin-top: 20%;
+  }
+  .nice_project_page .wpr_list h1 {
+    margin-bottom: 10%;
+  }
+  .nice_project_page .wpr_list h4 {
+    color: #987b30 !important;
+  }
+  .nice_project_page .wpr_list .wpr_num {
+    display: contents;
+  }
+  .nice_project_page .wpr_list p.wpr_num {
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_list .wpr_text {
+    text-align: left;
+  }
+  .nice_project_page .wpr_list .wpr_content01, .nice_project_page .wpr_list .wpr_content02 {
+    border-bottom: solid 1px #c3c3c3;
+    padding-bottom: 5%;
+    margin: 0 0 4% 13%;
+    width: 86%;
+  }
+  .nice_project_page .wpr_list .wpr_content03 {
+    margin: 0 0 4% 13%;
+    width: 86%;
+  }
+  .nice_project_page .wpr_problem {
+    padding: 3% 20%;
+    background: #fefaf8;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .wpr_problem .icon {
+    margin: 5% 0;
+    padding: 0 10%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nice_project_page .wpr_problem .icon p {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_feature {
+    margin-top: 2%;
+    padding: 3% 20%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_feature .content .text {
+    width: 700px;
+    margin: 0 2%;
+  }
+  .nice_project_page .wpr_feature .content .text h3 {
+    background: linear-gradient(to top, #987b30 0%, #d2d2d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_5point {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_5point .wpr_client {
+    position: relative;
+    height: 500px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout {
+    color: #987b30;
+    margin-top: 10%;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout p {
+    color: #987b30 !important;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_model {
+    position: absolute;
+    right: 0;
+    top: -19%;
+  }
+  .nice_project_page .wpr_alert {
+    text-align: left;
+    padding: 5% 20%;
+  }
+  .nice_project_page .wpr_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .wpr_alert p {
+    align-self: center;
+  }
+  .nice_project_page .wpr_alert .number {
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_alert .alert {
+    border-bottom: dotted 6px #c3c3c3;
+    margin-bottom: 4%;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .nice_project_page #wpr_page_content_1 {
+    padding: 5% 19% 0;
+  }
+  .nice_project_page .wpr_intro {
+    position: relative;
+    margin: 5% 0 20%;
+  }
+  .nice_project_page .wpr_intro h1 {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::before {
+    content: "❝";
+    position: absolute;
+    left: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::after {
+    content: "❞";
+    position: absolute;
+    right: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery {
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery h1 {
+    padding: 3% 0;
+  }
+  .nice_project_page .wpr_problem {
+    padding: 3% 20%;
+    background: #fefaf8;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .wpr_problem .icon {
+    margin: 5% 0;
+    padding: 0 10%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nice_project_page .wpr_problem .icon p {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_feature {
+    margin-top: 2%;
+    padding: 3% 20%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_feature img {
+    width: 100%;
+  }
+  .nice_project_page .wpr_feature .content .text {
+    width: 700px;
+    margin: 0 2%;
+  }
+  .nice_project_page .wpr_feature .content .text h3 {
+    background: linear-gradient(to top, #987b30 0%, #d2d2d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_5point {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_5point .wpr_client {
+    position: relative;
+    height: 500px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout {
+    color: #987b30;
+    margin-top: 10%;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout p {
+    color: #987b30 !important;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_model {
+    position: absolute;
+    right: 0;
+    top: -19%;
+  }
+  .nice_project_page .wpr_alert {
+    text-align: left;
+    padding: 5% 20%;
+  }
+  .nice_project_page .wpr_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .wpr_alert p {
+    align-self: center;
+  }
+  .nice_project_page .wpr_alert .number {
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_alert .alert {
+    border-bottom: dotted 6px #c3c3c3;
+    margin-bottom: 4%;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .nice_project_page #wpr_page_content_1 {
+    padding: 5% 5% 0;
+  }
+  .nice_project_page .wpr_intro {
+    position: relative;
+    margin: 5% 0 20%;
+  }
+  .nice_project_page .wpr_intro h1 {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::before {
+    content: "❝";
+    position: absolute;
+    left: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::after {
+    content: "❞";
+    position: absolute;
+    right: 10%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery {
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery h1 {
+    padding: 3% 0;
+  }
+  .nice_project_page .wpr_problem {
+    padding: 5%;
+    background: #fefaf8;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .wpr_problem .icon {
+    margin: 5% 0;
+    padding: 0 10%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nice_project_page .wpr_problem .icon p {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_feature {
+    margin-top: 2%;
+    padding: 5%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_feature img {
+    width: 100%;
+  }
+  .nice_project_page .wpr_feature .content .text {
+    width: 700px;
+    margin: 0 2%;
+  }
+  .nice_project_page .wpr_feature .content .text h3 {
+    background: linear-gradient(to top, #987b30 0%, #d2d2d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_5point {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_5point .wpr_client {
+    position: relative;
+    height: 450px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout {
+    color: #987b30;
+    margin-top: 10%;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout p {
+    color: #987b30 !important;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_model {
+    position: absolute;
+    right: 0;
+    top: 17%;
+  }
+  .nice_project_page .wpr_alert {
+    text-align: left;
+    padding: 5%;
+  }
+  .nice_project_page .wpr_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .wpr_alert p {
+    align-self: center;
+  }
+  .nice_project_page .wpr_alert .number {
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_alert .alert {
+    border-bottom: dotted 6px #c3c3c3;
+    margin-bottom: 4%;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .nice_project_page #wpr_page_content_1 {
+    padding: 5% 5% 0;
+  }
+  .nice_project_page .intro_title span {
+    font-size: 30px;
+  }
+  .nice_project_page .wpr_intro {
+    position: relative;
+    margin: 5% 0 20%;
+  }
+  .nice_project_page .wpr_intro h1 {
+    margin-bottom: 5%;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::before {
+    content: "❝";
+    position: absolute;
+    left: -3%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+    top: -7%;
+  }
+  .nice_project_page .wpr_intro .intro_title h1::after {
+    content: "❞";
+    position: absolute;
+    right: -3%;
+    color: rgba(152, 123, 48, 0.3607843137);
+    font-size: 50px;
+    top: 3%;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery {
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .nice_project_page #wpr_page_content_2 .wpr_surgery h1 {
+    padding: 3% 0;
+  }
+  .nice_project_page .wpr_machine {
+    flex-direction: column;
+  }
+  .nice_project_page .wpr_machine .icon {
+    padding-bottom: 5%;
+  }
+  .nice_project_page .crisp_btn {
+    margin: 0;
+  }
+  .nice_project_page .wpr_problem {
+    margin: 5% 0;
+    padding: 5%;
+    background: #fefaf8;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .nice_project_page .wpr_problem .icon {
+    margin: 5% 0;
+    padding: 0 10%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nice_project_page .wpr_problem .icon p {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_feature {
+    margin-top: 2%;
+    padding: 5%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_feature img {
+    width: 100%;
+  }
+  .nice_project_page .wpr_feature .content .text {
+    width: 700px;
+    margin: 0 2%;
+  }
+  .nice_project_page .wpr_feature .content .text h3 {
+    background: linear-gradient(to top, #987b30 0%, #d2d2d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_5point {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(244, 237, 226, 0.3803921569));
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .nice_project_page .wpr_5point .wpr_client {
+    position: relative;
+    height: 450px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout {
+    color: #987b30;
+    margin-top: 10%;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_text_layout p {
+    color: #987b30 !important;
+    border: 1px solid #C69C3E;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 13px 5px;
+  }
+  .nice_project_page .wpr_5point .wpr_client .wpr_model {
+    position: absolute;
+    right: 0;
+    top: 17%;
+  }
+  .nice_project_page .wpr_alert {
+    text-align: left;
+    padding: 5%;
+  }
+  .nice_project_page .wpr_alert h1 {
+    margin-bottom: 50px;
+  }
+  .nice_project_page .wpr_alert p {
+    align-self: center;
+  }
+  .nice_project_page .wpr_alert .number {
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background: #c3b180;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nice_project_page .wpr_alert .alert {
+    flex-direction: column;
+    border-bottom: dotted 6px #c3c3c3;
+    margin-bottom: 4%;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=whole_pearl_rhinoplasty.css.map */

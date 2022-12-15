@@ -1,0 +1,390 @@
+
+
+.knowledge_category{
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #ccb888;
+}
+
+.dropdown{
+display: flex;
+justify-content: center;
+}
+    .dropdown-menu{
+        text-align: center;
+        background-color: rgb(255 255 255 / 82%);
+        border:none;
+        //  transition: .7s ease-out;
+        
+    }
+    .btn{
+        border-radius: 25px !important;
+        padding:10px;
+    }
+    .btn-secondary{
+    color:RGB(6, 9, 24);
+    background-color: transparent!important;
+    border-color: RGB(174, 149, 92) !important;
+width:160px;
+
+}
+ 
+    a{
+        text-decoration: none;
+    }
+ 
+}
+.knowledge_category {
+    .dropdown-menu button{
+        border-radius:0 !important;
+    }
+}
+
+.knowledge_post_list .col{
+display:flex;
+justify-content: center;
+
+}
+
+//
+.case_category {
+    margin: 100px 0 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+.knowledge_category .tab-content .card {
+    width: 100%;    
+    transition: transform 0.2s ease;
+    background-color: transparent;
+    border-color:RGB(174, 149, 92);
+    border-radius: 20px;
+
+}
+@media (min-width: 1400px){
+.knowledge_category{
+    padding:5% 25% 7%;
+
+    .tab-content{
+        margin:50px 0;
+        justify-content: center;
+        display: flex;
+        .card{
+  
+        .card-body{
+            text-align-last: left;
+        }
+        img{
+            padding:15px
+        }
+        .card-title{
+            font-weight: 700;
+            color:RGB(174, 149, 92);
+            font-size:27px;
+         
+        }
+        p.card-text{
+            color:grey;
+           margin:30px 0 20px;
+        }
+         a.case_link{
+            text-decoration: none;
+            color:RGB(174, 149, 92);
+          
+        }
+        .case_link:hover{
+            color:black;
+            transition: ease all 0.7s;
+        }
+        }
+    }
+.post_button{
+    padding: 7px 20px;
+    border: 1px solid #b1975c;
+    text-align: center;
+    border-radius: 23px;
+    color: #b1975c !important;
+    width: 108px;
+    height: 38px;
+    text-decoration: none !important;
+    float: right;
+    margin: -15px 0 2% 0;
+    text-align: center;
+    
+}
+.post_button:hover{
+    color:white !important;
+    transition: ease all 0.7s;
+    background-color: #ae8b43;
+    }
+
+    .list-group-item.active{
+            color: #b1975c !important;
+            border-color:#b1975c !important;
+        background-color: transparent !important;
+        transition: all 0.2s ease;
+        }
+
+    .list-group-item:first-child,.list-group-item:last-child{
+        border-radius: 20px;
+        }
+        
+        .list-group-item-action:focus, .list-group-item-action:hover{
+            background-color: #ae955c !important;
+            color: white !important;
+        }
+     
+    .list-group {
+    flex-direction: row !important;
+}
+    .category{
+        display:flex;
+        justify-content: center;
+        padding-top:4%;
+        a{
+            text-decoration: none;
+        }
+    .tab-content{
+        margin-top: 50px;
+        justify-content: center;
+        display: flex;
+        .card{
+            
+        transition: transform 0.2s ease;
+          
+        }
+    }
+    .line{
+        border-left: 2px dotted RGB(174, 149, 92);
+        height: 200px;
+        margin-top: 18px;
+        width: 0;
+    
+    }
+    }
+
+}
+     
+}
+
+@media (min-width: 992px) and (max-width:1400px){
+ .knowledge_category{
+    padding:11% 19% 5%;
+    .breadcrumb{
+        margin:4% 0;
+    }
+    .card{
+        img{
+            width:106%;
+            padding:15px
+        }
+    }
+    .post_button{
+        padding: 0 11px;
+        border:1px solid #b1975c;
+        text-align: center;
+        border-radius: 10px;
+        color:#b1975c !important;
+        width: 88px;
+        height: 25px;
+        text-decoration: none !important;
+     float:right;
+    margin-top: 65px;
+
+    }
+    .post_button:hover{
+        color:white !important;
+        transition: ease all 0.7s;
+        background-color: #ae8b43;
+        }
+
+  .card-title{
+    color: #c3b086;
+    font-weight: 600;
+  }
+  .card-text{
+    font-size:13px;
+  }
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 992px)  {
+   
+    
+  .knowledge_category{ 
+    padding:16% 5% 10%;
+    .breadcrumb{
+        margin:5% 0;
+    }
+  .card{
+        width: 218px;
+        height: auto !important;  
+        .card-text{
+            font-size:10px !important;
+        }
+        .card-title{
+            font-size: 18px;
+    color: #c3b086;
+    font-weight: 600;
+        }
+        p.text-muted{
+            font-size:10px;
+        }
+        img{
+            padding: 15px;
+        }
+    }
+       
+    
+        .post_button{
+            padding: 0 11px;
+            border:1px solid #b1975c;
+            text-align: center;
+            border-radius: 10px;
+            color:#b1975c !important;
+            width: 85px;
+            text-decoration: none !important;
+            float:right;
+    margin-top: 2%;
+
+            p{
+                margin: auto !important;
+                font-size:15px;
+            }
+       
+
+          
+  } 
+   .categoryDD{
+                margin-top:12%
+            }
+                a.list-group-item{
+                margin: 0 5px;
+                font-size: 15px;
+                font-weight: 600;
+                background-color: transparent;
+                    color: RGB(174, 149, 92);
+                    border-color: RGB(174, 149, 92);
+                    border: 1px solid;
+                    text-align: center;
+                    border-radius:20px;
+            
+            
+            }
+            .list-group-item.active{
+                color: white !important;
+                border-color: #ae955c !important;
+                background-color: #ae955c !important;
+                transition: all 0.2s ease;
+                }
+        
+            .list-group-item:first-child,.list-group-item:last-child{
+                border-radius: 20px;
+                }
+                
+                .list-group-item-action:focus, .list-group-item-action:hover{
+                    background-color: #ae955c !important;
+                    color: white;
+                }
+        
+            .list-group {
+            flex-direction: row !important;
+        }
+}
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+ .knowledge_category{
+   
+    padding:5% 10%;
+    .category_xs .card{
+        
+        width: 100%;    
+        transition: transform 0.2s ease;
+        background-color: transparent;
+        border-color:RGB(174, 149, 92);
+        border-radius: 20px;
+    }
+    .card{
+        .card-title{
+            font-weight: 700;
+            color:RGB(174, 149, 92);
+            padding-bottom: 20px;
+            height: 60px;
+            text-align:center;
+        }
+        p.card-text{
+            color:grey;
+            // margin:50px 0;
+        }
+         a.case_link{
+            text-decoration: none;
+            color:RGB(174, 149, 92);
+          
+        }
+        .case_link:hover{
+            color:black;
+            transition: ease all 0.7s;
+        }
+        .post_button{
+            padding: 0 11px;
+            border:1px solid #b1975c;
+            text-align: center;
+            border-radius: 10px;
+            display: inline-block;
+            color:#b1975c !important;
+            width: 95px;
+            text-decoration: none !important;
+            margin:5% 0 5% 10%;
+            p{
+                margin: auto !important;
+            }
+        }
+       
+    }
+ 
+    .categoryDD{
+        margin-top:25%
+    }
+
+
+    .tab-content{
+        justify-content: center;
+        display: flex;
+    }
+    
+    .category{
+        display:flex;
+        flex-direction: column;
+    }
+    .tab-content{
+        padding:8% 7%
+    }
+    .list-group a{
+        border:none;
+        font-size:15px;
+    }
+    .list-group-item{
+        background-color: transparent;
+        border: none;
+    }
+
+
+.knowledge_card_sm .col .card{
+    width: 100%;    
+    transition: transform 0.2s ease;
+    background-color: transparent;
+    border-color:RGB(174, 149, 92);
+    border-radius: 13px;
+    .card-title{
+        font-size: 14px !important;;
+    }
+ 
+}
+}}

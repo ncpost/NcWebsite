@@ -1,0 +1,43 @@
+.breadcrumb {
+    font-size: 15px;
+    margin: 21px 0 2px;
+    padding: 6px 8px;
+    background-color: #c3b086;
+    border-radius: 20px;
+ 
+}
+.breadcrumb a{
+   color:black
+}
+.breadcrumb a:link{
+    color:black
+ }
+@media (min-width: 1400px){
+.home_icon{
+    margin:0 3px 4px !important;
+    width: 20px !important;
+}
+}
+@media (min-width: 1365px) and (max-width:1400px){
+    .home_icon{
+        margin:0 3px 4px !important;
+        width: 20px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 821px) {
+    .home_icon{
+        margin:0 3px 4px !important;
+        width: 20px !important;
+    }   
+   
+}
+@media (min-width: 0px) and (max-width: 576px){
+    .home_icon{
+        margin:0 3px 4px !important;
+        width: 20px !important;
+    }   
+}
+
+.breadcrumb-item.active{
+    color:black
+}
