@@ -11807,7 +11807,7 @@ p.point_text_3b {
   .nice_project_page .aesthefill_table p {
     text-align: left;
   }
-}/*# sourceMappingURL=all.css.map */al_body_part #pills-face .content_face .row01 div, .nice_project_page .hydrafacial_body_part #pills-face .content_face .row02 div {
+}/*# sourceMappingURL=all.css.map */_page .hydrafacial_body_part #pills-face .content_face .row01 div, .nice_project_page .hydrafacial_body_part #pills-face .content_face .row02 div {
     margin: 0 15px;
   }
   .nice_project_page .hydrafacial_body_part #pills-face .content_face .row01 img, .nice_project_page .hydrafacial_body_part #pills-face .content_face .row02 img {
@@ -22027,6 +22027,175 @@ p.point_text_3b {
     border-bottom: dotted 6px #c3c3c3;
   }
 }
+.box {
+  margin: 5% auto;
+}
+.box .sliderwrap {
+  position: relative;
+}
+
+.before, .sliderwrap {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 50%;
+  display: inline-block;
+}
+
+.sliderwrap .handler {
+  display: block;
+  width: 3px;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.sliderwrap .handler::after {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 40%;
+  right: -22px;
+  content: "";
+  background-image: url("https://i.ibb.co/q1qnPFg/b-a-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  line-height: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.before_2, .sliderwrap_2 {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.sliderwrap_2 .handler_2 {
+  display: block;
+  width: 3px;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.sliderwrap_2 .handler_2::after {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 40%;
+  right: -22px;
+  content: "";
+  background-image: url("https://i.ibb.co/q1qnPFg/b-a-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  line-height: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.content-cheeks, .content-chin, .content-lip {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.client_ba {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.client_ba ul {
+  display: flex;
+}
+.client_ba ul li {
+  color: #987b30 !important;
+  font-weight: 600;
+  list-style: none;
+  border: #AE955D 2px solid;
+  width: 120px;
+  padding: 7px 5px;
+  margin: 8% 10px 0;
+}
+.client_ba li:hover {
+  background: #AE955D;
+  color: white !important;
+}
+.client_ba .option ul li:focus {
+  background: #AE955D;
+  color: white !important;
+}
+
+.ba-Slider {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 5%;
+}
+
+.slider {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+  background: url(https://i.ibb.co/QdYn2RD/p1.png) transparent;
+  width: 32px;
+  height: 32px;
+  border-radius: 999em;
+  cursor: pointer;
+  z-index: 40;
+}
+
+.slider::before {
+  content: " ";
+  display: block;
+  background: #fff;
+  position: absolute;
+  z-index: 30;
+  bottom: 50%;
+  margin-left: 16px;
+  height: 300px;
+  width: 4px;
+}
+
+.slider::after {
+  content: " ";
+  display: block;
+  background: #fff;
+  position: absolute;
+  z-index: 30;
+  top: 50%;
+  margin-left: 16px;
+  height: 300px;
+  width: 4px;
+}
+
+#before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
 @media (min-width: 1400px) {
   .nice_project_page .hyal_acid_story_title {
     background-color: #FFF;
@@ -22036,8 +22205,22 @@ p.point_text_3b {
     margin: 0 auto;
     width: 30%;
   }
+  .nice_project_page .client_ba_content {
+    padding: 0 19% 0;
+  }
   .nice_project_page #hyal_acid_page_content_1 {
     padding: 5% 19% 0;
+  }
+  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
+    width: 1000px;
+    height: 600px;
+  }
+  .nice_project_page .content-cheeks .ba-Slider #before, .nice_project_page .content-chin .ba-Slider #before, .nice_project_page .content-lip .ba-Slider #before {
+    width: 50%;
+  }
+  .nice_project_page .sliderwrap {
+    width: 1000px;
+    height: 600px;
   }
   .nice_project_page .owl-item {
     position: relative;
@@ -22350,6 +22533,13 @@ p.point_text_3b {
     z-index: 1;
     margin: 0 auto;
     width: 40%;
+  }
+  .nice_project_page .sliderwrap {
+    width: auto;
+    height: 541px;
+  }
+  .nice_project_page .client_ba_content {
+    padding: 0 19% 0;
   }
   .nice_project_page #hyal_acid_page_content_1 {
     padding: 5% 19% 0;
@@ -22669,7 +22859,18 @@ p.point_text_3b {
     margin: 0 auto;
     width: 40%;
   }
-  .nice_project_page #hyal_acid_page_content_1 {
+  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
+    width: 691px;
+    height: 415px;
+  }
+  .nice_project_page .content-cheeks .ba-Slider #before, .nice_project_page .content-chin .ba-Slider #before, .nice_project_page .content-lip .ba-Slider #before {
+    width: 50%;
+  }
+  .nice_project_page .sliderwrap {
+    width: 691px;
+    height: 415px;
+  }
+  .nice_project_page #hyal_acid_page_content_1, .nice_project_page .client_ba_content {
     padding: 0 5%;
   }
   .nice_project_page .twentytwenty-container {
@@ -22984,7 +23185,14 @@ p.point_text_3b {
   .nice_project_page .hyal_acid_story_title span {
     font-size: 30px;
   }
-  .nice_project_page #hyal_acid_page_content_1 {
+  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
+    margin-bottom: 16%;
+  }
+  .nice_project_page .sliderwrap {
+    width: 361px;
+    height: 216px;
+  }
+  .nice_project_page #hyal_acid_page_content_1, .nice_project_page .client_ba_content {
     padding: 0 5%;
   }
   .nice_project_page .twentytwenty-container {

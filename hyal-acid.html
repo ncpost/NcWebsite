@@ -615,7 +615,106 @@
             <div class="page_banner d-block d-lg-none d-xl-none d-md-none">
                 <img src="./img/RWD_img/hyal_acid/banner_sm.webp" class='sm_banner' alt="banner">
             </div>
-            <div>  
+     
+
+   
+<!-- <div class="ba-Slider" style="width:852px;height:480px;" unselectable='on' onselectstart='return false;' onmousedown='return false;'>    
+    <div id="before"><img src="http://media.steampowered.com/apps/csgo/images/reintroducing_nuke/comparisons/small_upperbomb_011_old.jpg?v=1" /></div>
+    <div class="slider"></div>
+    <div id="after"><img src="http://media.steampowered.com/apps/csgo/images/reintroducing_nuke/comparisons/small_upperbomb_011_new.jpg?v=1" /></div>
+</div>
+ -->
+
+<div class="col-12 mt-5">
+    <h1>玻尿酸 <span style="color:black;">案例分享</span></h1>
+</div>
+
+            <div class="col-12 client_ba d-flex">
+
+<div class ="nav d-flex option">
+    <ul>
+    <li class = "cheeks">蘋果肌</li>
+    <li class = "chin">下巴</li>
+    <li class = "lip">嘴唇</li>
+  </ul>
+  </div>
+  
+  </div>
+  <div class="content client_ba_content">
+    <div class = "content-cheeks show">
+        <div class="wrap d-flex">
+            <div class="box">
+              <div class="sliderwrap">
+              <div class="before">  
+                <img src="./img/RWD_img/hyal_acid/before_1.webp" alt="before">
+              
+            </div>
+             
+              <img  class='after' src="./img/RWD_img/hyal_acid/after_2.webp" alt="after">
+            
+              <span class="handler"></span>
+                </div> 
+            
+              
+            
+            </div>
+            
+            </div>
+              </div>
+    <div class = "content-chin">  
+        <div class="ba-Slider" unselectable='on' onselectstart='return false;' onmousedown='return false;'>    
+            <div id="before"><img src="./img/RWD_img/hyal_acid/before_2.webp" /></div>
+            <div class="slider"></div>
+            <div id="after"><img src="./img/RWD_img/hyal_acid/after_2.webp" /></div>
+        </div>
+        <div class="container">
+            <div class="col-12">
+                <div class="story_part">
+            
+            
+                    <div class="story_content">
+                        <p>
+                            <span class="gold_text">
+                            因為下巴比較短的關係，讓我的臉看起來不夠立體</span>，平常又很喜歡看IG上很多網美，很希望能變得像他們一樣，活得很有自信的樣子，經朋友介紹，才知道可以經由注射玻尿酸來改善下巴較短的問題。
+                            <br><br>
+                            注射玻尿酸後，<span class="gold_text">我的五官明顯變的比較立體，臉部比例也變得更好，在拍照上會讓我更有自信</span>。另外，打完玻尿酸的效果不僅很自然，維持時間也很持久，是CP值非常高的微整產品！               
+                        </p>
+                    </div>
+            
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class = "content-lip">
+       <div class="ba-Slider" unselectable='on' onselectstart='return false;' onmousedown='return false;'>    
+            <div id="before"><img src="./img/RWD_img/hyal_acid/before_3.webp" /></div>
+            <div class="slider"></div>
+            <div id="after"><img src="./img/RWD_img/hyal_acid/after_3.webp" /></div>
+        </div>
+        <div class="col-12">
+                             
+                           
+            <div class="container">
+            <div class="col-12">
+                <div class="story_part">
+            
+            
+                    <div class="story_content">
+                        <p>
+                            我的血液循環不太好，導致嘴唇常常顯得很蒼白，
+                            <span class="gold_text">  常常都要靠上比較濃的唇妝，來維持整個人的氣色</span>，但即便上了濃妝，因為我唇形比較單薄，為了想要更完美的臉部比例，決定來耐斯診所做玻尿酸豐唇。
+            <br><br>
+            醫生注射玻尿酸的位置在唇峰、唇珠、唇角、唇谷，利用玻尿酸強大的支撐力，讓唇形更加立體，
+            <span class="gold_text">現在只需要上淡淡的唇蜜，整個人就很有氣色也很好看</span>，我終於也有性感的嘟嘟翹唇了！
+               </p>
+                    </div>
+                </div>
+            </div>
+            </div> 
+        </div>
+    </div>
+  </div> 
+            <!-- <div>  
                <div class="owl-controls ">
                         <div class="client_arrow_container owl-nav"></div>
                     </div> 
@@ -730,8 +829,8 @@
                     </div>
                    </div>  
               
-            </div>
-          
+            </div> -->
+         
            
             <div class="container-fluid hyal_acid_logic">
 
@@ -1657,6 +1756,133 @@
                 })
         }
     </script> -->
+  <script>
+const slider = document.querySelector('.sliderwrap');
+const  beforeimg= document.querySelector('.before');
+const handler = document.querySelector('.handler');
+var marginX;
+
+handler.onmousedown = function(e){
+  marginX = e.pageX - handler.offsetLeft;
+  slider.addEventListener('mousemove',moveHandler);
+}
+handler.ontouchend = function(e){
+  marginX = e.pageX - handler.offsetLeft;
+  slider.addEventListener('touchmove',moveHandler);
+}
+
+handler.ontouchstart=function(e){
+  slider.removeEventListener('touchmove',moveHandler);
+}
+handler.onmouseup = function(e){
+  slider.removeEventListener('mousemove',moveHandler);
+}
+
+function moveHandler(e){
+  handler.style.left = e.pageX - marginX + 'px';
+beforeimg.style.width = e.pageX - marginX + 'px';
+}
+;
+
+</script>
+    <script>
+        var moveSlider = false;
+$(document).ready(function(){
+    $(".ba-Slider").each(function(i){
+        $(this).children(".slider").mousedown(function(){
+             moveSlider = true;
+            $(this).parent().children("#before").removeClass("ease");
+            $(this).removeClass("ease");
+        });
+        $(this).children(".slider").mouseup(function(){
+            moveSlider = false;
+            $(this).parent().children("#before").addClass("ease");
+            $(this).addClass("ease");
+            var minmax = $(this).parent().width() / 8;
+            if($(this).parent().children("#before").width() > $(this).parent().width() - minmax){
+                $(this).parent().children("#before").width("100%");
+                var sOffset = $(this).parent().width() - 16.5;
+                $(this).css("left", sOffset);
+            }else if($(this).parent().children("#before").width() < minmax){
+                $(this).parent().children("#before").width(0);
+                var sOffset = -16.5;
+                $(this).css("left", sOffset);
+             }
+            
+        });
+        
+        $(this).mouseup(function(){
+            moveSlider = false;
+            $(this).children("#before").addClass("ease");
+            $(this).children(".slider").addClass("ease");
+            var minmax = $(this).width() / 8;
+            if($(this).children("#before").width() > $(this).width() - minmax){
+                $(this).children("#before").width("100%");
+                var sOffset = $(this).width() - 16.5;
+                $(this).children(".slider").css("left", sOffset);
+            }else if($(this).children("#before").width() < minmax){
+                $(this).children("#before").width(0);
+                var sOffset = -16.5;
+                $(this).children(".slider").css("left", sOffset);
+             }
+            
+            
+        });
+        $(this).mousemove(function(e){
+            if(moveSlider == true){
+                var pOffset = $(this).offset(); 
+                var mouseX = e.pageX - pOffset.left;
+                $(this).children("#before").width(mouseX - 0.5);
+                var sOffset = mouseX - 16.5;
+                $(this).children(".slider").css("left", sOffset);
+            }
+            
+        });
+        $(this).ontouchstart(function(){
+            moveSlider = false;
+            $(this).children("#before").addClass("ease");
+            $(this).children(".slider").addClass("ease");
+            var minmax = $(this).width() / 8;
+            if($(this).children("#before").width() > $(this).width() - minmax){
+                $(this).children("#before").width("100%");
+                var sOffset = $(this).width() - 16.5;
+                $(this).children(".slider").css("left", sOffset);
+            }else if($(this).children("#before").width() < minmax){
+                $(this).children("#before").width(0);
+                var sOffset = -16.5;
+                $(this).children(".slider").css("left", sOffset);
+             }
+            
+            
+        });
+        $(this).ontouchend(function(e){
+            if(moveSlider == true){
+                var pOffset = $(this).offset(); 
+                var mouseX = e.pageX - pOffset.left;
+                $(this).children("#before").width(mouseX - 0.5);
+                var sOffset = mouseX - 16.5;
+                $(this).children(".slider").css("left", sOffset);
+            }
+            
+        });
+    });
+});
+    </script>
+    <script>
+        $(document).ready(function(){
+  $("li").click( function() { 
+    
+    // find which li was clicked
+    var classClicked = $(this).attr('class');
+    
+    //remove "show" class from any previously clicked li
+    $(".content div").removeClass( "show" );
+    
+    //add show class to the div corresponding the clicked li
+    $(".content-" + classClicked).addClass("show"); 
+  });
+});
+    </script>
 <script>
     $('.client_carousel').owlCarousel({
     loop:true,
