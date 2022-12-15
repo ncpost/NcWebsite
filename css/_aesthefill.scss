@@ -1,0 +1,967 @@
+@mixin plus_icon {
+    color: white;
+    background-color: #7b7b7b;
+    border-radius: 999em;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin story_part {
+    padding: 5% 0 0;
+}
+
+@media (min-width: 1400px) {
+
+    .nice_project_page {
+
+        #aesthefill_page_content_1 {
+            padding: 5% 20% 0;
+        }
+
+        .aesthefill_story_title {
+            @include flex_story_title;
+            width: 40%;
+        }
+
+        .aesthefill_intro {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5% 20%;
+            margin-top: 5%;
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_intro_text {
+                text-align: left;
+            }
+
+            .intro_img {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 5%;
+
+                h4 {
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        .aesthefill_feature {
+            padding: 5% 6%;
+
+            .point_wrap {
+                justify-content: space-around;
+            }
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_point3 {
+                .aesthefill_point_text {
+                    text-align: left;
+
+                    .aesthefill_point_num {
+                        font-weight: 800;
+                        font-size: 60px;
+                        color: #eae5d6;
+                        border-bottom: 5px solid #eae5d6;
+                        width: 80px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .aesthefill_feature_fluid {
+            padding: 0 24%;
+            justify-content: space-around;
+            display: flex;
+            text-align: left;
+            background-color: rgb(253 247 243 / 75%);
+
+            .aesthefill_point_num {
+                font-weight: 800;
+                font-size: 60px;
+                color: #eae5d6;
+                border-bottom: 5px solid #eae5d6;
+                width: 80px;
+                padding-bottom: 20px;
+            }
+
+            .aesthefill_point_text {
+                align-self: center;
+            }
+        }
+
+        .aesthefill_face_part {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            padding: 5% 0;
+
+            h1 {
+                padding-bottom: 3%;
+            }
+
+            img {
+                padding-bottom: 2%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+        }
+
+
+        .aesthefill_logic {
+            h1.larger_h1 {
+                font-size: 45px;
+                font-weight: 600;
+            }
+
+            padding: 5% 20%;
+
+            .aesthefill_logic_title {
+                @include flex_story_title;
+                background-color: #fdfdfd;
+                width: 47%;
+                top: 1%;
+
+                h4 {
+                    color: #363636;
+                    font-weight: 700;
+                }
+            }
+
+            .aesthefill_logic_content {
+                text-align: left;
+            }
+
+            .aesthefill_body_content {
+                margin-top: 20px;
+                border: 2px solid #d7d7d7 !important;
+                @include gold_border;
+            }
+
+            h4 {
+                @include h4_font
+            }
+
+            .aesthefill_row01 {
+                justify-content: center
+            }
+
+            .aesthefill_row02 {
+                justify-content: space-evenly;
+                padding-top: 5%;
+            }
+
+            .logic_text {
+                border-radius: 20px;
+                background-color: #d7d7d7;
+                width: 150px;
+                margin: auto;
+                margin-bottom: 15%;
+
+                p {
+                    color: white
+                }
+            }
+
+            .cell_img {
+                display: flex;
+                padding-top: 5%;
+                justify-content: space-evenly;
+
+                .cell_text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-top: 10%;
+
+                    span.plus_icon {
+                        @include plus_icon;
+                        margin-left: 10px;
+                    }
+                }
+
+                .cell01 {
+                    position: relative;
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        right: 70%;
+                    }
+                }
+
+                .cell02 {
+                    position: relative;
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        left: 70%;
+                    }
+                }
+            }
+        }
+
+        .aesthefill_bottle {
+            .bottle_text {
+                h1 {
+                    padding-bottom: 4%;
+                }
+p{
+    line-height: 40px;
+}
+                background-color: #f9f6f09e;
+                padding: 4%;
+            }
+
+        }
+
+
+        .aesthefill_table {
+            margin: 5% auto;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 0 7%;
+
+            h1 {
+                padding-bottom: 4%;
+            }
+
+            p {
+                text-align: left;
+            }
+
+          
+        }
+
+    }
+}
+
+
+@media (min-width: 992px) and (max-width:1400px) {
+    .nice_project_page {
+
+        #aesthefill_page_content_1 {
+            padding: 5% 20% 0;
+        }
+
+        .aesthefill_story_title {
+            @include flex_story_title;
+            width: 55%;
+        }
+
+        .story_part {
+            @include story_part;
+        }
+
+        .aesthefill_intro {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5% 20%;
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_intro_text {
+                text-align: left;
+            }
+
+            .intro_img {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 5%;
+
+                div {
+                    width: 150px;
+                }
+
+                h4 {
+                    padding-top: 20px;
+                    font-size: 15px;
+                }
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+
+        .aesthefill_feature {
+            padding: 5% 6%;
+
+            img {
+                width: 100%;
+            }
+
+            .point_wrap {
+                justify-content: space-around;
+            }
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_point3 {
+                .aesthefill_point_text {
+                    text-align: left;
+
+                    .aesthefill_point_num {
+                        font-weight: 800;
+                        font-size: 60px;
+                        color: #eae5d6;
+                        border-bottom: 5px solid #eae5d6;
+                        width: 80px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .aesthefill_feature_fluid {
+            padding: 0 16%;
+            justify-content: space-around;
+            display: flex;
+            text-align: left;
+            background-color: rgb(253 247 243 / 75%);
+
+            .aesthefill_point_num {
+                font-weight: 800;
+                font-size: 60px;
+                color: #eae5d6;
+                border-bottom: 5px solid #eae5d6;
+                width: 80px;
+                padding-bottom: 20px;
+            }
+
+            .aesthefill_point_text {
+                align-self: center;
+            }
+        }
+
+        .aesthefill_face_part {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            padding: 5% 16%;
+
+            h1 {
+                padding-bottom: 3%;
+            }
+
+            img {
+                padding-bottom: 2%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+        }
+
+
+        .aesthefill_logic {
+            h1.larger_h1 {
+                font-size: 35px;
+                font-weight: 600;
+            }
+
+            padding: 5% 16%;
+
+            .aesthefill_logic_title {
+                @include flex_story_title;
+                background-color: #fdfdfd;
+                width: 60%;
+                top: 1%;
+
+                h4 {
+                    color: #363636;
+                    font-weight: 700;
+                }
+            }
+
+            .aesthefill_logic_content {
+                text-align: left;
+            }
+
+            .aesthefill_body_content {
+                margin-top: 20px;
+                border: 2px solid #d7d7d7 !important;
+                @include gold_border;
+            }
+
+            h4 {
+                @include h4_font
+            }
+
+            .aesthefill_row01 {
+                justify-content: center
+            }
+
+            .aesthefill_row02 {
+                justify-content: space-evenly;
+                padding-top: 5%;
+            }
+
+            .logic_text {
+                border-radius: 20px;
+                background-color: #d7d7d7;
+                width: 150px;
+                margin: auto;
+                margin-bottom: 15%;
+
+                p {
+                    color: white
+                }
+            }
+
+            .cell_img {
+                display: flex;
+                padding: 5% 19% 0;
+                justify-content: space-evenly;
+
+                .cell_text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+                    padding-top: 10%;
+
+                    span.plus_icon {
+                        @include plus_icon;
+                        margin-left: 10px;
+                    }
+                }
+
+                .cell01 {
+                    position: relative;
+
+                    img {
+                        width: auto
+                    }
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        right: 61%;
+                    }
+                }
+
+                .cell02 {
+                    position: relative;
+
+                    img {
+                        width: auto
+                    }
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        left: 70%;
+                    }
+                }
+            }
+        }
+
+        .aesthefill_bottle {
+            .bottle_text {
+                h1 {
+                    padding-bottom: 4%;
+                }
+
+                background-color: #f9f6f09e;
+                padding:4% 7% 0 4%;
+            }
+
+        }
+
+
+        .aesthefill_table {
+            margin: 5% auto;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 0 12%;
+
+            h1 {
+                padding-bottom: 4%;
+            }
+
+            p {
+                text-align: left;
+            }
+
+        }
+
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .nice_project_page {
+
+        #aesthefill_page_content_1 {
+            padding: 8% 5% 0;
+        }
+
+        .aesthefill_story_title {
+            @include flex_story_title;
+            width: 50%;
+        }
+
+        .aesthefill_intro {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5%;
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_intro_text {
+                text-align: left;
+            }
+
+            .intro_img {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 5%;
+
+                div {
+                    width: 150px;
+                }
+
+                h4 {
+                    padding-top: 20px;
+                    font-size: 15px;
+                }
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+
+        .aesthefill_feature {
+
+            img {
+                width: 100%;
+            }
+
+            .point_wrap {
+                justify-content: space-around;
+            }
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_point3 {
+                .aesthefill_point_text {
+                    text-align: left;
+                    margin-left: 5%;
+
+                    .aesthefill_point_num {
+                        font-weight: 800;
+                        font-size: 60px;
+                        color: #eae5d6;
+                        border-bottom: 5px solid #eae5d6;
+                        width: 80px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+            .aesthefill_point03 {
+                padding: 5% 0
+            }
+        }
+
+        .aesthefill_feature_fluid {
+            padding: 5% 5% 0;
+            justify-content: space-around;
+            display: flex;
+            text-align: left;
+            background-color: rgb(253 247 243 / 75%);
+
+            .aesthefill_point_num {
+                font-weight: 800;
+                font-size: 60px;
+                color: #eae5d6;
+                border-bottom: 5px solid #eae5d6;
+                width: 80px;
+                padding-bottom: 20px;
+            }
+
+            .aesthefill_point_text {
+                align-self: center;
+            }
+        }
+
+        .aesthefill_face_part {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            padding: 5%;
+
+            h1 {
+                padding-bottom: 3%;
+            }
+
+            img {
+                padding-bottom: 2%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+        }
+
+
+        .aesthefill_logic {
+            h1.larger_h1 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            padding: 5%;
+
+            .aesthefill_logic_title {
+                @include flex_story_title;
+                background-color: #fdfdfd;
+                width: 60%;
+                top: 1%;
+
+                h4 {
+                    color: #363636;
+                    font-weight: 700;
+                }
+            }
+
+            .aesthefill_logic_content {
+                text-align: left;
+            }
+
+            .aesthefill_body_content {
+                margin-top: 20px;
+                border: 2px solid #d7d7d7 !important;
+                @include gold_border;
+            }
+
+            h4 {
+                @include h4_font
+            }
+
+            .aesthefill_row01 {
+                justify-content: center
+            }
+
+            .aesthefill_row02 {
+                justify-content: space-evenly;
+                padding-top: 5%;
+            }
+
+            .logic_text {
+                border-radius: 20px;
+                background-color: #d7d7d7;
+                width: 150px;
+                margin: auto;
+                margin-bottom: 15%;
+
+                p {
+                    color: white
+                }
+            }
+
+            .cell_img_sm {
+                display: flex;
+                padding-top: 5%;
+
+                .cell01 {
+                    position: relative;
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        right: 61%;
+                    }
+                }
+
+                .cell02 {
+                    position: relative;
+
+                    .cell_point {
+                        position: absolute;
+                        top: 0;
+                        left: 70%;
+                    }
+                }
+
+            }
+        }
+
+        .aesthefill_bottle {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f6f09e;
+
+            .bottle_text {
+                padding: 5%;
+            }
+        }
+
+
+        .aesthefill_table {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+
+            h1 {
+                padding-bottom: 4%;
+            }
+
+            p {
+                text-align: left;
+            }
+
+          
+        }
+
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .nice_project_page {
+
+        #aesthefill_page_content_1 {
+            padding: 8% 5% 0;
+        }
+
+        .aesthefill_story_title {
+            @include flex_story_title;
+            width: 95%;
+
+            span {
+                font-size: 30px
+            }
+        }
+
+        .aesthefill_intro {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5%;
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_intro_text {
+                text-align: left;
+            }
+
+            .intro_img {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 15%;
+
+                div {
+                    width: 150px;
+                }
+
+                h4 {
+                    padding-top: 20px;
+                    font-size: 15px;
+                }
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+
+        .aesthefill_feature {
+            padding: 5%;
+
+            img {
+                width: 100%;
+            }
+
+            .point_wrap {
+                justify-content: space-around;
+            }
+
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .aesthefill_point_sm {
+                .aesthefill_point_text {
+                    text-align: left;
+
+                    .aesthefill_point_num {
+                        font-weight: 800;
+                        font-size: 60px;
+                        color: #eae5d6;
+                        border-bottom: 5px solid #eae5d6;
+                        width: 80px;
+                        padding-bottom: 20px;
+                        margin-top: 10%;
+                    }
+                }
+            }
+
+            .aesthefill_point {
+                padding: 5% 0
+            }
+        }
+
+        .aesthefill_feature_fluid {
+            padding: 5% 5% 0;
+            justify-content: space-around;
+            display: flex;
+            text-align: left;
+            background-color: rgb(253 247 243 / 75%);
+
+            .aesthefill_point_num {
+                font-weight: 800;
+                font-size: 60px;
+                color: #eae5d6;
+                border-bottom: 5px solid #eae5d6;
+                width: 80px;
+                padding-bottom: 20px;
+            }
+
+            .aesthefill_point_text {
+                align-self: center;
+            }
+        }
+
+        .aesthefill_face_part {
+            background-color: rgba(253, 247, 243, 0.5019607843);
+            padding: 5%;
+
+            h1 {
+                padding-bottom: 3%;
+            }
+
+            img {
+                padding-bottom: 10%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+        }
+
+
+        .aesthefill_logic {
+            h1.larger_h1 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            padding: 5% 5% 15%;
+
+            .aesthefill_logic_title {
+                @include flex_story_title;
+                background-color: #fdfdfd;
+                width: 60%;
+                top: 1%;
+
+                h4 {
+                    color: #363636;
+                    font-weight: 700;
+                }
+            }
+
+            .aesthefill_logic_content {
+                text-align: left;
+            }
+
+            .aesthefill_body_content {
+                margin-top: 20px;
+                border: 2px solid #d7d7d7 !important;
+                @include gold_border;
+            }
+
+            h4 {
+                @include h4_font
+            }
+
+            .aesthefill_row01 {
+                justify-content: center
+            }
+
+            .aesthefill_row02 {
+                justify-content: space-evenly;
+                padding-top: 5%;
+            }
+
+            .logic_text {
+                border-radius: 20px;
+                background-color: #d7d7d7;
+                width: 150px;
+                margin: auto;
+                margin-bottom: 15%;
+
+                p {
+                    color: white
+                }
+            }
+
+            .cell_img_sm {
+                display: flex;
+                padding-top: 5%;
+                flex-direction: column;
+
+                .cell01,
+                .cell02 {
+                    padding: 20px
+                }
+
+            }
+        }
+
+        .aesthefill_bottle {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f6f09e;
+
+            .bottle_text {
+                padding: 5%;
+            }
+        }
+
+
+        .aesthefill_table {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 7% 5% 5%;
+
+            h1 {
+                padding-bottom: 4%;
+            }
+
+            p {
+                text-align: left;
+            }
+
+          
+        }
+
+    }
+}

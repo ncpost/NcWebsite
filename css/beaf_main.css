@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*수술전후사진*/
+.beaf_slide_div{position:relative; width:100%; overflow:hidden; margin:0 auto;}
+.beaf_slide_div .beaf_slide_top{position:relative; width:100%; overflow:hidden; margin:0 auto;}
+.beaf_slide_div .beaf_slide_top li{float:left; height:50px; color:#333; text-align:center; line-height:50px;}
+.beaf_slide_div .beaf_slide_top li.beaf_left{width:124px; background:#e6e6e6;}
+.beaf_slide_div .beaf_slide_top li.beaf_center{width:753px; color:#fff; background:#616dd9;}
+.beaf_slide_div .beaf_slide_top li.beaf_right{width:121px; background:#e6e6e6;}
+
+.beaf_slide_div .slide_con_img{position:relative; width:1200px; margin:28px auto; overflow:hidden;}
+
+.beforeafter{position:relative; width:100%;}
+#rolling{clear:both; position:relative; width:100%; height:749px; margin:0 auto; overflow:hidden; }
+.wrap{position: absolute; left: 0; top: 0;}
+.wrap li{float:left; position:relative;}
+.wrap li .slide_con_bottom_span {position:relative; width:100%; height:64px; background:#000; color:#fff; text-align:center; line-height:64px; display:block; opacity:0.7}
+
+.wrap .beaf_btn_left{position:absolute; left:0; top:310px; z-index:2;}
+.wrap .beaf_btn_right{position:absolute; right:0; top:310px; z-index:2;}
+
+.bt-roll {width:143px; height:47px; position:relative;  left:50%; margin:0 0 0 -72px; text-align: center;}
+.bt-roll01{margin-left:-33px;}
+.bt-roll02{margin-left:-66px;}
+/* .bt-roll03{margin-left:-97px;} */
+.loop{position: relative; z-index: 2;}
+
+.view .bn {width:55px; height:55px; position:absolute; top:50%; margin:-28px 0 0 0; z-index:9999;}
+.view .bn a {display:block; width:100%; height:100%;}
+.view .bn_left {left:0;}
+.view .bn_right {right:0;}
+
+.beaf_slide_list{position:relative; width:100%; overflow:hidden; margin:0 auto;}
+.beaf_slide_list .list_con{position:relative; width:1200px; margin:0 auto; overflow:hidden;}
+.beaf_slide_list .list_con li{float:left; position:relative; width:290px; height:170px; margin:0 13px 0 0; cursor:pointer;}
+.beaf_slide_list .list_con li.last{margin:0;}
+
+
+/*카테고리별 색상 바꿈*/
+
+/*---------- 사례후기 전후사진 ----------*/
+.bear_div01 .thumbborder {position:absolute; left:0; top:0; border:#f8a1a9 5px solid; width:280px; height:160px;}
+.bear_div01 .thumbtxt {position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:#fff; line-height:32px; text-align:center; opacity:0.7;}
+.bear_div01 .thumbtxt p {color:#454545;}
+
+.bear_div01 .bt-roll ul {width:100%; overflow:hidden; margin-top:1px;}
+.bear_div01 .bt-roll ul li {width:47px; height:47px; margin-left:1px; float:left;}
+.bear_div01 .bt-roll ul li.first {margin-left:0;}
+.bear_div01 .bt-roll ul li a {display:block; width:100%; height:100%; background:#101425; color:#fff; font-size:13px; text-align:center; line-height:47px;}
+.bear_div01 .bt-roll ul li a.basic_c {background:#101425; color:#fff;}
+.bear_div01 .bt-roll ul li a:hover {background:#cba369;}
+.bear_div01 .bt-roll ul li a.basic_c.on_view {background:#cba369; color:#fff;}
+
+/*---------- 안면윤곽성형 전후사진 ----------*/
+.bear_div02 .thumbborder {position:absolute; left:0; top:0; border: #5488de 5px solid; width:280px; height:160px;}
+.bear_div02 .thumbtxt{position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:url(../img/slide_con_bottom_bg.html) repeat-x 0 0; line-height:32px; text-align:center;}
+
+.bear_div02 .bt-roll ul {display: inline-block; margin: 0 auto; width:auto;}
+.bear_div02 .bt-roll ul li{float:left; margin:0 1px 0 0;}
+.bear_div02 .bt-roll ul li a{display:block; padding:24px 20px;}
+.bear_div02 .bt-roll ul li a.basic_c{background:#888b90; color:#fff;}
+.bear_div02 .bt-roll ul li a.basic_c.on_view { background:#5488de; color:#fff;}
+
+/*---------- 가슴성형 전후사진 ----------*/
+.bear_div03 .thumbborder {position:absolute; left:0; top:0; border: #8e54de 5px solid; width:280px; height:160px;}
+.bear_div03 .thumbtxt{position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:url(../img/slide_con_bottom_bg.html) repeat-x 0 0; line-height:32px; text-align:center;}
+
+.bear_div03 .bt-roll ul {display: inline-block; margin: 0 auto; width:auto;}
+.bear_div03 .bt-roll ul li{float:left; margin:0 1px 0 0;}
+.bear_div03 .bt-roll ul li a{display:block; padding:24px 20px;}
+.bear_div03 .bt-roll ul li a.basic_c{background:#888b90; color:#fff;}
+.bear_div03 .bt-roll ul li a.basic_c.on_view { background:#8e54de; color:#fff;}
+
+/*---------- 리프팅/동안성형 전후사진 ----------*/
+.bear_div04 .thumbborder {position:absolute; left:0; top:0; border: #f35c5c 5px solid; width:280px; height:160px;}
+.bear_div04 .thumbtxt{position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:url(../img/slide_con_bottom_bg.html) repeat-x 0 0; line-height:32px; text-align:center;}
+
+.bear_div04 .bt-roll ul {display: inline-block; margin: 0 auto; width:auto;}
+.bear_div04 .bt-roll ul li{float:left; margin:0 1px 0 0;}
+.bear_div04 .bt-roll ul li a{display:block; padding:24px 20px;}
+.bear_div04 .bt-roll ul li a.basic_c{background:#888b90; color:#fff;}
+.bear_div04 .bt-roll ul li a.basic_c.on_view { background:#f35c5c; color:#fff;}
+
+/*---------- 눈/코성형 전후사진 ----------*/
+.bear_div05 .thumbborder {position:absolute; left:0; top:0; border: #e25cb1 5px solid; width:280px; height:160px;}
+.bear_div05 .thumbtxt{position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:url(../img/slide_con_bottom_bg.html) repeat-x 0 0; line-height:32px; text-align:center;}
+
+.bear_div05 .bt-roll ul {display: inline-block; margin: 0 auto; width:auto;}
+.bear_div05 .bt-roll ul li{float:left; margin:0 1px 0 0;}
+.bear_div05 .bt-roll ul li a{display:block; padding:24px 20px;}
+.bear_div05 .bt-roll ul li a.basic_c{background:#888b90; color:#fff;}
+.bear_div05 .bt-roll ul li a.basic_c.on_view { background:#e25cb1; color:#fff;}
+
+/*---------- 체형성형 전후사진 ----------*/
+.bear_div06 .thumbborder {position:absolute; left:0; top:0; border: #e8ce00 5px solid; width:280px; height:160px;}
+.bear_div06 .thumbtxt{position:absolute; left:5px; bottom:5px; width:280px; height:32px; background:url(../img/slide_con_bottom_bg.html) repeat-x 0 0; line-height:32px; text-align:center;}
+
+.bear_div06 .bt-roll ul {display: inline-block; margin: 0 auto; width:auto;}
+.bear_div06 .bt-roll ul li{float:left; margin:0 1px 0 0;}
+.bear_div06 .bt-roll ul li a{display:block; padding:24px 20px;}
+.bear_div06 .bt-roll ul li a.basic_c{background:#888b90; color:#fff;}
+.bear_div06 .bt-roll ul li a.basic_c.on_view { background:#e8ce00; color:#fff;}

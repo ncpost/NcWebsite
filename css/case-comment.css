@@ -1,0 +1,22 @@
+.case-comment{
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.case-comment p1,p2,p3{
+     display: block;
+}
+
+.case-comment p1,p2{
+    font-size: 30px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.case-comment p3{
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}

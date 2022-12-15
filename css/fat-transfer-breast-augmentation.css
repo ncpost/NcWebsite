@@ -1,0 +1,385 @@
+.row {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 70%;
+    padding: 50px 0px 50px 0px;
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+    border: 2.5px solid white;
+}
+
+.service-table th {
+    font-size: 22px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablehead {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.row td {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+tr th {
+    color: white;
+    background-color: #c1cbca;
+    font-weight: 100;
+}
+
+tr td {
+    color: #9b8c8d;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.tb00 th {
+    background-color: white;
+}
+
+.super_renuvion {
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+
+.super_renuvion2 {
+    font-size: 20px;
+    color: white;
+    border: 2px dashed white;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.super_renuvion3 {
+    font-size: 20px;
+    color: #9b8c8d;
+    border: 2px dashed #9b8c8d;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.list-item {
+    text-align: center;
+    position: relative;
+    padding: 12px 25px 12px 25px;
+    font-size: 25px;
+    color: white;
+    background-color: #63b8b9;
+    border: 2px dashed #63b8b9;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
+.list-item .arrow_b_int {
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #63b8b9 transparent transparent transparent;
+    position: absolute;
+    bottom: -22px;
+    right: 36px;
+}
+
+.list-item .arrow_b_out {
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #63b8b9 transparent transparent transparent;
+    position: absolute;
+    bottom: -21px;
+    right: 36px;
+}
+
+.arrow-3 {
+    height: 0px;
+    width: 0px;
+    border: 8px solid;
+    border-color:
+        #303390 #303390 transparent transparent;
+    transform: rotate(45deg);
+}
+
+.arrowed {
+    margin-top: 150px;
+}
+
+.fat_table {
+    position: relative;
+}
+
+.point {
+    position: absolute;
+    bottom: 81%;
+    left: 95%;
+}
+
+.body_title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.body_title h1,
+.intro_title h1,
+.face_intro_title h1 {
+    font-size: 40px;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+}
+.body span,p{
+    font-size: 15px;
+}
+
+.body_text p {
+    position: absolute;
+    
+}
+
+.cheeks {
+    top: 18.5%;
+    left: 29%;
+}
+
+.chin {
+    top: 21%;
+    left: 28%;
+}
+
+.arm {
+    top: 32.5%;
+    left: 26%;
+}
+
+.upper_stomach {
+    top: 37.5%;
+    left: 25%;
+}
+
+.lower_stomach {
+    top: 42.5%;
+    left: 25%;
+}
+
+.outer_thigh {
+    top: 55%;
+    left: 27%;
+}
+
+.knee {
+    top: 65%;
+    left: 30%;
+}
+
+.bra_fat {
+    top: 29%;
+    right: 54.5%;
+}
+
+.waist_side {
+    top: 39%;
+    right: 54.5%;
+}
+
+.thigh_front {
+    top: 54.8%;
+    right: 53%;
+}
+
+.back {
+    top: 27%;
+    right: 44.5%;
+}
+
+.arm_back {
+    top: 31.4%;
+    right: 44.5%;
+}
+
+.waist_back {
+    top: 41%;
+    right: 44.5%;
+}
+
+.saddlebags {
+    top: 49%;
+    right: 44%;
+}
+
+.inner_thigh {
+    top: 53.5%;
+    right: 26%;
+}
+
+.thigh_back {
+    top: 56.5%;
+    right: 26%;
+}
+
+.calf_back {
+    top: 72%;
+    right: 26%;
+}
+
+.body_part {
+    width: 20px;
+    padding: 2px 10px;
+    background-color: #9b8c8d;
+    border-radius: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.face,
+.upper,
+.upper_limb {
+    padding-right: 40px;
+}
+
+.logic_intro {
+    background-image: url(../img/welextract_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.logic_intro_content {
+    padding: 5% 0 0 50%;
+}
+.logic_intro_text p{
+    font-size: 20px !important;
+    margin-bottom: 20px;
+}
+
+.logic_intro_title {
+    padding-bottom: 20px;
+}
+
+.logic_intro {
+    position: relative;
+}
+
+.vaser_button {
+    padding:5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9b8c8d;
+    color: white !important;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.vaser_button:visited{
+    color:white 
+}
+.vaser_button:hover{
+    color:white;
+background-color: #806c6d;
+}
+
+.intro_title {
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro_caption p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.intro_text p {
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 35px;
+    color: #b7a9aa;
+}
+
+.remove_fat{
+    top:75%;
+    left:11%;
+}
+.seperate{
+    top:75%;
+    left:21.5%;
+}
+.refinement{
+    top:75%;
+    left:66.8%;
+}
+.fill{
+    top:75%;
+    left:81.5%;
+}
+
+
+
+.surgery_button{
+	display:flex;
+	justify-content:center;
+margin:30px 0 80px;
+}
+.surgery_button a{
+	color:#6a6d6f;
+	border:3px solid  #d5c5c6;
+	padding:10px 30px;
+	font-size:20px;
+	font-weight:700;
+border-radius:20px;
+}
+
+.surgery_button a:hover{
+  transition: all 0.7s ease;
+	border:3px outset #9b8d8d;
+	color:#4d5255;
+ transform: scale(1.1);
+}

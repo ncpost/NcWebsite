@@ -1,0 +1,16 @@
+
+.part_2_content p{
+    color:#0074BD;
+    font-size: 20px;
+    border: 1px solid #3390ca;
+    border-radius: 20px;
+    padding:5px 20px;
+    font-weight: 200;
+}
+
+p,span{
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+

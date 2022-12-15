@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./RWD_css/twentytwenty.css">
+    <link rel="stylesheet" href="./RWD_css/all.css">
+     <link rel="stylesheet" href="./RWD_css/breadcrumb.css">
+    
+     <script src="./js/RWD_js/jquery.stellar.js"></script>
+     <script src="./js/RWD_js/ham.js"></script>
+     <script src="./js/RWD_js/index_slide_01.js"></script>
+     <link href="https://www.niceclinic.tw/img/favicon2-1.png" rel="shortcut icon" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous" />
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+         crossorigin="anonymous"></script>
+     <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+         crossorigin="anonymous" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+    $(document).ready(function() {
+  $.ajax({
+    type: "GET", // 採用 GET 形式取得資料
+    url:
+      "http://localhost/wordpress/wp-json/wp/v2/posts", // 取得資料的 API 位址
+    async: true, // 非同步取得 JSON 資料
+    dataType: "json", // 資料格式
+    success: function(data) {
+      // 成功取得資料執行的程式區塊
+      html = ""; // 存放 HTML 用
+      for (var i = 0, len = data.length; i < len; i++) {
+        // 取得每筆資料
+
+        //-- 取得資料區 --//
+        html_link = data[i].link; // 取得文章連結
+        html_title = data[i].title.rendered; // 取得文章標題
+        html_featured_img = data[i].jetpack_featured_media_url; // 取得縮圖
+        html_date = data[i].date.substring(0, 10); // 取得發表日期（時間已被去除）
+        // html_pageviews = data[i].pageviews; 
+        html_excerpt = data[i].excerpt.rendered.substring(0, 60); // 取得文章摘要（限制在 60 字元以內）
+
+        //-- 將資料與 HTML 標籤結合區 --//
+        html +=
+          "<a href='" +
+          html_link +
+          "'><div><img src='" +
+          html_featured_img +
+          "' alt=''></div><h2>" +
+          html_title +
+          "</h2></a><div><i>📝 " +
+          html_date +
+        //   " 📊 " +
+        //   html_pageviews +
+          "</i><br>" +
+          html_excerpt +
+          "</div>";
+
+        //-- Console 偵錯區 --//
+        console.log(data[i]); // 印出所有取得資料至 Console
+      }
+      //-- HTML <body> 寫入區 --//
+      $("#show-data").append(html); // 將 HTML 塞入 <div id="show-data"></div>
+      $("#loading").hide(); // 隱藏載入中字樣
+    }
+  });
+});
+</script> 
+
+
+</head>
+<body>
+    <div id="loading">載入中</div>
+<div id="show-data"></div>
+    <!-- <div class="container">
+        <h1 class="text-center">
+            Wordpress List of All Blog Posts
+        </h1>
+        <form id="form">
+            <div class="form-group container">
+            <label for="url">Website URL:</label>
+            <input type="text" class="form-control" name="" id="url" placeholder="Enter Wordpress Website URL" required>
+            </div>
+            <div class="form-group container">
+                <label for="number">Number of Blog Posts:</label>
+                <input type="number" class="form-control" value="20" id="number" required>
+            </div>
+            <div class="form-group container">
+                <button class="btn btn-danger btn-block">
+                    Get Blog Posts
+                </button>
+            </div>
+        </form>
+        <div id="result">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Post Title</th>
+                        <th>Published Date</th>
+                    </tr>
+                </thead>
+                <tbody id="data">
+ 
+                </tbody>
+            </table>
+        </div>
+    </div> -->
+</body>
+
+<!-- <script>
+    $("#form").submit((e) => {
+        e.preventDefault()
+ 
+        var url = $("#url").val()
+ 
+        var number = $("#number").val()
+ 
+        getBlogPosts(url,number)
+    })
+ 
+    $("#number").change((e) => {
+        number = $(this).val()
+    })
+ 
+    function getBlogPosts(url,number){
+        $("#data").html('')
+        $.ajax({
+            method:"GET",
+            url:`http://localhost/wordpress/wp-json/wp/v2/posts?_fields[]=title&_fields[]=link&_fields[]=date&per_page=${number}`,
+            success:function(data){
+                console.log(data)
+ 
+                data.forEach(post => {
+                    $("#data").append(`
+                    
+                    <tr>
+                        <td><a href="${post.link}" target="_blank">${post.title.rendered}</a></td>
+                        <td>${post.date}</td>
+
+                        </tr>
+                    
+                    `)
+                });
+            }
+        })
+    }
+</script> -->
+</html>

@@ -1,0 +1,1130 @@
+
+@mixin  story_title {
+  position: absolute;
+  background-color: white;
+}
+@mixin gold{
+  color:#987b30 !important;
+}
+@mixin bottom_border{
+position: absolute;
+background: #c8c8c8;
+height: 30px;
+width: 100%;
+align-items: center;
+display: flex;
+justify-content: center;
+color: white;
+font-weight: 800;
+}
+
+@mixin title_bg{
+height: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+}
+
+@mixin step_css{
+  border-radius: 999em;
+  width: 80px;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+@mixin  card_num {
+  color: white;
+        z-index: 3;
+        right: 10px;
+        position: absolute;
+        text-shadow: #afafaf 1px 2px 5px;
+        font-weight: 800;
+  
+}
+@media (min-width: 1400px){
+
+.nice_project_page{
+
+.morpheus8_story_title{
+  background-color: #FFF;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width:65%;
+}
+  
+  #morpheus8_page_content_1{
+      padding:5% 19% 0;
+  }
+ 
+
+
+.morpheus8_logic{
+  background-color: #f9f6f0;
+  text-align: center;
+  padding: 5% 0       
+}
+
+.morpheus8_feature{
+  margin-bottom: 10%;
+    h1{
+      margin-bottom: 5%;
+    }
+  .card{
+    width: 100%;
+    border-radius: 20px;
+    img{
+      width: 100%;
+      border-left: solid 5px #eeeadf;
+      border-right: solid 5px #fff9e9;
+      border-bottom: solid 5px #eeeadf;
+    }
+    .card-body{
+      padding:0;
+      background:none;
+    }
+    .no01::before{
+        content: "01";
+      font-size: 50px;
+      @include card_num
+      }
+      .no02::before{
+        content: "02";
+        font-size: 50px;
+        @include card_num
+      }
+      .no03::before{
+        content: "03";
+        font-size: 50px;
+        @include card_num
+      }
+      .no04::before{
+        content: "04";
+        font-size: 50px;
+        @include card_num
+      }
+      .no05::before{
+        content: "05";
+        font-size: 50px;
+        @include card_num
+      }
+      .no06::before{
+        content: "06";
+        font-size: 50px;
+        @include card_num
+      }
+    .card-text{
+      margin: 0;
+      color: #524b4b;
+      font-size: 20px;;
+      background: linear-gradient(176deg, rgb(226, 207, 155), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137 109 30) 70.71%), linear-gradient(249deg, rgb(237 225 193), rgb(234 220 183) 70.71%);
+      padding: 5%;
+      font-weight: 600;
+         border-top-right-radius: 20px;
+         border-top-left-radius: 20px;
+    }
+    p{
+      position:relative;
+      z-index:2
+    }
+  }
+}
+
+.morpheus8_combine{
+  .morpheus8_combine_content{
+    .content_01 p{
+      display: block;
+      text-align: left;
+      padding:0 20%;
+    }
+    .content_02 p{
+      display: block;
+      text-align: left;
+    padding-left: 36%;
+  }
+  }
+}
+
+.morpheus8_describe{
+  background-color: #f9f6f0;
+  text-align: center;
+  padding: 5% 20% 0;       
+}
+.morpheus8_probe{
+margin:0 0 3%;
+  .content{
+  justify-content: space-around;
+  padding: 3% 10% 0;
+  }
+    h1{
+      margin-bottom: 5%;
+    }
+  .card{
+    width: 250px;
+    border-radius: 20px;
+    img{
+      width: 100%;
+      border-left: solid 5px #d3c5a3;
+      border-right: solid 5px #f5f3ed;
+      border-bottom: solid 5px #eeeadf;
+    }
+    .card-body{
+      padding:0;
+      background:none;
+    }
+
+    .card-text{
+      margin: 0;
+      color: #524b4b;
+      font-size: 20px;;
+      background: linear-gradient(64deg, rgb(209 195 159), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137, 109, 30) 70.71%), linear-gradient(249deg, rgb(237, 225, 193), rgb(234, 220, 183) 70.71%);
+      padding: 5%;
+      font-weight: 600;
+         border-top-right-radius: 20px;
+         border-top-left-radius: 20px;
+         text-align: center;
+    }
+}
+}
+
+.morpheus8_reason{
+  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    h1{
+        margin-bottom: 10%;    
+    }
+    h4{
+        @include gold;
+        margin-bottom:0;
+    }
+.content{
+  padding-left: 11%;
+}
+    p.morpheus8_num{
+        height: 40px;
+        width: 40px;
+        background: #c3b180;
+        border-radius: 999em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    font-size:20px;
+ font-weight:600;
+ margin-bottom:0;
+ margin-right: 10px;
+   }
+.point2{
+  margin:5% 0;
+}
+    .morpheus8_point_text{
+        text-align: left;
+        p{
+  margin-left: 20%;
+}
+    }
+    
+}
+.morpheus8_table{
+  text-align: center;
+  padding:0 20% 3%; 
+  background: linear-gradient(2deg, #d0ba882e, transparent);
+  table{
+    margin-bottom:2%;
+  }
+}
+.morpheus8_client{
+  padding:5% 0;
+    background: linear-gradient(2deg, #d0ba882e, transparent);
+    .content{
+      justify-content: space-around;
+    padding:3% 20% 2%;
+    .card{
+      height: 400px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+    text-align: center;
+    .card-body{
+      text-align: center;
+      margin:5% 0;
+    }
+h5{
+  margin:auto;
+  padding-bottom: 0;
+  height: 40px;
+  width: 40px;
+  background: #ab9b79;
+  border-radius: 999em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}  
+.card-text{
+  padding-top: 10%;
+  font-weight:600;
+}
+}
+  }
+}
+.morpheus8_alert{
+  text-align: left;
+  padding: 5% 0;
+   h1{
+       margin-bottom: 50px
+   }
+   p{
+       align-self: center;
+   }
+   .number{
+    padding: 2%;
+       margin-right: 4%;
+       height: 40px;
+   width: 40px;
+   background: #c3b180;
+   border-radius: 999em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   }
+   .alert{
+       text-align: left;
+       border-bottom: dotted 6px #c3c3c3;
+   
+       }
+}
+}
+}
+
+
+@media (min-width: 992px) and (max-width:1400px){
+  .nice_project_page{
+
+    .morpheus8_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:85%;
+    }
+      
+      #morpheus8_page_content_1{
+          padding:5% 19% 0;
+      }
+     
+    
+    
+    .morpheus8_logic{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5% 0       
+    }
+    
+    .morpheus8_feature{
+      margin-bottom: 10%;
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 100%;
+        ;
+        border-radius: 20px;
+        img{
+          height: 100%;
+          width: 100%;
+          border-left: solid 5px #eeeadf;
+          border-right: solid 5px #fff9e9;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+        .no01::before{
+            content: "01";
+          @include card_num;
+          font-size: 30px;
+          }
+          .no02::before{
+            content: "02";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no03::before{
+            content: "03";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no04::before{
+            content: "04";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no05::before{
+            content: "05";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no06::before{
+            content: "06";
+            @include card_num;
+            font-size: 30px;
+          }
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          background: linear-gradient(176deg, rgb(226, 207, 155), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137 109 30) 70.71%), linear-gradient(249deg, rgb(237 225 193), rgb(234 220 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+        }
+        p{
+          position:relative;
+          z-index:2
+        }
+      }
+    }
+    
+    .morpheus8_combine{
+      .morpheus8_combine_content{
+        .content_01 p{
+          display: block;
+          text-align: left;
+          padding:0 12%;
+        }
+        .content_02 p{
+          display: block;
+          text-align: left;
+        padding-left: 26%;
+      }
+      }
+    }
+    
+    .morpheus8_describe{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5% 20% 0;       
+    }
+    .morpheus8_probe{
+    margin:0 0 3%;
+      .content{
+      justify-content: space-around;
+      padding:5% 0;
+      }
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 250px;
+        border-radius: 20px;
+        img{
+          width: 100%;
+          border-left: solid 5px #d3c5a3;
+          border-right: solid 5px #f5f3ed;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+    
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          font-size: 20px;;
+          background: linear-gradient(64deg, rgb(209 195 159), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137, 109, 30) 70.71%), linear-gradient(249deg, rgb(237, 225, 193), rgb(234, 220, 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+             text-align: center;
+        }
+    }
+    }
+    
+    .morpheus8_reason{
+      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin-bottom:0;
+        }
+    .content{
+      padding-left: 5%;
+    }
+        p.morpheus8_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+     font-weight:600;
+     margin-bottom:0;
+     margin-right: 10px;
+       }
+    .point2{
+      margin:5% 0;
+    }
+        .morpheus8_point_text{
+            text-align: left;
+            p{
+      margin-left: 17%;
+    }
+        }
+        
+    }
+    .morpheus8_table{
+      text-align: center;
+      padding:0 20% 3%; 
+      background: linear-gradient(2deg, #d0ba882e, transparent);
+      table{
+        margin-bottom:2%;
+      }
+    }
+    .morpheus8_client{
+      padding:5% 0;
+        background: linear-gradient(2deg, #d0ba882e, transparent);
+        .content{
+          justify-content: space-around;
+        padding:3% 15%;
+        .card{
+          height: 340px;
+          width: 200px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+        text-align: center;
+        .card-body{
+          text-align: center;
+          margin:5% 0;
+        }
+    h5{
+      margin:auto;
+      padding-bottom: 0;
+      height: 40px;
+      width: 40px;
+      background: #ab9b79;
+      border-radius: 999em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+    }  
+    .card-text{
+      padding-top: 10%;
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .morpheus8_alert{
+      text-align: left;
+      padding: 5% 0;
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           text-align: left;
+           border-bottom: dotted 6px #c3c3c3;
+       
+           }
+    }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){
+  .nice_project_page{
+
+    .morpheus8_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:85%;
+    }
+      
+      #morpheus8_page_content_1{
+          padding:8% 5% 0;
+      }
+     
+    
+    
+    .morpheus8_logic{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5% 0;
+      margin:5% 0 0;
+      img{
+        width: 80%
+      }       
+    }
+    
+    .morpheus8_feature{
+      margin-bottom: 10%;
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 100%;
+        ;
+        border-radius: 20px;
+        img{
+          height: 100%;
+          width: 100%;
+          border-left: solid 5px #eeeadf;
+          border-right: solid 5px #fff9e9;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+        .no01::before{
+            content: "01";
+          @include card_num;
+          font-size: 50px;
+          }
+          .no02::before{
+            content: "02";
+            @include card_num;
+            font-size: 50px;
+          }
+          .no03::before{
+            content: "03";
+            @include card_num;
+            font-size: 50px;
+          }
+          .no04::before{
+            content: "04";
+            @include card_num;
+            font-size: 50px;
+          }
+          .no05::before{
+            content: "05";
+            @include card_num;
+            font-size: 50px;
+          }
+          .no06::before{
+            content: "06";
+            @include card_num;
+            font-size: 50px;
+          }
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          background: linear-gradient(176deg, rgb(226, 207, 155), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137 109 30) 70.71%), linear-gradient(249deg, rgb(237 225 193), rgb(234 220 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+        }
+        p{
+          position:relative;
+          z-index:2
+        }
+      }
+    }
+    
+    .morpheus8_combine{
+      .morpheus8_combine_content{
+        .content_01 p{
+          display: block;
+          text-align: left;
+          padding:0 12%;
+        }
+        .content_02 p{
+          display: block;
+          text-align: left;
+        padding-left: 26%;
+      }
+      }
+    }
+    
+    .morpheus8_describe{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5%;       
+    }
+    .morpheus8_probe{
+    margin:0 0 3%;
+      .content{
+      justify-content: space-around;
+      padding:5% 0;
+      }
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 200px;
+        border-radius: 20px;
+        img{
+          width: 100%;
+          border-left: solid 5px #d3c5a3;
+          border-right: solid 5px #f5f3ed;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+    
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          font-size: 20px;;
+          background: linear-gradient(64deg, rgb(209 195 159), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137, 109, 30) 70.71%), linear-gradient(249deg, rgb(237, 225, 193), rgb(234, 220, 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+             text-align: center;
+        }
+    }
+    }
+    
+    .morpheus8_reason{
+      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin-bottom:0;
+        }
+  img{
+    width:auto;
+  }
+        p.morpheus8_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+     font-weight:600;
+     margin-bottom:0;
+     margin-right: 10px;
+       }
+    .point2{
+      margin:5% 0;
+    }
+        .morpheus8_point_text{
+            text-align: left;
+            p{
+      margin-left: 13%;
+    }
+        }
+        
+    }
+    .morpheus8_table{
+      text-align: center;
+      padding:0 5% 3%; 
+      background: linear-gradient(2deg, #d0ba882e, transparent);
+      table{
+        margin-bottom:2%;
+      }
+      img{
+        width:auto;
+      }
+    }
+    .morpheus8_client{
+      padding:5% 0;
+        background: linear-gradient(2deg, #d0ba882e, transparent);
+        .content{
+          justify-content: space-around;
+        padding:3%;
+        .card{
+          height: 334px;
+          width: 185px;
+          padding: 10px;
+          border-radius: 20px;
+          box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+          text-align: center;
+        .card-body{
+          text-align: center;
+          margin:5% 0;
+        }
+    h5{
+      margin:auto;
+      padding-bottom: 0;
+      height: 40px;
+      width: 40px;
+      background: #ab9b79;
+      border-radius: 999em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+    }  
+    .card-text{
+      padding-top: 10%;
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .morpheus8_alert{
+      text-align: left;
+      padding: 5% 0;
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           text-align: left;
+           border-bottom: dotted 6px #c3c3c3;
+       
+           }
+    }
+    }
+      }
+
+@media (min-width: 0px) and (max-width: 576px){
+  .nice_project_page{
+
+    .morpheus8_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:85%;
+      span{
+        font-size:30px;
+      }
+    }
+      
+      #morpheus8_page_content_1{
+          padding:8% 5% 0;
+      }
+     
+    
+    
+    .morpheus8_logic{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5% 0;
+      margin:5% 0 0;
+      img{
+        width: 80%
+      }       
+    }
+    
+    .morpheus8_feature{
+      margin-bottom: 10%;
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 100%;
+        ;
+        border-radius: 20px;
+        img{
+          height: 100%;
+          width: 100%;
+          border-left: solid 5px #eeeadf;
+          border-right: solid 5px #fff9e9;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+        .no01::before{
+            content: "01";
+          @include card_num;
+          font-size: 30px;
+          }
+          .no02::before{
+            content: "02";
+            @include card_num;
+            font-size:30px;
+          }
+          .no03::before{
+            content: "03";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no04::before{
+            content: "04";
+            @include card_num;
+            font-size:30px;
+          }
+          .no05::before{
+            content: "05";
+            @include card_num;
+            font-size: 30px;
+          }
+          .no06::before{
+            content: "06";
+            @include card_num;
+            font-size: 50px;
+          }
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          background: linear-gradient(176deg, rgb(226, 207, 155), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137 109 30) 70.71%), linear-gradient(249deg, rgb(237 225 193), rgb(234 220 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+        }
+        p{
+          position:relative;
+          z-index:2
+        }
+      }
+    }
+    
+    .morpheus8_combine{
+      .morpheus8_combine_content{
+        .content_01 p{
+          display: block;
+          text-align: left;
+          font-size: 15px;
+          line-height: 20px
+        }
+        .content_02 p{
+          display: block;
+          text-align: left;
+          font-size: 15px;
+          line-height: 20px;
+          padding-left: 10%;
+      }
+      }
+    }
+    
+    .morpheus8_describe{
+      background-color: #f9f6f0;
+      text-align: center;
+      padding: 5%;       
+    }
+    .morpheus8_probe{
+    margin:0 0 3%;
+      .content{
+      justify-content: space-around;
+      padding:5% 0;
+      }
+        h1{
+          margin-bottom: 5%;
+        }
+      .card{
+        width: 100px;
+        border-radius: 20px;
+        img{
+          width: 100%;
+          border-left: solid 5px #d3c5a3;
+          border-right: solid 5px #f5f3ed;
+          border-bottom: solid 5px #eeeadf;
+        }
+        .card-body{
+          padding:0;
+          background:none;
+        }
+    
+        .card-text{
+          margin: 0;
+          color: #524b4b;
+          font-size: 15px;;
+          background: linear-gradient(64deg, rgb(209 195 159), rgba(255, 255, 255, 0.82) 70.71%), linear-gradient(341deg, rgb(242, 238, 229), rgb(137, 109, 30) 70.71%), linear-gradient(249deg, rgb(237, 225, 193), rgb(234, 220, 183) 70.71%);
+          padding: 5%;
+          font-weight: 600;
+             border-top-right-radius: 20px;
+             border-top-left-radius: 20px;
+             text-align: center;
+        }
+    }
+    }
+    
+    .morpheus8_reason{
+      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        .point1,.point2,.point3{
+          flex-direction: column;
+        }
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin-bottom:0;
+        }
+  img{
+    width:auto;
+    margin-bottom: 10%;
+  }
+        p.morpheus8_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+     font-weight:600;
+     margin-bottom:0;
+     margin-right: 10px;
+       }
+    .point2{
+      margin:5% 0;
+    }
+        .morpheus8_point_text{
+            text-align: left;
+            p{
+      margin-left: 13%;
+    }
+        }
+        
+    }
+    .morpheus8_table{
+      text-align: center;
+      padding:0 5% 3%; 
+      background: linear-gradient(2deg, #d0ba882e, transparent);
+      table{
+        margin-bottom:5%;
+      }
+      img{
+        width:100%;
+      }
+    }
+    .morpheus8_client{
+      padding:10% 5%;
+        background: linear-gradient(2deg, #d0ba882e, transparent);
+        .content{
+       
+        padding:3%;
+        .card{
+          border-radius: 20px;
+          box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+          text-align: center;
+          margin:5% 0;
+        .card-body{
+          text-align: center;
+          padding: 10px 0;
+        }
+    h5{
+      margin:auto;
+      padding-bottom: 0;
+      height: 40px;
+      width: 40px;
+      background: #ab9b79;
+      border-radius: 999em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+    }  
+    .card-text{
+      padding-top: 10%;
+      font-size: 15px;
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .morpheus8_alert{
+      text-align: left;
+      padding: 5% 0;
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           text-align: center;
+           flex-direction:column ;
+           border-bottom: dotted 6px #c3c3c3;
+       
+           }
+    }
+    }
+  } 

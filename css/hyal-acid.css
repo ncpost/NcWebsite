@@ -1,0 +1,123 @@
+.super_renuvion {
+    font-size: 22px;
+    color: white;
+    background-color: #19518e;
+    border:1px solid #19518e;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.super_renuvion2 {
+    font-size: 22px;
+    color: white;
+    background-color: #91388e;
+    border:1px solid #91388e;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.super_renuvion3 {
+    font-size: 22px;
+    color: white;
+    background-color: #6d5ca2;
+    border:1px solid #6d5ca2;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.super_renuvion4 {
+    font-size: 22px;
+    color: white;
+    background-color: #ac9c6a;
+    border:1px solid #ac9c6a;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.Restylane_content {
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+.Juvederm_content {
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    width: 480px;
+}
+.HYADERMIS_content {
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    width: 480px;
+}
+.Princess_content {
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    width: 480px;
+}
+.row{ margin: auto; margin-bottom: 50px; width: 70%; padding: 50px 0px 50px 0px;}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 2.5px solid white;}
+
+.service-table th {
+		font-size: 22px;
+		text-align: center;
+	}
+
+table {
+		border-spacing: 0;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+.tablehead{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.row td {
+	font-size: 20px; text-align: center; font-weight: lighter;
+}
+ tr th{
+	color: white;
+	background-color: #19518e;
+	font-weight: 100;
+}
+.Juvederm tr th{
+	color: white;
+	background-color: #91388e;
+	font-weight: 100;
+}
+.HYADERMIS tr th{
+	color: white;
+	background-color: #6d5ca2;
+	font-weight: 100;
+}
+.tb02 td{
+	color: black;
+	background-color: #f3f7fa;
+	padding: 30px;
+}
+.tb03 td{
+	color: black;
+	background-color: #ecf0f3;
+	padding: 30px;
+}

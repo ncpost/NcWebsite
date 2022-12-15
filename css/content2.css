@@ -1,0 +1,1708 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sub_container {width:100%; max-width:1920px; position:relative; padding-top:150px; margin:0 auto; overflow:hidden;}
+.sub_container2 {width:100%; position:relative; padding-top:150px; min-width:1400px; margin:0 auto; overflow:hidden;}
+
+.sub_container .con_title {width:100%; padding-top:40px; text-align:center;}
+.sub_con .mar30b { margin-bottom:30px;}
+
+.sub_container .sub_con {width:100%; min-height:600px; position:relative; margin-top:50px; padding-bottom:70px; overflow:hidden;}
+.sub_container .sub_con_mem {padding:50px 0 70px;}
+
+.top_tab {width:1200px; position:absolute; top:287px; left:50%; margin:0 0 0 -600px; z-index:100;}
+.top_tab .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab .tab_menu li.on {background:#c2934e;}
+.top_tab .tab_menu li.on a {}
+
+.top_tab .tab_menu.bns_ea4 li {width:280px;}
+.top_tab .tab_menu.bns_ea4 li.first {width:280px;}
+.top_tab .tab_menu.bns_ea7 li {width:170px;}
+.top_tab .tab_menu.bns_ea7 li.first {width:172px;}
+.top_tab .tab_menu.bns_ea8 li {width:149px;}
+.top_tab .tab_menu.bns_ea8 li.first {width:148px;}
+
+.top_tab01 {width:997px; position:absolute; top:287px; left:50%; margin:0 0 0 -500px; z-index:100;}
+.top_tab01 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab01 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab01 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab01 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab01 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab01 .tab_menu li.on {background:#c2934e;}
+.top_tab01 .tab_menu li.on a {}
+.top_tab01 .tab_menu.bns_ea2 li {width:248px;}
+
+
+
+.top_tab02 {width:504px; position:absolute; top:287px; left:50%; margin:0 0 0 -260px; z-index:100;}
+.top_tab02 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab02 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab02 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab02 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab02 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab02 .tab_menu li.on {background:#5db3c9;}
+.top_tab02 .tab_menu li.on a {}
+.top_tab02 .tab_menu.bns_ea2 li {width:250px;}
+
+.top_tab03 {width:1006px; position:absolute; top:287px; left:50%; margin:0 0 0 -500px; z-index:100;}
+.top_tab03 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab03 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab03 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab03 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab03 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab03 .tab_menu li.on {background:#5db3c9;}
+.top_tab03 .tab_menu li.on a {}
+.top_tab03 .tab_menu.bns_ea2 li {width:200px;}
+.top_tab03 a {
+    font-size: 15px;
+    line-height: 56px;
+    font-weight: bold;
+    color: #565656;
+}
+.top_tab03 .tab_menu li.on a {
+    color: #fff;
+}
+.top_tab04 {width:904px; position:absolute; top:287px; left:50%; margin:0 0 0 -450px; z-index:100;}
+.top_tab04 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab04 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab04 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab04 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab04 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab04 .tab_menu li.on {background:#5db3c9;}
+.top_tab04 .tab_menu li.on a {}
+.top_tab04 .tab_menu.bns_ea2 li {width:300px;}
+
+.top_tab05 {width:748px; position:absolute; top:287px; left:50%; margin:0 0 0 -373.5px; z-index:100;}
+.top_tab05 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab05 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab05 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab05 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab05 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab05 .tab_menu li.on {background:#2addaf;}
+.top_tab05 .tab_menu li.on a {}
+.top_tab05 .tab_menu.bns_ea2 li {width:248px;}
+
+.top_tab06 {width:1198px; position:absolute; top:288px; left:50%; margin:0 0 0 -600px; z-index:100;}
+.top_tab06 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab06 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab06 .tab_menu li.first {border-left:1px solid #dadada; width:134px !important;}
+.top_tab06 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab06 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab06 .tab_menu li.on {background:#b09077;}
+.top_tab06 .tab_menu li.on a {}
+.top_tab06 .tab_menu.bns_ea2 li {width:117px;}
+
+.top_tab07 {width:997px; position:absolute; top:287px; left:50%; margin:0 0 0 -500px; z-index:100;}
+.top_tab07 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab07 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab07 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab07 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab07 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab07 .tab_menu li.on {background:#ff3f6e;}
+.top_tab07 .tab_menu li.on a {}
+.top_tab07 .tab_menu.bns_ea2 li {width:248px;}
+
+.top_tab08 {width:504px; position:absolute; top:287px; left:50%; margin:0 0 0 -260px; z-index:100;}
+.top_tab08 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab08 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab08 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab08 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab08 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab08 .tab_menu li.on {background:#ff3f6e;}
+.top_tab08 .tab_menu li.on a {}
+.top_tab08 .tab_menu.bns_ea2 li {width:250px;}
+
+.top_tab09 {width:904px; position:absolute; top:287px; left:50%; margin:0 0 0 -450px; z-index:100;}
+.top_tab09 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab09 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab09 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab09 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab09 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab09 .tab_menu li.on {background:#ff3f6e;}
+.top_tab09 .tab_menu li.on a {}
+.top_tab09 .tab_menu.bns_ea2 li {width:300px;}
+
+.top_tab10 {width:904px; position:absolute; top:287px; left:50%; margin:0 0 0 -450px; z-index:100;}
+.top_tab10 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab10 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab10 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab10 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab10 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab10 .tab_menu li.on {background:#ff8e67;}
+.top_tab10 .tab_menu li.on a {}
+.top_tab10 .tab_menu.bns_ea2 li {width:300px;}
+
+.top_tab11 {width:504px; position:absolute; top:287px; left:50%; margin:0 0 0 -260px; z-index:100;}
+.top_tab11 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab11 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab11 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab11 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab11 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab11 .tab_menu li.on {background:#ff8e67;}
+.top_tab11 .tab_menu li.on a {}
+.top_tab11 .tab_menu.bns_ea2 li {width:250px;}
+
+.top_tab12 {width:504px; position:absolute; top:287px; left:50%; margin:0 0 0 -260px; z-index:100;}
+.top_tab12 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab12 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab12 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab12 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab12 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab12 .tab_menu li.on {background:#740057;}
+.top_tab12 .tab_menu li.on a {}
+.top_tab12 .tab_menu.bns_ea2 li {width:250px;}
+
+
+.top_tab13 {width:997px; position:absolute; top:287px; left:50%; margin:0 0 0 -500px; z-index:100;}
+.top_tab13 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab13 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab13 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab13 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab13 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab13 .tab_menu li.on {background:#ff8e67;}
+.top_tab13 .tab_menu li.on a {}
+.top_tab13 .tab_menu.bns_ea2 li {width:248px;}
+
+.top_tab14 {width:904px; position:absolute; top:287px; left:50%; margin:0 0 0 -450px; z-index:100;}
+.top_tab14 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab14 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab14 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab14 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab14 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab14 .tab_menu li.on {background:#740057;}
+.top_tab14 .tab_menu li.on a {}
+.top_tab14 .tab_menu.bns_ea2 li {width:300px;}
+
+.top_tab15 {width:904px; position:absolute; top:287px; left:50%; margin:0 0 0 -450px; z-index:100;}
+.top_tab15 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab15 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab15 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab15 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab15 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab15 .tab_menu li.on {background:#b09077;}
+.top_tab15 .tab_menu li.on a {}
+.top_tab15 .tab_menu.bns_ea2 li {width:300px;}
+
+
+.top_tab16 {width:504px; position:absolute; top:287px; left:50%; margin:0 0 0 -260px; z-index:100;}
+.top_tab16 .tab_menu {width:100%; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative;}
+.top_tab16 .tab_menu li {float:left; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.top_tab16 .tab_menu li.first {border-left:1px solid #dadada;}
+.top_tab16 .tab_menu li a {display:block; width:100%; height:100%; text-align:center;}
+.top_tab16 .tab_menu li a img {display:inline-block; padding-top:20px;}
+.top_tab16 .tab_menu li.on {background:#ff7c7f;}
+.top_tab16 .tab_menu li.on a {}
+.top_tab16 .tab_menu.bns_ea2 li {width:250px;}
+
+
+
+
+
+
+.sub_con .cons {width:100%; position:relative;}
+.sub_con .cons span.hid {display:inline-block; text-indent:-9999em; visibility:hidden;}
+
+.sub_con .con_01.jj_con01_01 {height:1212px; background:url('../img/jj_con01_01_img_01.jpg') center 0 no-repeat;}
+.sub_con .con_02.jj_con01_01 {width:1200px; margin:0 auto; padding:60px 0; overflow:hidden;}
+.sub_con .con_02.jj_con01_01 div img {display:inline-block;}
+.sub_con .con_02.jj_con01_01 .col_01 {float:left;}
+.sub_con .con_02.jj_con01_01 .col_01 img {padding-top:15px;}
+.sub_con .con_02.jj_con01_01 .col_02 {width:430px; float:right;}
+.sub_con .con_03.jj_con01_01 {height:675px; background:url('../img/jj_con01_01_img_06.jpg') center 0 no-repeat;}
+
+.sub_con .con_01.jj_con01_02 {height:642px; background:url('../img/jj_con01_02_img_01.jpg') center 0 no-repeat;}
+.sub_con .con_02.jj_con01_02 {height:853px; background:url('../img/jj_con01_02_img_02.jpg') center 0 no-repeat;}
+.sub_con .con_03.jj_con01_02 {height:900px; background:url('../img/jj_con01_02_img_03.jpg') center 0 no-repeat;}
+.sub_con .con_04.jj_con01_02 {height:807px; background:url('../img/jj_con01_02_img_04.jpg') center 0 no-repeat;}
+.sub_con .con_05.jj_con01_02 {height:929px; background:url('../img/jj_con01_02_img_05.jpg') center 0 no-repeat;}
+.sub_con .con_06.jj_con01_02 {height:907px; background:url('../img/jj_con01_02_img_06.jpg') center 0 no-repeat;}
+
+.sub_con .con_01.jj_con01_03 {height:787px; background:url('../img/jj_con01_03_img_01.jpg') center 0 no-repeat;}
+
+.sub_con .con_01.jj_con01_06 {height:646px; background:url('../img/jj_con01_06_img_01.jpg') center 0 no-repeat;}
+
+/*================================
+	02_안면윤곽
+================================*/
+
+/**** 서브 메인 ****/
+.face .sub_main_top_wrap1 {width:100%; height:712px; background:#acd0d9;}
+.face .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px;  background:url('../img/jj_face_index_bg01.jpg') repeat-x;}
+
+.face .sub_main_top_wrap2 {width:100%; height:542px;}
+.face .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_face_index_bg02.jpg') repeat-x;}
+
+.face .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.face .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.face .sub_con_index .sub_main_top ul li {height:712px;}
+.face .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.face .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_face_index_img01.jpg') no-repeat right top;}
+.face .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_face_index_img02.jpg') no-repeat left top;}
+
+.face .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.face .sub_con_index .sub_main_bottom ul {float:left;}
+.face .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.face .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.face .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.face .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.face .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){background:url('../img/jj_face_index_img06.jpg') no-repeat left top;}
+.face .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){background:url('../img/jj_face_index_img07.jpg') no-repeat left top;}
+ 
+ @media handheld, only screen and (min-width: 1600px) {
+.face .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.face .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.face .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.face .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+ 
+ 
+ /* 서브페이지 */
+.sub_con .con_01.jj_con02_01_01 {height:701px; background:url('../img/jj_con02_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_01_01 {height:465px; background:url('../img/jj_con02_01_img_02.jpg') center 0 no-repeat;margin-bottom:50px; }
+.sub_con .con_03.jj_con02_01_01 {height:635px; background:url('../img/jj_con02_01_img_03.jpg') center 0 no-repeat;margin-bottom:50px; }
+.sub_con .con_04.jj_con02_01_01 {height:733px; background:url('../img/jj_con02_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con02_01_01 {height:1517px; background:url('../img/jj_con02_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px; position:relative;}
+.sub_con .con_05.jj_con02_01_01 ul{position:absolute; top:605px; left:50%; margin-left:-600px;}
+.sub_con .con_05.jj_con02_01_01 li{float:left; margin-right:1px;}
+
+.sub_con .con_01.jj_con02_02_01 {height:640px; background:url('../img/jj_con02_02_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_02_01 {height:876px; background:url('../img/jj_con02_02_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_02_01 {height:1568px; background:url('../img/jj_con02_02_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_02_01 {height:925px; background:url('../img/jj_con02_02_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_02_02 {height:640px; background:url('../img/jj_con02_02_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_02_02 {height:524px; background:url('../img/jj_con02_02_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_02_02 {height:488px; background:url('../img/jj_con02_02_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_02_03 {height:640px; background:url('../img/jj_con02_02_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_02_03 {height:876px; background:url('../img/jj_con02_02_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_02_03 {height:522px; background:url('../img/jj_con02_02_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_02_03 {height:833px; background:url('../img/jj_con02_02_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_02_04 {height:640px; background:url('../img/jj_con02_02_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_02_04 {height:876px; background:url('../img/jj_con02_02_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_02_04 {height:1097px; background:url('../img/jj_con02_02_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_02_04 {height:457px; background:url('../img/jj_con02_02_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con02_02_04 {height:789px; background:url('../img/jj_con02_02_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_02_05 {height:640px; background:url('../img/jj_con02_02_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_02_05 {height:876px; background:url('../img/jj_con02_02_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_02_05 {height:784px; background:url('../img/jj_con02_02_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_02_05 {height:427px; background:url('../img/jj_con02_02_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_03_01 {height:640px; background:url('../img/jj_con02_03_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_03_01 {height:876px; background:url('../img/jj_con02_03_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_03_01 {height:439px; background:url('../img/jj_con02_03_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_03_01 {height:1397px; background:url('../img/jj_con02_03_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con02_03_01 {height:731px; background:url('../img/jj_con02_03_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con02_03_01 {height:467px; background:url('../img/jj_con02_03_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+.sub_con .con_01.jj_con02_03_02 {height:640px; background:url('../img/jj_con02_03_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_03_02 {height:876px; background:url('../img/jj_con02_03_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_03_02 {height:457px; background:url('../img/jj_con02_03_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_03_02 {height:785px; background:url('../img/jj_con02_03_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con02_03_02 {height:781px; background:url('../img/jj_con02_03_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_03_03 {height:640px; background:url('../img/jj_con02_03_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_03_03 {height:876px; background:url('../img/jj_con02_03_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_03_03 {height:457px; background:url('../img/jj_con02_03_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_03_03 {height:783px; background:url('../img/jj_con02_03_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_04_01 {height:640px; background:url('../img/jj_con02_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_04_01 {height:876px; background:url('../img/jj_con02_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_04_01 {height:444px; background:url('../img/jj_con02_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_04_01 {height:781px; background:url('../img/jj_con02_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_04_02 {height:640px; background:url('../img/jj_con02_04_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_04_02 {height:876px; background:url('../img/jj_con02_04_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_04_02 {height:444px; background:url('../img/jj_con02_04_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_04_02 {height:781px; background:url('../img/jj_con02_04_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_05_01 {height:640px; background:url('../img/jj_con02_05_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_05_01 {height:879px; background:url('../img/jj_con02_05_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_05_01 {height:389px; background:url('../img/jj_con02_05_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_05_01 {height:777px; background:url('../img/jj_con02_05_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_05_02 {height:640px; background:url('../img/jj_con02_05_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_05_02 {height:796px; background:url('../img/jj_con02_05_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_05_02 {height:759px; background:url('../img/jj_con02_05_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_05_02 {height:774px; background:url('../img/jj_con02_05_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_06_01 {height:640px; background:url('../img/jj_con02_06_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_06_01 {height:876px; background:url('../img/jj_con02_06_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_06_01 {height:517px; background:url('../img/jj_con02_06_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_06_01 {height:782px; background:url('../img/jj_con02_06_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_06_02 {height:640px; background:url('../img/jj_con02_06_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con02_06_02 {height:876px; background:url('../img/jj_con02_06_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con02_06_02 {height:454px; background:url('../img/jj_con02_06_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con02_06_02 {height:784px; background:url('../img/jj_con02_06_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con02_07 {height:640px; background:url('../img/jj_con02_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;} /*부비부증대술*/
+.sub_con .con_02.jj_con02_07 {height:876px; background:url('../img/jj_con02_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;} /*부비부증대술*/
+.sub_con .con_03.jj_con02_07 {height:332px; background:url('../img/jj_con02_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;} /*부비부증대술*/
+.sub_con .con_04.jj_con02_07 {height:789px; background:url('../img/jj_con02_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;} /*부비부증대술*/
+
+.sub_con .con_01.jj_con02_08 {height:640px; background:url('../img/jj_con02_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;} /*윤곽재수술*/
+.sub_con .con_02.jj_con02_08 {height:876px; background:url('../img/jj_con02_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;} /*윤곽재수술*/
+.sub_con .con_03.jj_con02_08 {height:914px; background:url('../img/jj_con02_08_img_03.jpg') center 0 no-repeat; margin-bottom:50px;} /*윤곽재수술*/
+.sub_con .con_04.jj_con02_08 {height:386px; background:url('../img/jj_con02_08_img_04.jpg') center 0 no-repeat; margin-bottom:50px;} /*윤곽재수술*/
+.sub_con .con_05.jj_con02_08 {height:944px; background:url('../img/jj_con02_08_img_05.jpg') center 0 no-repeat; margin-bottom:50px;} /*윤곽재수술*/
+
+/*안면윤곽 공통탭*/
+
+.face_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.face_bg_div_01 > ul.sel_bns {  width:1200px; }
+.face_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.face_bg_div_01 > ul.sel_bns > li.li_06 { padding-right:0;}
+.face_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.face_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+.sub_con .con_ul li { text-align:center; margin-bottom:20px;}
+.sub_con .con_ul_02 { overflow:hidden; width:1200px; position:relative; margin:0 auto; }
+.sub_con .con_ul_02 li { float:left; padding-right:15px;}
+.sub_con .con_ul_02 li.last { padding-right:0;}
+
+/*
+.div_consult { background-color:#a8aeb7; width:1200px; height:135px; position:relative; margin:0 auto;}
+.div_consult > h2 { padding:25px 0 0 140px;}
+.div_consult > p { position:relative; left:56px; top:-30px;}
+.div_consult dl { position:absolute;}
+.div_consult dl.dl_name { top:75px; left:140px;}
+.div_consult dl.dl_phone { top:75px; left:330px;}
+.div_consult dl dt { color:#f5f5f6; display:inline; overflow:hidden; font-weight:bold; font-size:18px; padding-right:5px;}
+.div_consult dl dd {  display:inline; overflow:hidden;}
+.div_consult span.check_btn { color:#f5f5f6; font-size:17px; position:absolute; top:75px; right:240px;}
+.div_consult p.consult_btn { position:absolute; top:23px; right:38px;}
+*/
+
+.div_consult {width:1200px; position:relative; margin:0 auto; background:#a8aeb7; padding:20px 0;}
+.div_consult .consult_wrap {width:930px; height:250px; position:relative; margin:0 auto; overflow:hidden; background:url('../img/consult_img01.jpg') 0 0 no-repeat;}
+.div_consult .consult_wrap h2 {padding-left:78px;}
+.div_consult .consult_wrap form {position:relative; width:100%; margin-top:15px; display:block;}
+.div_consult .consult_wrap .row_01 {width:650px; position:relative; overflow:hidden; margin-left:78px;}
+.div_consult .consult_wrap .row_01 dl {display:block; float:left;}
+.div_consult .consult_wrap .row_01 dl dt {font-size:15px; font-weight:bold; color:#fff; float:left; width:50px; height:28px; line-height:28px;}
+.div_consult .consult_wrap .row_01 dl dd {width:175px; height:28px; float:left;}
+.div_consult .consult_wrap .row_01 dl dd input {width:148px; height:28px; display:block; float:left; line-height:28px; font-size:15px; padding:0; margin:0;}
+.div_consult .consult_wrap .row_01 dl dd.tels {width:225px;}
+.div_consult .consult_wrap .row_01 dl dd.tels input {width:63px; margin-right:10px;}
+.div_consult .consult_wrap .row_01 dl.dl_con { padding-top:10px;}
+.div_consult .consult_wrap .row_01 dl.dl_con > dt {  width:70px; height:28px;}
+.div_consult .consult_wrap .row_01 dl.dl_con dd input { width:418px;}
+.div_consult .consult_wrap .row_01 .check_btn {display:block; float:right; margin-top:18px;}
+.div_consult .consult_wrap .row_01 .check_btn * {line-height:20px; height:20px; vertical-align:middle;}
+.div_consult .consult_wrap .row_01 .check_btn label {font-size:14px; font-weight:bold; color:#fff;}
+.div_consult .consult_wrap .consult_btn {width:183px; height:77px; display:block; position:absolute; top:-10px; right:0;}
+.div_consult .consult_wrap .consult_btn a {width:183px; height:77px; display:table-cell; background:url('../img/jj_consult_btn_bg.gif') 0 0 repeat;
+text-align:center; vertical-align:middle; font-size:30px; font-weight:bold; color:#fff;}
+.div_consult .consult_wrap .row_02 {width:100%; position:absolute; top:80px;}
+.div_consult .consult_wrap .row_02 .p_tit {font-size:15px; font-weight:bold; color:#fff;}
+.div_consult .consult_wrap .row_02 .txt_area {width:700px; margin:8px; overflow:hidden;}
+.div_consult .consult_wrap .row_02 .txt_area p {width:592px; height:70px; background:#fff; overflow-y:scroll; display:block; float:left;}
+.div_consult .consult_wrap .row_02 .txt_area div {width:100px; padding-top:35px; float:right;}
+.div_consult .consult_wrap .row_02 .txt_area div input {display:block; float:left; width:15px; height:15px; margin-bottom:5px; background:#fff;}
+.div_consult .consult_wrap .row_02 .txt_area div label {display:block; float:left; width:85px; height:15px; text-indent:10px; font-size:13px; color:#fff; line-height:15px; margin-bottom:5px;}
+.div_consult .consult_wrap .row_02 .txt_area span {display:block; font-size:13px; color:#fff; margin-top:10px;}
+
+/*================================
+	03_가슴성형
+================================*/
+.breast_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.breast_bg_div_01 > ul.sel_bns {  width:1200px; }
+.breast_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.breast_bg_div_01 > ul.sel_bns > li.li_05 { padding-right:0;}
+.breast_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.breast_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+/**** 서브 메인 ****/
+.breast .sub_main_top_wrap1 {width:100%; height:712px; background:#d9ece6;}
+.breast .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px;  background:#fff;}
+
+.breast .sub_main_top_wrap2 {width:100%; height:542px;}
+.breast .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_breast_index_bg01.jpg') repeat-x;}
+
+.breast .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.breast .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.breast .sub_con_index .sub_main_top ul li {height:712px;}
+.breast .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.breast .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_breast_index_img01.jpg') no-repeat right top;}
+.breast .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_breast_index_img02.jpg') no-repeat left top;}
+
+.breast .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.breast .sub_con_index .sub_main_bottom ul {float:left;}
+.breast .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.breast .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.breast .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.breast .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.breast .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){background:url('../img/jj_breast_index_img06.jpg') no-repeat left top;}
+.breast .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){background:url('../img/jj_breast_index_img07.jpg') no-repeat left top;}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.breast .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.breast .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.breast .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.breast .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+/****01제이준가슴성형시스템****/
+.sub_con .con_01.jj_con03_01_01 {height:643px; background:url('../img/jj_con03_01_img_01.jpg') center 0 no-repeat;}
+.sub_con .con_02.jj_con03_01_01 {height:698px; background:url('../img/jj_con03_01_img_02.jpg') center 0 no-repeat;}
+.sub_con .con_03.jj_con03_01_01 {height:512px; background:url('../img/jj_con03_01_img_03.jpg') center 0 no-repeat;}
+.sub_con .con_04.jj_con03_01_01 {height:428px; background:url('../img/jj_con03_01_img_04.jpg') center 0 no-repeat;}
+.sub_con .con_05.jj_con03_01_01 {height:536px; background:url('../img/jj_con03_01_img_05.jpg') center 0 no-repeat;}
+.sub_con .con_06.jj_con03_01_01 {height:416px; background:url('../img/jj_con03_01_img_06.jpg') center 0 no-repeat;}
+.sub_con .con_07.jj_con03_01_01 {height:2095px; background:url('../img/jj_con03_01_img_07.jpg') center 0 no-repeat;margin-bottom:50px; }
+
+/****02가슴확대수술 tab01물방울가슴성형****/
+.sub_con .con_01.jj_con03_02_01 {height:640px; background:url('../img/jj_con03_02_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_02_01 {height:421px; background:url('../img/jj_con03_02_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_02_01 {height:853px; background:url('../img/jj_con03_02_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_02_01 {height:891px; background:url('../img/jj_con03_02_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_02_01 {height:1202px; background:url('../img/jj_con03_02_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_02_01 {height:729px; background:url('../img/jj_con03_02_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02가슴확대수술 tab02가슴확대술****/
+.sub_con .con_01.jj_con03_02_02 {height:640px; background:url('../img/jj_con03_02_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_02_02 {height:853px; background:url('../img/jj_con03_02_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_02_02 {height:736px; background:url('../img/jj_con03_02_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_02_02 {height:1249px; background:url('../img/jj_con03_02_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_02_02 {height:779px; background:url('../img/jj_con03_02_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_02_02 {height:1203px; background:url('../img/jj_con03_02_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_02_02 {height:729px; background:url('../img/jj_con03_02_02_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02가슴확대수술 tab03마이크로텍스쳐 가슴성형****/
+.sub_con .con_01.jj_con03_02_03 {height:640px; background:url('../img/jj_con03_02_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_02_03 {height:565px; background:url('../img/jj_con03_02_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_02_03 {height:884px; background:url('../img/jj_con03_02_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_02_03 {height:827px; background:url('../img/jj_con03_02_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_02_03 {height:665px; background:url('../img/jj_con03_02_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_02_03 {height:974px; background:url('../img/jj_con03_02_03_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_02_03 {height:698px; background:url('../img/jj_con03_02_03_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con03_02_03 {height:622px; background:url('../img/jj_con03_02_03_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02가슴확대수술 tab04모티바 가슴성형****/
+.sub_con .con_01.jj_con03_02_04 {height:640px; background:url('../img/jj_con03_02_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_02_04 {height:660px; background:url('../img/jj_con03_02_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_02_04 {height:625px; background:url('../img/jj_con03_02_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_02_04 {height:665px; background:url('../img/jj_con03_02_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_02_04 {height:2170px; background:url('../img/jj_con03_02_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_02_04 {height:698px; background:url('../img/jj_con03_02_04_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_02_04 {height:920px; background:url('../img/jj_con03_02_04_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+
+
+/****03가슴축소수술****/
+.sub_con .con_01.jj_con03_03_01 {height:640px; background:url('../img/jj_con03_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_03_01 {height:353px; background:url('../img/jj_con03_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_03_01 {height:475px; background:url('../img/jj_con03_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_03_01 {height:336px; background:url('../img/jj_con03_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_03_01 {height:900px; background:url('../img/jj_con03_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_03_01 {height:729px; background:url('../img/jj_con03_03_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****04쳐진가슴교정술****/
+.sub_con .con_01.jj_con03_04_01 {height:640px; background:url('../img/jj_con03_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_04_01 {height:802px; background:url('../img/jj_con03_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_04_01 {height:782px; background:url('../img/jj_con03_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_04_01 {height:782px; background:url('../img/jj_con03_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_04_01 {height:729px; background:url('../img/jj_con03_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05유두성형****/
+.sub_con .con_01.jj_con03_05_01 {height:640px; background:url('../img/jj_con03_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_05_01 {height:560px; background:url('../img/jj_con03_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_05_01 {height:1932px; background:url('../img/jj_con03_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_05_01 {height:3040px; background:url('../img/jj_con03_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_05_01 {height:729px; background:url('../img/jj_con03_05_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06여성형유방****/
+.sub_con .con_01.jj_con03_06_01 {height:640px; background:url('../img/jj_con03_06_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_06_01 {height:459px; background:url('../img/jj_con03_06_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_06_01 {height:402px; background:url('../img/jj_con03_06_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_06_01 {height:853px; background:url('../img/jj_con03_06_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_06_01 {height:433px; background:url('../img/jj_con03_06_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_06_01 {height:816px; background:url('../img/jj_con03_06_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_06_01 {height:729px; background:url('../img/jj_con03_06_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****07자가지방가슴성형****/
+.sub_con .con_01.jj_con03_07_01 {height:640px; background:url('../img/jj_con03_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_07_01 {height:327px; background:url('../img/jj_con03_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_07_01 {height:620px; background:url('../img/jj_con03_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_07_01 {height:993px; background:url('../img/jj_con03_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****08가슴재수술****/
+.sub_con .con_01.jj_con03_08_01 {height:640px; background:url('../img/jj_con03_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_08_01 {height:823px; background:url('../img/jj_con03_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_08_01 {height:665px; background:url('../img/jj_con03_08_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_08_01 {height:795px; background:url('../img/jj_con03_08_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_08_01 {height:3325px; background:url('../img/jj_con03_08_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_08_01 {height:698px; background:url('../img/jj_con03_08_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_08_01 {height:627px; background:url('../img/jj_con03_08_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****09출산후가슴성형****/
+.sub_con .con_01.jj_con03_09_01 {height:640px; background:url('../img/jj_con03_09_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_09_01 {height:723px; background:url('../img/jj_con03_09_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_09_01 {height:777px; background:url('../img/jj_con03_09_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_09_01 {height:777px; background:url('../img/jj_con03_09_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_09_01 {height:665px; background:url('../img/jj_con03_09_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_09_01 {height:526px; background:url('../img/jj_con03_09_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_09_01 {height:560px; background:url('../img/jj_con03_09_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con03_09_01 {height:1691px; background:url('../img/jj_con03_09_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_09.jj_con03_09_01 {height:698px; background:url('../img/jj_con03_09_img_09.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_10.jj_con03_09_01 {height:622px; background:url('../img/jj_con03_09_img_10.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+/****BBproject****/
+.sub_con .con_01.jj_con03_10_01 {height:640px; background:url('../img/jj_con03_10_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_10_01 {height:719px; background:url('../img/jj_con03_10_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_10_01 {height:665px; background:url('../img/jj_con03_10_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_10_01 {height:881px; background:url('../img/jj_con03_10_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_10_01 {height:814px; background:url('../img/jj_con03_10_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_10_01 {height:967px; background:url('../img/jj_con03_10_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con03_10_01 {height:812px; background:url('../img/jj_con03_10_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con03_10_01 {height:640px; background:url('../img/jj_con03_10_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+/****가슴보형물제거수술****/
+.sub_con .con_01.jj_con03_11_01 {height:640px; background:url('../img/jj_con03_11_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con03_11_01 {height:723px; background:url('../img/jj_con03_11_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con03_11_01 {height:661px; background:url('../img/jj_con03_11_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con03_11_01 {height:1834px; background:url('../img/jj_con03_11_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con03_11_01 {height:1334px; background:url('../img/jj_con03_11_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con03_11_01 {height:622px; background:url('../img/jj_con03_11_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+
+/****09남자성형****/
+.sub_con .cons.con_01.jj_con09_01_01{height:1159px; background:url('../img/jj_con09_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_03.jj_con09_01_01{height:755px; background:url('../img/jj_con09_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_04.jj_con09_01_01{height:938px; background:url('../img/jj_con09_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_05.jj_con09_01_01{height:918px; background:url('../img/jj_con09_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .cons.con_01.jj_con09_02_01{height:1032px; background:url('../img/jj_con09_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_02.jj_con09_02_01{height:531px; background:url('../img/jj_con09_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_03.jj_con09_02_01{height:846px; background:url('../img/jj_con09_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_04.jj_con09_02_01{height:945px; background:url('../img/jj_con09_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+.sub_con .cons.con_01.jj_con09_03_01{height:1032px; background:url('../img/jj_con09_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_02.jj_con09_03_01{height:874px; background:url('../img/jj_con09_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_03.jj_con09_03_01{height:695px; background:url('../img/jj_con09_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_04.jj_con09_03_01{height:640px; background:url('../img/jj_con09_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_05.jj_con09_03_01{height:925px; background:url('../img/jj_con09_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_06.jj_con09_03_01{height:902px; background:url('../img/jj_con09_03_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .cons.con_01.jj_con09_04_01{height:1032px; background:url('../img/jj_con09_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_02.jj_con09_04_01{height:1010px; background:url('../img/jj_con09_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_03.jj_con09_04_01{height:971px; background:url('../img/jj_con09_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_04.jj_con09_04_01{height:1017px; background:url('../img/jj_con09_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .cons.con_05.jj_con09_04_01{height:923px; background:url('../img/jj_con09_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .cons.con_01.jj_con09_05_01{height:794px; background:url('../img/jj_con09_05_img_01.jpg') center 0 no-repeat; position:relative;}.
+.sub_con .cons.con_01.jj_con09_05_01 li{float:left;}
+.sub_con .cons.con_02.jj_con09_05_01{padding:100px 0 50px 0; height:699px; background:url('../img/jj_con09_05_img_02.jpg') center 50% no-repeat;}
+.sub_con .cons.con_03.jj_con09_05_01{padding:50px 0; height:700px; background:url('../img/jj_con09_05_img_03.jpg') center 50% no-repeat;}
+.sub_con .cons.con_04.jj_con09_05_01{padding:50px 0 100px 0; height:700px; background:url('../img/jj_con09_05_img_04.jpg') center 50% no-repeat;}
+
+.sub_con .cons.con_01.jj_con09_06_01{height:794px; background:url('../img/jj_con09_06_img_01.jpg') center 0 no-repeat; position:relative;}
+.sub_con .cons.con_02.jj_con09_06_01{padding:100px 0 50px 0; height:699px; background:url('../img/jj_con09_06_img_02.jpg') center 50% no-repeat;}
+.sub_con .cons.con_03.jj_con09_06_01{padding:50px 0; height:700px; background:url('../img/jj_con09_06_img_03.jpg') center 50% no-repeat;}
+.sub_con .cons.con_04.jj_con09_06_01{padding:50px 0 100px 0; height:700px; background:url('../img/jj_con09_06_img_04.jpg') center 50% no-repeat;}
+
+
+.sub_con .cons.con_01.jj_con09_07_01{height:794px; background:url('../img/jj_con09_07_img_01.jpg') center 0 no-repeat; position:relative;}
+.sub_con .cons.con_02.jj_con09_07_01{padding:100px 0 50px 0; height:699px; background:url('../img/jj_con09_07_img_02.jpg') center 50% no-repeat;}
+.sub_con .cons.con_03.jj_con09_07_01{padding:50px 0; height:700px; background:url('../img/jj_con09_07_img_03.jpg') center 50% no-repeat;}
+
+
+
+/*================================
+	04_눈성형
+================================*/
+.eye_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.eye_bg_div_01 > ul.sel_bns {  width:1200px; }
+.eye_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.eye_bg_div_01 > ul.sel_bns > li.li_06 { padding-right:0;}
+.eye_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.eye_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+/**** 서브 메인 ****/
+.eye .sub_main_top_wrap1 {width:100%; height:712px; background:#f3dce1;}
+.eye .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px;  background:#fff;}
+
+.eye .sub_main_top_wrap2 {width:100%; height:542px;}
+.eye .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_eye_index_bg01.jpg') repeat-x;}
+
+.eye .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.eye .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.eye .sub_con_index .sub_main_top ul li {height:712px;}
+.eye .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.eye .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_eye_index_img01.jpg') no-repeat right top;}
+.eye .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_eye_index_img02.jpg') no-repeat left top;}
+
+.eye .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.eye .sub_con_index .sub_main_bottom ul {float:left;}
+.eye .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.eye .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.eye .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.eye .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.eye .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){background:url('../img/jj_eye_index_img06.jpg') no-repeat left top;}
+.eye .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){background:url('../img/jj_eye_index_img07.jpg') no-repeat left top;}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.eye .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.eye .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.eye .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.eye .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+/****01제이준눈성형시스템****/
+.sub_con .con_01.jj_con04_01_01 {height:764px; background:url('../img/jj_con04_01_img_01.jpg') center 0 no-repeat;}
+.sub_con .con_02.jj_con04_01_01 {height:641px; background:url('../img/jj_con04_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_01_01 {height:400px; background:url('../img/jj_con04_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_01_01 {height:617px; background:url('../img/jj_con04_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con04_01_01 {height:400px; background:url('../img/jj_con04_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con04_01_01 {height:443px; background:url('../img/jj_con04_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con04_01_01 {height:399px; background:url('../img/jj_con04_01_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con04_01_01 {height:636px; background:url('../img/jj_con04_01_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02쌍커풀수술 tab01자연유착법****/
+.sub_con .con_01.jj_con04_02_01 {height:640px; background:url('../img/jj_con04_02_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_02_01 {height:775px; background:url('../img/jj_con04_02_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_02_01 {height:405px; background:url('../img/jj_con04_02_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_02_01 {height:785px; background:url('../img/jj_con04_02_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02쌍커풀수술 tab02매몰법****/
+.sub_con .con_01.jj_con04_02_02 {height:640px; background:url('../img/jj_con04_02_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_02_02 {height:775px; background:url('../img/jj_con04_02_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_02_02 {height:886px; background:url('../img/jj_con04_02_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_02_02 {height:785px; background:url('../img/jj_con04_02_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02쌍커풀수술 tab03절개법****/
+.sub_con .con_01.jj_con04_02_03 {height:640px; background:url('../img/jj_con04_02_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_02_03 {height:775px; background:url('../img/jj_con04_02_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_02_03 {height:886px; background:url('../img/jj_con04_02_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_02_03 {height:785px; background:url('../img/jj_con04_02_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02쌍커풀수술 tab04부분절개법****/
+.sub_con .con_01.jj_con04_02_04 {height:640px; background:url('../img/jj_con04_02_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_02_04 {height:775px; background:url('../img/jj_con04_02_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_02_04 {height:886px; background:url('../img/jj_con04_02_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_02_04 {height:785px; background:url('../img/jj_con04_02_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****03트임술 tab01앞트임/윗트임****/
+.sub_con .con_01.jj_con04_03_01 {height:640px; background:url('../img/jj_con04_03_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_03_01 {height:425px; background:url('../img/jj_con04_03_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_03_01 {height:365px; background:url('../img/jj_con04_03_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_03_01 {height:770px; background:url('../img/jj_con04_03_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con04_03_01 {height:404px; background:url('../img/jj_con04_03_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con04_03_01 {height:786px; background:url('../img/jj_con04_03_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****03트임술 tab02뒤트임/밑트임****/
+.sub_con .con_01.jj_con04_03_02 {height:640px; background:url('../img/jj_con04_03_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_03_02 {height:485px; background:url('../img/jj_con04_03_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_03_02 {height:771px; background:url('../img/jj_con04_03_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_03_02 {height:413px; background:url('../img/jj_con04_03_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con04_03_02 {height:413px; background:url('../img/jj_con04_03_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con04_03_02 {height:783px; background:url('../img/jj_con04_03_02_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****04눈매교정술 tab01눈매교정술****/
+.sub_con .con_01.jj_con04_04_01 {height:640px; background:url('../img/jj_con04_04_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_04_01 {height:332px; background:url('../img/jj_con04_04_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_04_01 {height:369px; background:url('../img/jj_con04_04_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_04_01 {height:735px; background:url('../img/jj_con04_04_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****04눈매교정술 tab02비절개눈매교정술****/
+.sub_con .con_01.jj_con04_04_02 {height:640px; background:url('../img/jj_con04_04_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_04_02 {height:775px; background:url('../img/jj_con04_04_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_04_02 {height:886px; background:url('../img/jj_con04_04_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_04_02 {height:784px; background:url('../img/jj_con04_04_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****04눈매교정술 tab03절개눈매교정술****/
+.sub_con .con_01.jj_con04_04_03 {height:640px; background:url('../img/jj_con04_04_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_04_03 {height:775px; background:url('../img/jj_con04_04_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_04_03 {height:886px; background:url('../img/jj_con04_04_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_04_03 {height:784px; background:url('../img/jj_con04_04_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05눈밑성형 tab01눈밑지방재배치****/
+.sub_con .con_01.jj_con04_05_01 {height:640px; background:url('../img/jj_con04_05_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_05_01 {height:775px; background:url('../img/jj_con04_05_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_05_01 {height:405px; background:url('../img/jj_con04_05_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_05_01 {height:786px; background:url('../img/jj_con04_05_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05눈밑성형 tab02눈밑지방제거****/
+.sub_con .con_01.jj_con04_05_02 {height:640px; background:url('../img/jj_con04_05_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_05_02 {height:775px; background:url('../img/jj_con04_05_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_05_02 {height:433px; background:url('../img/jj_con04_05_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_05_02 {height:786px; background:url('../img/jj_con04_05_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05눈밑성형 tab03눈밑애교****/
+.sub_con .con_01.jj_con04_05_03 {height:640px; background:url('../img/jj_con04_05_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_05_03 {height:775px; background:url('../img/jj_con04_05_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_05_03 {height:785px; background:url('../img/jj_con04_05_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06중년눈성형 tab01상안검****/
+.sub_con .con_01.jj_con04_06_01 {height:640px; background:url('../img/jj_con04_06_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_06_01 {height:775px; background:url('../img/jj_con04_06_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_06_01 {height:409px; background:url('../img/jj_con04_06_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_06_01 {height:787px; background:url('../img/jj_con04_06_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06중년눈성형 tab02하안검****/
+.sub_con .con_01.jj_con04_06_02 {height:640px; background:url('../img/jj_con04_06_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_06_02 {height:775px; background:url('../img/jj_con04_06_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_06_02 {height:409px; background:url('../img/jj_con04_06_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_06_02 {height:785px; background:url('../img/jj_con04_06_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06중년눈성형 tab03눈썹거상술****/
+.sub_con .con_01.jj_con04_06_03 {height:640px; background:url('../img/jj_con04_06_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_06_03 {height:775px; background:url('../img/jj_con04_06_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_06_03 {height:792px; background:url('../img/jj_con04_06_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_06_03 {height:786px; background:url('../img/jj_con04_06_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06중년눈성형 tab04이마거상술(엔도타인)****/
+.sub_con .con_01.jj_con04_06_04 {height:640px; background:url('../img/jj_con04_06_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_06_04 {height:425px; background:url('../img/jj_con04_06_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_06_04 {height:775px; background:url('../img/jj_con04_06_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_06_04 {height:404px; background:url('../img/jj_con04_06_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con04_06_04 {height:785px; background:url('../img/jj_con04_06_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****07눈재수술****/
+.sub_con .con_01.jj_con04_07_01 {height:640px; background:url('../img/jj_con04_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_07_01 {height:504px; background:url('../img/jj_con04_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_07_01 {height:833px; background:url('../img/jj_con04_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_07_01 {height:785px; background:url('../img/jj_con04_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****08아이준****/
+.sub_con .con_01.jj_con04_08_01 {height:640px; background:url('../img/jj_con04_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con04_08_01 {height:640px; background:url('../img/jj_con04_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con04_08_01 {height:653px; background:url('../img/jj_con04_08_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con04_08_01 {height:639px; background:url('../img/jj_con04_08_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con04_08_01 {height:804px; background:url('../img/jj_con04_08_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+
+/*================================
+	05_코성형
+================================*/
+.nose_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.nose_bg_div_01 > ul.sel_bns {  width:1200px; }
+.nose_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.nose_bg_div_01 > ul.sel_bns > li.li_06 { padding-right:0;}
+.nose_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.nose_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+/**** 서브 메인 ****/
+.nose .sub_main_top_wrap1 {width:100%; height:712px; background:#faf0d7;}
+.nose .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px;  background:#fff;}
+
+.nose .sub_main_top_wrap2 {width:100%; height:542px;}
+.nose .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_face_index_bg02.jpg') repeat-x;}
+
+.nose .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.nose .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.nose .sub_con_index .sub_main_top ul li {height:712px;}
+.nose .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.nose .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_nose_index_img01.jpg') no-repeat right top;}
+.nose .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_nose_index_img02.jpg') no-repeat left top;}
+
+.nose .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.nose .sub_con_index .sub_main_bottom ul {float:left;}
+.nose .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.nose .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.nose .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.nose .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.nose .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){background:url('../img/jj_nose_index_img06.jpg') no-repeat left top;}
+.nose .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){background:url('../img/jj_nose_index_img07.jpg') no-repeat left top;}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.nose .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.nose .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.nose .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.nose .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+/****01제이준코성형시스템****/
+.sub_con .con_01.jj_con05_01_01 {height:764px; background:url('../img/jj_con05_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_01_01 {height:873px; background:url('../img/jj_con05_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_01_01 {height:605px; background:url('../img/jj_con05_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_01_01 {height:970px; background:url('../img/jj_con05_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_01_01 {height:639px; background:url('../img/jj_con05_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab01콧대성형****/
+.sub_con .con_01.jj_con05_02_01 {height:640px; background:url('../img/jj_con05_02_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_01 {height:775px; background:url('../img/jj_con05_02_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_01 {height:418px; background:url('../img/jj_con05_02_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_01 {height:785px; background:url('../img/jj_con05_02_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab02코끝성형****/
+.sub_con .con_01.jj_con05_02_02 {height:640px; background:url('../img/jj_con05_02_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_02 {height:775px; background:url('../img/jj_con05_02_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_02 {height:963px; background:url('../img/jj_con05_02_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_02 {height:785px; background:url('../img/jj_con05_02_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab03매부리코****/
+.sub_con .con_01.jj_con05_02_03 {height:640px; background:url('../img/jj_con05_02_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_03 {height:776px; background:url('../img/jj_con05_02_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_03 {height:739px; background:url('../img/jj_con05_02_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_03 {height:785px; background:url('../img/jj_con05_02_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab04짧은코****/
+.sub_con .con_01.jj_con05_02_04 {height:640px; background:url('../img/jj_con05_02_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_04 {height:775px; background:url('../img/jj_con05_02_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_04 {height:420px; background:url('../img/jj_con05_02_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_04 {height:787px; background:url('../img/jj_con05_02_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab05긴코****/
+.sub_con .con_01.jj_con05_02_05 {height:640px; background:url('../img/jj_con05_02_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_05 {height:775px; background:url('../img/jj_con05_02_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_05 {height:420px; background:url('../img/jj_con05_02_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_05 {height:787px; background:url('../img/jj_con05_02_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab06복코****/
+.sub_con .con_01.jj_con05_02_06 {height:640px; background:url('../img/jj_con05_02_06_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_06 {height:652px; background:url('../img/jj_con05_02_06_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_06 {height:499px; background:url('../img/jj_con05_02_06_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_06 {height:753px; background:url('../img/jj_con05_02_06_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_02_06 {height:1176px; background:url('../img/jj_con05_02_06_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con05_02_06 {height:775px; background:url('../img/jj_con05_02_06_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con05_02_06 {height:785px; background:url('../img/jj_con05_02_06_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab07콧볼축소****/
+.sub_con .con_01.jj_con05_02_07 {height:640px; background:url('../img/jj_con05_02_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_07 {height:775px; background:url('../img/jj_con05_02_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_07 {height:737px; background:url('../img/jj_con05_02_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_07 {height:785px; background:url('../img/jj_con05_02_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab08양악후코성형****/
+.sub_con .con_01.jj_con05_02_08 {height:640px; background:url('../img/jj_con05_02_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_08 {height:726px; background:url('../img/jj_con05_02_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_08 {height:775px; background:url('../img/jj_con05_02_08_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_08 {height:789px; background:url('../img/jj_con05_02_08_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab09용코성형****/
+.sub_con .con_01.jj_con05_02_09 {height:640px; background:url('../img/jj_con05_02_09_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_09 {height:775px; background:url('../img/jj_con05_02_09_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_09 {height:418px; background:url('../img/jj_con05_02_09_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_09 {height:785px; background:url('../img/jj_con05_02_09_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02유형별 코성형 tab10비절개콧볼축소****/
+.sub_con .con_01.jj_con05_02_10 {height:640px; background:url('../img/jj_con05_02_10_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_02_10 {height:515px; background:url('../img/jj_con05_02_10_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_02_10 {height:758px; background:url('../img/jj_con05_02_10_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_02_10 {height:762px; background:url('../img/jj_con05_02_10_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_02_10 {height:411px; background:url('../img/jj_con05_02_10_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con05_02_10 {height:803px; background:url('../img/jj_con05_02_10_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+/****03남자코성형****/
+.sub_con .con_01.jj_con05_03_01 {height:640px; background:url('../img/jj_con05_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_03_01 {height:775px; background:url('../img/jj_con05_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_03_01 {height:683px; background:url('../img/jj_con05_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_03_01 {height:505px; background:url('../img/jj_con05_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_03_01 {height:800px; background:url('../img/jj_con05_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****04구순구개열코성형****/
+.sub_con .con_01.jj_con05_04_01 {height:640px; background:url('../img/jj_con05_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_04_01 {height:291px; background:url('../img/jj_con05_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_04_01 {height:338px; background:url('../img/jj_con05_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_04_01 {height:418px; background:url('../img/jj_con05_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05코재수술****/
+.sub_con .con_01.jj_con05_05_01 {height:636px; background:url('../img/jj_con05_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_05_01 {height:878px; background:url('../img/jj_con05_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_05_01 {height:805px; background:url('../img/jj_con05_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_05_01 {height:777px; background:url('../img/jj_con05_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_05_01 {height:1421px; background:url('../img/jj_con05_05_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con05_05_01 {height:1324px; background:url('../img/jj_con05_05_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con05_05_01 {height:804px; background:url('../img/jj_con05_05_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con05_05_01 {height:776px; background:url('../img/jj_con05_05_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_09.jj_con05_05_01 {height:785px; background:url('../img/jj_con05_05_img_09.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_10.jj_con05_05_01 {height:711px; background:url('../img/jj_con05_05_img_10.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_11.jj_con05_05_01 {height:752px; background:url('../img/jj_con05_05_img_11.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06코재수술(들창코)****/
+.sub_con .con_01.jj_con05_06_01 {height:640px; background:url('../img/jj_con05_06_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_06_01 {height:449px; background:url('../img/jj_con05_06_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_06_01 {height:773px; background:url('../img/jj_con05_06_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_06_01 {height:550px; background:url('../img/jj_con05_06_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_06_01 {height:785px; background:url('../img/jj_con05_06_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con05_06_01 {height:776px; background:url('../img/jj_con05_06_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con05_06_01 {height:785px; background:url('../img/jj_con05_06_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con05_06_01 {height:715px; background:url('../img/jj_con05_06_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_09.jj_con05_06_01 {height:752px; background:url('../img/jj_con05_06_img_09.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****07자가조직 코재수술****/
+.sub_con .con_01.jj_con05_07_01 {height:640px; background:url('../img/jj_con05_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con05_07_01 {height:593px; background:url('../img/jj_con05_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con05_07_01 {height:729px; background:url('../img/jj_con05_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con05_07_01 {height:673px; background:url('../img/jj_con05_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con05_07_01 {height:474px; background:url('../img/jj_con05_07_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con05_07_01 {height:691px; background:url('../img/jj_con05_07_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con05_07_01 {height:473px; background:url('../img/jj_con05_07_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con05_07_01 {height:714px; background:url('../img/jj_con05_07_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_09.jj_con05_07_01 {height:778px; background:url('../img/jj_con05_07_img_09.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+
+
+
+/*================================
+	06_체형성형
+================================*/
+
+.body_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.body_bg_div_01 > ul.sel_bns {  width:1200px; }
+.body_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.body_bg_div_01 > ul.sel_bns > li.li_06 { padding-right:0;}
+.body_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.body_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+/**** 서브 메인 ****/
+.body .sub_main_top_wrap1 {width:100%; height:712px; background:#e8f3ff;}
+.body .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background-color:#fff;}
+
+.body .sub_main_top_wrap2 {width:100%; height:542px;}
+.body .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_body_index_bg01.jpg') repeat-x;}
+
+.body .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.body .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.body .sub_con_index .sub_main_top ul li {height:712px;}
+.body .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.body .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_body_index_img01.jpg') no-repeat right top;}
+.body .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_body_index_img02.jpg') no-repeat left top;}
+
+.body .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.body .sub_con_index .sub_main_bottom ul {float:left;}
+.body .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.body .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.body .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.body .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.body .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){}
+.body .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.body .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.body .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.body .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.body .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+
+
+
+/****01지방흡입****/
+.sub_con .con_01.jj_con06_01_01 {height:641px; background:url('../img/jj_con06_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con06_01_01 {height:777px; background:url('../img/jj_con06_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con06_01_01 {height:1483px; background:url('../img/jj_con06_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con06_01_01 {height:785px; background:url('../img/jj_con06_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con06_01_01 {height:787px; background:url('../img/jj_con06_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con06_01_01 {height:875px; background:url('../img/jj_con06_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con06_01_01 {height:873px; background:url('../img/jj_con06_02_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con06_02_01 {height:641px; background:url('../img/jj_con06_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con06_02_01 {height:1483px; background:url('../img/jj_con06_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con06_02_01 {height:787px; background:url('../img/jj_con06_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con06_02_01 {height:777px; background:url('../img/jj_con06_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con06_02_01 {height:875px; background:url('../img/jj_con06_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con06_02_01 {height:873px; background:url('../img/jj_con06_02_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con06_03_01 {height:678px; background:url('../img/jj_con06_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con06_03_01 {height:778px; background:url('../img/jj_con06_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con06_03_01 {height:528px; background:url('../img/jj_con06_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con06_03_01 {height:787px; background:url('../img/jj_con06_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con06_03_01 {height:875px; background:url('../img/jj_con06_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con06_03_01 {height:873px; background:url('../img/jj_con06_03_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con06_04_01 {height:640px; background:url('../img/jj_con06_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con06_04_01 {height:780px; background:url('../img/jj_con06_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con06_04_01 {height:786px; background:url('../img/jj_con06_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con06_04_01 {height:783px; background:url('../img/jj_con06_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con06_04_01 {height:875px; background:url('../img/jj_con06_04_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con06_04_01 {height:873px; background:url('../img/jj_con06_04_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con06_05_01 {height:640px; background:url('../img/jj_con06_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con06_05_01 {height:723px; background:url('../img/jj_con06_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con06_05_01 {height:1240px; background:url('../img/jj_con06_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con06_05_01 {height:860px; background:url('../img/jj_con06_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con06_05_01 {height:836px; background:url('../img/jj_con06_05_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con06_05_01 {height:906px; background:url('../img/jj_con06_05_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con06_05_01 {height:1102px; background:url('../img/jj_con06_05_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+/*체형성형 공통탭*/
+
+.body_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:1034px;}
+.body_bg_div_01 > ul.sel_bns {  width:1200px; }
+.body_bg_div_01 > ul.sel_bns > li { float:left; padding-right:0;}
+.body_bg_div_01 > ul.sel_bns > li.li_08 { padding-right:0;}
+.body_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.body_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+.body_bg_div_02 {margin-top:21px; width:1200px; margin:0 auto 100px auto; position:relative; min-height:853px;}
+.body_bg_div_02 > ul.sel_bns2 {  width:1200px; }
+.body_bg_div_02 > ul.sel_bns2 > li { float:left; padding-right:0;}
+.body_bg_div_02 > ul.sel_bns2 > li.li_08 { padding-right:0;}
+.body_bg_div_02 > ul.sel_bns2 > li > a {display:block;}
+.body_bg_div_02 > ul.img_slide2 li {position:absolute; top:58px; left:0; }
+
+/*.sub_con .con_ul li { text-align:center; margin-bottom:20px;}
+.sub_con .con_ul_02 { overflow:hidden; width:1200px; position:relative; margin:0 auto; }
+.sub_con .con_ul_02 li { float:left; padding-right:15px;}
+.sub_con .con_ul_02 li.last { padding-right:0;}*/
+
+
+/*================================
+	07_리프팅
+================================*/
+
+/**** 서브 메인 ****/
+.lifting .sub_main_top_wrap1 {width:100%; height:712px; background:#f2d3d8;}
+.lifting .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px;  background:#fff;}
+
+.lifting .sub_main_top_wrap2 {width:100%; height:542px;}
+.lifting .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_face_index_bg02.jpg') repeat-x;}
+
+.lifting .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.lifting .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.lifting .sub_con_index .sub_main_top ul li {height:712px;}
+.lifting .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.lifting .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_lift_index_img01.jpg') no-repeat right top;}
+.lifting .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_lift_index_img02.jpg') no-repeat left top;}
+
+.lifting .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.lifting .sub_con_index .sub_main_bottom ul {float:left;}
+.lifting .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.lifting .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.lifting .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.lifting .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.lifting .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){background:url('../img/jj_nose_index_img06.jpg') no-repeat left top;}
+.lifting .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){background:url('../img/jj_nose_index_img07.jpg') no-repeat left top;}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.lifting .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.lifting .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.lifting .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.lifting .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+/****01비절개리프팅****/
+.sub_con .con_01.jj_con07_01_01 {height:640px; background:url('../img/jj_con07_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_01_01 {height:902px; background:url('../img/jj_con07_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_01_01 {height:775px; background:url('../img/jj_con07_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_01_01 {height:775px; background:url('../img/jj_con07_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_01_01 {height:482px; background:url('../img/jj_con07_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_01_01 {height:780px; background:url('../img/jj_con07_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****02절개리프팅****/
+.sub_con .con_01.jj_con07_02_01 {height:640px; background:url('../img/jj_con07_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_02_01 {height:775px; background:url('../img/jj_con07_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_02_01 {height:857px; background:url('../img/jj_con07_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_02_01 {height:648px; background:url('../img/jj_con07_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****05V라인리프팅****/
+.sub_con .con_01.jj_con07_05_01 {height:640px; background:url('../img/jj_con07_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_05_01 {height:904px; background:url('../img/jj_con07_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_05_01 {height:677px; background:url('../img/jj_con07_05_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_05_01 {height:847px; background:url('../img/jj_con07_05_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_05_01 {height:484px; background:url('../img/jj_con07_05_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_05_01 {height:780px; background:url('../img/jj_con07_05_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****06리프팅특징****/
+.sub_con .con_01.jj_con07_06_01 {height:1626px; background:url('../img/jj_con07_06_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_06_01 {height:1994px; background:url('../img/jj_con07_06_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_06_01 {height:770px; background:url('../img/jj_con07_06_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_06_01 {height:4668px; background:url('../img/jj_con07_06_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****07실리프팅****/
+.sub_con .con_01.jj_con07_07_01 {height:640px; background:url('../img/jj_con07_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_07_01 {height:775px; background:url('../img/jj_con07_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_07_01 {height:827px; background:url('../img/jj_con07_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_07_01 {height:647px; background:url('../img/jj_con07_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_07_01 {height:366px; background:url('../img/jj_con07_07_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_07_01 {height:780px; background:url('../img/jj_con07_07_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****08실크리프팅****/
+.sub_con .con_01.jj_con07_08_01 {height:640px; background:url('../img/jj_con07_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_08_01 {height:482px; background:url('../img/jj_con07_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_08_01 {height:707px; background:url('../img/jj_con07_08_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_08_01 {height:690px; background:url('../img/jj_con07_08_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_08_01 {height:810px; background:url('../img/jj_con07_08_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_08_01 {height:776px; background:url('../img/jj_con07_08_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con07_08_01 {height:366px; background:url('../img/jj_con07_08_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con07_08_01 {height:746px; background:url('../img/jj_con07_08_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****09비절개리프팅 - E2서브라임****/
+.sub_con .con_01.jj_con07_09_01 {height:640px; background:url('../img/jj_con07_09_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_09_01 {height:482px; background:url('../img/jj_con07_09_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_09_01 {height:1411px; background:url('../img/jj_con07_09_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_09_01 {height:385px; background:url('../img/jj_con07_09_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_09_01 {height:768px; background:url('../img/jj_con07_09_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_09_01 {height:796px; background:url('../img/jj_con07_09_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con07_09_01 {height:709px; background:url('../img/jj_con07_09_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****10비절개리프팅 - LDM물방울리프팅****/
+.sub_con .con_01.jj_con07_10_01 {height:640px; background:url('../img/jj_con07_10_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_10_01 {height:592px; background:url('../img/jj_con07_10_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_10_01 {height:813px; background:url('../img/jj_con07_10_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_10_01 {height:1005px; background:url('../img/jj_con07_10_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_10_01 {height:815px; background:url('../img/jj_con07_10_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_10_01 {height:1053px; background:url('../img/jj_con07_10_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con07_10_01 {height:709px; background:url('../img/jj_con07_10_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****11입꼬리성형****/
+.sub_con .con_01.jj_con07_11_01 {height:640px; background:url('../img/jj_con07_11_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_11_01 {height:813px; background:url('../img/jj_con07_11_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_11_01 {height:713px; background:url('../img/jj_con07_11_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_11_01 {height:1494px; background:url('../img/jj_con07_11_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_11_01 {height:820px; background:url('../img/jj_con07_11_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+/****12보톡스****/
+.sub_con .con_01.jj_con07_12_01 {height:640px; background:url('../img/jj_con07_12_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_12_01 {height:813px; background:url('../img/jj_con07_12_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_12_01 {height:632px; background:url('../img/jj_con07_12_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_12_01 {height:1278px; background:url('../img/jj_con07_12_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_12_01 {height:778px; background:url('../img/jj_con07_12_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_12_01 {height:353px; background:url('../img/jj_con07_12_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+/****13필러****/
+.sub_con .con_01.jj_con07_13_01 {height:640px; background:url('../img/jj_con07_13_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_13_01 {height:773px; background:url('../img/jj_con07_13_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_13_01 {height:773px; background:url('../img/jj_con07_13_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_13_01 {height:783px; background:url('../img/jj_con07_13_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_13_01 {height:306px; background:url('../img/jj_con07_13_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con07_13_01 {height:768px; background:url('../img/jj_con07_13_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con07_13_01 {height:379px; background:url('../img/jj_con07_13_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****14귀성형****/
+.sub_con .con_01.jj_con07_14_01 {height:640px; background:url('../img/jj_con07_14_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_14_01 {height:804px; background:url('../img/jj_con07_14_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_14_01 {height:712px; background:url('../img/jj_con07_14_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_14_01 {height:1772px; background:url('../img/jj_con07_14_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_14_01 {height:804px; background:url('../img/jj_con07_14_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/****15윤곽주사****/
+.sub_con .con_01.jj_con07_15_01 {height:640px; background:url('../img/jj_con07_15_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con07_15_01 {height:806px; background:url('../img/jj_con07_15_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con07_15_01 {height:813px; background:url('../img/jj_con07_15_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con07_15_01 {height:743px; background:url('../img/jj_con07_15_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con07_15_01 {height:353px; background:url('../img/jj_con07_15_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+
+
+
+
+/*================================
+	08_피부과
+================================*/
+
+.skin_bg_div_01 {margin-top:21px; width:1200px; margin:0 auto; position:relative; min-height:600px;}
+.skin_bg_div_01 > ul.sel_bns {  width:1200px; }
+.skin_bg_div_01 > ul.sel_bns > li { float:left; padding-right:1px;}
+.skin_bg_div_01 > ul.sel_bns > li.li_06 { padding-right:0;}
+.skin_bg_div_01 > ul.sel_bns > li > a {display:block;}
+.skin_bg_div_01 > ul.img_slide li {position:absolute; top:58px; left:0; }
+
+/**** 서브 메인 ****/
+.skin .sub_main_top_wrap1 {width:100%; height:712px; background:#fef4eb;}
+.skin .sub_main_top_wrap1 .sub_main_top_wrap1_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_skin_index_bg02.jpg') repeat-x;}
+
+.skin .sub_main_top_wrap2 {width:100%; height:542px;}
+.skin .sub_main_top_wrap2 .sub_main_top_wrap2_r{position:absolute; width:100%; height:712px; left:50%; margin-left:899px; background:url('../img/jj_skin_index_bg01.jpg') repeat-x;}
+
+.skin .sub_con_index {min-width:1400px; max-width:1920px; margin:0 auto;}
+.skin .sub_con_index .sub_main_top{height:712px; min-width:1400px; max-width:1920px;}
+.skin .sub_con_index .sub_main_top ul li {height:712px;}
+.skin .sub_con_index .sub_main_top ul li a {display:block; height:712px;}
+.skin .sub_con_index .sub_main_top ul li:first-child {float:left; width:63.64285714285714%; min-width:891px;  background:url('../img/jj_skin_index_img01.jpg') no-repeat right top;}
+.skin .sub_con_index .sub_main_top ul li:nth-child(2) {float:right; width:36.35714285714286%; min-width:509px; background:url('../img/jj_skin_index_img02.jpg') no-repeat left top;}
+
+.skin .sub_con_index .sub_main_bottom{min-width:1400px; max-width:1920px; overflow:hidden; width:100%;margin:0 auto; }
+.skin .sub_con_index .sub_main_bottom ul {float:left;}
+.skin .sub_con_index .sub_main_bottom ul:first-child{width:63.64285714285714%; min-width:891px; }
+.skin .sub_con_index .sub_main_bottom ul:first-child li{float:right; width:297px; height:542px;}
+
+.skin .sub_con_index .sub_main_bottom ul:nth-child(2){width:36.35714285714286%;  min-width:509px; }
+.skin .sub_con_index .sub_main_bottom ul:nth-child(2) li a {display:block; height:271px;}
+.skin .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(1){}
+.skin .sub_con_index .sub_main_bottom ul:nth-child(2) li:nth-child(2){}
+
+ @media handheld, only screen and (min-width: 1600px) {
+.skin .sub_con_index .sub_main_top ul li:first-child {width:60.64285714285714%; }
+.skin .sub_con_index .sub_main_top ul li:nth-child(2) {width:39.35714285714286%;}
+.skin .sub_con_index .sub_main_bottom ul:first-child{width:60.64285714285714%;}
+.skin .sub_con_index .sub_main_bottom ul:nth-child(2){width:39.35714285714286%;}
+}
+
+
+.sub_con .con_01.jj_con08_01_01 {height:640px; background:url('../img/jj_con08_01_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_01_01 {height:407px; background:url('../img/jj_con08_01_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_01_01 {height:776px; background:url('../img/jj_con08_01_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_01_01 {height:785px; background:url('../img/jj_con08_01_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_01_01 {height:333px; background:url('../img/jj_con08_01_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con08_01_01 {height:729px; background:url('../img/jj_con08_01_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_02_01 {height:640px; background:url('../img/jj_con08_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_02_01 {height:516px; background:url('../img/jj_con08_02_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_02_01 {height:1024px; background:url('../img/jj_con08_02_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_02_01 {height:688px; background:url('../img/jj_con08_02_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_02_01 {height:827px; background:url('../img/jj_con08_02_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con08_02_01 {height:832px; background:url('../img/jj_con08_02_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con08_02_01 {height:830px; background:url('../img/jj_con08_02_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_08.jj_con08_02_01 {height:927px; background:url('../img/jj_con08_02_img_08.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_09.jj_con08_02_01 {height:661px; background:url('../img/jj_con08_02_img_09.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_10.jj_con08_02_01 {height:829px; background:url('../img/jj_con08_02_img_10.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+
+.sub_con .con_01.jj_con08_03_01 {height:640px; background:url('../img/jj_con08_03_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_03_01 {height:635px; background:url('../img/jj_con08_03_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_03_01 {height:1298px; background:url('../img/jj_con08_03_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_03_01 {height:1558px; background:url('../img/jj_con08_03_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_03_01 {height:695px; background:url('../img/jj_con08_03_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con08_03_01 {height:1509px; background:url('../img/jj_con08_03_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_04_01 {height:640px; background:url('../img/jj_con08_04_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_04_01 {height:677px; background:url('../img/jj_con08_04_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_04_01 {height:872px; background:url('../img/jj_con08_04_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_04_01 {height:2035px; background:url('../img/jj_con08_04_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_05_01 {height:640px; background:url('../img/jj_con08_05_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_05_01 {height:941px; background:url('../img/jj_con08_05_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_05_01 {height:1246px; background:url('../img/jj_con08_05_img_03.jpg') center 0 no-repeat;margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_06_01 {height:640px; background:url('../img/jj_con08_06_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_06_01 {height:503px; background:url('../img/jj_con08_06_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_06_01 {height:836px; background:url('../img/jj_con08_06_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_06_01 {height:666px; background:url('../img/jj_con08_06_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_07_01 {height:640px; background:url('../img/jj_con08_07_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_07_01 {height:839px; background:url('../img/jj_con08_07_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_07_01 {height:814px; background:url('../img/jj_con08_07_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_07_01 {height:2201px; background:url('../img/jj_con08_07_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_07_01 {height:961px; background:url('../img/jj_con08_07_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_08_01 {height:640px; background:url('../img/jj_con08_08_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_08_01 {height:1776px; background:url('../img/jj_con08_08_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_08_01 {height:877px; background:url('../img/jj_con08_08_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_08_01 {height:876px; background:url('../img/jj_con08_08_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_08_01 {height:800px; background:url('../img/jj_con08_08_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_09_01 {height:640px; background:url('../img/jj_con08_09_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_09_01 {height:542px; background:url('../img/jj_con08_09_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_09_01 {height:350px; background:url('../img/jj_con08_09_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_09_01 {height:775px; background:url('../img/jj_con08_09_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_09_01 {height:780px; background:url('../img/jj_con08_09_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con08_09_01 {height:423px; background:url('../img/jj_con08_09_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con08_09_01 {height:780px; background:url('../img/jj_con08_09_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+.sub_con .con_01.jj_con08_10_01 {height:640px; background:url('../img/jj_con08_10_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_02.jj_con08_10_01 {height:482px; background:url('../img/jj_con08_10_img_02.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_03.jj_con08_10_01 {height:1411px; background:url('../img/jj_con08_10_img_03.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_04.jj_con08_10_01 {height:385px; background:url('../img/jj_con08_10_img_04.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_05.jj_con08_10_01 {height:768px; background:url('../img/jj_con08_10_img_05.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_06.jj_con08_10_01 {height:796px; background:url('../img/jj_con08_10_img_06.jpg') center 0 no-repeat; margin-bottom:50px;}
+.sub_con .con_07.jj_con08_10_01 {height:709px; background:url('../img/jj_con08_10_img_07.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+/*================================
+	10_고객상담
+================================*/
+
+/****02카톡상담****/
+.sub_con .con_01.jj_con10_02_01 {height:791px; background:url('../img/jj_con10_02_img_01.jpg') center 0 no-repeat; margin-bottom:50px;}
+
+ /**/
+
+.sub_con .cons.img_con {width:1200px; margin:0 auto; padding-top:70px; position:relative;}
+.sub_con .cons.pops {height:590px;}
+.sub_con .cons.img_con .call_pop {width:100%; height:100%; display:block;}
+.sub_con .cons.img_con .imgs {}
+.sub_con .cons.img_con .pop_area {width:1200px; height:589px; position:fixed; top:50%; left:50%; display:none; z-index:900; margin:-295px 0 0 -600px;}
+.sub_con .cons.img_con .pop_area div {width:100%; height:100%; position:relative;}
+.sub_con .cons.img_con .pop_area img {display:block;}
+.sub_con .cons.img_con .pop_area a {display:block; width:66px; height:66px; position:absolute; top:0; right:0;}
+.pop_blind {position:fixed; top:0; left:0; width:100%; height:100%; background:#000; opacity:0.8; z-index:890; display:none;}
+
+
+.jj_notice_list {width:1200px; margin:0 auto; padding-top:70px; position:relative; overflow:hidden;}
+.jj_notice_list .divs {width:290px; height:409px; float:left; position:relative; margin:0 0 13px 13px;}
+.jj_notice_list .divs.leftside {margin:0 0 13px 0;}
+.jj_notice_list .divs .img_area {width:100%; height:100%; position:relative; vertical-align:top; overflow:hidden;}
+.jj_notice_list .divs .img_area img {width:100%;}
+.jj_notice_list .divs .link_area {display:block; width:100%; height:150px; position:absolute; left:0;}
+.jj_notice_list .divs .link_area .date {text-align:center; font-size:13px; color:#807e7e;}
+.jj_notice_list .divs .link_area .cons {width:210px; padding:0 40px; display:block; font-size:15px; color:#2e2b2b; font-weight:bold; margin-top:8px; text-align:center;
+line-height:18px;}
+.jj_notice_list .divs .link_area .bn {width:74px; height:22px; display:block; margin:10px auto 0; border:1px solid #dbb57d; font-size:11px; font-weight:bold;
+color:#cba369; text-align:center; line-height:22px;}
+.jj_notice_list .divs.div_odd .link_area {bottom:0; background:url('../img/jj_con01_07_txtbox_bot_off.png') 0 0 no-repeat;}
+.jj_notice_list .divs.div_odd .link_area .date {padding-top:40px;}
+.jj_notice_list .divs.div_even .link_area {top:0; background:url('../img/jj_con01_07_txtbox_top_off.png') 0 0 no-repeat;}
+.jj_notice_list .divs.div_even .link_area .date {padding-top:20px;}
+.jj_notice_list .divs.div_odd .link_area:hover {background:url('../img/jj_con01_07_txtbox_bot_on.png') 0 0 no-repeat;}
+.jj_notice_list .divs.div_even .link_area:hover {background:url('../img/jj_con01_07_txtbox_top_on.png') 0 0 no-repeat;}
+.jj_notice_list .divs .link_area:hover .cons {color:#fff;}
+.jj_notice_list .divs .link_area:hover .bn {background:#cba369; color:#18181a;}
+
+/* 카테고리 탭메뉴 */
+.categorys {width:1200px; height:56px; overflow:hidden; border-top:1px solid #dadada; border-bottom:1px solid #dadada; position:relative; margin:60px auto 0;}
+.categorys li {float:left; width:149px; height:100%; border-right:1px solid #dadada; height:height; background:#fff;}
+.categorys li.first {width:148px; border-left:1px solid #dadada;}
+.categorys li a {display:block; width:100%; height:100%; text-align:center;}
+.categorys li a img {display:inline-block; padding-top:20px;}
+.categorys li.on {background:#71cfd0;}
+.categorys li a:hover {background:#71cfd0;}
+
+
+/* 20150406 .right_quick 작업 */
+.quick_warp {width:115px; height:1020px; position:fixed; right:0; top:31%; margin:-320px 0 0 0; z-index:1000; overflow:hidden;}
+.quick_warp .quick_area {width:100%; height:100%; position:relative;}
+.quick_warp .quick_area2 {width:100%; height:100%; position:relative;}
+
+.quick_area .bns {width:115px; height:100%; position:absolute; top: 300px;; right:0; z-index:1003;}
+.quick_area .bns li {width:100%; height:85px; position:relative;}
+.quick_area .bns li a {display:block; width:100%; height:100%;}
+
+
+
+/*right_quic 온라인상담 */
+.quick_area .bns li.li_01 a {background:url('../img/nice_quick_01-off.png') center center no-repeat;}
+.quick_area .bns li.li_01.on a {background:#161e2f url('../img/nice_quick_01-on.png') center center no-repeat;}
+.quick_area .bns li.li_01 a:hover {background:#161e2f url('../img/nice_quick_01-on.png') center center no-repeat;}
+
+/*right_quic 카톡상담 */
+.quick_area .bns li.li_02 a {background:url('../img/mothersday_Activity/button_4.png') center center no-repeat;}
+.quick_area .bns li.li_02.on a {background: url('../img/mothersday_Activity/button_4_1.png') center center no-repeat;}
+.quick_area .bns li.li_02 a:hover {background: url('../img/mothersday_Activity/button_4_1.png') center center no-repeat;}
+
+/*right_quic 실시간비용상담 */
+.quick_area .bns li.li_03 a {background:url('../img/mothersday_Activity/button_3.png') center center no-repeat;}
+.quick_area .bns li.li_03.on a {background: url('../img/mothersday_Activity/button_3_1.png') center center no-repeat;}
+.quick_area .bns li.li_03 a:hover {background: url('../img/mothersday_Activity/button_3_1.png') center center no-repeat;}
+
+/*right_quic 수술후기 */
+.quick_area .bns li.li_04 a {background:url('../img/mothersday_Activity/button_2.png') center center no-repeat;}
+.quick_area .bns li.li_04.on a {background: url('../img/mothersday_Activity/button_2_1.png') center center no-repeat;}
+.quick_area .bns li.li_04 a:hover {background: url('../img/mothersday_Activity/button_2_1.png') center center no-repeat;}
+
+/*right_quic 온라인예약 */
+.quick_area .bns li.li_05 a {background:url('../img/mothersday_Activity/button_1.png') center center no-repeat;}
+.quick_area .bns li.li_05.on a {background: url('../img/mothersday_Activity/button_1_1.png') center center no-repeat;}
+.quick_area .bns li.li_05 a:hover {background: url('../img/mothersday_Activity/button_1_1.png') center center no-repeat;}
+
+
+
+/*right_quic 진료시간 */
+.quick_area .bns2 {width:111px; height:100%; position:absolute; top:730px; right:0; z-index:1010;}
+.quick_area .bns2 li {width:100%; height:100%; position:relative;}
+.quick_area .bns2 li a {display:block; width:100%; height:100%;}
+.quick_area .bns2 li.li_01 {background:url('../img/nice_quick_06.png') center center no-repeat; height:165px; margin-top:15px; right:-1px;}
+
+
+
+
+.quick_area .contents_wrap {width:100%; height:100%; position:absolute; top:0; left:0; z-index:1002;}
+.quick_area .contents_wrap .divs {width:365px; height:550px; padding:45px 50px; position:absolute; top:0; left:0; display:none;}
+/* .quick_area .contents_wrap .divs.div_01 {display:block;} */
+.quick_area .contents_wrap .divs .tit_area {width:100%; position:relative;}
+.quick_area .contents_wrap .divs .tit_area p {font-size:30px; font-weight:800; color:#fff;}
+.quick_area .contents_wrap .divs .tit_area span {display:block; font-size:14px; color:#fff; margin-top:12px;}
+.quick_area .contents_wrap .divs .tit_area .close_bn {position:absolute; top:0; right:0;}
+.quick_area .contents_wrap .divs .con_img {margin-top:40px; text-align:center;}
+.quick_area .contents_wrap .divs .con_img a {display:block;}
+.quick_area .contents_wrap .divs .con_img img {display:inline-block;}
+
+.quick_area .contents_wrap .div_01 table {width:100%; margin-top:40px; border-top:2px solid #fff; border-collapse:collapse;}
+.quick_area .contents_wrap .div_01 table tr {width:100%; height:34px; border-bottom:1px solid #505560;}
+.quick_area .contents_wrap .div_01 table tr td {text-align:center; font-size:13px; color:#fff;}
+.quick_area .contents_wrap .div_01 table tr td.cons {text-align:left; text-indent:10px;}
+.quick_area .contents_wrap .div_01 table tr td a:hover {text-decoration:underline;}
+
+.quick_area .contents_wrap .div_02 .tit_area p {color:#ffea29;}
+.quick_area .contents_wrap .div_02 .tit_area span {color:#ffea29;}
+
+.quick_area .contents_wrap .div_03 .con_form { width:365px; position:relative; margin:30px auto 0; padding-top:30px;  border-top:1px solid #505560;}
+.quick_area .contents_wrap .div_03 .con_form > dl { width:100%; position:relative; overflow:hidden; margin-bottom:10px;}
+.quick_area .contents_wrap .div_03 .con_form > dl > dt { color:#fff; font-size:14px; line-height:20px; position:relative; overflow:hidden; width:70px; float:left; }
+.quick_area .contents_wrap .div_03 .con_form > dl > dd  { width:280px; position:relative; float:left; overflow:hidden; }
+.quick_area .contents_wrap .div_03 .con_form > dl > dd > input { width:170px; height:30px;}
+.quick_area .contents_wrap .div_03 .con_form > dl > dd > select { width:175px; height:34px;}
+.quick_area .contents_wrap .div_03 .con_form > dl.dl_form03 > dd > input { width:84px; margin-right:5px;}
+.quick_area .contents_wrap .div_03 .con_form > dl.dl_form03 > dd > select { width:70px; margin-right:3px;}
+.quick_area .contents_wrap .div_03 .con_form > p { padding-left:76px; color:#ffffff; font-size:14px; line-height:20px; margin-bottom:5px;}
+.quick_area .contents_wrap .div_03 .con_form > p > input[type="checkbox"] { width:17px; height:17px; vertical-align:middle;}
+.quick_area .contents_wrap .div_03 .con_form > p > label { margin-left:5px;}
+
+.quick_area .contents_wrap .div_04 table {width:100%; margin-top:40px; border-top:2px solid #fff; border-collapse:collapse;}
+.quick_area .contents_wrap .div_04 table tr {width:100%; height:34px; border-bottom:1px solid #505560;}
+.quick_area .contents_wrap .div_04 table tr td {text-align:center; font-size:13px; color:#fff;}
+.quick_area .contents_wrap .div_04 table tr td.cons {text-align:left; text-indent:10px;}
+.quick_area .contents_wrap .div_04 table tr td a:hover {text-decoration:underline;}
+
+.quick_area .quick_bn {width:100%; height:36px; text-align:center; position:absolute; bottom:40px; left:0;}
+.quick_area .quick_bn a {display:inline-block; background:#060b1c;}
+.quick_area .quick_bg {width:465px; height:640px; position:absolute; top:0; left:0; z-index:1001; background:#060b1c; opacity:0.9; display:none;}
+
+
+/* 20150414 게시판 작업 */
+.sub_container .sub_con.board_con {width:1200px; margin:50px auto 0;}
+.board_con .table_wrap {width:100%; position:relative;}
+.board_con .table_wrap table {width:100%; border-collapse:collapse;}
+.board_con .paging_wrap {width:100%; height:38px; text-align:center; margin:20px 0; position:relative;}
+.board_con .paging {width:100%; height:38px; text-align:center; position:relative;}
+.board_con .paging .bn a {color:#807e7e; font-size:14px; line-height:38px;}
+.board_con .paging .bn_left {width:50px; height:38px; float:left;}
+.board_con .paging .bn_left a {display:block; width:100%; height:100%; background:url('../img/jj_board_paging_left.gif') 0 center no-repeat; text-indent:12px;}
+.board_con .paging .bn_right {width:50px; height:38px; float:left; margin-left:20px;}
+.board_con .paging .bn_right a {display:block; width:100%; height:100%; background:url('../img/jj_board_paging_right.gif') right center no-repeat; text-align:left;}
+.board_con .paging ul {width:100%; text-align:center; height:38px;}
+.board_con .paging ul li {display:inline-block; width:38px; height:38px;}
+.board_con .paging ul li a {display:inline-block; width:36px; height:36px; border:1px solid #dadada; font-size:14px; color:#807e7e; text-align:center; line-height:36px;}
+.board_con .paging ul li a:active {width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff;}
+.board_con .paging ul li.on  {width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff; line-height:36px;}
+
+.board_con .review table {border-top:2px solid #84888c;}
+.board_con .review table thead tr {height:37px;}
+.board_con .review table tr {border-bottom:1px solid #cfd1d4;}
+.board_con .review table tr th {font-size:14px; font-weight:bold; color:#282e38;}
+.board_con .review table tr td {padding:5px 0; text-align:center; color:#888b90; font-size:13px;}
+.board_con .review table tr td.link_td {text-align:left;}
+.board_con .review table tr td.link_td a {color:#3c424b; text-indent:10px; font-size:14px;}
+.board_con .review table tr td.link_td a:hover {text-decoration:underline;}
+
+.board_con .beaf {width:100%; position:relative;}
+.board_con .beaf .big_img {width:100%; height:685px; position:relative;}
+.board_con .beaf .big_img .img_area {width:100%; height:100%;}
+.board_con .beaf .big_img .bn {width:55px; height:55px; position:absolute; top:50%; margin:-28px 0 0 0;}
+.board_con .beaf .big_img .bn a {display:block; width:100%; height:100%;}
+.board_con .beaf .big_img .bn_left {left:0;}
+.board_con .beaf .big_img .bn_right {right:0;}
+.board_con .beaf .big_img .controls {width:143px; height:143px; position:absolute; top:50%; left:50%; margin:-72px 0 0 -72px;}
+.board_con .beaf .big_img .controls .top {display:block;}
+.board_con .beaf .big_img .controls ul {width:100%; overflow:hidden;}
+.board_con .beaf .big_img .controls ul li {width:47px; height:47px; margin-left:1px; float:left;}
+.board_con .beaf .big_img .controls ul li.first {margin-left:0;}
+.board_con .beaf .big_img .controls ul li a {display:block; width:100%; height:100%; background:#101425; color:#fff; font-size:13px; text-align:center; line-height:47px;}
+.board_con .beaf .big_img .controls ul li a:hover {font-weight:bold; background:#f8a1a9;}
+.board_con .beaf .big_img .controls ul li.on a {font-weight:bold; background:#f8a1a9;}
+.board_con .beaf .big_img .desc {width:100%; height:64px; position:absolute; bottom:0; left:0;}
+.board_con .beaf .big_img .desc .bg {width:100%; height:100%; position:absolute; top:0; left:0; z-index:10; opacity:0.7; background:#fff;}
+.board_con .beaf .big_img .desc span {width:100%; height:100%; line-height:64px; color:#121212; font-size:14px; text-align:center; line-height:64px;
+position:relative; z-index:20; display:block;}
+
+.board_con .beaf .img_list {width:100%; margin-top:20px; position:relative; overflow:hidden;}
+.board_con .beaf .img_list .divs {width:290px; height:170px; float:left; margin-left:13px; position:relative;}
+.board_con .beaf .img_list .divs.first {margin-left:0;}
+.board_con .beaf .img_list .divs .wrap {width:100%; height:100%; display:block; position:relative;}
+.board_con .beaf .img_list .divs .frame {width:100%; height:100%; position:absolute; top:0; left:0; z-index:30; display:none;}
+.board_con .beaf .img_list .divs .con_img {width:100%; height:100%;}
+.board_con .beaf .img_list .divs .con_img img {width:100%;}
+.board_con .beaf .img_list .divs .desc {width:100%; height:32px; position:absolute; bottom:0; left:0; display:none;}
+.board_con .beaf .img_list .divs .desc .bg {width:100%; height:100%; position:absolute; top:0; left:0; z-index:10; opacity:0.7; background:#fff;}
+.board_con .beaf .img_list .divs .desc span {width:100%; height:100%; line-height:32px; color:#121212; font-size:12px; text-align:center; line-height:32px;
+position:relative; z-index:20; display:block;}
+.board_con .beaf .img_list .divs .wrap:hover .frame {display:block;}
+.board_con .beaf .img_list .divs .wrap:hover .desc {display:block;}
+.board_con .beaf .img_list .divs.on .wrap .frame {display:block;}
+.board_con .beaf .img_list .divs.on .wrap .desc {display:block;}
+
+.board_con .counsel table {border-top:2px solid #84888c;}
+.board_con .counsel table thead tr {height:37px;}
+.board_con .counsel table tr {border-bottom:1px solid #cfd1d4;}
+.board_con .counsel table tr.notice {background:#f7f7f7;}
+.board_con .counsel table tr th {font-size:14px; font-weight:bold; color:#282e38;}
+.board_con .counsel table tr td {padding:6px 0; text-align:center; color:#888b90; font-size:13px;}
+.board_con .counsel table tr td.link_td {text-align:left;}
+.board_con .counsel table tr td.link_td a {color:#3c424b; text-indent:10px; font-size:13px;}
+.board_con .counsel table tr td.link_td a:hover {text-decoration:underline;}
+
+#bbs #blist .jj_gallery {width:100%; background:none; border-top:2px solid #84888c;}
+#bbs #blist .jj_gallery ul {width:100%; overflow:hidden; position:relative;}
+#bbs #blist .jj_gallery ul li {width:360px; height:340px; float:left; position:relative; margin:0 0 40px 45px;}
+#bbs #blist .jj_gallery ul li.first {margin:0 0 40px 0;}
+#bbs #blist .jj_gallery ul li dl {width:100%; height:100%; position:relative; padding:0; margin:0;}
+#bbs #blist .jj_gallery ul li dl dt {width:358px; height:258px; border:1px solid #e1e3e4;}
+#bbs #blist .jj_gallery ul li dl dt div {width:358px; height:258px; position:relative; display:table-cell; vertical-align:middle; border:0;}
+#bbs #blist .jj_gallery ul li dl dt div p {width:100%; height:100%; display:block;}
+#bbs #blist .jj_gallery ul li dl dt div p a {width:358px; height:258px; display:table-cell; vertical-align:middle; text-align:center;}
+#bbs #blist .jj_gallery ul li dl dt div img {max-width:358px; max-height:258px;}
+#bbs #blist .jj_gallery ul li dl dd {width:90%; padding:18px 5%; margin:0 ;background:#060a16;}
+#bbs #blist .jj_gallery ul li dl dd p {}
+#bbs #blist .jj_gallery ul li dl dd p span {display:inline-block; color:#90929a;}
+#bbs #blist .jj_gallery ul li dl dd p .span_01 {margin:0 5px 0 0;}
+#bbs #blist .jj_gallery ul li dl dd p .span_02 {padding:0 0 0 7px; margin:0; background:url('../img/jj_board_star_span_bg.gif') left center no-repeat;}
+#bbs #blist .jj_gallery ul li dl dd a {font-size:15px; color:#fff; display:block; margin:3px 0 0 0;}
+
+.board_con .media table {border-top:2px solid #84888c;}
+.board_con .media table thead tr {height:37px;}
+.board_con .media table tr {border-bottom:1px solid #cfd1d4;}
+.board_con .media table tr th {font-size:14px; font-weight:bold; color:#282e38;}
+.board_con .media table tr td {padding:5px 0; text-align:center; color:#888b90; font-size:13px;}
+.board_con .media table tr td.link_td {text-align:left;}
+.board_con .media table tr td.link_td a {color:#3c424b; text-indent:10px; font-size:14px;}
+.board_con .media table tr td.link_td a:hover {text-decoration:underline;}
+
+
+/* 20150428 리얼스토리 */
+.sub_container .sub_con.real_story {padding-bottom:0;}
+
+.real_slide {}
+.real_slide {width:100%; height:793px; max-width:1920px; margin:0 auto; overflow:hidden; position:relative;}
+.real_slide .imgs {width:100%; height:100%; position:relative; overflow:hidden;}
+.real_slide .imgs li {width:100%; height:100%; position:absolute; top:0; left:100%;}
+.real_slide .imgs li.li_01 {left:0; background:url('../img/jj_real_mv_01.jpg') center 0 no-repeat;}
+.real_slide .imgs li.li_02 {background:url('../img/jj_real_mv_02.jpg') center 0 no-repeat;}
+.real_slide .imgs li.li_03 {background:url('../img/jj_real_mv_03.jpg') center 0 no-repeat;}
+.real_slide .imgs li.li_04 {background:url('../img/jj_real_mv_04.jpg') center 0 no-repeat;}
+.real_slide .indis {width:100%; position:absolute; left:0; top:92px; text-align:center;}
+.real_slide .indis ul {display:inline-block; margin:0 auto; overflow:hidden;}
+.real_slide .indis ul li {width:256px; height:46px; margin-left:1px; float:left; position:relative;}
+.real_slide .indis ul li a {width:100%; height:100%; display:block; text-align:center; position:relative;}
+.real_slide .indis ul li a span {display:block; color:#060b1c; line-height:46px; position:relative; z-index:10;}
+.real_slide .indis ul li a div {width:100%; height:100%; position:absolute; top:0; left:0; z-index:5; background:#c1cdd5; opacity:0.7;}
+.real_slide .indis ul li a:hover {}
+.real_slide .indis ul li a:hover span {/* background:url('/img/jj_real_mv_tab_on_rect.gif') center 35px no-repeat; */ color:#fff;}
+.real_slide .indis ul li a:hover div {background:#272f40;}
+.real_slide .indis ul li.on a {}
+.real_slide .indis ul li.on a span {/* background:url('/img/jj_real_mv_tab_on_rect.gif') center 35px no-repeat; */ color:#fff;}
+.real_slide .indis ul li.on a div {background:#272f40;}
+
+.hover_area {width:100%; padding:70px 0; position:relative; background:#e1e1e1; overflow:hidden;}
+.hover_area .float_wrap {width:1200px; margin:0 auto; position:relative; overflow:hidden;}
+.hover_area .hover_wrap_01 {width:1152px; height:620px; padding:24px; background:#fff; position:relative; margin:0 auto;}
+.hover_area .hover_wrap_02 {margin-top:30px; width:550px; height:620px; padding:24px; background:#fff; float:left; position:relative;}
+.hover_area .hovers {width:100%; height:100%; position:relative;}
+.hover_area .hovers .img_area {width:100%; height:100%; position:relative;}
+.hover_area .hovers .desc_area {width:100%; height:93px; position:absolute; bottom:0; left:0; display:none;}
+.hover_area .hovers .desc_area .txts {width:80%; padding:25px 10% 0; position:relative; z-index:10; overflow:hidden;}
+.hover_area .hovers .desc_area .txts p {display:block; float:left; font-size:18px; color:#333; font-weight:bold;}
+.hover_area .hovers .desc_area .txts span {font-size:14px; display:block; font-weight:normal; margin-top:4px;}
+.hover_area .hovers .desc_area .txts a {display:block; width:107px; height:30px; line-height:30px; text-align:center; font-size:14px; color:#b99967; border:1px solid #b99967; float:right; margin:10px 0 0 0;}
+.hover_area .hovers .desc_area .bg_rect {width:100%; height:100%; position:absolute; top:0; left:0; z-index:5; background:#fff; opacity:0.7;}
+
+
+/* 오시는 길 */
+.mo_map_pop {width:400px; height:400px; position:fixed; top:50%; left:50%; margin:-200px 0 0 -200px; background:#060b1c; display:none; z-index:900;}
+.mo_map_pop .pop_area {width:100%; height:100%; position:relative;}
+.mo_map_pop .logo {width:100%; text-align:center; padding-top:45px;}
+.mo_map_pop .txt {width:100%; text-align:center; margin-top:40px;}
+.mo_map_pop .inputs {width:100%; margin-top:26px; text-align:center;}
+.mo_map_pop .inputs input {width:92px; height:35px; display:inline-block; margin-left:10px;}
+.mo_map_pop .inputs input.first {margin-left:0;}
+.mo_map_pop .submit_bn {width:166px; height:36px; display:block; margin:35px auto 0;}
+.mo_map_pop .close_bn {width:44px; height:44px; position:absolute; top:10px; right:10px;}
+.mo_map_pop .close_bn a {display:block; width:100%; height:100%;}
+.mo_map_pop .close_bn a img {width:100%;}
+
+
+
+/* 20150504 _ 병원 둘러보기 */
+.tour_list {width:1200px; margin:130px auto 0; position:relative;}
+.tour_list .top_arae {width:100%; height:690px; position:relative;}
+.tour_list .big_img {width:100%; height:100%;}
+.tour_list .big_img img {width:100%;}
+.tour_list .spans {width:100%; height:32px; position:absolute; bottom:0; left:0; overflow:hidden;}
+.tour_list .spans .sps {float:left; width:239px; height:32px; margin-left:1px; position:relative;}
+.tour_list .spans .sps.sp_01 {width:240px; margin-left:0;}
+.tour_list .spans .sps a {width:100%; height:100%; display:block;}
+.tour_list .spans .sps span {display:block; width:100%; height:100%; line-height:32px; position:relative; color:#060b1c;  text-indent:15px; z-index:80;}
+.tour_list .spans .sps span strong{font-weight:800; padding:0 3px;}
+.tour_list .spans .sps .bg {width:100%; height:100%; position:absolute; top:0; left:0; z-index:70; background:#c8c9ca; opacity:0.8;}
+.tour_list .spans .sps.on span {color:#cba369;}
+.tour_list .spans .sps.on .bg {background:#000; opacity:1;}
+
+.tour_list .detail_imgs {width:100%; margin-top:40px; position:relative; overflow:hidden;}
+.tour_list .detail_imgs .thumbs {width:100%; position:relative; overflow:hidden; display:none;}
+.tour_list .detail_imgs .thumb_01 {display:block;}
+.tour_list .detail_imgs .thumbs p {width:100%;}
+.tour_list .detail_imgs .thumbs ul {width:100%; overflow:hidden; margin-top:40px;}
+.tour_list .detail_imgs .thumbs ul li {float:left; margin:17px 17px 0 0;}
+.tour_list .detail_imgs .thumbs ul li.rightside {margin:17px 0 0 0;}
+
+/*회원가입완료*/
+.sub_con .jj_complete { background:url('../img/jj_complete_img01.gif') center 0 no-repeat; height:749px; margin:0 0 50px;}
+.sub_con .jj_conplete_ul { width:640px; position:relative; margin:0 auto;}
+.sub_con .jj_conplete_ul li{ float:left; margin-right:20px;}
+.sub_con .jj_conplete_ul li.last { margin-right:0;}
+
+
+
+/* 20150526 _ 제이준tv */
+/*
+.sub_container .jjtv {width:1200px; margin:60px auto 0; position:relative;}
+.sub_container .jjtv .row_01 {width:100%; overflow:hidden; position:relative;}
+.sub_container .jjtv .row_01 .col_01 {width:594px; height:440px; float:left;}
+.sub_container .jjtv .row_01 .col_01 a {width:100%; height:100%; display:block;}
+.sub_container .jjtv .row_01 .col_01 a img {width:100%;}
+.sub_container .jjtv .row_01 .col_02 {width:292px; height:440px; float:left; margin-left:12px;}
+.sub_container .jjtv .row_01 .col_02 a {width:100%; height:214px; margin-top:12px; display:block;}
+.sub_container .jjtv .row_01 .col_02 a.first {margin-top:0;}
+.sub_container .jjtv .row_01 .col_03 {width:291px; height:440px; float:right;}
+.sub_container .jjtv .row_01 .col_03 a {display:block; width:100%; height:100%;}
+.sub_container .jjtv .row_02 {width:100%; overflow:hidden; position:relative; margin-top:12px;}
+.sub_container .jjtv .row_02 a {width:291px; height:214px; margin-left:12px; display:block; float:left;}
+.sub_container .jjtv .row_02 a.first {margin-left:0;}
+*/
+.sub_container .jjtv {width:100%; max-width:1920px; margin:60px auto 0; position:relative;}
+.sub_container .jjtv .visual_img {width:100%; height:640px; background:url('../img/jj_con11_03_visual_img.jpg') center 0 no-repeat;}
+.sub_container .jjtv .pop_bg {width:100%; height:100%; position:fixed; top:0; left:0; background:#000; opacity:0.6; z-index:9999; display:none;}
+.sub_container .jjtv .pop_area {position:fixed; top:50%; left:50%; z-index:10000; display:none;}
+.sub_container .jjtv .pop_area .close_bn {width:39px; height:39px; display:block; position:absolute; top:-45px; right:-45px; z-index:10002;}
+.sub_container .jjtv .pop_area iframe {z-index:10001; position:relative;}
+
+
+
+/* 20150401 병원 둘러보기 */
+.tour_slide {width:1200px; margin:60px auto; overflow:hidden;}
+.tour_slide .big_img {width:100%; height:580px; position:relative; overflow:hidden;}
+.tour_slide .big_img img {width:100%; display:block; position:absolute; top:0; left:0;}
+.tour_slide .big_img .prev {z-index:100;}
+.tour_slide .big_img .current {z-index:101;}
+.tour_slide .bns_area {width:100%; height:280px; position:relative; margin:20px 0 0 0;}
+.tour_slide .bns_area .list_wrap {width:100%; height:100%; position:relative; overflow:hidden;}
+.tour_slide .bns_area .list_wrap .imgs {width:100%; height:100%; position:relative; overflow:hidden;}
+.tour_slide .bns_area .list_wrap .imgs li {width:380px; height:184px; float:left; margin-left:30px; overflow:hidden;}
+.tour_slide .bns_area .list_wrap .imgs li.first {margin-left:0;}
+.tour_slide .bns_area .list_wrap .imgs li a {width:100%; height:100%; display:block; position:relative;}
+.tour_slide .bns_area .list_wrap .imgs li a img {max-width:100%;}
+.tour_slide .bns_area .list_wrap .imgs li a .frame {width:100%; display:block; position:absolute; top:0; left:0; display:none;}
+.tour_slide .bns_area .list_wrap .imgs li.selected a .frame {display:block;}
+
+
+
+/* 20150602 _ 체크팝업 */
+#member.jj_pop_check {width:550px; height:350px;}
+#member.jj_pop_check #mpop {padding:20px;}
+#member.jj_pop_check #popcheck {width:490px; height:290px; position:relative; background:none;}
+#member.jj_pop_check #popcheck .bgBox {width:100%; height:100%; position:relative; padding:0; background:#fff;}
+#member.jj_pop_check #popcheck .bgBox .pop_logo {display:block; padding:0; margin:0;}
+#member.jj_pop_check #popcheck .bgBox .close_bn {width:23px; height:23px; position:absolute; top:0; right:0;}
+#member.jj_pop_check #popcheck .bgBox .pop_tit {width:100%; text-align:center; padding:0; margin:25px 0 0 0;}
+#member.jj_pop_check #popcheck .bgBox span {display:block; font-size:14px; line-height:20px; color:#848484; text-align:center; margin:20px 0 0 0; padding:0;}
+#member.jj_pop_check #popcheck .bgBox ul {width:375px; height:44px; overflow:hidden; position:relative; margin:35px auto 0; padding:0;}
+#member.jj_pop_check #popcheck .bgBox ul li {/*width:180px;*/ height:44px; text-align:center; /*float:left;*/}
+#member.jj_pop_check #popcheck .bgBox ul li a {display:block; width:100%; height:100%;}
+#member.jj_pop_check #popcheck .bgBox ul li.first {margin-right:15px;}
+
+ .sub-mune{
+ 	font-size: 15px;
+ }
+
+

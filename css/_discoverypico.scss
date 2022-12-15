@@ -1,0 +1,1170 @@
+
+@mixin  story_title {
+  position: absolute;
+  background-color: white;
+}
+@mixin gold{
+  color:#987b30 !important;
+}
+@mixin bottom_border{
+position: absolute;
+background: #c8c8c8;
+height: 30px;
+width: 100%;
+align-items: center;
+display: flex;
+justify-content: center;
+color: white;
+font-weight: 800;
+}
+
+@mixin title_bg{
+height: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+}
+
+@mixin step_css{
+  border-radius: 999em;
+  width: 80px;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+
+@media (min-width: 1400px){
+
+.nice_project_page{
+
+.discoverypico_story_title{
+  background-color: #FFF;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width:40%;
+}
+  
+  #discoverypico_page_content_1{
+      padding:5% 19% 0;
+  }
+ 
+
+
+.discoverypico_logic{
+  background-color: #f9f6f063;
+  text-align: center;
+  padding: 5% 20%;
+  margin-top: 5%;
+  img{
+    border: 1px solid #8080802b
+  }
+  h1{
+    border-bottom: 2px solid #c3b087;
+    width: 400px;
+    margin-bottom: 20px;
+   
+  }
+   h4{
+      font-weight: 500;
+      padding:2% 0;
+    } 
+
+}
+.discoverypico_feature{
+  h1{
+    padding-bottom: 5%;
+    text-align: left;
+  }
+  h4{
+    @include gold
+  }
+  .num{
+    font-size:25px;
+    margin-right: 3%;
+    @include gold;
+    font-weight:200;
+  }
+}
+
+
+.discoverypico_compare{
+  background-color: #fefaf8;
+ padding:5% 20%;
+ margin: 5% 0 0;
+  .content{
+    justify-content: center;
+    margin-top:5%;
+    .card{
+      width: 30rem;
+      margin:0 3%;
+      border:1px solid #00000014;
+      .card-body{
+        padding:0;
+                       text-align: center;
+     p{
+      padding:10px
+     }
+      }
+      .card-title{
+      padding: 0;
+       background-color: #646464;
+      padding:5% 0;
+         color:white;
+         margin: 0;
+      }
+    }
+  }
+  table{
+    margin-top: 8%;
+    margin-bottom:0
+  }
+}
+.discoverypico_brand{
+  padding:5%;
+  h1{
+    padding-bottom:
+  3%;
+  }
+}
+.discoverypico_probe{
+  background-color: #f9f6f063;
+  padding:5% 20%;
+   h1{
+    padding-bottom: 3%;
+  }
+  .content{
+    margin:0 5%;
+  
+  h5{
+    margin: 0;
+    @include gold;
+    font-weight: 800;
+    margin-left: 5px;
+  }
+ 
+  .title{
+    justify-content: center;
+    align-items: flex-end;
+  }
+ .caption span{
+    font-weight: 800;
+    @include gold;
+  }
+  .number{
+    background: #987b30;
+    margin: 2% 25%;
+    p{
+      color:white;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+  }
+}
+.intro{
+  background: white;
+  margin: 5% 12% 0;
+  padding: 2%;
+  h5,p{
+    @include gold;
+    font-weight: 800;
+  }
+  h5{
+    padding-top: 20px;
+  }
+}
+}
+.discoverypico_refix{
+  padding:5%;
+  h2{
+    margin:0;
+    @include gold;
+padding-bottom: 2%;
+  }
+  .intro{
+    background-color: #fefaf8;
+    margin:5% 0% 0 7%;
+    .col{
+      padding:5%;
+    }
+    h4{
+      border-bottom: 1px solid #7b7b7b;
+      padding:10px
+    }
+    h4,p{
+      color:#7b7b7b;
+    }
+  }
+  .content{
+.title{
+padding:10% 0 0;
+}
+  img{
+    margin-top: 3%;
+  }
+  }
+  .compare{
+    .text_left{
+    h4{
+      margin-top: 25%;
+      color: white;
+      background: #909090;
+      border-radius: 20px;
+      padding: 5px;
+    }
+  }
+  .text_right{
+    h4{
+      margin-top: 25%;
+      color: white;
+      background: #be9b20;
+      border-radius: 20px;
+      padding: 5px;
+    }
+  }
+  }
+}
+
+
+
+.discoverypico_reason{
+    background-color: #f9f6f0;
+    display: flex;
+    padding-left: 25%;
+  .discoverypico_text_layout{
+          color:#987b30;
+          margin-top: 15%;
+        p{
+              @include gold ;
+              border:1px solid #C69C3E;
+              padding:5px 10px;
+              border-radius: 20px;
+              margin:13px 5px;
+            } 
+           } 
+
+}
+.discoverypico_client{
+  padding:5% 20%;
+    .content{
+      justify-content: space-around;
+    padding:5% 10%;
+    .card{
+      height: 350px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+    text-align: center;
+    .card-body{
+      text-align: center;
+      margin:5% 0;
+    }
+
+.card-text{
+  font-weight:600;
+}
+}
+  }
+}
+.discoverypico_alert{
+  text-align: left;
+  padding: 5% 0;
+   h1{
+       margin-bottom: 50px
+   }
+   p{
+       align-self: center;
+   }
+   .number{
+    padding: 2%;
+       margin-right: 4%;
+       height: 40px;
+   width: 40px;
+   background: #c3b180;
+   border-radius: 999em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   }
+   .alert{
+       text-align: left;
+       border-bottom: dotted 6px #c3c3c3;
+   
+       }
+}
+}
+}
+
+
+@media (min-width: 992px) and (max-width:1400px){
+  .nice_project_page{
+
+    .discoverypico_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:50%;
+    }
+      
+      #discoverypico_page_content_1{
+          padding:5% 20% 0;
+      }
+     
+    
+    
+    .discoverypico_logic{
+      background-color: #f9f6f063;
+      text-align: center;
+      padding: 5% 15%;
+      margin-top: 5%;
+      img{
+        border: 1px solid #8080802b
+      }
+      h1{
+        border-bottom: 2px solid #c3b087;
+        width: 400px;
+        margin-bottom: 20px;
+       
+      }
+       h4{
+          font-weight: 500;
+          padding:2% 0;
+        } 
+    
+    }
+    .discoverypico_feature{
+      h1{
+        padding-bottom: 5%;
+        text-align: left;
+      }
+      h4{
+        @include gold
+      }
+      .num{
+        font-size:25px;
+        margin-right: 3%;
+        @include gold;
+        font-weight:200;
+      }
+    }
+    
+    
+    .discoverypico_compare{
+      background-color: #fefaf8;
+     padding:5% 20%;
+     margin: 5% 0 0;
+      .content{
+        justify-content: center;
+        margin-top:5%;
+        .card{
+          width: 30rem;
+          margin:0 3%;
+          border:1px solid #00000014;
+          .card-body{
+            padding:0;
+                           text-align: center;
+         p{
+          padding:10px
+         }
+          }
+          .card-title{
+          padding: 0;
+           background-color: #646464;
+          padding:5% 0;
+             color:white;
+             margin: 0;
+          }
+        }
+      }
+      table{
+        margin-top: 8%;
+        margin-bottom:0
+      }
+    }
+    .discoverypico_brand{
+      padding:5% 10%;
+      h1{
+        padding-bottom:
+      3%;
+      }
+    }
+    .discoverypico_probe{
+      background-color: #f9f6f063;
+      padding:5% 15%;
+       h1{
+        padding-bottom: 3%;
+      }
+      .content{
+        margin:0 5%;
+      
+      h5{
+        margin: 0;
+        @include gold;
+        font-weight: 800;
+        margin-left: 5px;
+      }
+     
+      .title{
+        justify-content: center;
+        align-items: flex-end;
+      }
+     .caption span{
+        font-weight: 800;
+        @include gold;
+      }
+      .number{
+        background: #987b30;
+        margin: 2% 25%;
+        p{
+          color:white;
+          font-weight: 800;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .intro{
+      background: white;
+      margin: 5% 12% 0;
+      padding: 2%;
+      h5,p{
+        @include gold;
+        font-weight: 800;
+      }
+      h5{
+        padding-top: 20px;
+      }
+    }
+    }
+    .discoverypico_refix{
+      padding:5%;
+      h2{
+        margin:0;
+        @include gold;
+    padding-bottom: 2%;
+      }
+      .intro{
+        background-color: #fefaf8;
+        margin:5% 0% 0 7%;
+        .col{
+          padding:5%;
+        }
+        h4{
+          border-bottom: 1px solid #7b7b7b;
+          padding:10px
+        }
+        h4,p{
+          color:#7b7b7b;
+        }
+      }
+      .content{
+        padding:0 10%;
+    .title{
+    padding:10% 0 0;
+    }
+      img{
+        margin-top: 3%;
+        width: 100%;
+      }
+      }
+      .compare{
+        padding:0 10%;
+        .text_left{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #909090;
+          border-radius: 20px;
+          padding: 5px;
+        }
+      }
+      .text_right{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #be9b20;
+          border-radius: 20px;
+          padding: 5px;
+        }
+         
+      }
+     img{
+        width: 100%;
+      }
+      }
+    }
+    
+    
+    
+    .discoverypico_reason{
+        background-color: #f9f6f0;
+        display: flex;
+        padding-left: 20%;
+      .discoverypico_text_layout{
+              color:#987b30;
+              margin-top: 15%;
+            p{
+                  @include gold ;
+                  border:1px solid #C69C3E;
+                  padding:5px 10px;
+                  border-radius: 20px;
+                  margin:13px 5px;
+                } 
+               } 
+    
+    }
+    .discoverypico_client{
+      padding:5% 15%;
+        .content{
+          justify-content: space-around;
+        padding:5% 10%;
+        .card{
+          height: 350px;
+        width: 250px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+        text-align: center;
+        .card-body{
+          text-align: center;
+          margin:5% 0;
+        }
+    
+    .card-text{
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .discoverypico_alert{
+      text-align: left;
+      padding: 5% 0;
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           text-align: left;
+           border-bottom: dotted 6px #c3c3c3;
+       
+           }
+    }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){
+  .nice_project_page{
+
+    .discoverypico_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:50%;
+    }
+      
+      #discoverypico_page_content_1{
+          padding:8% 5% 0;
+      }
+     
+    
+    
+    .discoverypico_logic{
+      background-color: #f9f6f063;
+      text-align: center;
+      padding: 5%;
+      margin-top: 5%;
+      img{
+        width:80%;
+        border: 1px solid #8080802b
+      }
+      h1{
+        border-bottom: 2px solid #c3b087;
+        width: 400px;
+        margin-bottom: 20px;
+       
+      }
+       h4{
+          font-weight: 500;
+          padding:2% 0;
+        } 
+    
+    }
+    .discoverypico_feature{
+      h1{
+        padding-bottom: 5%;
+        text-align: left;
+      }
+      h4{
+        @include gold
+      }
+      .num{
+        font-size:25px;
+        margin-right: 3%;
+        @include gold;
+        font-weight:200;
+      }
+      img{
+        width: 80%
+      }
+    }
+    
+    
+    .discoverypico_compare{
+      background-color: #fefaf8;
+     padding:5%;
+     margin: 5% 0 0;
+      .content{
+        justify-content: center;
+        margin-top:5%;
+        .card{
+          width: 30rem;
+          margin:0 3%;
+          border:1px solid #00000014;
+          .card-body{
+            padding:0;
+                           text-align: center;
+         p{
+          padding:10px
+         }
+          }
+          .card-title{
+          padding: 0;
+           background-color: #646464;
+          padding:5% 0;
+             color:white;
+             margin: 0;
+          }
+        }
+      }
+      table{
+        margin-top: 8%;
+        margin-bottom:0
+      }
+    }
+    .discoverypico_brand{
+      padding:5% 0;
+      h1{
+        padding-bottom:
+      3%;
+      }
+    }
+    .discoverypico_probe{
+      background-color: #f9f6f063;
+      padding:5%;
+     
+       h1{
+        padding-bottom: 3%;
+      }
+      .content{
+        margin:0 5%;
+      
+      h5{
+        margin: 0;
+        @include gold;
+        font-weight: 800;
+        margin-left: 5px;
+      }
+     
+      .title{
+        justify-content: center;
+        align-items: flex-end;
+        margin:10% 0;
+        img{
+          width:20%
+        }
+    
+      }
+     .caption span{
+        font-weight: 800;
+        @include gold;
+      }
+      .number{
+        background: #987b30;
+        margin: 2% 25%;
+        p{
+          color:white;
+          font-weight: 800;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .intro{
+      background: white;
+      margin: 5% 7% 0;
+      padding: 2%;
+      img{
+        width: 60%;
+      }
+      h5,p{
+        @include gold;
+        font-weight: 800;
+      }
+      h5{
+        padding-top: 20px;
+      }
+    }
+    }
+    .discoverypico_refix{
+      padding:5% 0;
+      h2{
+        margin:0;
+        @include gold;
+    padding-bottom: 2%;
+      }
+      .intro{
+        background-color: #fefaf8;
+        .col{
+          padding:5%;
+        }
+        h4{
+          border-bottom: 1px solid #7b7b7b;
+          padding:10px
+        }
+        h4,p{
+          color:#7b7b7b;
+        }
+      }
+      .content{
+        padding:5% 0;
+    .title{
+    padding:5% 0 0;
+    }
+      img{
+        margin-top: 3%;
+        width: 100%;
+      }
+      }
+      .compare{
+        .text_left{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #909090;
+          border-radius: 20px;
+          padding: 5px;
+        }
+      }
+      .text_right{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #be9b20;
+          border-radius: 20px;
+          padding: 5px;
+        }
+         
+      }
+     img{
+        width: 100%;
+      }
+      }
+    }
+    
+    
+    
+    .discoverypico_reason{
+        background-color: #f9f6f0;
+        display: flex;
+        padding-left: 5%;
+      .discoverypico_text_layout{
+              color:#987b30;
+              margin-top: 4%;
+            p{
+                  @include gold ;
+                  border:1px solid #C69C3E;
+                  padding:5px 10px;
+                  border-radius: 20px;
+                  margin:13px 5px;
+                } 
+               } 
+    
+    }
+    .discoverypico_client{
+      padding:5%;
+        .content{
+          justify-content: space-around;
+        padding:5% 0;
+        .card{
+          height: 300px;
+        width: 200px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+        text-align: center;
+        .card-body{
+          text-align: center;
+          margin:5% 0;
+        }
+    
+    .card-text{
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .discoverypico_alert{
+      text-align: left;
+      padding: 5% 0;
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           text-align: left;
+           border-bottom: dotted 6px #c3c3c3;
+       
+           }
+    }
+    }
+      }
+
+@media (min-width: 0px) and (max-width: 576px){
+  .nice_project_page{
+
+    .discoverypico_story_title{
+      background-color: #FFF;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width:100%;
+    span{
+      font-size: 30px;
+    }
+    }
+      
+      #discoverypico_page_content_1{
+          padding:0 5% 8%;
+      }
+     table{
+      display: block;
+      overflow-x: auto;
+     }
+        
+    .discoverypico_logic{
+      background-color: #f9f6f063;
+      text-align: center;
+      padding: 5%;
+      margin-top: 5%;
+      .content{
+        flex-direction: column;
+      }
+      img{
+        border: 1px solid #8080802b
+      }
+      h1{
+        border-bottom: 2px solid #c3b087;
+        margin: 5% 0 10%;
+        text-align: center;
+      }
+       h4{
+          font-weight: 500;
+          padding:2% 0;
+        } 
+    
+    }
+    .discoverypico_feature{
+      flex-direction: column;
+      h1{
+        padding:10% 0 5%;
+        text-align: center;
+      }
+      h4{
+        @include gold
+      }
+      .num{
+        font-size:25px;
+        margin-right: 3%;
+        @include gold;
+        font-weight:200;
+      }
+      img{
+        width: 80%
+      }
+    }
+    
+    
+    .discoverypico_compare{
+      background-color: #fefaf8;
+     padding:5%;
+     margin: 5% 0 0;
+      .content{
+        margin-top:5%;
+        flex-direction: column;
+        .card{
+          margin:3%;
+          border:1px solid #00000014;
+          .card-body{
+            padding:0;
+                           text-align: center;
+         p{
+          padding:10px
+         }
+          }
+          .card-title{
+          padding: 0;
+           background-color: #646464;
+          padding:5% 0;
+             color:white;
+             margin: 0;
+          }
+        }
+      }
+      table{
+        margin-top: 8%;
+        margin-bottom:0
+      }
+    }
+    .discoverypico_brand{
+      padding:5%;
+      h1{
+        padding-bottom:
+      3%;
+      }
+    }
+    .discoverypico_probe{
+      background-color: #f9f6f063;
+      padding:5%;
+     
+       h1{
+        padding-bottom: 3%;
+      }
+      .content{
+        margin:0 5%;
+      
+      h5{
+        margin: 0;
+        @include gold;
+        font-weight: 800;
+        margin-left: 5px;
+      }
+     
+      .title{
+        justify-content: center;
+        align-items: flex-end;
+        margin:10% 0;
+        img{
+          width:20%
+        }
+    
+      }
+     .caption span{
+        font-weight: 800;
+        @include gold;
+      }
+      .number{
+        background: #987b30;
+        margin: 2% 10%;
+        p{
+          color:white;
+          font-weight: 800;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .intro{
+      background: white;
+      margin: 5% 7% 0;
+      padding: 2%;
+      img{
+        width: 60%;
+      }
+      h5,p{
+        @include gold;
+        font-weight: 800;
+      }
+      h5{
+        padding-top: 20px;
+      }
+    }
+    }
+    .discoverypico_refix{
+      padding:5%;
+      .refix{
+        flex-direction: column;
+      }
+      h2{
+        margin:0;
+        @include gold;
+    padding-bottom: 2%;
+      }
+      .intro{
+        background-color: #fefaf8;
+        .col{
+          padding:5%;
+        }
+        h4{
+          border-bottom: 1px solid #7b7b7b;
+          padding:10px
+        }
+        h4,p{
+          color:#7b7b7b;
+        }
+      }
+      .content{
+        padding:5% 0;
+    .title{
+    padding:5% 0 0;
+    }
+      img{
+        margin-top: 3%;
+        width: 100%;
+      }
+      }
+      .compare{
+       
+        .text_left{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #909090;
+          border-radius: 20px;
+          padding: 5px;
+          font-size: 20px;
+        }
+      }
+      .text_right{
+        h4{
+          margin-top: 25%;
+          color: white;
+          background: #be9b20;
+          border-radius: 20px;
+          padding: 5px;
+          
+          font-size: 20px;
+        }
+         
+      }
+    
+      }
+    }
+    
+    
+    
+    .discoverypico_reason{
+        background-color: #f9f6f0;
+        display: flex;
+        .discoverypico_point_list{
+          margin:5% auto;
+        }
+      .discoverypico_text_layout{
+              color:#987b30;
+              margin-top: 4%;
+            p{
+                  @include gold ;
+                  border:1px solid #C69C3E;
+                  padding:5px 10px;
+                  border-radius: 20px;
+                  margin:13px 5px;
+                } 
+               } 
+    
+    }
+    .discoverypico_client{
+      padding:5%;
+        .content{
+          justify-content: space-around;
+        padding:5% 0;
+        .card{
+          height: auto;
+          margin:3% 0;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 3px 4px 11px 5px rgb(154 126 60 / 24%);
+        text-align: center;
+        img{
+          width:100%
+        }
+        .card-body{
+          text-align: center;
+          margin:5% 0;
+        }
+    
+    .card-text{
+      font-weight:600;
+    }
+    }
+      }
+    }
+    .discoverypico_alert{
+      text-align: left;
+      padding:5%;
+      margin-top: 10%;
+   
+       h1{
+           margin-bottom: 50px
+       }
+       p{
+           align-self: center;
+       }
+       .number{
+        padding: 2%;
+           margin-right: 4%;
+           height: 40px;
+       width: 40px;
+       background: #c3b180;
+       border-radius: 999em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-size: 20px;
+       font-weight: 600;
+       }
+       .alert{
+           border-bottom: dotted 6px #c3c3c3;
+          flex-direction: column;
+      display: flex;
+      text-align: center;
+           }
+    }
+    }
+  } 

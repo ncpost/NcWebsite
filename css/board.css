@@ -1,0 +1,872 @@
+@charset "utf-8";
+.btn_in,
+.btn_in *{display:inline-block;overflow:visible;position:relative;margin:0;padding:0;border:0;background:url(../img/btn_bg.gif) no-repeat;font-size:11px; color:#797979;text-decoration:none !important;vertical-align:top;white-space:nowrap; font-weight:bold;}
+.btn_in{margin:0 4px 0 0px;}
+.btn_in *{left:4px;cursor:pointer;_cursor:hand;}
+.btn_in.inbtn{height:26px;line-height:26px; background-position:left 0;}
+.btn_in.inbtn *{height:26px;line-height:26px;padding:0 10px 0 6px;background-position:right top;font-size:11px;}
+.btn_in.strong *{font-weight:bold !important}
+
+/*게시판 확인버튼*/
+#member .btnok .btn_in,
+#member .btnok .btn_in *{display:inline-block;overflow:visible;position:relative;margin:0;padding:0;border:0;background:url(../img/big_btn_bg.gif) no-repeat;font-size:11px; color:#797979;text-decoration:none !important;vertical-align:top;white-space:nowrap; font-weight:bold;}
+#member .btnok .btn_in{margin:0px 4px 0 0px;}
+#member .btnok .btn_in *{left:4px;cursor:pointer;_cursor:hand;}
+#member .btnok .btn_in.inbtn{height:28px;line-height:28px; background-position:left 0;}
+#member .btnok .btn_in.inbtn *{height:28px;line-height:28px;padding:0px 15px 0 13px;background-position:right top;font-size:11px;}
+#member .btnok .btn_in.strong *{font-weight:bold !important}
+#member .btnAll a.btns{display:inline-block; padding-right:4px; background:url(../img/btn_bg.gif) no-repeat 100% 0; font-size:11px;color:#797979;line-height:26px;word-spacing:-1px;text-decoration:none !important;white-space:nowrap; color:#797979 !important;}  
+#member .btnAll a.btns strong{display:block; padding:1px 8px 0 12px; background:url(../img/btn_bg.gif) no-repeat; color:#797979 !important;}
+#member .readBtn{width:100%; margin:10px 0; float:right;}
+#member .btnAll{position:relative; color:#797979 !important; vertical-align:middle;}
+#member .btnAll span{position:absolute; top:10px; left:15px; float:left; color:#2e2e2e !important;} 
+
+
+
+#bbs .marno{margin:0 !important;}
+#bbs .mLR{margin:0 10px;}
+#bbs .fontn{font-weight:normal; margin-right:10px;}
+#bbs .ftG{color:#27aa15;}
+#bbs .ftB{color:#1559aa;}
+#bbs .ftR{color:#ff4836;}
+
+
+select{font-size:12px; color:#2e2e2e;}
+input[type="text"]{font-size:12px; color:#2e2e2e; height:16px; border:1px solid #e5e5e5; padding:2px 0 0 3px;}
+input[type="password"]{font-size:12px; color:#2e2e2e; height:16px; border:1px solid #e5e5e5; padding:2px 0 0 3px;}
+input[type="checkbox"]{width:14px; height:14px; vertical-align:middle;}
+input[type="radio"]{width:14px; height:14px; vertical-align:top;}
+input[type="file"]{font-size:12px; color:#2e2e2e; height:20px; border:1px solid #e5e5e5; padding:2px 0 0 3px; background:#fff;}
+input#id{ime-mode:inactive;}
+input#name{ime-mode:active;}
+input#email{ime-mode:inactive;}
+input#dong{ime-mode:active;}
+input#title{ime-mode:active;}
+input#contents{ime-mode:active;}
+input.password{ime-mode:inactive;}
+textarea{border:1px solid #e5e5e5;}
+
+/*link*/
+#bbs a{color:#2e2e2e; text-decoration:none;}
+#bbs a:hover{text-decoration:none;}
+
+/*버튼들*/
+#bbs .btnAll{position:relative; color:#797979 !important; vertical-align:middle;}
+#bbs .btnAll a.btns{display:inline-block; padding-right:4px; background:url(../img/btn_bg.gif) no-repeat 100% 0; font-size:11px;color:#797979;line-height:26px;word-spacing:-1px;text-decoration:none !important;white-space:nowrap; color:#797979 !important; }  
+#bbs .btnAll a.btns strong{display:block; padding:0 8px 0 12px; background:url(../img/btn_bg.gif) no-repeat; color:#797979;}
+/*리드페이지에 윗글아랫글*/
+#bbs .btnAll span{position:absolute; top:10px; left:15px; float:left; color:#2e2e2e !important;} 
+
+#bbs .btnList{position:relative; color:#797979 !important; vertical-align:middle;}
+#bbs .btnList a.btns{display:inline-block; padding-right:4px; background:url(../img/btn_bg.gif) no-repeat 100% 0; font-size:11px;color:#797979;line-height:26px;word-spacing:-1px;text-decoration:none !important;white-space:nowrap; color:#797979 !important; }  
+#bbs .btnList a.btns strong{display:block; padding:0 2px 0 4px; background:url(../img/btn_bg.gif) no-repeat; color:#797979;}
+/*리드페이지에 윗글아랫글*/
+#bbs .btnList span{position:absolute; top:10px; left:15px; float:left; color:#2e2e2e !important;} 
+
+/*글쓰기*/
+#bbs .btnAll{padding:10px 0 0 0; overflow:hidden; font-size:11px; text-align:right; width:98%; height:30px;}
+#bbs .btnAll a.wbtn{display:inline-block; width:46px; margin:0 3px 0 0; padding:0 0 0 28px; background:url(../img/btn_write.gif) no-repeat 0 1px; color:#797979 !important;line-height:26px;word-spacing:-1px;text-decoration:none !important;white-space:nowrap}  
+#bbs .btnAll a.wbtn strong{display:block; padding:0 10px 0 0; font-size:11px;}
+#bbs .btnAll a:hover.wbtn{color:#2e2e2e !important; text-decoration:none;}
+#bbs .btnAll a.wbtn strong{display:block; padding:0 10px 0 0; font-size:11px;}
+#bbs .btnAll a:hover.btns{color:#2e2e2e !important; text-decoration:none;}
+
+/*버튼 센터 */
+.btnC{position:relative; text-align:center; padding:0 0; clear:both; width:100%; vertical-align:middle;}
+#bbs .btnC .btnAll{width:120px; margin:0 auto; text-align:center; vertical-align:middle;}
+
+
+.btnR{position:relative; text-align:right; padding:0 0; clear:both; width:100%; vertical-align:middle;}
+
+
+/*공지*/
+#bbs .point a{color:#2e2e2e; text-decoration:none;}
+#bbs .point a:hover{text-decoration:underline;}
+
+/*게시판 시작 */
+#bbs{position:relative; margin:0 auto 50px; padding:0; width:1200px; min-width:690px; color:#5e5e5e;}
+/* #bbs.jj_con01_07 {padding-top:50px;} */
+
+/*list ------------------------------------------------------------------------------------------------------------------------------------------------- */
+#bbs #blist{margin:10px; padding:0; overflow:hidden;}
+#blist table{position:relative; width:100%;  height:100%; float:left; border-top:#84888c 2px solid; }
+/*등록된 게시물이 없을때*/
+#blist table .bbsno{}
+#blist table .bbsno td{padding:10px 0;}
+
+/*등록된 게시물이 없을때(갤러리형)*/
+#blist .gallery .bbsno{}
+#blist .gallery .bbsno p{padding:10px 0; text-align:center;}
+
+/*등록된 게시물이 없을때(치료사례[before&after])*/
+#blist .beafphoto .bbsno{}
+#blist .beafphoto .bbsno p{padding:10px 0; text-align:center;}
+
+/*thead*/
+#blist table thead{width:100%; color:#797979;}
+#blist table thead th{ /*background:url(/img/list_line_bg.gif) repeat-x bottom;*/ border-bottom:1px solid #ccced0; font-size:14px; font-weight:bold; color:#282e38; border-bottom:1px solid #cfd1d4; height:37px;}
+#bbs .w1{width:1% !important; min-width:10px;}
+#bbs .w2{width:2% !important; min-width:20px;}
+#bbs .w3{width:3% !important; min-width:30px;}
+#bbs .w4{width:4% !important;}
+#bbs .w5{width:5% !important; min-width:50px;}
+#bbs .w6{width:6% !important; min-width:60px;}
+#bbs .w7{width:7% !important; min-width:70px;}
+#bbs .w8{width:8% !important; min-width:80px;}
+#bbs .w9{width:9% !important;}
+#bbs .w10{width:10% !important; min-width:100px;}
+#bbs .w12{width:12% !important; min-width:120px;}
+#bbs .w15{width:15% !important;}
+#bbs .w20{width:20% !important;}
+#bbs .w30{width:30% !important;}
+#bbs .w40{width:40% !important;}
+#bbs .w50{width:50% !important;}
+#bbs .w60{width:60% !important;}
+#bbs .w70{width:70% !important;}
+#bbs .w80{width:80% !important;}
+#bbs .w90{width:90% !important;}
+#bbs .w100{width:100% !important;}
+
+
+
+
+
+/* 달력설정 타이틀 */
+#bbs #breser{margin:10px; padding:20px; border:1px solid #e7e7e7; overflow:hidden;}
+#bbs #breser h3{font-size:16px; color:#000; padding:10px 0; clear:both;}
+#breser table th{border:1px solid #CCC; padding:10px; background:#f7f7f7;}
+#breser table td{border:1px solid #CCC; padding:10px;}
+
+#breser .reserDate{position:relative; height:40px;}
+#breser .reserDate p{text-align:center; font-size:14px; font-weight:bold; padding-top:10px;}
+#breser .reserDate ul li{float:left;}
+#breser .reserDate ul{position:absolute; left:50%; margin-left:-250px; top:5px;}
+#breser .reserDate ul li.left150{padding-left:150px;}
+
+#breser .reserDate a.btns{display:inline-block; padding-right:4px; background:url(../img/btn_bg.gif) no-repeat 100% 0; font-size:11px;color:#797979;line-height:26px;word-spacing:-1px;text-decoration:none !important;white-space:nowrap; color:#797979 !important; }  
+#breser .reserDate a.btns strong{display:block; padding:0 8px 0 12px; background:url(../img/btn_bg.gif) no-repeat; color:#797979;}
+
+#blist table thead th.reserST{font-size:18px; line-height:125%;}
+
+
+/* 예약 달력 */
+.reserWeek td{ font-size: 12px; text-align: right; min-width:120px; height: 40px; padding: 10px 5px 0 0; margin: 0 5px 0 5px; line-height:130%;}
+.ca3 div {color:#ff4386; background-color:#ececec; }
+.ca3 div b{font-size: 14px;}
+.ca2 div {color:#1559aa; background-color:#e6f7ff;}
+.ca2 div b{font-size: 14px;}
+.ca1 div {color:#2d2d2d; background-color:#ffe6e6;}
+.ca1 div b{font-size: 14px;}
+.ca4 div {color:#2d2d2d; background-color: rgb(244,244,244);}
+.ca4 div b{font-size: 14px;}
+#blist .reserCal table {width:98%; border:0px;}
+#blist .reserCal table td{border:0px; width:150px;}
+
+/*tbody*/
+#blist table tbody{text-align:center; color:#565c7b; vertical-align:middle;}
+#blist table tbody td{padding:7px 2px; border-bottom:1px solid #dcdcdc; color:#888888; line-height:18px; vertical-align:middle; font-size:13px;}
+#blist table tbody td.title{font-size:13px; text-align:left; color:#2e2e2e; vertical-align:middle;}
+#blist table tbody td img{line-height:18px; vertical-align:middle;}
+#blist table tbody td.title img{line-height:18px; vertical-align:middle; border:1px solid;}
+#blist .reNum{font-size:11px; color:#f60029; padding:0 0 0 5px; margin:0;}
+#blist .newico{padding:0 0 0 5px; margin:0; vertical-align:middle;}
+
+/*tbody 관리자모드 라인처리*/
+#blist table.line tbody{text-align:center; color:#565c7b; vertical-align:middle;}
+#blist table.line thead th{border-right:1px solid #d0d1d2; background:url(../img/table_th_bg.gif) repeat-x bottom;}
+#blist table.line tbody td{padding:7px 2px; border-bottom:1px solid #dcdcdc; color:#888888; border-right:1px solid #dcdcdc; line-height:18px; vertical-align:middle; font-size:13px;}
+#blist table.line tbody td.title{font-size:13px; text-align:left; color:#2e2e2e; vertical-align:middle;}
+#blist table tbody td img{line-height:18px; vertical-align:middle;}
+#blist table.line tbody td.title img{vertical-align:middle;}
+#blist table.line tbody td.lineno{border-right:none;}
+#blist table.line thead th.lineno{border-right:none;}
+
+/*아이콘(답변,대기)*/
+#blist .answerImg{margin:0 5px 0 15px;}
+#blist .closedImg{margin:3px 0 0 5px;}
+#blist span.re_ing{position:relative; color:#fff; font-size:13px; background:#c4c7ca; padding:3px; vertical-align:middle; width:60px; display:inline-block;}/*답변*/
+#blist span.re_ok{position:relative; color:#fff; font-size:13px; background:#f8a1a9; padding:3px;  vertical-align:middle; width:60px; display:inline-block;}/*대기*/
+
+/*공지*/
+#blist .point{ background:#f6f6f6;}
+#blist .point td{/*background:url(/img/list_line_bg.gif) repeat-x bottom #f6f6f6;*/ background:#f6f6f6; border-bottom:1px solid #dcdcdc;}
+#blist .point .title{font-size:12px; font-weight:bold;}
+
+/*page
+#bbs .page{position:relative; width:100%; display:block; margin:0 0 0 0px; padding:20px 0 0 0; text-align:center; clear:both; color:#a5a5a5; font-size:12px;}
+#bbs .page a {position:relative; display:inline-block; padding:5px 6px;  text-decoration: none; color:#a5a5a5; }
+#bbs .page strong {position:relative; display:inline-block; padding:5px 6px;  text-decoration:underline; color:#f60029;}
+#bbs .page .next{position:relative; display:inline-block; padding:7px 3px; margin:0 10px; vertical-align:top; color:#797979; font-size:11px;}
+#bbs .page .next img{padding:3px 6px; *padding:4px 6px; margin:0; vertical-align: top;}
+#bbs .page a:hover{color:#2e2e2e; text-decoration:underline;}
+*/
+#bbs .page{position:relative; width:100%; margin:0 0 0 0px; padding:20px 0 0 0; text-align:center; clear:both; overflow:hidden;}
+#bbs .page a {display:inline-block; width:36px; height:36px; border:1px solid #dadada; font-size:14px; color:#807e7e; text-align:center; line-height:36px;}
+#bbs .page a:active{width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff;}
+#bbs .page strong {display:inline-block; width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff; line-height:36px;}
+#bbs .page .next{position:relative; display:inline-block; padding:7px 3px; margin:0 10px; vertical-align:top; color:#797979; font-size:11px;}
+#bbs .page .next img{padding:3px 6px; *padding:4px 6px; margin:0; vertical-align: top;}
+#bbs .page a:hover{color:#2e2e2e; text-decoration:underline;}
+
+/*.board_con .paging_wrap {width:100%; text-align:center; margin-top:80px; position:relative;}
+.board_con .paging {display:inline-block; overflow:hidden;}
+.board_con .paging .bn a {color:#807e7e; font-size:14px; line-height:38px;}
+.board_con .paging .bn_left {width:50px; height:38px; float:left;}
+.board_con .paging .bn_left a {display:block; width:100%; height:100%; background:url('/img/jj_board_paging_left.gif') 0 center no-repeat; text-indent:12px;}
+.board_con .paging .bn_right {width:50px; height:38px; float:left; margin-left:20px;}
+.board_con .paging .bn_right a {display:block; width:100%; height:100%; background:url('/img/jj_board_paging_right.gif') right center no-repeat; text-align:left;}
+.board_con .paging ul {display:block; float:left; margin-left:20px; overflow:hidden; height:38px;}
+.board_con .paging ul li {float:left; width:38px; height:38px;}
+.board_con .paging ul li a {display:block; width:36px; height:36px; border:1px solid #dadada; font-size:14px; color:#807e7e; text-align:center; line-height:36px;}
+.board_con .paging ul li a:active {width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff;}
+.board_con .paging ul li.on a {width:38px; height:38px; border:0; background:#cba369; font-weight:bold; color:#fff;}*/
+
+/*search*/
+#blist .search{position:relative; width:100%; margin:0px; padding:9px 0; text-align:center; vertical-align:middle;}
+#blist .search input{width:160px; height:16px; border:1px solid #e7e7e7; border-right:none 0; vertical-align:middle; display:inline;}
+#blist .search select{width:115px; height:20px; border:1px solid #e7e7e7; font-size:12px; vertical-align:middle; color:#706a5f; margin:0 5px 0 0; display:inline;}
+#blist .search .sbtn{position:relative; width:53px; height:20px; top:0px; *top:-2px; left:-8px; border:none; vertical-align:bottom;}
+#blist .search #clinicList{ display:inline;}
+#color .search select{width:115px; height:20px; border:1px solid #e7e7e7; font-size:12px; vertical-align:middle; color:#706a5f; margin:0; display:inline;}
+#color .search .sbtn{position:relative; width:53px; height:20px; top:0px; *top:-2px; left:-8px; border:none; vertical-align:bottom;}
+#color .search #clinicList{ display:inline;}
+
+/*목록이미지 공지/보도/동영상*/
+#bbs .photo{width:198px; height:98px; margin:0 auto; padding:0; vertical-align:middle; border:1px solid #e2e2e2;}/*기본포토중앙정렬입니다.*/
+#bbs .photo p {width:100%; height:100%; display:block;}
+#bbs .photo p a {width:198px; height:98px; vertical-align:middle; display:table-cell; text-align:center;}
+#bbs .photo p a img {max-width:198px; max-height:98px;}
+/*노이미지*/
+#bbs .photo .noimg{width:auto; height:auto;}
+
+/* ============================================================================================================== */
+/*세로 중앙정렬 (for IE6,7)*/
+div.photo img{ .margin-top:expression( verticalAlign(this) ); }
+/*max-width,max-height (for IE6)
+가로,세로입니다. 0을 주면 자동 맞춤이 되구요.*/
+*html div.photo{ width:expression( maxSize(this,0,0) ); }
+/*min-height (for IE6)*/
+*html div.photo{ height:expression( min_height(this,0) ); }
+/* ============================================================================================================== */
+
+/*치료전후사진*/
+#blist .beaf .photo{width:102px; height:102px;}/*여기 사이즈를 바꿔주세요*/
+
+/*목록이미지, 치료사례*/
+#blist .pcon{text-align:left; color:#2e2e2e;}
+#blist .pcon dl{line-height:160%;}
+#blist .pcon dt{font-weight:bold;}
+#blist .pcon dd{margin:5px 0 0 0;}
+/*목록이미지, 치료사례(공지, Date, Hit)*/
+#blist p.photoday{font-size:11px; color:#a5a5a5; margin:0 0 5px 0;}
+#blist p.photoday img{margin:0 10px 0 0;}
+#blist p.photoday span{margin:0 10px 0 0;}
+
+/*치료사례(테이블아님)*/
+#blist .beafphoto .photo{width:140px; height:140px;}/*여기 사이즈를 바꿔주세요(dt,dd 사이즈도 같이)*/
+#blist .beafphoto{position:relative; width:100%; height:100%; padding:18px 0 0 0; float:left; border-top:#c4c4c4 2px solid; /*background:url(/img/list_h_bg.gif) repeat-x top;*/ border-bottom:1px solid #dcdcdc; color:#53728b; font-size:11px;}
+#blist .beafphoto ul{margin:0; padding:0; list-style:none;}
+#blist .beafphoto ul li{float:left; width:336px; height:295px; margin:0 8px; display:inline;}
+/*치료전후사진*/
+#blist .beafphoto ul li .bfphoto{width:314px; border:1px solid #e2e2e2; padding:10px; overflow:hidden; background:url(../img/beaf_next.gif) no-repeat 50%;}
+#blist .beafphoto ul li .bfphoto dt{position:relative; width:140px; height:140px; float:left; background:#f6f6f6;}
+#blist .beafphoto ul li .bfphoto dt span{position:absolute; top:121px; right:-1px; width:18px; height:18px; background-color:#666; color:#fff; text-align:center; vertical-align:middle; font-size:11px; font-weight:bold; padding-top:2px;}
+#blist .beafphoto ul li .bfphoto dd{position:relative; width:140px; height:140px; float:right; background:#f6f6f6;}
+#blist .beafphoto ul li .bfphoto dd span{position:absolute; top:121px; left:1px; width:18px; height:18px; background-color:#F60; color:#fff; text-align:center; vertical-align:middle; font-size:11px; font-weight:bold; padding-top:2px;}
+
+
+/*치료전후내용*/
+#blist .beafphotocc{width:325px; font-size:11px; color:#2e2e2e; margin:10px 0 40px 5px;}
+#blist .beafphotocc p{}
+#blist .beafphotocc dl{}
+#blist .beafphotocc dt{font-size:14px; margin:0 0 10px 0;}
+#blist .beafphotocc dd{}
+
+/*포토갤러리*/
+#blist .gallery .photo{width:150px; height:125px;}/*여기 사이즈를 바꿔주세요 (dt 사이즈도같이)*/
+#blist .gallery{width:100%; padding:18px 0 18px 0; background:url(../img/list_h_bg.gif) repeat-x top; border-bottom:1px solid #dcdcdc; overflow:hidden;}
+#blist .gallery ul{overflow:hidden;}
+#blist .gallery ul li{height:210px; float:left; margin:0 0 10px 0;}
+#blist .gallery dl{position:relative; width:150px; float:left; margin:0 12px 0px 12px; display:inline;}
+#blist .gallery dt{position:relative; width:150px; height:125px; background:#f6f6f6;}
+#blist .gallery dd{font-size:12px; color:#2e2e2e; margin:10px 0 0 4px; text-align:left; vertical-align:middle; line-height:18px;}
+#blist .gallery dd img{ vertical-align:middle; line-height:18px;}
+
+/*faq 카테고리*/
+#blist .faqlist{width:100%; overflow:hidden; margin:0 0 20px 0; font-size:12px;}
+#blist .faqlist ul{width:100%; padding:7px 20px; float:left; background:#f9f9f9; border:1px solid #ebebeb;}
+#blist .faqlist ul li{width:auto; float:left; margin:0 5px 0 0;}
+#blist .faqlist a:link{ display:block; padding:5px 20px; background:#b3b3b3; color:#fff;}
+#blist .faqlist a:visited{ display:block; padding:5px 20px; background:#b3b3b3; color:#fff;}
+#blist .faqlist a:hover{ text-decoration:none; background:#757575;}
+
+#blist .faqlist fieldset{width:95.8%; padding:8px 2%; float:left; border:1px solid #c3c7ce; background:#f2f4f5;}
+#blist .faqlist label{font-weight:bold; color:#313337; padding-top:2px;}
+#blist .faqlist input{vertical-align:middle;padding-top:2px;}
+
+/*faq - 분류별*/
+#blist .faq{border-top:2px solid #c4c4c4; margin:0 0 0 0; overflow:hidden; width:100%; line-height:160%;}
+#blist .faq img{position:relative; top:3px; left:8px; margin:0 10px 0 0px; float:left; /*width:17px; height:17px;*/}
+#blist .faq dl{border-bottom:1px solid #dcdcdc; float:left; width:100%;}
+#blist .faq dt{font-weight:bold; padding:6px 0 6px 0; float:left; width:100%; cursor:pointer;}
+#blist .faq dt a{display:block; cursor:pointer;}
+#blist .faq dt span{display:inline-block; width:92%; float:left; padding:3px 5px;}
+#blist .faq dd{padding:6px 0 0 0; height:auto; margin:0; background:#f6f6f6; float:left; width:100%; display:none;}
+#blist .faq dd span{display:inline-block; width:92%; float:left; padding:3px 5px;}
+#blist .faq a:hover{text-decoration:underline;}
+#blist .faq dd .video{width:100%;}
+
+/*파일첨부,url*/
+#blist .faq .urlFile{width:100%; height:auto; margin:0px; padding:11px 0;  overflow:hidden; background:url(../img/bbs_dot_line.gif) repeat-x top;}
+#blist .faq .urlFile dl{position:relative; width:97%; float:left; height:19px; margin:0 0 0 10px; border:none;}
+#blist .faq .urlFile dt{position:relative; width:20px; padding:0 5px 0 12px; float:left; display:inline-block;}
+#blist .faq .urlFile dd{color:#797979; width:90%; font-size:11px; padding:0; float:left; display:inline-block;}
+#blist .faq .urlFile a{color:#797979; font-size:11px;}
+
+
+/*list 끝------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/*read -------------------------------------------------------------------------------------------------------------------------------------------- */
+#bbs #bread{position:relative; margin:10px; padding:20px 0 0 0; border:1px solid #e7e7e7; overflow:hidden;}
+
+#bbs.jj_con01_07 #bread {margin:50px 0 0 0;}
+
+#bbs #breadTop{position:relative; margin:10px; padding:10px 0 10px 0; border:1px solid #e7e7e7; overflow:hidden;}
+/*제목*/
+#bread .rtop{position:relative; width:98%; height:auto; margin:0px 20px 10px 0px; clear:both; overflow:hidden;}
+#bread .rtop .branch{margin:0px 0 5px 20px;}
+#bread .rtop dl{position:relative; margin:0px 0 0 20px; background:url(../img/bbs_dot_line.gif) repeat-x bottom;}
+#bread .rtop dt{position:relative; padding:0 0 0px 0px; color:#2e2e2e; font-size:14px; font-weight:bold; line-height:170%; padding:0 0 10px 0px;}
+#bread .rtop dd{position:relative; width:100%; color:#a5a5a5; font-size:11px; padding:0 0 10px 0px;}
+#bread .rtop span{position:relative; top:2px; float:left; margin:0 5px 0 0;}
+
+#bread .rnormal{position:relative; width:98%; height:auto; margin:0px 20px 18px 0px; clear:both; overflow:hidden;}
+#bread .rnormal .branch{margin:0px 0 5px 20px;}
+#bread .rnormal dl{position:relative; margin:0px 0 0 20px;}
+#bread .rnormal dt{position:relative; padding:0 0 0px 0px; color:#2e2e2e; font-size:14px; font-weight:bold; line-height:170%;}
+#bread .rnormal dd{position:relative; width:100%; color:#a5a5a5; font-size:11px; padding:10px 0 10px 0px;}
+#bread .rnormal span{position:relative; top:2px; float:left; margin:0 5px 0 0;}
+
+/*읽기내용*/
+#bread .rcon{position:relative; width:auto; height:100%; margin:0 0 0 20px; padding:10px 20px 20px 0px; clear:both;}
+#bread .rcon .readCont{height:100%; min-height:250px; _height:250px;}
+#bread .rcc{position:relative; width:auto; height:100%; min-height:50px; _height:50px;}
+#bread ol{margin-left:25px; list-style:decimal;}
+#bread ul{margin-left:25px; list-style:disc;}
+
+/*파일첨부,url*/
+#bread .urlFile{width:100%; height:auto; margin:20px 0 0 0; padding:10px 0 10px 0; overflow:hidden; background:url(../img/bbs_dot_line.gif) repeat-x top;}
+#bread .urlFile dl{position:relative; width:97%; float:left; height:19px; margin:0 0 0 10px;  padding:0;}
+#bread .urlFile dt{position:relative; width:18px; padding:0 0 0 3px; float:left; top:5px; }
+#bread .urlFile dd{position:relative; color:#797979; font-size:11px; padding:5px 0 10px 0px; float:left;}
+#bread .urlFile a{color:#797979; font-size:11px;}
+
+/*답글*/
+#bread .reple{position:relative; width:100%; height:auto; margin:20px 0 20px 0; padding:10px 0px 10px 0px; background:#f5f5f5; font-size:11px; overflow:hidden;}
+#bread .reple dl{position:relative; width:94%; margin:0 20px; padding:13px 0px 10px 0px; border-bottom:1px solid #e5e5e5; line-height:130%;}
+#bread .reple dt{color:#a5a5a5; margin:0 0 10px 0;}
+#bread .reple strong{color:#2e2e2e; margin:0 10px 0 0;}
+#bread .reple dd{padding:0 20px 0 0; }
+
+/*수정,삭제 버튼*/
+#bread .reple .reEdit{position:absolute; top:10px; right:20px;}
+#bread .reple .reEdit a{text-decoration:none; color:#2e2e2e;}
+#bread .reple .reEdit a:hover{text-decoration:underline; color:#2e2e2e;}
+
+/*답글쓰기*/
+#bread .rego{position:relative; height:100%; margin:9px 0; padding:0px;}
+#bread .rego dl{width:100%; overflow:hidden; border:none 0;}
+#bread .rego dt{width:100%; overflow:hidden; margin:0;}
+#bread .rego dt input{width:110px; height:18px; float:left;}
+#bread .rego dd{width:100%; overflow:hidden; float:left;}
+#bread .rego dd textarea{width:82%; height:50px; margin:8px 5px; padding:5px; border:1px solid #c6cdd8; float:left; overflow:auto;}
+#bread .rego .btnAll{width:85px; display:inline; margin:35px 0 0 0px; text-align:left; float:left;}
+#bread .rego strong{margin:0; color:#797979;}
+/*댓글삭제 폼*/
+.box{ width:224px; height:54px; padding:3px; border:1px solid #e2e1f8;}
+.in_box{position:relative; width:220px; height:50px; border:2px solid #d4d4d4;  background:#f6f6f6;}
+.in_box p{position:absolute; top:-15px; right:5px;}
+.in_box dl{margin:20px 0 0 0;}
+.in_box dl dt{float:left; margin:0 5px 0 5px; font-weight:bold;}
+.in_box dl dt dd{float:left;}
+
+
+/*리드페이지 버튼*/
+#bbs .readBtn{width:100%; margin:10px 0;}
+
+/*상담에 답변*/
+#bread .readRe{position:relative; width:100%; margin:20px 0 0 0; padding:20px 0; overflow:hidden; background:#f5f5f5;}
+
+/*치료사례 사진*/
+#bread .rcon .beafphoto .photo{width:284px; height:284px;}/*여기 사이즈를 바꿔주세요 (dt,dd 사이즈도 같이)*/
+
+#bread .rcon .beafphoto{float:left; width:96%; min-height:10px; margin:0; padding:0; text-align:center;}
+#bread .rcon .beafphoto dl{width:615px; height:285px; margin:0 auto; padding:10px; overflow:hidden; background:url(../img/beaf_next.gif) no-repeat 50% 50%;}
+#bread .rcon .beafphoto dt{position:relative; width:284px; height:284px; float:left; background:#f6f6f6;}
+#bread .rcon .beafphoto dt span{position:absolute; top:265px; right:-1px; width:18px; height:18px; background-color:#666; color:#fff; vertical-align:middle; font-size:11px; font-weight:bold; padding-top:2px;}
+#bread .rcon .beafphoto dd{position:relative; width:284px; height:284px; float:right; background:#f6f6f6;}
+#bread .rcon .beafphoto dd span{position:absolute; top:265px; left:1px; width:18px; height:18px; background-color:#F60; color:#fff; vertical-align:middle; font-size:11px; font-weight:bold; padding-top:2px;}
+
+/*치료사례 내용*/
+#bread .rcon .rcc{position:relative; text-align:left; clear:left;} 
+/*read 끝-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*write -------------------------------------------------------------------------------------------------------------------------------------------- */
+#bbs #bwrite{margin:10px; padding:20px; border:1px solid #e7e7e7; overflow:hidden;}
+/*개인정보방침*/
+#bwrite .top{width:100%; height:100%; margin:0px 0 18px 0; overflow:hidden; background:#f5f5f5; font-size:12px; text-align:center; line-height:180%;}
+#bwrite .top .ScrollLy{width:94%; height:80px; margin:10px 10px 5px 10px; padding:10px; font-size:12px; border:1px solid #cccccc; background:#ffffff; z-index:1; overflow-x:hidden;overflow-y:auto;}
+#bwrite .top .ScrollLy .title{text-align:center; font-size:16px; font-weight:bold;}
+#bwrite .top .ScrollLy h6{text-align:left; font-size:12px; font-weight:bold; padding:15px 0 10px 0;}
+#bwrite .top .ScrollLy p{text-align:left;}
+#bwrite .top .ScrollLy ul{padding:0 0 10px 0;}
+#bwrite .top .ScrollLy ul li{text-align:left;}
+#bwrite .top .jbtn{ position:relative; top:5px; *top:1px; _top:1px;}
+#bwrite .top p{width:94%; text-align:right; clear:both; padding:0 0 9px 0;  font-size:11px; }
+/*개인정보방침 끝*/
+
+/*기본틀 2개 w=50% */
+#bwrite .wlist{width:100%; height:100%; clear:both; float:left; font-size:12px;}
+#bwrite .wlist dl{width:50%; height:18px; padding:4px 0px; float:left; color:#53728b; }
+#bwrite .wlist dt{width:61px; padding:4px 0 0 10px; float:left; color:#797979; font-weight:bold;}
+#bwrite .wlist dd{float:left; width:100%; display:inline; padding:0 0 0 10px; background:url(../img/board_dd_line.html) no-repeat 0 3px;}
+
+/*지점정보,진료과목*/
+#bwrite .wlist .wTop{width:100%; height:100%; padding:0 0 5px 0; background:url(../img/bbs_dot_line.gif) repeat-x bottom; float:left;}
+#bwrite .wlist .wTop dl{width:33%; color:#797979; float:left;}
+#bwrite .wlist .wTop dt{width:70px;}
+#bwrite .wlist .wTop dd{float:left; width:50%;}
+#bwrite .wlist .wTop .long{width:99%; padding:4px 0 10px 0;}
+#bwrite .wlist .wTop .long dt{width:70px;}
+#bwrite .wlist .wTop .long dd{float:left; width:84%;}
+
+
+/*작성자,비밀번호*/
+#bwrite .wlist .wBot{width:100%; float:left; padding:5px 0 0 0; overflow:hidden;} 
+#bwrite .wlist .wBot dl{width:50%; color:#797979; display:inline-block;}
+#bwrite .wlist .wBot dt{width:70px; float:left; font-weight:bold;}
+#bwrite .wlist .wBot dd{float:left; width:50%; display:inline;} 
+/*이메일,휴대폰*/
+#bwrite .wlist .wBot .long{width:90%;}
+#bwrite .wlist .wBot .long dt{width:70px;}
+#bwrite .wlist .wBot .long dd{float:left; width:70%;} 
+#bwrite .wlist .wBot .long dl.plus{float:left; width:35%;} 
+/*제목*/
+#bwrite .wlist .wBot .wtitle{width:99%; padding:4px 0 10px 0; height:auto;}
+#bwrite .wlist .wBot .wtitle dt{width:70px;}
+#bwrite .wlist .wBot .wtitle dd{float:left; width:84%; } 
+/*체그박스 답변메일받기*/
+#bwrite .wlist .wBot span{font-size:11px; margin:0 0 0 10px;}
+
+/*메일받는사람*/
+#bwrite .wlist .wBot .wmail{width:99%; padding:4px 0 10px 0; height:auto;}
+#bwrite .wlist .wBot .wmail dt{width:70px;}
+#bwrite .wlist .wBot .wmail dd{float:left; width:84%; } 
+
+/*쓰기내용*/
+#bwrite .wCon{position:relative; width:98%; min-height:255px; _height:255px; margin:0 0 10px 5px; border:0px solid #cdcdcd; clear:both;}
+#bwrite .wCon textarea{width:98%; height:240px; padding:10px 0; border-top:1px solid #fff; border-left:none 0; border-right:none 0; border-bottom:none 0; overflow:auto;}
+#bwrite .wCon .editor{width:100%; border-bottom:0px solid #cdcdcd; margin:0 0 20px 0;}
+#bwrite .wCon .editor dl{width:100%;}
+#bwrite .wCon .editor dt{font-weight:bold; color:#f2145e; padding:10px 0 10px 10px;}
+#bwrite .wCon .editor dd{width:100%;}
+
+/*답변내용*/
+#bwrite .reCon{position:relative; width:98%; min-height:255px; _height:255px; margin:0 0 10px 5px; background:url(../img/bbs_dot_line.gif) repeat-x top; clear:both;}
+#bwrite .reCon textarea{width:98%; height:240px; padding:10px 0; border-top:1px solid #fff; border-left:none 0; border-right:none 0; border-bottom:none 0; overflow:auto;}
+#bwrite .reCon .editor{width:100%; border-bottom:0px solid #cdcdcd; margin:0 0 20px 0;}
+#bwrite .reCon .editor dl{width:100%;}
+#bwrite .reCon .editor dt{font-weight:bold; color:#f2145e; padding:20px 0 10px 10px;}
+#bwrite .reCon .editor dd{width:100%;}
+
+/*파일첨부,관련링크*/
+#bwrite .wlist .fplus{width:90%; height:auto; padding:4px 0px; color:#53728b; clear:both; overflow:hidden;}
+#bwrite .wlist .fplus dt{width:70px; padding:0 0 0 10px; float:left; color:#797979; font-weight:bold; position:relative; top:3px;}
+#bwrite .wlist .fplus dd{float:left; width:80%; display:inline; padding:0 0 0 10px;}
+
+/*파일첨부 내용  + 삭제 */
+#bwrite .weidtFile{padding:4px 0;}
+#bwrite .weidtFile p{margin:0 0 10px 0;}
+
+/*스팸차단코드*/
+#bwrite .spam{overflow:hidden; padding:0 0 0 0; color:#797979; clear:both; height:40px;}
+#bwrite .spam dt{font-size:12px; font-weight:bold; float:left; margin:0px 5px 0 0; padding:4px 0 0 10px; }
+#bwrite .spam dt img{ vertical-align:middle; margin:0 15px; }
+#bwrite .spam dd{float:left; font-size:11px; line-height:30px;}
+#bwrite .spam dd img{vertical-align:middle; margin:0 6px;}
+#bwrite .wlist dl.spam {width:100%; height:30px;}
+#bwrite .spam dd input{vertical-align:middle;}
+
+/*이메일, 문자 발송 */
+#bwrite .editfoot{padding:10px; background-color:#f7f7f7; clear:both; text-align:center;}
+#bwrite .editfoot p{padding:0 0 10px 0;}
+#bwrite .editfoot label{font-weight:bold; padding:0 20px 0 0;}
+
+/*input*/
+#bwrite .wlist input{width:90%;}
+#bwrite .wlist input[type="checkbox"]{width:auto;}
+#bwrite .wlist .inputLong{width:50%;}
+#bwrite .wlist .inputTitle{width:85%;} 
+#bwrite .wlist input[type="radio"]{width:auto;}
+/*write 끝-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*온라인예약 - 제나(관리자) ----------------------------------------------------------------------------------------------------------------------------------- */
+
+/*온라인예약프로그램*/
+/*온라인예약프로그램*/
+#bbs .rese2{position:relative; width:840px; border:1px solid #e7e7e7; margin:10px; color:#797979; line-height:inherit; float:left;}
+/*#bbs .rese2List tbody td{color:#2e2e2e !important;}*/
+
+
+#bbs .rese2 .rese2Left{float:left; padding:0 20px 0 0;}
+#bbs .rese2 .rese2Right{float:right;}
+
+/*지전선택, 예약희망일 ------------------------ */
+#bbs .rese2 .rese2Top{color:#797979; width:525px; height:40px; padding:15px 0 0 0; margin:0 0 0 20px; background:url(../img/bbs_dot_line.gif) repeat-x bottom; overflow:hidden;}
+#bbs .rese2 .rese2Top dl{float:left;  width:170px;}
+#bbs .rese2 .rese2Top dt{float:left; padding:4px 5px 5px 10px;}
+#bbs .rese2 .rese2Top dd{float:left;}
+#bbs .rese2 .rese2Top dd span{margin:4px 10px 0 0; display:inline-block;}
+/*지전선택, 예약희망일 끝 ------------------------ */
+
+/*달력 ----------------- */
+#bbs .rese2 .calendar{width:530px; margin:25px 0 10px 20px;}
+#bbs .rese2 .calendar table caption{position:relative; padding:0 0 19px 0; vertical-align:middle; width:inherit; height:inherit; overflow:inherit;visibility:inherit; font-size:inherit; }
+#bbs .rese2 .calendar table caption span{position:relative; top:0px; color:#2e2e2e; font-size:24px; margin:0 27px;}
+#bbs .rese2 .calendar table caption img{margin:4px 0 0 0;}
+#bbs .rese2 .calendar .sat{color:#7f7fde; display:block;text-align:left;}
+#bbs .rese2 .calendar .sun{color:#f84c8d; display:block;text-align:left;}
+#bbs .rese2 .calendar table thead{}
+#bbs .rese2 .calendar table tbody{}
+#bbs .rese2 .calendar table th{padding:0 0 0 1px;}
+#bbs .rese2 .calendar table td{width:75px; height:61px; font-size:11px; background:#f2f2f2; border:1px solid #fff; vertical-align:top; padding:7px 0 0 10px;}
+#bbs .rese2 .calendar table td span{display:block; text-align:center;}
+#bbs .rese2 .calendar p{text-align:left; margin:10px 0 0 0;}
+/*달력 끝 ----------------- */
+
+/*예약시간,병원진료,이름,연락처,이메일주소,예약내용*/
+#bbs .rese2 .rese2Right{width:268px; background:#f2f2f2; float:right; padding:23px 0 0 0px; line-height:100%; min-height:590px;}
+#bbs .rese2 .rese2Right p{margin:0 0 10px 13px;}
+#bbs .rese2 .rese2Right dl{width:243px; clear:both; overflow:hidden; margin:0 auto 7px auto;}
+#bbs .rese2 .rese2Right dt{float:left; width:70px; margin:0; padding:4px 0 3px 0; font-size:12px; font-weight:bold; color:#797979; text-align:left; vertical-align:middle;}
+#bbs .rese2 .rese2Right dd{float:left; width:170px; color:#797979; vertical-align:middle;}
+#bbs .rese2 .rese2Right dd span{position:relative; top:3px;}
+#bbs .rese2 .rese2Right textarea{width:170px; height:106px;}
+#bbs .rese2 .rese2Right input.wid80{width:80px;  vertical-align:middle;}
+/*예약시간*/
+#bbs .rese2 .rese2Right  .TimeCon{width:170px; height:138px; border:1px solid #7f9db9;  margin:0 0 0 0px; overflow:hidden; clear:both;}
+#bbs .rese2 .rese2Right  .TimeCon ul{margin:0px; padding:0px; overflow:hidden; height:138px; overflow:scroll; overflow-x:hidden; background:#fff;}
+#bbs .rese2 .rese2Right  .TimeCon ul li{margin:0px; padding:0 0 2px 5px;}
+#bbs .rese2 .rese2Right  .TimeCon ul li:hover{background:#b2b4bf; cursor:pointer;}
+/*예약시간 끝*/
+
+
+
+/*버튼 (진료예약,취소)*/
+#bbs .rese2 .ftV{color:#766cc0 !important;}
+
+/*온라인예약2(리드페이지) - 제나*/
+#bbs #bread .reseReadTop{ height:100%; margin:0 0 0 20px; line-height:100%; background:url(../img/bbs_dot_line.gif) repeat-x bottom; overflow:hidden;}
+#bbs #bread .reseReadTop dl{float:left; width:45%; margin:0 0 0 10px; padding:0 0 5px 0; height:auto; background:none;}
+#bbs #bread .reseReadTop dt{float:left; position:relative; width:90px; margin:0; padding:5px 0 0 10px; font-weight:bold; background:url(../img/icon_red.gif) no-repeat left; font-size:12px; font-weight:normal; color:#797979; display:inline;}
+#bbs #bread .reseReadTop dd{float:left; width:auto; position:relative; color:#000; font-size:12px;}
+#bbs #bread .reseReadTop dd strong{position:relative; top:0px;}
+/*주소 width:100%;*/
+#bbs #bread .reseReadTop .dlw100{width:90%;}
+#bbs #bread .reseReadTop .dlw100 dt{}
+#bbs #bread .reseReadTop .dlw100 dd{width:75%;}
+
+/*온라인예약 - 제나 끝 ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*온라인예약2 - 제나 ----------------------------------------------------------------------------------------------------------------------------------- */
+
+/*온라인예약프로그램*/
+#bbs2 .rese2{position:relative; width:840px; border:1px solid #e7e7e7; margin:10px; color:#797979; line-height:inherit; float:left;}
+/*#bbs .rese2List tbody td{color:#2e2e2e !important;}*/
+
+
+#bbs2 .rese2 .rese2Left{float:left; padding:0 20px 10px 0;}
+#bbs2 .rese2 .rese2Right{float:right;}
+
+/*지전선택, 예약희망일 ------------------------ */
+#bbs2 .rese2 .rese2Top{color:#797979; width:525px; height:40px; padding:15px 0 0 0; margin:0 0 0 20px; background:url(../img/bbs_dot_line.gif) repeat-x bottom; overflow:hidden;}
+#bbs2 .rese2 .rese2Top dl{float:left;}
+#bbs2 .rese2 .rese2Top dt{float:left; padding:4px 15px 5px 0;}
+#bbs2 .rese2 .rese2Top dd{float:left;}
+#bbs2 .rese2 .rese2Top dd span{margin:4px 10px 0 0; display:inline-block;}
+/*지전선택, 예약희망일 끝 ------------------------ */
+
+/*달력 ----------------- */
+#bbs2 .rese2 .calendar{width:530px; margin:25px 0 10px 20px;}
+#bbs2 .rese2 .calendar table caption{position:relative; padding:0 0 19px 0; vertical-align:middle; width:inherit; height:inherit; overflow:inherit;visibility:inherit; font-size:inherit; }
+#bbs2 .rese2 .calendar table caption span{position:relative; top:0px; color:#2e2e2e; font-size:24px; margin:0 27px;}
+#bbs2 .rese2 .calendar table caption img{margin:4px 0 0 0;}
+#bbs2 .rese2 .calendar .sat{color:#7f7fde; display:block;text-align:left;}
+#bbs2 .rese2 .calendar .sun{color:#f84c8d; display:block;text-align:left;}
+#bbs2 .rese2 .calendar table thead{}
+#bbs2 .rese2 .calendar table tbody{}
+#bbs2 .rese2 .calendar table th{padding:0 0 0 1px;}
+#bbs2 .rese2 .calendar table td{width:75px; height:61px; font-size:11px; background:#f2f2f2; border:1px solid #fff; vertical-align:top; padding:7px 0 0 10px;}
+#bbs2 .rese2 .calendar table td span{display:block; text-align:center;}
+#bbs2 .rese2 .calendar p{text-align:left; margin:10px 0 0 0;}
+/*달력 끝 ----------------- */
+
+/*예약시간,병원진료,이름,연락처,이메일주소,예약내용*/
+#bbs2 .rese2 .rese2Right{width:268px; background:#f2f2f2; float:right; padding:23px 0 0 0px; line-height:100%;}
+#bbs2 .rese2 .rese2Right p{margin:0 0 10px 13px;}
+#bbs2 .rese2 .rese2Right dl{width:243px; clear:both; overflow:hidden; margin:0 auto 7px auto;}
+#bbs2 .rese2 .rese2Right dt{float:left; width:70px; margin:0; padding:4px 0 3px 0; font-size:12px; font-weight:bold; color:#797979; text-align:left;}
+#bbs2 .rese2 .rese2Right dd{float:left; width:170px; color:#797979;}
+#bbs2 .rese2 .rese2Right dd span{position:relative; top:3px;}
+#bbs2 .rese2 .rese2Right textarea{width:170px; height:106px;}
+/*예약시간*/
+#bbs2 .rese2 .rese2Right  .TimeCon{width:170px; height:138px; border:1px solid #7f9db9;  margin:0 0 0 0px; overflow:hidden; clear:both;}
+#bbs2 .rese2 .rese2Right  .TimeCon ul{margin:0px; padding:0px; overflow:hidden; height:138px; overflow:scroll; overflow-x:hidden; background:#fff;}
+#bbs2 .rese2 .rese2Right  .TimeCon ul li{margin:0px; padding:0 0 2px 5px;}
+#bbs2 .rese2 .rese2Right  .TimeCon ul li:hover{background:#b2b4bf; cursor:pointer;}
+/*예약시간 끝*/
+
+
+/*버튼 (진료예약,취소)*/
+#bbs2 .rese2 .ftV{color:#766cc0 !important;}
+
+/*온라인예약2(리드페이지) - 제나*/
+#bbs2 #bread .reseReadTop{ height:100%; margin:0 0 0 20px; line-height:100%; background:url(../img/bbs_dot_line.gif) repeat-x bottom; overflow:hidden;}
+#bbs2 #bread .reseReadTop dl{float:left; width:45%; margin:0 0 0 10px; padding:0 0 5px 0; height:auto; background:none;}
+#bbs2 #bread .reseReadTop dt{float:left; position:relative; width:90px; margin:0; padding:5px 0 0 10px; font-weight:bold; background:url(../img/icon_red.gif) no-repeat left; font-size:12px; font-weight:normal; color:#797979; display:inline;}
+#bbs2 #bread .reseReadTop dd{float:left; width:auto; position:relative; color:#000; font-size:12px;}
+#bbs2 #bread .reseReadTop dd strong{position:relative; top:0px;}
+/*주소 width:100%;*/
+#bbs2 #bread .reseReadTop .dlw100{width:90%;}
+#bbs2 #bread .reseReadTop .dlw100 dt{}
+#bbs2 #bread .reseReadTop .dlw100 dd{width:75%;}
+
+/*온라인예약2 - 제나 끝 ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*온라인예약 - 부민 ------------------------------------------------------------------------------------------------------------------------------------- */
+#bbs .bline{background:url(../img/bbs_dot_line.gif) repeat-x bottom;}
+#bbs .rese{position:relative;  margin:10px; color:#797979; line-height:inherit; float:left;}
+/*스텝1 --------------------------------------------------------------------------------------------------------- */
+.rese .reseStep1{overflow:hidden; margin:0 0 16px 0;}
+.rese .reseStep1 dl{float:left; width:100%;}
+.rese .reseStep1 dt{position:relative; float:left; width:65px; height:45px; background-color:#666; color:#fff; margin:0 15px 0 0; padding:30px 10px 10px 10px;}
+.rese .reseStep1 dt span{position:absolute; top:5px; right:5px; color:#999; font-size:10px;}
+.rese .reseStep1 dd{float:left; width:85%; border:1px solid #e7e7e7; padding:10px 0;}
+.rese .reseStep1 dd dl{margin:3px 15px 3px 15px; padding:0 0 0 0; width:95%;}
+.rese .reseStep1 dd dt{width:65px; padding:3px 0 0 0; height:18px; background:none; color:#484848;}
+.rese .reseStep1 dd dd{border:none 0; width:70%; padding:0;}
+
+/*의료진 리스트*/
+.rese .reseStep1 #doctor{width:auto;}
+.rese .reseStep1 #doctor ul{width:auto;}
+.rese .reseStep1 #doctor ul li{float:left; width:255px; margin:20px 0 0 0;}
+.rese .reseStep1 #doctor p{float:left;}
+.rese .reseStep1 #doctor dl{width:137px; margin:0px 0 0 10px; padding:0;}
+.rese .reseStep1 #doctor dt{font-size:14px; color:#4a4a4c; clear:both;}
+.rese .reseStep1 #doctor dd{font-size:11px; clear:both; width:100%; margin:10px 0 0 0; padding:0; line-height:160%; letter-spacing:-1px;}
+.rese .reseStep1 #doctor dd span{color:#67af3e; display:block;}
+.rese .reseStep1 #doctor .btnAll{text-align:left; width:auto; clear:both; padding:0;}
+/*스텝1 끝 ------------------------------------------------------------------------------------------------------- */
+
+/*스텝2 ------------------------------------------------------------------------------------------------------- */
+.rese .reseStep2{overflow:hidden; margin:0 0 16px 0;}
+.rese .reseStep2 dl{float:left; width:100%;}
+.rese .reseStep2 dt{position:relative; float:left; width:65px; height:30px; background-color:#666; color:#fff; margin:0 15px 0 0; padding:45px 10px 10px 10px;}
+.rese .reseStep2 dt span{position:absolute; top:5px; right:5px; color:#999; font-size:10px;}
+.rese .reseStep2 dd{float:left; width:85%; border:1px solid #e7e7e7;}
+.rese .reseStep2 dd dt{width:65px; padding:3px 0 0 0; background:none; color:#484848;}
+
+/*예약날짜 (달력) ---------------------------------- */
+.rese .reseStep2 .calendar{position:relative; width:301px; height:320px; background:url(../img/rese_step02_day_bg.jpg) no-repeat; float:left; margin:10px 15px 0px 15px;}
+.rese .reseStep2 .calendar table{position:relative; width:266px; border-top:2px solid #ccc; border-bottom:1px solid #e5e5e5; margin:0 0 0 17px;}
+.rese .reseStep2 .calendar caption{position:relative; padding:2px 0 8px 0; font-size:24px; vertical-align:middle; width:inherit; height:inherit; overflow:inherit; visibility:inherit;}
+.rese .reseStep2 .calendar caption img{margin:4px 0 0 0; cursor:pointer;}
+.rese .reseStep2 .calendar table thead{}
+.rese .reseStep2 .calendar table th{border-bottom:1px solid #e5e5e5; padding:5px 0; line-height:100%;}
+.rese .reseStep2 .calendar table tbody{margin:0; padding:0;}
+.rese .reseStep2 .calendar table td{font-size:11px; color:#797979; text-align:center; padding:5px 0; line-height:100%;}
+.rese .reseStep2 .calendar table .sun{color:#f60029;}
+.rese .reseStep2 .calendar table .sat{color:#006ecb;}
+.rese .reseStep2 .calendar table .on{font-weight:bold;}
+.rese .reseStep2 .calendar table .pick{background:url(../img/rese_pick.gif) no-repeat 50%;}
+.rese .reseStep2 .calendar table .today{background:url(../img/rese_today.gif) no-repeat 50%;}
+.rese .reseStep2 .calendar table .pick_on{background:url(../img/rese_on.gif) no-repeat 50%;}
+/**/
+.rese .reseStep2 .calendar p{margin:12px 0 22px 17px;}
+.rese .reseStep2 .calendar p.datetxt{position:absolute; top:236px; left:0;}
+/*예약선택일*/
+.rese .reseStep2 .calendar dl{position:absolute; top:286px; left:0; overflow:hidden; padding:0;}
+.rese .reseStep2 .calendar dt{ float:left; width:66px; margin:0px 0 0 3px; padding:4px 0;}
+.rese .reseStep2 .calendar dd{float:left; margin:0 0 0 5px; padding:0; border:none 0; width:auto;}
+/*예약날짜 (달력) 끝---------------------------------- */
+
+/*예약시간 선택 ------------------------------------- */
+.rese .reseStep2 .reseTime{position:relative; width:220px; height:278px; background:url(../img/rese_step02_time_bg.jpg) no-repeat; float:left; margin:10px 15px 0px 0px;}
+/*예약시간선택*/
+.rese .reseStep2 .reseTime .TimeCon{width:184px; height:176px; border:1px solid #7f9db9;  margin:10px 0 0 18px; overflow:hidden; float:left;}
+.rese .reseStep2 .reseTime .TimeCon ul{margin:0px; padding:0px; overflow:hidden; height:170px; overflow:scroll; overflow-x:hidden;}
+.rese .reseStep2 .reseTime .TimeCon ul li{margin:0px; padding:0 0 2px 5px;}
+.rese .reseStep2 .reseTime .TimeCon ul li:hover{background:#b2b4bf; cursor:pointer;}
+
+.rese .reseStep2 .reseTime .selectbox1{width:185px; height:176px; border:1px solid #fff;}
+
+.rese .reseStep2 .reseTime p{margin:12px 0 22px 17px; float:left;}
+
+.rese .reseStep2 .reseTime dl{overflow:hidden; padding:4px 0 0 0;line-height:100%;}
+.rese .reseStep2 .reseTime dt{position:relative; float:left; width:85px; margin:0 0 0 3px; padding:4px 0;}
+.rese .reseStep2 .reseTime dd{float:left; margin:0 0 0 5px; padding:0; border:none 0; width:auto;}
+.rese .reseStep2 .reseTime dd input{width:110px;}
+/*예약시간 선택 끝 ------------------------------------- */
+
+/*스텝2 끝 ----------------------------------------------------------------------------------------------------------- */
+
+
+/*스텝3 --------------------------------------------------------------------------------------------------------- */
+.rese .reseStep3{overflow:hidden; margin:0 0 16px 0;}
+.rese .reseStep3 dl{float:left; width:100%;}
+.rese .reseStep3 dt{position:relative; float:left; width:65px; height:30px; background-color:#666; color:#fff; margin:0 15px 0 0; padding:45px 10px 10px 10px;}
+.rese .reseStep3 dt span{position:absolute; top:5px; right:5px; color:#999; font-size:10px;}
+.rese .reseStep3 dd{float:left; width:85%; border:1px solid #e7e7e7; padding:0 0;}
+.rese .reseStep3 dd dl{margin:3px 15px 3px 15px; padding:0 0 0 0; width:95%;}
+.rese .reseStep3 dd dt{width:65px; padding:3px 0 0 0; height:18px; background:none; color:#484848; vertical-align:middle;}
+.rese .reseStep3 dd dd{border:none 0; width:80%;padding:0; vertical-align:middle;}
+.rese .reseStep3 dd dd input{vertical-align:middle;}
+
+.rese .reseStep3 .spam{overflow:hidden; padding:10px 0 0 0; color:#797979; clear:both; height:40px;}
+.rese .reseStep3 .spam dt{font-size:12px; font-weight:bold; float:left; margin:0px 5px 0 0; padding:4px 0 0 10px; }
+.rese .reseStep3 .spam dt img{ vertical-align:middle; margin:0 15px; }
+.rese .reseStep3 .spam dd{float:left; font-size:11px; line-height:30px;}
+.rese .reseStep3 .spam dd img{vertical-align:middle; margin:0 6px;}
+.rese .reseStep3 .wlist dl.spam {width:100%; height:30px;}
+.rese .reseStep3 .spam dd input{vertical-align:middle; width:80px;}
+
+
+
+/*예약자정보 (회원가입css)*/
+.rese .join{border:none 0; margin:0; padding:0;}
+.rese2 .join{border:none 0; margin:0; padding:0;}
+
+/*개인정보취급방침*/
+.rese .join .joinTop{width:100%; margin:0 0 20px 0; padding:0; border:1px solid #e5e5e5;}
+.rese2 .join .joinTop{width:100%; margin:0 0 20px 0; padding:0;}
+
+/*예약자정보*/
+.rese .reseStep3 .join dl{width:100%; margin:0;}
+.rese .reseStep3 .join dt{width:85px; background:none; padding:3px 0 3px 5px;}
+.rese .reseStep3 .join textarea{width:100%; height:85px; border:1px solid #e5e5e5; padding:2px 0 0 3px;}
+/*예약자정보 (회원가입css) 끝*/
+
+/*온랑인예약 리드페이지*/
+#bbs .rese .reseRead{}
+#bbs .rese .reseRead dl{margin-top:10px;}
+#bbs .rese .reseRead dt{ vertical-align:middle;}
+#bbs .rese .reseRead dd dl{margin:0;}
+#bbs .rese .reseRead dd dt{padding:6px 0 0 0; vertical-align:middle;}
+#bbs .rese .reseRead dd dd{padding:6px 0 0 0; vertical-align:middle;}
+#bbs .rese .reseRead .btnAll{width:97%;}
+#bbs .rese .reseRead dd dd strong{position:relative; top:0px;}
+
+/*스텝3 끝 ------------------------------------------------------------------------------------------------------- */
+/*예약하기버튼*/
+.rese .reseBtn{width:149px; height:43px; text-align:center;}
+
+
+/*온라인예약 - 부민 끝 ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*비용문의 (쓰기페이지 + 인덱스페이지) -------------------------------------------------------------------------------------------------------- */
+#bbs .moneylist #bwrite{height:100%;/*ie6버그 margin-bottom:30px;*/}
+#bbs .moneylist #bwrite .wlist{float:left;}
+#bbs .moneylist #bwrite .wlist dl{width:100%; height:auto; clear:both;}
+#bbs .moneylist #bwrite .wlist dt{width:100px;}
+#bbs .moneylist #bwrite .wlist dd{width:70%;}
+#bbs .moneylist #bwrite .wlist .moneypro{}
+#bbs .moneylist #bwrite .wlist .moneypro dd{line-height:160%; padding-top:4px;}
+#bbs .moneylist #bwrite .wlist  input{width:auto;}
+
+/*비용문의 (쓰기페이지 + 인덱스페이지) 끝 -------------------------------------------------------------------------------------------------------- */
+
+
+/*팝업*/
+.popclose{background:#000; text-align:right; padding:2px 0 0 0;}
+.popclose input{margin:0px 0 0 0; vertical-align:middle;}
+.popclose span{color:#fff; margin:2px 0 0 0; display:inline-block;}
+.popclose img{margin:-2px 3px 0 0;}
+
+/*썸네일 게시판*/
+.jjTbl_list01 {margin-left:-16px;}
+.jjTbl_list01 li {border:1px solid #e5e5e5; width:280px; height:285px; box-sizing: border-box; margin-bottom:50px; display:inline-block; vertical-align: top; padding:10px;margin-left:16px;}
+.jjTbl_list01 li .jj_imgView {width:258px; height:178px; overflow:hidden;}
+.jjTbl_list01 li .jj_imgView img {width:100%; height:auto;}
+.jjTbl_list01 li .jj_title {color:#797979; margin-top:15px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-wrap:break-word; height:37px; line-height:140%; letter-spacing: 1px;}
+.jjTbl_list01 li .jj_daylike {font-size:12px;}
+.jjTbl_list01 li .jj_daylike p {width:49%; display:inline-block; margin-top:15px; color:#8d8d8d;}
+.jjTbl_list01 li .jj_daylike .jj_date {text-align:left;}
+.jjTbl_list01 li .jj_daylike .jj_like {text-align:right;}
+.jjTbl_list01 li .jj_daylike .jj_like img {vertical-align: middle; margin:-2px 5px 0 0;}
+
+#blist_top {}
+#blist_top ul {margin:10px 0 0; padding:0; list-style:none; zoom:1; overflow:hidden; }
+#blist_top ul li {float:left; margin:0 58px 55px 0;width:361px;}
+#blist_top ul li.last {margin:0 0 55px 0 !important;}
+#blist_top ul li div.img {border:solid 1px #e5e5e5; width:359px; height:238px;}
+#blist_top ul li div.title {margin-top:18px; font-size:14px; color:#797979; height:42px;}
+#blist_top ul li div.title img {position:relative; top:5px;}
+#blist_top ul li div.info {margin-top:12px;}
+#blist_top ul li div.info span.date {font-size:12px; color:#8d8d8d;}
+#blist_top ul li div.info span.hit {float:right;}
+
+#blist2{margin:10px; padding:0; overflow:hidden;}
+#blist2 table{position:relative; width:100%;  height:100%; float:left; border-top:#bebebe 1px solid; }
+/*등록된 게시물이 없을때*/
+#blist2 table .bbsno{}
+#blist2 table .bbsno td{padding:10px 0;}
+
+/*등록된 게시물이 없을때(갤러리형)*/
+#blist2 .gallery .bbsno{}
+#blist2 .gallery .bbsno p{padding:10px 0; text-align:center;}
+
+/*등록된 게시물이 없을때(치료사례[before&after])*/
+#blist2 .beafphoto .bbsno{}
+#blist2 .beafphoto .bbsno p{padding:10px 0; text-align:center;}
+
+/*thead*/
+#blist2 table thead{width:100%; color:#797979;}
+#blist2 table thead th{ border-bottom:1px solid #bebebe; font-size:13px; font-weight:normal; color:#4f4f4f; height:50px; }
+#blist2 table tbody td.title div.title_wrap {overflow:hidden}
+#blist2 table tbody td.title div.title_wrap ul {float:left;}
+#blist2 table tbody td.title div.title_wrap ul.img {width:136px; height:87px; border:solid 1px #e6e6e6;}
+#blist2 table tbody td.title div.title_wrap ul.txt {width:565px; margin-left:50px; padding-top:20px; font-size:14px; line-height:20px; color:#797979; text-align:left;}
+#blist2 table tbody td.title div.title_wrap ul.txt img {position:relative; top:5px;}
+#blist2 table tbody td.title div.title_wrap ul.txt li.title {height:36px;}
+#blist2 table tbody td.title div.title_wrap ul.txt li.date {margin-top:5px; font-size:12px; color:#8d8d8d;}
+
+/*search*/
+#blist2 .search{position:relative; width:100%; margin:0px; padding:9px 0; text-align:center; vertical-align:middle;}
+#blist2 .search input{width:160px; height:16px; border:1px solid #e7e7e7; border-right:none 0; vertical-align:middle; display:inline;}
+#blist2 .search select{width:115px; height:20px; border:1px solid #e7e7e7; font-size:12px; vertical-align:middle; color:#706a5f; margin:0 5px 0 0; display:inline;}
+#blist2 .search .sbtn{position:relative; width:53px; height:20px; top:0px; *top:-2px; left:-8px; border:none; vertical-align:bottom;}
+#blist2 .search #clinicList{ display:inline;}
+
+/* 수술후기 게시판 */
+#blist .jayJun_tableList {border-top:0;}
+#blist .jayJun_tableList thead th {height:50px; border-color:#bebebe; border-width:1px 0 1px 0; border-style: solid;} 
+#blist .jayJun_tableList thead th + th {background:url('c:/Users/ksict7/Desktop/jayjun/img/icon_list1x9.gif') no-repeat left center;}
+#blist .jayJun_tableList tbody td {padding:20px 15px;}
+.jayJun_BestTop {color:#cba369; border:1px solid #cba369; width:50px; text-align:center; display:inline-block; font-size: 12px;}
+.jayJun_TitleWrap {text-align:left !important;}
+.jayJun_TitleWrap .jayJun_imgWrap {display:inline-block; width:17%; position:relative; vertical-align:middle; margin-right:20px;}
+.jayJun_imgWrap .jayJun_BestIcon {position:absolute; top:0; left:0;}
+.jayJun_imgWrap .jayJun_tbl_img {width:139px; height:89px; overflow: hidden; display:inline-block; border:1px solid #e6e6e6;}
+.jayJun_imgWrap .jayJun_tbl_img img {width:100%; height:auto;}
+
+.jayJun_TitleWrap .jayJun_txtWrap {display:inline-block; width:79%; vertical-align: middle; font-size:14px;}
+.jayJun_txtWrap .jayJun_Sel {color:#5c5c5c; border:1px solid #5c5c5c; width:63px; display:inline-block; text-align:center; vertical-align: middle; padding:2px 0; margin-right:5px;}
+.jayJun_txtWrap .jayJun_Txt01 {text-overflow: ellipsis; white-space:nowrap; overflow:hidden; font-weight:bold; display:inline-block; width:88%; vertical-align: middle; color:#5c5c5c;}
+.jayJun_txtWrap .jayJun_Txt02 {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-wrap:break-word; height:45px; line-height:170%; margin-top:10px; font-size: 13px;}
+.jayJun_txtWrap .jayJun_Date {color:#8d8d8d; font-size:12px; margin-top:5px; display:inline-block;}

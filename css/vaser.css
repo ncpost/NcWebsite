@@ -1,0 +1,284 @@
+p,span{
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #7b7b7b;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.case{
+    position: relative;
+}
+.case_title {
+    position: absolute;
+    background-color: white;
+    width:400px;
+    height:65px;
+    display: flex;
+    justify-content: center;
+    top:7%;
+    left:40%;
+    z-index: 1;
+}
+.case_title p,.case_info p,.case_story p{
+    position: absolute;
+
+}
+.case_info p{
+    border:1px solid #1473b4;
+    padding:50px 40px 30px;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+}
+.case_story p{
+    top:80%;
+    font-size: 19px;
+    text-align: center;
+    left:23%
+}
+.part_2{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+
+.part_2_content{
+    padding-top: 20px;
+}
+
+.part_2_left{
+    align-self:center;
+    margin-right: 10%;
+}
+
+.part_3_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.point_content,.part_5_caption{
+    display: flex;
+}
+.point1,.point2,.point3,.point4{
+    display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+}
+.point3,.point4{
+    display: flex;
+        flex-direction: column;
+        padding-right: 50px;
+}
+.point{
+    font-size: 30px;
+    background-color: #619edc;
+border-radius:20px ;
+    padding:0 15px;
+    height: 20px;
+    width: 50px;
+    color: white;
+    margin-right: 20px;
+}
+
+.point_1,.point_2,.point_3,.point_4{
+font-size: 30px;
+color: #363636;
+font-weight: 700;
+}
+
+
+.point_title{
+    padding-bottom: 20px;
+}
+
+.part_5 {
+    text-align: center;
+    padding:30px 0; 
+    position: relative;
+}
+.part_5_title{
+    display: flex;
+    justify-content: center;
+    padding:50px 0 10px 0;
+}
+.part_5_caption span{
+    font-size:15px
+}
+.body_text p{
+    position: absolute;
+    font-size: 15px;
+}
+.cheeks{
+    top:25%;
+    left:28%;
+}
+.chin{
+    top:27%;
+    left:27%;
+}
+.arm{
+    top:37.5%;
+    left:25%;
+}
+.upper_stomach{
+    top:42%;
+    left:24%;
+}
+.lower_stomach{
+    top:46.5%;
+    left:24%;
+}
+.outer_thigh{
+    top:58%;
+    left:26%;
+}
+.knee{
+    top:67.5%;
+    left:28.5%;
+}
+.bra_fat{
+    top:34%;
+    right:54.5%;
+}
+.waist_side{
+    top:43.5%;
+    right:54.5%;
+}
+.thigh_front{
+    top:58%;
+    right:52.5%;
+}
+.back{
+    top:32.5%;
+    right:44%;
+}
+.arm_back{
+    top:36.5%;
+    right:44%;
+}
+.waist_back{
+    top:45.5%;
+    right:44%;
+}
+.saddlebags{
+    top:52.5%;
+    right:44%;
+}
+.inner_thigh{
+    top:57%;
+    right:25%;
+}
+.thigh_back{
+    top:59.5%;
+    right:25%;
+}
+.calf_back{
+    top:74%;
+    right:25%;
+}
+.body_part{
+    width: 20px;
+    padding:2px 10px;
+    background-color: #1473b4;
+    border-radius: 20px;
+    color:white;
+    margin-right: 10px;
+}
+.face,.upper,.upper_limb{
+    padding-right: 40px;
+}
+.part_6{
+background-image: url(../img/vaser_intro.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 465px;
+}
+.part_6_content {
+    padding:5% 0 0 50% ;
+}
+.part_6_title{
+    padding-bottom: 20px;
+}
+.part_6_text{
+    padding-bottom: 30px;
+}
+
+.part_8{
+    position: relative;
+}
+.part_7_title{
+    justify-content: center;
+    display: flex;
+    padding:50px 0 20px;
+}
+.part_7{
+    position: relative;
+}
+.part_7_text p{
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 35px;
+    color: #1473b4;
+}
+.remove_fat{
+    top:75%;
+    left:11%;
+}
+.seperate{
+    top:75%;
+    left:21.5%;
+}
+.refinement{
+    top:75%;
+    left:66.8%;
+}
+.fill{
+    top:75%;
+    left:81.5%;
+}
+.part_8_text p{
+    position: absolute;
+    color:#1473b4;
+    font-size: 23px;
+}
+.dark_circle{
+    top:49%;
+    left:22%;
+}
+.skin_status{
+    top:56%;
+    left:24%;
+}
+.wrinkle{
+    top:63.5%;
+    left:26%;
+}
+.scar{
+    top:48.5%;
+    left:73%;
+}
+.flat{
+    top:56%;
+    left:75%;
+}
+.fat{
+    top:64%;
+    left:71%;
+}
+
+
+.part_8_title{
+    display: flex;
+    justify-content: center;
+    padding:50px 0 20px;
+}
+.faq p{
+    color:#f0a6ae
+}

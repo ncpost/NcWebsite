@@ -1,0 +1,234 @@
+.row{ margin: auto; margin-bottom: 50px; width: 1000px;}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 2.5px solid white;}
+
+.service-table th {
+		font-size: 25px;
+		text-align: center;
+	}
+
+table {
+		border-spacing: 0;
+		border-collapse: collapse;
+		width: 1000px;
+	}
+
+.tablehead{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.tablehead h2{
+	font-size: 55px;font-weight: 500;color: #666;
+}
+.row td {
+	font-size: 25px; text-align: center; font-weight: lighter;
+}
+.tb01{
+	color: #fff;
+	background-color: #bbb1a5;
+}
+.tb02{
+	color: #666;
+	background-color: #F5F5F7;
+}
+.tb03{
+	color: #666;
+	background-color: #FEF8F8;
+}
+.con_wrap h1{
+	font-size: 55px;
+	font-weight: bold;
+	color: #FFB6C1;
+	
+}
+.box-boder{
+	width: 200px;
+    border-top: solid #FFB6C1;
+	margin-bottom: 25px;
+}
+.advantage{
+ background-color:#bbb1a5;  width: 300px; height: 400px; text-align: center; margin-left: 10px; margin-right: 10px;
+}
+.advantage h1{
+	font-size: 50px;
+}
+.advantage h2{
+	font-size: 30px; padding-bottom: 30px;
+}
+.advantage h1 h2{
+	font-weight: 600; color: rgb(0, 0, 0);
+}
+.advantage p{
+	font-size: 20px;  color: white; 
+}
+.advantage-box{
+	display: flex; justify-content: center; padding-bottom: 100px;
+}
+.who-suit{
+	background-color: #f7f8fa; display: flex; justify-content: end;
+}
+.who-suit-text{
+    padding-right: 20px; margin-top: 100px;
+}
+.who-suit-text h1{
+	font-size: 60px; font-weight: 100px;
+}
+.who-suit-text h2{
+	font-size: 60px; font-weight: lighter; padding-bottom: 70px;
+}
+.method h1{
+	font-size: 50px; color: black; padding-bottom: 20px; padding-top: 50px;
+}
+.method p {
+	font-size: 20px; color: black;
+}
+.method{
+	text-align: center; background-color: #f6f6f8; padding-bottom: 80px;
+}
+.method-box{
+	display: flex; justify-content: center;
+}
+.picture {
+	display: flex; justify-content: center; padding-bottom: 40px;
+}
+.four-point{
+	text-align: center; font-size: 20px; padding-bottom: 50px; padding-top: 50px; color: black;
+}
+
+.title p{
+	font-size: 50px; color: black;  padding-left: 500px; font-weight: 100px; padding-bottom: 35px;
+}
+.number{
+	display: flex; padding-top: 30px; padding-bottom: 30px;padding-left: 40px;
+}
+.number p{
+	font-size: 25px;
+}
+
+.number picture{
+	padding-right: 20px;
+}
+.number_box{
+	padding-left: 400px;
+}
+.takecare{
+	margin: auto; padding-bottom: 50px;
+}
+.nt{
+	display: flex; justify-content: center; 
+}
+.content p{
+	font-size: 20px;padding-bottom: 25px;
+}
+.content{
+	padding: 25px;
+}
+
+.faq{
+	width: 60%; margin: auto;padding-bottom: 100px;
+}
+.faq h1{
+	font-size: 30px; font-weight: bolder; padding-top: 50px;
+}
+
+.accordion {
+	margin: 1rem 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #e5e5e5;
+}
+
+.accordion-item {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/* Thumb */
+.accordion-thumb {
+	margin: 0;
+	padding: .8rem 0;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 20px;	
+}
+
+.accordion-item:hover h3{
+	color: #f0a6a6;
+}
+
+.accordion-item.click {
+	color: #f0a6a6;
+}
+
+h3::before {
+	content: '';
+	display: inline-block;
+	height: 7px;
+	width: 7px;
+	margin-right: 1rem;
+	margin-left: .5rem;
+	vertical-align: middle;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	transform: rotate(-45deg);
+	transition: transform .2s ease-out;
+}
+
+/* Panel */
+.accordion-panel {
+	margin: 0;
+	padding-bottom: .8rem;
+	display: none;
+	font-size: 17px;
+	font-weight: lighter;
+	padding-left: 40px;
+}
+
+/* Active */
+.accordion-item .is-active {
+	.accordion-thumb::before {
+		transform: rotate(45deg);
+	}
+	
+}
+
+.pic{
+	position: relative;
+}
+
+.picword{
+	 position: absolute;
+	 left: 200px;
+	 top: 150px;
+	 display: flex;
+	 flex-direction: column;
+ }
+
+.picword p1{	 
+	font-size: 160px;
+	font-weight : 100; 
+	color:rgb(107, 101, 121);
+	line-height: 200px;
+}
+.picword p2{
+	 font-size: 50px; color: black;
+}
+.picword p4{
+	font-size: 70px ; color: rgb(107, 101, 121);
+}
+.casewrap{
+	width: 100%;
+	margin: 0 auto; 
+	padding-bottom: 100px; 
+	display: flex; 
+	justify-content: center;
+}
+/*
+.book a img {display:none; border:0}
+.book a {
+	background:url('../img/3D-double-eyelid-09.jpg') no-repeat;
+	width:1920px; height:170px; display:block
+}
+
+.book a:hover img {display:inline}/*

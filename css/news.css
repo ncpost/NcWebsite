@@ -1,0 +1,41 @@
+.row{ margin: auto; margin-bottom: 50px; width: 80%;}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 2.5px solid white;}
+
+.service-table th {
+		font-size: 30px;
+		text-align: center;
+	}
+
+table {
+		border-spacing: 0;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+.tablehead{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.tablehead h2{
+	font-size: 55px;font-weight: 500;color: #666;
+}
+.row td {
+	font-size: 25px; text-align: center; font-weight: lighter;
+}
+tr th{
+	color: white;
+	background-color: #0b6877;
+	font-weight: 100;
+}
+tr td{
+	color: #0b6877;
+	background-color: #ecf2f2;
+	padding: 30px;
+}
+.tb00 th{
+	background-color: white;
+}
+

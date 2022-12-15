@@ -1,0 +1,93 @@
+.faq{
+	width: 60%; margin: auto;padding-bottom: 100px;
+}
+.faq h1{
+	font-size: 30px; font-weight: bolder; padding-top: 50px;
+}
+
+.accordion {
+	margin: 1rem 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #e5e5e5;
+}
+
+.accordion-item {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/* Thumb */
+.accordion-thumb {
+	margin: 0;
+	padding: .8rem 0;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 20px;	
+}
+
+.accordion-item:hover h3{
+	color: #f0a6a6;
+}
+
+.accordion-item.click {
+	color: #f0a6a6;
+}
+
+h3::before {
+	content: '';
+	display: inline-block;
+	height: 7px;
+	width: 7px;
+	margin-right: 1rem;
+	margin-left: .5rem;
+	vertical-align: middle;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	transform: rotate(-45deg);
+	transition: transform .2s ease-out;
+}
+
+/* Panel */
+.accordion-panel {
+	margin: 0;
+	padding-bottom: .8rem;
+	display: none;
+	font-size: 17px;
+	font-weight: lighter;
+	padding-left: 40px;
+}
+
+/* Active */
+.accordion-item .is-active {
+	.accordion-thumb::before {
+		transform: rotate(45deg);
+	}
+	
+}
+.number{
+	display: flex; padding-top: 30px; padding-bottom: 30px;padding-left: 40px;
+}
+.number p{
+	font-size: 25px;
+}
+
+.number picture{
+	padding-right: 20px;
+}
+.number_box{
+	 margin: auto;
+}
+.takecare{
+	margin: auto; padding-bottom: 50px;
+}
+.nt{
+	display: flex; justify-content: center; 
+}
+.content p{
+	font-size: 20px;padding-bottom: 25px;
+}
+.content{
+	padding: 25px;
+}
+.title p{
+	font-size: 50px; color: black;  font-weight: 100px; padding-bottom: 35px; text-align: center;

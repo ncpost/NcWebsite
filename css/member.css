@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+@import url("basic.css");
+@import url("board.css");
+
+.red{color:#f60029;}
+
+#member select{font-size:12px; color:#2e2e2e;}
+#member input[type="text"]{font-size:12px; color:#2e2e2e; height:16px; border:1px solid #ccc; padding:2px 0 0 3px;}
+#member input[type="password"]{font-size:12px; color:#2e2e2e; height:16px; border:1px solid #ccc; padding:2px 0 0 3px;}
+#member input[type="checkbox"]{width:14px; height:14px; vertical-align:middle;}
+#member input[type="radio"]{width:14px; height:14px; vertical-align:middle;}
+#member input[type="file"]{font-size:12px; color:#2e2e2e; height:20px; border:1px solid #ccc; padding:2px 0 0 3px; background:#fff;}
+#member input[type="button"]{border:none;}
+/*input*/
+#member .inputjnmin{width:64px;}
+#member .inw50{width:50%;}
+#member .inw160{width:160px;}
+#member .inw195{width:195px;}
+#member .inw90{width:90px !important;}
+#member .inw75{width:75px;}
+#member .inw95{width:98%;}
+
+#member{position:relative; width:1200px; font-size:11px; color:#5e5e5e; margin:0 auto; height:370px;}
+#member.zip_add {width:100%;}
+.join{position:relative; margin:10px; padding:20px 0 0 0; border:1px solid #e7e7e7; line-height:100%;}
+
+.join .ScrollLy{width:92%; height:80px; margin:10px 2% 5px 2%; padding:10px 2%; font-size:12px; border:1px solid #cccccc; background:#ffffff; color:#797979; z-index:1; overflow-x:hidden; overflow-y:auto; line-height:180%;}
+.join .ScrollLy .mB28{margin-bottom:28px;}
+.join .ScrollLy .title{text-align:center; font-size:16px; font-weight:bold; font-family:'Noto Sans TC', sans-serif;}
+.join .ScrollLy h5{font-size:14px; color:#000000; margin-top:45px;}
+.join .ScrollLy h6{font-size:12px; color:#797979; margin:28px 0 10px 0;}
+.join .ScrollLy ol, ul{list-style:none;}
+.join .ScrollLy .marno{margin:0;}
+.join .ScrollLy .last{margin:30px 0 0 0;}
+.join .ScrollLy .info{font-size:14px; color:#000000;}
+.join .ScrollLy dl{width:100%; overflow:hidden;}
+.join .ScrollLy dt{float:left; width:50px; background:none; padding:0; font-weight:normal; position:static;}
+.join .ScrollLy dd{float:left; color:#797979;}
+.join .joinTop{width:97%; background:#f5f5f5; margin:0 auto; overflow:hidden;}
+.join .joinTop .jcheck{width:99%; text-align:right; margin:0; padding:8px 0;}
+.join .jbtn{position:relative; display:inline-block; width:84px; height:9px; margin:0 0 0 10px; padding:0px; text-align:center; color:#fff; vertical-align:top; line-height:100%;}
+.join .jbtn a{position:relative; display:inline-block; width:84px; height:9px; margin:0 0 0 0px; padding:5px 0px 8px 0px; color:#fff; text-decoration:none; background:url(../img/member_write_btn_bg.gif) no-repeat; font-size:11px;}
+.join .jbasic{position:relative; width:97%; margin:0 auto; padding:10px 0 7px 0; background:url(../img/bbs_dot_line.gif) repeat-x bottom; overflow:hidden;}
+.join .jbasicf{position:relative; width:97%; margin:0 auto; padding:20px 0 7px 0; background:url(../img/bbs_dot_line.gif) repeat-x top; overflow:hidden;}
+
+.join .jdata{position:relative; width:97%; height:auto; margin:0 auto; padding:20px 0 7px 0; overflow:hidden;}
+
+.join dl{float:left; width:49%; padding:0 0 5px 0;}
+.join dt{float:left; position:relative; width:90px; padding:3px 0 0 10px; font-weight:bold; background:url(../img/icon_red.gif) no-repeat left 5px; font-size:12px;vertical-align:middle;}
+.join dd{float:left; position:relative; color:#000; _height:22px; min-height:22px; font-size:12px; vertical-align:middle;}
+.join dd input{vertical-align:middle;}
+.join dd strong{position:relative; top:5px;}
+/*주민번호*/
+.join .psnoO{ font-weight:normal;}
+/*양력,음력*/
+.join .jbirdd{margin-top:5px;}
+.join .jbirdd input{margin:-2px 5px 0 2px;}
+/*dt bg no*/
+.join .bgno{background:none !important;}
+/*주소 width:100%;*/
+.join .dlw100{width:90%; margin:0;}
+.join .dlw100 dt{}
+.join .dlw100 dd{width:75%;}
+
+/*회원가입끝 -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*로그인, ID/pw ,팝업에 아이디중복확인 우편번호검색 + 게시판비밀번호입력*/
+#member .bgBox{width:100%; background:#f7f7f7; margin:0; padding:15px 0; overflow:hidden;}
+#member .bgSelBox{margin:0px; text-align:center; width:100%; height:30px;padding:0;}
+#member .bgSelBox ul{float:left;width:100%; padding:0; margin:0;}
+#member .bgSelBox ul li{width:50%; float:left; padding:0; margin:0;}
+#member .bgSelBox .find{font-size:14px; background-color: #f7f7f7; color:#000; padding:10px 0; cursor: pointer;}
+#member .bgSelBox .unpick{background-color:#CCC; color:#f7f7f7;}
+
+
+/* 로그인/로그아웃, ID/PW 찾기 + 게시판비밀번호입력 --------------------------------------------------------------------------------------------------------- */
+#member .login{position:relative; width:430px; height:100%; margin:0 auto; padding-top:100px;}
+#member .login p{margin:0 0 18px 0; line-height:160%;}
+
+/*아이디,비밀번호*/
+#member .infoBox{float:left; width:280px; padding:0 0 0 30px;}
+/*아이디,비밀번호 기본*/
+#member .infoBox dl{padding:0 20px 8px 0px; float:left;}
+#member .infoBox dt{float:left; width:80px; padding:5px 0 0 0;}
+#member .infoBox dd{float:left;}
+/*input*/
+#member .infoBox input{width:170px;}
+#member .infoBox .inw75{width:75px;}
+
+/*인풋버튼*/
+#member .loginBtn{width:79px; height:47px; float:left; margin:0; padding:0;}/*로그인, 회원탈퇴*/
+#member .okBtn{width:79px; height:47px; float:left; margin:30px 0 0 0; padding:0;}/*확인*/
+
+/*로그인 (회원가입,아이디/비밀번호찾기)*/
+#member .joinList{padding:5px 0 0 0; clear:both; text-align:right; overflow:hidden; line-height:100%;}
+#member .joinList ul{list-style:none; margin:0; padding:0; font-size:11px; display:inline-block; float:right;}
+#member .joinList li{display:inline; float:left; padding:0 12px 0 10px; background:url(../img/member_login_bar.gif) no-repeat left;}
+#member .joinList .joinRed{color:#f60029; font-weight:bold; background:url(../img/icon_red.gif) no-repeat left;}
+#member .joinList a{font-size:11px;}
+
+/* 로그인/로그아웃, ID/PW 찾기 + 게시판비밀번호입력 끝--------------------------------------------------------------------------------------------------- */
+
+
+
+/*팝업창  -------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*아이디중복확인*/
+#member #mpop{border:10px solid #e9e9e9; padding:29px; line-height:160%;}
+#member #mpop h1{}
+#member #mpop p{padding:20px 0 10px 0;}
+#member #mpop .postpop{height:292px;}
+
+/*아이디중복확인,우편번호검색*/
+#member #popcheck{height:240px;} 
+
+/*아이디중복확인 아이디,비밀번호 기본 */
+#member .conBox{float:left;}
+#member .conBox dt{float:left; width:60px; margin:0 0 0 30px; padding:3px 0 0 0;}
+#member .conBox dd{float:left;}
+/*아이디중복확인,우편번호검색 버튼(중복확인,검색)*/
+#member .popcheckBtn{width:79px; height:22px; float:left; margin:0 0 0 15px; padding:0;}
+
+/*아이디중복확인,우편번호검색(버튼,내용)*/
+#member .btnok{position:relative; width:100%; padding:0; clear:both;}
+#member .btnok strong{background:url(../img/icon_grey.gif) no-repeat 4px 2px; padding:0 0 0 13px;}
+#member .btnok span{color:#797979; font-weight:bold;}
+#member .btnok .btnAll{text-align:center;}
+#member .btnok a.btns{background:url(../img/big_btn_bg.gif) no-repeat 100% 0;} 
+#member .btnok a.btns strong{padding:1px 13px 0 18px; background:url(../img/big_btn_bg.gif) no-repeat;}
+
+
+/*우편번호 셀렉트박스*/
+#member .post{width:426px; height:21px; margin:0 0 10px 0; vertical-align:middle;}
+
+/*팝업창 끝 -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*회원약관, 개인정보방침 --------------------------------------------------------------------------------------------------------------------------------- */
+/*회원약관*/
+#member #agree{position:relative; margin:10px; padding:20px; color:#797979; font-size:12px; border:1px solid #e7e7e7; overflow: auto;line-height: 180%;height: 600px;}
+#member #agree h5{font-size:14px; color:#000000; margin-top:45px;}
+#member #agree h6{font-size:12px; color:#797979; margin:28px 0 10px 0;}
+#member #agree ol, ul{list-style:none;}
+#member #agree .marno{margin:0;}
+#member #agree .last{margin:30px 0 0 0;}
+/*개인정보방침*/
+#member #policy{position:relative; margin:10px; padding:20px; color:#797979; font-size:12px; border:1px solid #e7e7e7; overflow: auto;line-height: 180%;height: 600px;}
+#member #policy .info{font-size:14px; color:#000000;}
+#member #policy h6{font-size:12px; color:#797979; margin:28px 0 10px 0; clear:both;}
+#member #policy dl{overflow:hidden; clear:both;}
+#member #policy dt{float:left; width:50px;}
+#member #policy dd{float:left;}
+
+/*회원약관, 개인정보방침 끝 --------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*사이트맵 --------------------------------------------------------------------------------------------------------------------------------- */
+#sitemap{overflow:hidden; width:1200px; margin:0 auto;}
+#sitemap ul{float:left; margin:0 0 40px 0;}
+#sitemap ul li{float:left; width:152px; margin:0 7px 0 0;}
+#sitemap ul li ul{clear:both;}
+#sitemap ul li ul li{width:137px; margin:0; clear:both; font-weight:bold; padding:8px 0 7px 15px; border-bottom:1px solid #e8e8e8; float:left;}
+#sitemap ul li ul li ul{margin:6px 0 0 0;}
+#sitemap ul li ul li ul li{width:137px; margin:0; clear:both; font-weight:normal; padding:5px 0 5px 0px; border-bottom:none; color:#6c6c6c;}
+
+#sitemap .sitemap01 a:link{color:#0d84d5;}
+#sitemap .sitemap01 a:visited{color:#0d84d5;}
+
+#sitemap .sitemap02 a:link{color:#7baf31;}
+#sitemap .sitemap02 a:visited{color:#7baf31;}
+
+#sitemap .sitemap03 a:link{color:#f58220;}
+#sitemap .sitemap03 a:visited{color:#f58220;}
+
+#sitemap .sitemap04 a:link{color:#625dd1;}
+#sitemap .sitemap04 a:visited{color:#625dd1;}
+
+#sitemap .sitemap05 a:link{color:#60bb46;}
+#sitemap .sitemap05 a:visited{color:#60bb46;}
+
+#sitemap .sitemap06 a:link{color:#60bb46;}
+#sitemap .sitemap06 a:visited{color:#60bb46;}
+
+/*2뎁스*/
+#sitemap .sitemap01 li ul li a:link, #sitemap .sitemap02 li ul li a:link, #sitemap .sitemap03 li ul li a:link, #sitemap .sitemap04 li ul li a:link, #sitemap .sitemap05 li ul li a:link, #sitemap .sitemap06 li ul li a:link{color:#6c6c6c; font-size:11px;}
+#sitemap .sitemap01 li ul li a:visited, #sitemap .sitemap02 li ul li a:visited, #sitemap .sitemap03 li ul li a:visited, #sitemap .sitemap04 li ul li a:visited, #sitemap .sitemap05 li ul li a:visited, #sitemap .sitemap06 li ul li a:visited{color:#6c6c6c; font-size:11px;}
+
+/*사이트맵 끝 --------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 20150508 _ 우편주소검색 */
+#member.zip_add dl {overflow:hidden; width:90%; margin:0 auto;}
+#member.zip_add .conBoxPost {height:auto;}
+#member.zip_add .conBoxPost dl dt {width:20%; padding:2.5%;}
+#member.zip_add .conBoxPost dl dd {width:70%; padding:2.5%;}

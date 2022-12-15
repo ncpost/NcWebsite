@@ -1,0 +1,77 @@
+.row {
+	margin: auto;
+	margin-bottom: 50px;
+	width: 70%;
+	padding: 50px 0px 50px 0px;
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+	border: 2.5px solid white;
+}
+
+.service-table th {
+	font-size: 22px;
+	text-align: center;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tablehead {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.row td {
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+tr th {
+	color: white;
+	background-color: #235866;
+	font-weight: 100;
+}
+
+.tb02 td {
+	color: black;
+	background-color: #f3f7fa;
+	padding: 30px;
+}
+
+.tb03 td {
+	color: black;
+	background-color: #ecf0f3;
+	padding: 30px;
+}
+
+.surgery_button{
+	display:flex;
+	justify-content:center;
+margin-bottom:50px
+}
+.surgery_button a{
+	color:#236a7c;
+	border:3px solid  #236a7c;
+	padding:10px 30px;
+	font-size:20px;
+	font-weight:700;
+border-radius:20px;
+}
+
+.surgery_button a:hover{
+  transition: all 0.7s ease;
+	border:3px outset #76aab8;
+	color:#0f3640;
+ transform: scale(1.1);
+}

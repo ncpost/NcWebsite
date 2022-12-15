@@ -1,0 +1,636 @@
+@mixin gold {
+    color: #C3B086
+}
+@mixin border_flex_title{
+    padding:30px 30px 20px;
+        border: 1px solid #987b30;
+        position: relative;
+}
+
+body {
+    background-image: url('../img/RWD_img/bg_white_line.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.doc_slideshow p {
+    color: #987b30;
+    margin: 10% 0 5%;
+}
+a.extend_link_project {
+    font-weight: 700;
+    text-decoration: none;
+    color: #4990de !important;
+    font-style: normal !important;
+    border-bottom: #4990de dashed 1px;
+    }
+    a.extend_link_project:hover{
+        color: #ae955c !important;
+        background-color:transparent !important;
+        border-bottom: 1px dashed #ae955c;
+    }
+.nice_project_page {
+    margin: auto;
+
+    .project_title,
+    h1 {
+        color: #987b30;
+        font-weight: 600
+    }
+
+    h4 {
+        font-weight: 600
+    }
+
+    h2 {
+        color: #363636;
+        margin: 50px 0 15px;
+    }
+
+    p {
+        line-height: 30px;
+        color: #868686;
+    }
+
+    .gold_text {
+        color: #987b30;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+}
+.nice_extend_btn{
+    background-color: #987b30;
+    display: inline-block;
+    margin:-5px 0 5% 0% !important;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border:1px #987b30 solid;
+}
+button{
+    background-color: #987b30;
+    display: inline-block;
+    margin:auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+    p {
+        color: white !important;
+        margin: auto;
+    }
+}
+
+.crisp_btn {
+    background-color: #C3B086;
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+ border:1px solid #C3B086;
+}
+
+.crisp_btn:hover,
+.nice_extend_btn:hover {
+    background-color: transparent;
+    border: 1px outset #987b30;
+    transition: 0.7s;
+    color: black;
+
+    p {
+        color: black !important;
+    }
+}
+
+.story_part {
+    position: relative;
+}
+
+.story_title {
+    position: absolute;
+    background: white;
+    display: inline-block;
+}
+
+.story_content {
+    border: 1px solid #987b30;
+    display: inline-block;
+    padding: 40px 20px 15px;
+}
+
+
+    table {
+table-layout: fixed;
+   
+
+    .line_title {
+        background-color: #c69c3e;
+        color: white;
+        border: white 1px solid;
+    }
+
+    .table_title {
+        width: auto;
+        margin: 60px 0 40px;
+
+        h2 {
+            color: #987b30;
+        }
+    }
+
+    .line_second th,
+    .line_four th,
+    .line_six th,
+    .line_eight th {
+        background-color: #f6f7f5;
+    }
+
+    .line_first,
+    .line_third th,
+    .line_five th,
+    .line_seven th,
+    .line_nine th {
+        background-color: #efefed;
+    }
+}
+
+.nice_project_qa {
+    h2 {
+        margin: 0;
+    }
+
+    margin:10% 0;
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+        @include gold;
+
+    }
+
+    .accordion-button:focus {
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    button:hover {
+        @include gold;
+    }
+
+    .accordion-body {
+        @include gold;
+        text-align: left;
+    }
+
+    .accordion-button:after {
+        order: -1;
+        margin-left: 0;
+        margin-right: 0.8em;
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23C3B086'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    }
+
+
+}
+
+.nice_share {
+
+    .card_1,
+    .card_2,
+    .card_3 {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .share_line span {
+        display: inline-block;
+        border-left: #c3b086 solid 1px;
+    }
+
+    p.share_title {
+        @include gold;
+        font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+}
+.doc_slideshow p{
+    color:#987B30
+}
+.nice_surgery{
+    overflow: hidden;
+    position: relative;
+    p{
+        position: absolute;
+    }
+}
+
+@media (min-width: 1400px) {
+    .nice_project_page {
+table{
+    width:100%;
+}
+        .project_title,
+        h1 {
+            font-size: 40px;
+        }
+
+        .banner {
+            width: 1660px;
+        }
+
+        .project_title,
+        h1 {
+            font-size: 40px;
+        }
+
+        .page_content {
+            padding: 5% 20% 0;
+        }
+
+        .page_content_bottom {
+            padding:0 20% 0;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        .story_content {
+            @include border_flex_title;
+            margin-top: -24px;
+        margin-bottom: 50px;
+        }
+    }
+
+    .nice_share {
+        margin-top: 10%;
+
+        .share_line {
+            span {
+                height: 350px;
+                margin-top: 150px;
+
+            }
+        }
+    }
+
+    .nice_project_qa h1 {
+
+        margin-bottom: 50px;
+    }
+   .nice_surgery{
+    background-image: -webkit-linear-gradient(left, transparent 660px,#ffffff80 300px, #f2e9d5 100%);
+    width: 100%;
+    height: 500px;
+    h4{
+        border-bottom: 1px solid #a49999;
+        padding-bottom: 10px;
+        width: 70%;
+    }
+    .surgery_room_text{
+        padding-right: 10%;
+        align-self: center;
+        text-align: left;
+    }
+  
+   }
+   .surgery_tech{
+    margin-top:4% !important;
+    background-image: -webkit-linear-gradient(right, transparent 660px,#ffffff80 300px, #f2e9d5 100%);
+    width: 100%;
+    height: 500px;
+    h4{
+        border-bottom: 1px solid #a49999;
+        padding-bottom: 10px;
+        width: 80%;
+    }
+    
+    .surgery_room_text{
+        padding-right: 7%;
+        align-self: center;
+        text-align: left;
+    }
+  
+   }
+ .doc_slideshow p{
+    font-size: 40px;
+ }
+   .doc_slideshow .doc:hover{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+   }
+}
+
+@media (min-width: 992px) and (max-width:1400px) {
+    .story_content {
+        @include border_flex_title;
+        margin-top: -24px;
+    }
+    .project_title,
+    h1 {
+        font-size: 40px;
+    }
+
+    .banner {
+        width: 1240px ;
+    }
+
+    .nice_share {
+
+
+
+        margin-top: 10%;
+
+        .share_line {
+            span {
+                height: 290px;
+                margin-top: 150px;
+
+            }
+        }
+    }
+
+table{
+    width:100%;
+ }
+  
+
+    .page_content_bottom {
+        padding: 1% 18% 0 21%;
+    }
+
+    .nice_project_qa h1 {
+
+        margin-bottom: 50px;
+    }
+    .nice_surgery img{
+        width: 100%;
+    }
+    .nice_surgery{
+        background-image: -webkit-linear-gradient(left, transparent 660px,#ffffff80 300px, #f2e9d5 100%);
+        width: 100%;
+        height: 500px;
+        h4{
+            border-bottom: 1px solid #a49999;
+            padding-bottom: 10px;
+        }
+        .surgery_room_text{
+            padding-right: 10%;
+            align-self: center;
+            text-align: left;
+             padding: 0 10% 0 2%;
+             p{
+                width: 400px;
+             }
+
+        }
+      
+       }
+       .surgery_tech{
+        margin-top:4% !important;
+        background-image: -webkit-linear-gradient(right, transparent 660px,#ffffff80 300px, #f2e9d5 100%);
+        width: 100%;
+        height: 500px;
+        h4{
+            border-bottom: 1px solid #a49999;
+            padding-bottom: 10px;
+    
+        }
+        
+        .surgery_room_text{
+            padding-right: 7%;
+            align-self: center;
+            text-align: left;
+           
+        }
+      
+       }
+       .doc_slideshow p{
+        font-size:30px !important
+       }
+       .doc_slideshow .doc:hover{
+        transform: scale(1.05);
+        transition: .5s ease-in-out;
+       }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .nice_project_page {
+img{width:100%    }
+        .page_content {
+            padding: 8% 5% 0;
+        }
+
+        .project_title,
+        h1 {
+            font-size: 30px;
+        }
+
+        .story_title {
+            left: 32%;
+            bottom: 83%;
+        }
+
+        .story_content {
+            @include border_flex_title;
+            margin-top: -24px;
+        }
+
+        .nice_share {
+            .share_line span {
+                height: 278px;
+                margin-top: 150px;
+            }
+        }
+    }
+
+    .page_content_bottom {
+        padding: 0 5%;
+    }
+  
+        .nice_surgery{
+            background-image: -webkit-linear-gradient(left, transparent 100px,#ffffff80 300px, #f2e9d5 100%);
+            width: 100%;
+            height: 350px;
+            h4{
+                border-bottom: 1px solid #a49999;
+                padding-bottom: 10px;
+            }
+            .surgery_room_text{
+                padding-right: 10%;
+                align-self: center;
+                text-align: left;
+                 padding: 1px 10% 12% 2%;
+                 p{
+                    width: 300px;
+                 }
+               
+            }
+            img{
+                    width:100%
+                }
+           }
+           .surgery_tech{
+            margin-top:4% !important;
+            background-image: -webkit-linear-gradient(right, transparent 100px,#ffffff80 300px, #f2e9d5 100%);
+            width: 100%;
+            height: 380px;
+            img{
+                width:100%
+            }
+            h4{
+                border-bottom: 1px solid #a49999;
+                padding-bottom: 10px;
+        
+            }
+            
+            .surgery_room_text{
+                padding:0 5%;
+                align-self: center;
+                text-align: left;
+               
+            }
+          
+           }
+           .doc_slideshow {
+            p{
+                font-size: 30px;
+            }
+            margin-bottom: 11%;
+            .owl-dots{
+            display: none;
+           }
+           }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  
+    .sm_banner{
+        margin:50px 0 20px;
+    }
+    p.project_title {
+        font-size: 30px !important;
+    }
+    .story_content {
+        @include border_flex_title;
+        margin-top: -24px;
+    }
+
+    .nice_project_page {
+
+        .project_title,
+        h1 {
+            font-size: 30px;
+        }
+
+        p,span {
+            font-size: 20px;
+        }
+        h4{
+            font-size:28px
+        }
+        .page_banner {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        table {
+width:100%;
+            .line_second th,
+            .line_fourth th,
+            .line_six th,
+            .line_eight th,
+            .line_first,
+            .line_third th,
+            .line_five th,
+            .line_seven th {
+                padding: 0;
+            }
+
+
+        }
+
+        .page_content {
+            padding: 0 5%;
+
+            .nice_ba {
+                .ba_02 {
+                    margin-top: 50px;
+                }
+            }
+
+            .nice_share {
+                .card_2 {
+                    margin: 18% 0;
+                }
+            }
+        }
+    }
+    .doc_slideshow {
+        margin-bottom: 11%;
+        .owl-dots{
+        display: none;
+       }
+       p{
+        font-size: 20px;
+       }
+       }
+    .nice_surgery{
+       p{ color:white; 
+         position: absolute;
+    }
+
+        overflow: hidden;
+        position: relative;
+       
+    
+
+.surgery_room{
+    p.surgery_room_title{
+        font-size: 25px;
+        margin: 30px 0 0 24px;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+        padding: 0 0 10px;
+        text-align-last: left;
+        font-weight: 800;
+    }
+    background-image: url('../img/RWD_img/doc_surgery_room_sm.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    p{
+        color: white;
+        margin-top:86px;
+        text-align: left;
+        padding: 0 20px;
+    }
+}
+
+.surgery_tech{
+    margin-top: 20px;
+    p.surgery_tech_title{
+        font-size: 25px;
+        margin: 30px 0 0 24px;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+        padding: 0 0 10px;
+        text-align-last: left;
+        font-weight: 800;
+    }
+    margin-top: 20px;
+    background-image: url('../img/RWD_img/doc_surgery_tech_sm.webp');
+    background-repeat: no-repeat;
+    height:500px;
+    background-position: center;
+    p{
+        color: white;
+        margin-top:86px;
+        text-align: left;
+        padding: 0 20px;
+    }
+}
+    }
+}

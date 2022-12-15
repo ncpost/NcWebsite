@@ -1,0 +1,1194 @@
+@mixin gold {
+    color: #987b30 !important;
+}
+
+@mixin flex_story_title {
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+@mixin h4_font {
+    font-size: 40px;
+    color: #987b30;
+    font-weight: 400;
+}
+
+@media (min-width: 1400px) {
+    .nice_project_page{
+
+
+        #renuvion_page_content {
+            padding: 5% 20% 0;
+        }
+
+        .renuvion_story_title {
+            @include flex_story_title;
+            width: 40%;
+        }
+
+        .renuvion_intro {
+            background-color: #f8eee685;
+            padding: 5% 0;
+
+            .renuvion_stage {
+                margin-top: 3%;
+                text-align: center;
+                padding: 0 26%;
+                justify-content: space-around;
+                align-items: baseline;
+            }
+
+            .renuvion_intro_content {
+                padding: 0 26%;
+            }
+        }
+
+
+        .renuvion_surgery_intro {
+            margin-top: 3%;
+            text-align: center;
+            padding: 0 26%;
+            justify-content: space-around;
+
+            h4 {
+                @include h4_font;
+            }
+
+            p {
+                margin: 5% 0;
+            }
+
+            h5 {
+                margin: 5% 0;
+                font-weight: 600;
+            }
+
+            .renuvion_surgery_stage {
+                justify-content: space-around;
+                align-items: baseline;
+                .stage02{
+                    #rf_title{
+                     padding-top: 43px;
+                             }          
+                         }
+            }
+        }
+
+        .renuvion_point {
+            background-color: #f8eee685;
+            margin-top: 3%;
+            text-align: center;
+            padding: 3% 26%;
+            justify-content: space-around;
+
+            p {
+                line-height: 25px;
+            }
+
+            h4 {
+                @include h4_font;
+                margin-bottom: 5%;
+            }
+
+            .renuvion_point_row01 {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 0 14%;
+
+                .card {
+                    height: 320px;
+                    width: 260px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 150px;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+                }
+
+                .card-title {
+                    padding: 10% 0;
+                }
+            }
+
+            .renuvion_point_row02 {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 5%;
+
+                .card {
+                    height: 320px;
+                    width: 260px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 150px;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                 
+
+                    .card-title {
+                        padding-bottom: 3%;
+                    }
+                   }
+                }
+
+            }
+        }
+
+        .renuvion_surgery_cut {
+            padding: 4% 20% 3%;
+            background: linear-gradient(45deg, #bea764, #fff5d3);
+
+            .cut_content {
+                align-items: center;
+                display: flex;
+
+            }
+
+            .cut_title {
+                text-align: left;
+                color: white;
+
+                h3 {
+                    font-weight: 800;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .cut_img {
+                justify-content: space-around;
+            }
+
+            p.title {
+                color: #9a7e3c;
+                text-shadow: pink 1px;
+                font-weight: 900;
+                font-size: 20px;
+                text-shadow: 2px 0 6px white;
+            }
+        }
+
+        .renuvion_surgery_body {
+            padding: 2% 17% 0 14%;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(219 218 217 / 38%));
+            background-repeat: no-repeat;
+
+            .renuvion_body_title {
+                @include flex_story_title;
+                width: 60%;
+            }
+
+            .renuvion_body_content {
+                margin-top: 20px;
+                @include gold_border;
+            }
+
+            h4 {
+                @include h4_font
+            }
+
+            .renuvion_body_img {
+                margin: 8% 0;
+            }
+
+            .renuvion_body_row01,
+            .renuvion_body_row02 {
+                justify-content: space-around;
+            }
+
+            .renuvion_body_row01 {
+                padding: 0 18%;
+            }
+
+            .renuvion_target_client {
+                text-align-last: left;
+            }
+
+            .renuvion_body_info {
+                align-self: center;
+            }
+
+        }
+
+        .renuvion_alert {
+            justify-content: space-evenly;
+
+            h6 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .card {
+                width: 40%;
+                text-align: left;
+                box-shadow: 0 3px 9px #00000040;
+
+                .card-body {
+                    padding: 25px;
+                }
+
+                .card-header {
+                    background: linear-gradient(45deg, #bea764, #e0cd8c);
+                    padding: 20px;
+                    color: white;
+
+                    h4 {
+                        margin-left: 20px;
+                        align-self: center;
+                    }
+                }
+
+                .alert_num {
+                    justify-content: space-around;
+                }
+
+                .number01,
+                .number02 {
+                    span.red_num {
+                        margin-right: 10px;
+                        font-size: 40px;
+                        font-weight: 600;
+                        color: #ce4848;
+                    }
+                }
+
+                .line01 {
+                    border-bottom: 1px solid #8080807a;
+                    padding: 20px 0;
+                }
+
+                .card-text {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+        .crisp_btn {
+            margin-bottom: 5%;
+        }
+
+    }
+  
+}
+
+
+@media(min-width: 992px) and (max-width: 1400px) {
+    .nice_project_page {
+
+
+        #renuvion_page_content {
+            padding: 4% 13% 0 21%;
+        }
+
+        .renuvion_story_title {
+            @include flex_story_title;
+            width: 50%;
+        }
+
+        .renuvion_intro {
+            background-color: #f8eee685;
+            padding: 5% 0;
+
+            .renuvion_stage {
+                margin-top: 3%;
+                text-align: center;
+                padding:0 14% 0 20%;
+                justify-content: space-around;
+                align-items: baseline;
+            }
+
+            .renuvion_intro_content {
+                padding:0 14% 0 20%;
+            }
+        }
+
+
+        .renuvion_surgery_intro {
+            margin-top: 3%;
+            text-align: center;
+            padding:0 14% 0 20%;
+            justify-content: space-around;
+
+            h4 {
+                @include h4_font
+            }
+         
+
+            h5 {
+                margin: 5% 0;
+                font-weight: 600;
+            }
+
+            .renuvion_surgery_stage {
+                justify-content: space-around;
+                align-items: baseline;
+             
+            } 
+            .stage02{
+       #rf_title{
+        padding-top: 40px;
+                }          
+            }
+    
+        }
+
+        .renuvion_point {
+            background-color: #f8eee685;
+            margin-top: 3%;
+            text-align: center;
+            padding: 3% 15%;
+            justify-content: space-around;
+
+            p {
+                line-height: 25px;
+            }
+
+            h4 {
+                @include h4_font;
+                margin-bottom: 5%;
+            }
+
+            .renuvion_point_row01 {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 0 15%;
+
+                .card {
+                    height: 320px;
+                    width: 260px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+                }
+
+                .card-title {
+                    padding: 10% 0;
+                }
+            }
+
+            .renuvion_point_row02 {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 5%;
+
+                .card {
+                    height: 320px;
+                    width: 260px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+
+                    .card-title {
+                        padding-bottom: 3%;
+                    }
+                }
+
+            }
+        }
+
+        .renuvion_surgery_cut {
+            padding:4% 15% 3%;
+            background: linear-gradient(45deg, #bea764, #fff5d3);
+
+            .cut_content {
+                align-items: center;
+                display: flex;
+
+            }
+
+            .cut_title {
+                text-align: left;
+                color: white;
+
+                h3 {
+                    font-weight: 800;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .cut_img {
+                justify-content: space-around;
+                .surgery_cut_01,.surgery_cut_02,.surgery_cut_03{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+
+            p.title {
+                color: #9a7e3c;
+                text-shadow: pink 1px;
+                font-weight: 900;
+                font-size: 20px;
+                text-shadow: 2px 0 6px white;
+            }
+        }
+
+        .renuvion_surgery_body {
+            padding: 2% 17% 0 14%;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(219 218 217 / 38%));
+            background-repeat: no-repeat;
+.renuvion_model img{
+    width: 80%;
+}
+            .renuvion_body_title {
+                @include flex_story_title;
+                width: 76%;
+            }
+
+            .renuvion_body_content {
+                margin-top: 20px;
+                @include gold_border;
+                margin-bottom: 0;
+                height: 540px;
+            }
+
+            h4 {
+                font-size: 30px;
+    color: #987b30;
+    margin-top: 23px;
+    font-weight: 400;
+            }
+
+            .renuvion_body_img {
+                margin: 8% 0;
+                .body01 img,.body02 img,.body03 img,.body04 img,.body05 img{
+                    width:80%
+                }
+            }
+
+            .renuvion_body_row01,
+            .renuvion_body_row02 {
+                justify-content: space-around;
+            }
+
+            .renuvion_body_row01 {
+                padding: 0 18%;
+            }
+
+            .renuvion_target_client {
+                text-align-last: left;
+            }
+
+            .renuvion_body_info {
+                align-self: center;
+            }
+
+        }
+
+        .renuvion_alert {
+            justify-content: space-evenly;
+            padding-top:7%;
+            h6 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .card {
+                width: 35%;
+                text-align: left;
+                box-shadow: 0 3px 9px #00000040;
+
+                .card-body {
+                    padding: 25px;
+                }
+
+                .card-header {
+                    background: linear-gradient(45deg, #bea764, #e0cd8c);
+                    padding: 20px;
+                    color: white;
+
+                    h4 {
+                        margin-left: 20px;
+                        align-self: center;
+                    }
+                }
+
+                .alert_num {
+                    justify-content: space-around;
+                }
+
+                .number01,
+                .number02 {
+                    span.red_num {
+                        margin-right: 10px;
+                        font-size: 40px;
+                        font-weight: 600;
+                        color: #ce4848;
+                    }
+                }
+
+                .line01 {
+                    border-bottom: 1px solid #8080807a;
+                    padding: 20px 0;
+                }
+
+                .card-text {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+        .crisp_btn {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .nice_project_page {
+
+
+        #renuvion_page_content {
+            padding:8% 5% 0;
+        }
+
+        .renuvion_story_title {
+            @include flex_story_title;
+            width: 40%;
+        }
+
+        .renuvion_intro {
+            background-color: #f8eee685;
+            padding:5% 0;
+
+            .renuvion_stage {
+                margin-top: 3%;
+                text-align: center;
+                padding:2% 5%;
+                justify-content: space-around;
+                align-items: baseline;
+            }
+
+            .renuvion_intro_content {
+                padding:2% 5%;
+            }
+        }
+
+
+        .renuvion_surgery_intro {
+            margin-top: 3%;
+            text-align: center;
+            padding:2% 5%;
+            justify-content: space-around;
+
+            h4 {
+                @include h4_font
+            }
+
+            h5 {
+                margin: 5% 0;
+                font-weight: 600;
+            }
+
+            .renuvion_surgery_stage {
+                justify-content: space-around;
+                align-items: baseline;
+            }
+        }
+        .crisp_btn{
+            margin-bottom: 10%;
+        }
+
+        .renuvion_point {
+            background-color: #f8eee685;
+            margin-top: 3%;
+            text-align: center;
+            padding:3% 5% 5%;
+            justify-content: space-around;
+
+            p {
+                line-height: 25px;
+            }
+
+            h4 {
+                @include h4_font;
+                margin-bottom: 5%;
+            }
+
+            .renuvion_point_row01 {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 0 15%;
+
+                .card {
+                    height: 320px;
+                    width: 231px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+                }
+
+                .card-title {
+                    padding: 6% 0;
+                }
+            }
+
+            .renuvion_point_row02 {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 5%;
+
+                .card {
+                    height: 320px;
+                    width: 231px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+
+                    .card-title {
+                        padding-bottom: 3%;
+                    }
+                }
+
+            }
+        }
+
+        .renuvion_surgery_cut {
+            padding:7% 3% 4%;
+            background: linear-gradient(45deg, #bea764, #fff5d3);
+
+            .cut_content {
+                align-items: center;
+                display: flex;
+
+            }
+
+            .cut_title {
+                text-align: left;
+                color: white;
+
+                h3 {
+                    font-weight: 800;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .cut_img {
+              align-self: center;
+                .surgery_cut_01,.surgery_cut_02,.surgery_cut_03{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+
+            p.title {
+                color: #9a7e3c;
+                text-shadow: pink 1px;
+                font-weight: 900;
+                font-size: 20px;
+                text-shadow: 2px 0 6px white;
+            }
+        }
+
+        .renuvion_surgery_body {
+            padding:2% 5% 0;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(219 218 217 / 38%));
+            background-repeat: no-repeat;
+.renuvion_model img{
+    width: 80%;
+}
+            .renuvion_body_title {
+                @include flex_story_title;
+                width: 76%;
+            }
+
+            .renuvion_body_content {
+                padding: 22px 30px 20px;
+                @include gold_border;
+                margin-bottom: 0;
+                height: 480px;
+            }
+
+            h4 {
+                font-size: 30px;
+    color: #987b30;
+    margin-top: 23px;
+    font-weight: 400;
+            }
+
+            .renuvion_body_img {
+                margin: 8% 0;
+                .body01 img,.body02 img,.body03 img,.body04 img,.body05 img{
+                    width:80%
+                }
+            }
+
+            .renuvion_body_row01,
+            .renuvion_body_row02 {
+                justify-content: space-around;
+            }
+
+            .renuvion_body_row01 {
+                padding: 0 18%;
+            }
+
+            .renuvion_target_client {
+                text-align-last: left;
+            }
+
+            .renuvion_body_info {
+                align-self: center;
+            }
+
+        }
+        .renuvion_target_client_sm{
+            background: linear-gradient(359deg, rgb(219 212 192 / 34%), #ffffff75);
+            padding: 5%;
+            color: #3a3a3a;
+            h4{
+                font-size: 30px;
+                color: #987b3075;
+            }
+            p{
+                margin-bottom: 0;
+                color:#4c4c4c;
+                font-weight: 600;
+            }
+              }
+
+        .renuvion_alert {
+            justify-content: space-between;
+            h6 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .card {
+                width: 48%;
+                text-align: left;
+                box-shadow: 0 3px 9px #00000040;
+
+                .card-body {
+                    padding: 25px;
+                }
+
+                .card-header {
+                    background: linear-gradient(45deg, #bea764, #e0cd8c);
+                    padding: 10px;
+                    color: white;
+                    height: 100px;
+img{
+    width: 25%;
+}
+                    h4 {
+                        margin-left: 10px;
+                        align-self: center;
+                    }
+                }
+
+                .alert_num {
+                    justify-content: space-around;
+                }
+
+                .number01,
+                .number02 {
+                    span.red_num {
+                        margin-right: 10px;
+                        font-size: 40px;
+                        font-weight: 600;
+                        color: #ce4848;
+                    }
+                }
+
+                .line01 {
+                    border-bottom: 1px solid #8080807a;
+                    padding: 20px 0;
+                }
+
+                .card-text {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+      
+    }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .nice_project_page {
+
+
+        #renuvion_page_content {
+            padding:0 6%;
+        }
+
+        .renuvion_story_title {
+            @include flex_story_title;
+            width: 80%;
+            span{
+                font-size:30px
+            }
+        }
+
+        .renuvion_intro {
+            background-color: #f8eee685;
+            padding:5% 0;
+
+            .renuvion_stage {
+                margin-top: 3%;
+                text-align: center;
+                padding:2% 5%;
+                justify-content: space-around;
+                align-items: baseline;
+                img{
+                    width: 80%;
+                }
+            }
+
+            .renuvion_intro_content {
+                padding:2% 5%;
+            }
+        }
+.renuvion_surgery_stage{
+    img{
+        width: 80%;
+    }
+    .renuvion_body_text{
+    p.title{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    }
+}
+
+        .renuvion_surgery_intro {
+            margin-top: 10%;
+            text-align: center;
+            padding:2% 5%;
+            justify-content: space-around;
+
+            h4 {
+                @include h4_font;
+                font-size:30px;
+            }
+
+            h5 {
+                margin: 5% 0;
+                font-weight: 600;
+            }
+
+            .renuvion_surgery_stage {
+                justify-content: space-around;
+                align-items: baseline;
+            }
+        }
+        .crisp_btn{
+            margin-bottom: 10px;
+        }
+
+        .renuvion_point {
+            background-color: #f8eee685;
+            margin-top: 3%;
+            text-align: center;
+            padding:3% 5% 5%;
+            justify-content: space-around;
+
+            p {
+                line-height: 25px;
+            }
+
+            h4 {
+                @include h4_font;
+                margin: 5% 0 7%;
+                font-size:30px;
+            }
+
+            .renuvion_point_row01 {
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 5%;
+
+                .card {
+                    width: 173px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+                }
+
+            
+            }
+
+            .renuvion_point_row02 {
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row;
+
+                .card {
+                    margin-bottom: 5%;
+                    width: 173px;
+                    padding: 15px;
+                    border-radius: 20px;
+                    box-shadow: 7px 5px 5px #9a7e3c3d;
+
+                    img {
+                        width: 140px;
+                        height:auto;
+                        margin: auto;
+                    }
+
+                    .card-body {
+                        padding: 30px 0 0;
+                        text-align-last: center;
+                    }
+
+        
+                }
+
+            }
+        }
+
+        .renuvion_surgery_cut {
+            padding:7% 3% 4%;
+            background: linear-gradient(45deg, #bea764, #fff5d3);
+
+            .cut_content {
+                align-items: center;
+                display: flex;
+
+            }
+
+            .cut_title {
+                text-align: left;
+                color: white;
+
+                h3 {
+                    font-weight: 800;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .cut_img {
+              align-self: center;
+                .surgery_cut_01,.surgery_cut_02,.surgery_cut_03{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+
+            p.title {
+                color: #9a7e3c;
+                text-shadow: pink 1px;
+                font-weight: 900;
+                font-size: 20px;
+                text-shadow: 2px 0 6px white;
+            }
+        }
+
+        .renuvion_surgery_body {
+            padding:2% 5% 10%;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(219 218 217 / 38%));
+            background-repeat: no-repeat;
+
+            .renuvion_body_title {
+                @include flex_story_title;
+                width: 76%;
+            }
+
+            .renuvion_body_content {
+                margin-top: 20px;
+                @include gold_border;
+                margin-bottom: 0;
+                height: 500px;
+            }
+
+            h4 {
+                font-size: 30px;
+    color: #987b30;
+    margin-top: 23px;
+    font-weight: 400;
+            }
+
+            .renuvion_body_img {
+                margin: 8% 0;
+                .body01 img,.body02 img,.body03 img,.body04 img,.body05 img{
+                    width:80%
+                }
+            }
+
+            .renuvion_body_row01,
+            .renuvion_body_row02 {
+                justify-content: space-around;
+            }
+
+            .renuvion_body_row01 {
+                padding: 0 18%;
+            }
+
+            .renuvion_target_client {
+                text-align-last: left;
+            }
+
+            .renuvion_body_info {
+                align-self: center;
+            }
+
+        }
+        .renuvion_target_client_sm{
+            background: linear-gradient(359deg, rgb(197 190 172 / 13%), rgb(255 255 255 / 0%));
+            padding: 5%;
+            color: #3a3a3a;
+            h4{
+                font-size: 30px;
+                color: #987b3075;
+            }
+            p{
+                margin-bottom: 0;
+                color: #4c4c4c;
+                font-weight: 600;
+                text-align: left;
+            }
+              }
+
+        .renuvion_alert {
+           flex-direction: column;
+           margin: 5% 0;
+            h6 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .card {
+                margin: 5% 2%;
+                text-align: left;
+                box-shadow: 0 3px 9px #00000040;
+
+                .card-body {
+                    padding: 25px;
+                }
+
+                .card-header {
+                    background: linear-gradient(45deg, #bea764, #e0cd8c);
+                    padding: 10px;
+                    color: white;
+img{
+    width: auto;
+}
+                    h4 {
+                        font-size:20px;
+                        margin-left: 10px;
+                        align-self: center;
+                    }
+                }
+
+                .alert_num {
+                    justify-content: space-around;
+                }
+
+                .number01,
+                .number02 {
+                    span.red_num {
+                        margin-right: 10px;
+                        font-size: 40px;
+                        font-weight: 600;
+                        color: #ce4848;
+                    }
+                }
+
+                .line01 {
+                    border-bottom: 1px solid #8080807a;
+                    padding: 20px 0;
+                }
+
+                .card-text {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+      
+    }
+
+
+
+}

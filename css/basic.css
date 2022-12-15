@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+*{margin:0; padding:0;}
+body, div, ul, li, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, form, img, span, table, tr, td, select, input, textarea, option{margin:0; padding:0;}
+body{font:13px/1.5 'Noto Sans TC', sans-serif; color:#6a6d6f;}
+
+
+body{}
+a{outline: 0px;}
+a:link{ color:#a9a9a9; text-decoration:none;}                                       
+a:hover{color:#a9a9a9; text-decoration:none;}
+a:visited{color:#a9a9a9;  text-decoration:none;}
+
+.subleftmenu a:link{font-size: 12px; color: #484848; text-decoration: none;}                                       
+.subleftmenu a:visited{font-size: 12px; color:000000;  text-decoration: none;}
+.subleftmenu a:hover{font-size: 12px; color:000000; text-decoration: none;}
+
+
+.notice {font-size: 12px; color: #FFFFFF; text-decoration: none;}                                       
+.notice a:link {font-size: 12px; color: #FFFFFF;  text-decoration: none;}                             
+.notice a:visited {font-size: 12px; color: #CFEF9D; text-decoration: none;}  
+.notice a:hover {font-size: 12px; color: #FFFFFF; text-decoration: none;}
+
+caption, legend{font-size:0px; width:0px; height:0px; overflow:hidden; position:absolute; visibility:hidden;}
+
+img{border:0px;}
+
+fieldset,img{border:0; vertical-align:top;}
+
+table{border-collapse:collapse; border-spacing:0; border:0;}
+
+input,textarea,select{font-family:inherit; font-size:inherit; font-weight:inherit;}
+
+input[type=password]{IME-MODE: disabled;}
+
+ul,ol,dl{list-style:none;}
+
+textarea{overflow:auto;} 
+
+button,label{cursor:pointer;}
+
+.input_radio_in1{display:inline; width:13px; height:13px; margin:-5px 2px 0 5px; vertical-align:middle;}
+
+h1{font-size:12px;}
+h2{font-size:12px;}
+h3{font-size:12px;}
+h4{font-size:12px;}
+h5{font-size:12px;}
+h6{font-size:12px;}
+
+hr{display:none; clear:both;}
+
+.skip{position:absolute; width:1px; height:1px; border:1px; top:-5000em; overflow:hidden;}
+.disno{display:none;}
+.hidden{display:none;}
+
+.seo{
+    font-weight: bold;
+    font-style: oblique;
+}
