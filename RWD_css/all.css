@@ -23030,6 +23030,9 @@ p.point_text_3b {
   .nice_project_page #hyal_acid_page_content_1, .nice_project_page .client_ba_content {
     padding: 0 5%;
   }
+  .nice_project_page .client_title span {
+    font-size: 30px;
+  }
   .nice_project_page .client_ba {
     margin: 5%;
   }
