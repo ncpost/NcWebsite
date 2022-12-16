@@ -22027,173 +22027,48 @@ p.point_text_3b {
     border-bottom: dotted 6px #c3c3c3;
   }
 }
-.box {
-  margin: 5% auto;
-}
-.box .sliderwrap {
-  position: relative;
-}
-
-.before, .sliderwrap {
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  width: 50%;
-  display: inline-block;
-}
-
-.sliderwrap .handler {
-  display: block;
-  width: 3px;
-  background-color: white;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-}
-
-.sliderwrap .handler::after {
-  width: 36px;
-  height: 36px;
-  position: absolute;
-  bottom: 40%;
-  right: -22px;
-  content: "";
-  background-image: url("https://i.ibb.co/q1qnPFg/b-a-icon.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  border-radius: 20px;
-  font-size: 30px;
-  line-height: 20px;
-  padding: 5px;
-  text-align: center;
-}
-
-.before_2, .sliderwrap_2 {
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  display: inline-block;
-}
-
-.sliderwrap_2 .handler_2 {
-  display: block;
-  width: 3px;
-  background-color: white;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-}
-
-.sliderwrap_2 .handler_2::after {
-  width: 36px;
-  height: 36px;
-  position: absolute;
-  bottom: 40%;
-  right: -22px;
-  content: "";
-  background-image: url("https://i.ibb.co/q1qnPFg/b-a-icon.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  border-radius: 20px;
-  font-size: 30px;
-  line-height: 20px;
-  padding: 5px;
-  text-align: center;
-}
-
-.content-cheeks, .content-chin, .content-lip {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
 .client_ba {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+.client_ba .nav-pills .nav-link {
+  border-radius: 0px;
+}
+.client_ba .nav-pills .nav-link:hover {
+  background-color: #987b30;
+  color: white !important;
+}
+.client_ba .nav-pills .nav-link.active, .client_ba .nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #987b30;
+  width: 100%;
+}
 .client_ba ul {
   display: flex;
+  justify-content: space-around;
+  padding: 2% 30%;
 }
 .client_ba ul li {
-  color: #987b30 !important;
   font-weight: 600;
   list-style: none;
   border: #AE955D 2px solid;
   width: 120px;
-  padding: 7px 5px;
-  margin: 8% 10px 0;
+  margin: 3% 0;
+  justify-content: center;
 }
-.client_ba li:hover {
-  background: #AE955D;
+.client_ba ul li button {
+  width: 100%;
+  border-radius: 0px;
+  color: #987b30 !important;
+}
+.client_ba ul li button:hover {
+  background-color: #987b30;
   color: white !important;
 }
-.client_ba .option ul li:focus {
-  background: #AE955D;
-  color: white !important;
-}
-
-.ba-Slider {
-  position: relative;
-  display: block;
-  margin: 20px auto;
-  overflow: hidden;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-bottom: 5%;
-}
-
-.slider {
-  position: absolute;
-  top: calc(50% - 16px);
-  left: calc(50% - 16px);
-  background: url(https://i.ibb.co/QdYn2RD/p1.png) transparent;
-  width: 32px;
-  height: 32px;
-  border-radius: 999em;
-  cursor: pointer;
-  z-index: 40;
-}
-
-.slider::before {
-  content: " ";
-  display: block;
-  background: #fff;
-  position: absolute;
-  z-index: 30;
-  bottom: 50%;
-  margin-left: 16px;
-  height: 300px;
-  width: 4px;
-}
-
-.slider::after {
-  content: " ";
-  display: block;
-  background: #fff;
-  position: absolute;
-  z-index: 30;
-  top: 50%;
-  margin-left: 16px;
-  height: 300px;
-  width: 4px;
-}
-
-#before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+.client_ba ul li:hover {
+  background-color: #987b30;
+  color: white;
 }
 
 @media (min-width: 1400px) {
@@ -22205,38 +22080,17 @@ p.point_text_3b {
     margin: 0 auto;
     width: 30%;
   }
-  .nice_project_page .client_ba_content {
-    padding: 0 19% 0;
-  }
   .nice_project_page #hyal_acid_page_content_1 {
     padding: 5% 19% 0;
   }
-  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
-    width: 1000px;
-    height: 600px;
+  .nice_project_page .client_title {
+    margin-top: 3%;
   }
-  .nice_project_page .content-cheeks .ba-Slider #before, .nice_project_page .content-chin .ba-Slider #before, .nice_project_page .content-lip .ba-Slider #before {
-    width: 50%;
+  .nice_project_page .client_ba {
+    padding: 0 5%;
   }
-  .nice_project_page .sliderwrap {
-    width: 1000px;
-    height: 600px;
-  }
-  .nice_project_page .owl-item {
-    position: relative;
-  }
-  .nice_project_page .client_arrow_left, .nice_project_page .client_arrow_right {
-    position: absolute;
-  }
-  .nice_project_page .client_arrow_left {
-    left: 15%;
-    top: 170%;
-    z-index: 5;
-  }
-  .nice_project_page .client_arrow_right {
-    right: 15%;
-    top: 170%;
-    z-index: 5;
+  .nice_project_page .client_ba .page_content {
+    padding: 4%;
   }
   .nice_project_page .hyal_acid_logic {
     background-color: rgba(249, 246, 240, 0.3882352941);
@@ -22453,8 +22307,14 @@ p.point_text_3b {
   }
   .nice_project_page .hyal_acid_type {
     background: #f9f6f0;
-    padding: 5% 20% 0;
+    padding: 5% 15% 0;
     text-align: left;
+  }
+  .nice_project_page .hyal_acid_type .img {
+    text-align: center;
+  }
+  .nice_project_page .hyal_acid_type h1 {
+    padding-bottom: 20px;
   }
   .nice_project_page .hyal_acid_type h5 {
     padding-bottom: 20px;
@@ -22534,34 +22394,14 @@ p.point_text_3b {
     margin: 0 auto;
     width: 40%;
   }
-  .nice_project_page .sliderwrap {
-    width: auto;
-    height: 541px;
+  .nice_project_page .client_ba {
+    padding: 0 10%;
   }
-  .nice_project_page .client_ba_content {
-    padding: 0 19% 0;
+  .nice_project_page .client_ba .page_content {
+    padding: 8% 4% 5%;
   }
   .nice_project_page #hyal_acid_page_content_1 {
     padding: 5% 19% 0;
-  }
-  .nice_project_page .client_carousel {
-    padding: 5% 20% 0;
-  }
-  .nice_project_page .owl-item {
-    position: relative;
-  }
-  .nice_project_page .client_arrow_left, .nice_project_page .client_arrow_right {
-    position: absolute;
-  }
-  .nice_project_page .client_arrow_left {
-    left: 15%;
-    top: 180%;
-    z-index: 5;
-  }
-  .nice_project_page .client_arrow_right {
-    right: 15%;
-    top: 180%;
-    z-index: 5;
   }
   .nice_project_page .hyal_acid_logic {
     background-color: rgba(249, 246, 240, 0.3882352941);
@@ -22780,6 +22620,7 @@ p.point_text_3b {
     background: #f9f6f0;
     padding: 5% 20%;
     text-align: left;
+    flex-direction: column;
   }
   .nice_project_page .hyal_acid_type h5 {
     padding-bottom: 20px;
@@ -22859,22 +22700,22 @@ p.point_text_3b {
     margin: 0 auto;
     width: 40%;
   }
-  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
-    width: 691px;
-    height: 415px;
-  }
-  .nice_project_page .content-cheeks .ba-Slider #before, .nice_project_page .content-chin .ba-Slider #before, .nice_project_page .content-lip .ba-Slider #before {
-    width: 50%;
-  }
-  .nice_project_page .sliderwrap {
-    width: 691px;
-    height: 415px;
-  }
   .nice_project_page #hyal_acid_page_content_1, .nice_project_page .client_ba_content {
     padding: 0 5%;
   }
-  .nice_project_page .twentytwenty-container {
-    margin: 6% 0 0;
+  .nice_project_page .client_title {
+    margin-top: 3%;
+  }
+  .nice_project_page .client_ba .page_content {
+    padding: 8% 4% 5%;
+  }
+  .nice_project_page .client_ba ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 10%;
+  }
+  .nice_project_page .client_ba .beforeAfter .a {
+    width: 720px !important;
   }
   .nice_project_page .hyal_acid_logic {
     background-color: rgba(249, 246, 240, 0.3882352941);
@@ -23099,6 +22940,7 @@ p.point_text_3b {
     background: #f9f6f0;
     padding: 5%;
     text-align: left;
+    flex-direction: column;
   }
   .nice_project_page .hyal_acid_type h5 {
     padding-bottom: 20px;
@@ -23185,18 +23027,27 @@ p.point_text_3b {
   .nice_project_page .hyal_acid_story_title span {
     font-size: 30px;
   }
-  .nice_project_page .content-cheeks .ba-Slider, .nice_project_page .content-chin .ba-Slider, .nice_project_page .content-lip .ba-Slider {
-    margin-bottom: 16%;
-  }
-  .nice_project_page .sliderwrap {
-    width: 361px;
-    height: 216px;
-  }
   .nice_project_page #hyal_acid_page_content_1, .nice_project_page .client_ba_content {
     padding: 0 5%;
   }
-  .nice_project_page .twentytwenty-container {
-    margin: 0;
+  .nice_project_page .client_ba {
+    margin: 5%;
+  }
+  .nice_project_page .client_ba .beforeAfter .a {
+    width: 350px !important;
+  }
+  .nice_project_page .client_ba .page_content .col-12 {
+    padding: 0;
+    margin-top: 15%;
+  }
+  .nice_project_page .client_ba .page_content .container {
+    padding: 0;
+  }
+  .nice_project_page .client_ba ul {
+    padding: 2% 0;
+  }
+  .nice_project_page .client_ba ul li {
+    width: 100px;
   }
   .nice_project_page .hyal_acid_logic {
     background-color: rgba(249, 246, 240, 0.3882352941);
