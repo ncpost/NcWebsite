@@ -1,1121 +1,1121 @@
 
 
 @mixin story_part{
-  padding: 5% 0 0;
-}
-@media (min-width: 1400px){
-
-.nice_project_page{
-
-   #vaser_page_content_1{
-       padding:5% 20% 0;
-   }
+    padding: 5% 0 0;
+  }
+  @media (min-width: 1400px){
   
-   .vaser_story_title{
-       @include  flex_story_title;
-      width:35%;
-       }
-
- .vaser_intro{
-   background-color: rgba(253, 247, 243, 0.5019607843);
-   display: flex;
-   justify-content: space-evenly;
-   padding:5% 20%;
-   margin-top: 5%;
-   h1{
-       padding-bottom: 5%;
-   }
-p{
-   text-align: left;
-} 
-.intro_img{
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   padding:5% 0;
-   p{
-       padding-top: 10px;
-       text-align: center;
-       height: 100px;
-   }
-   .tri{
-       width: 10px;
-       }
-} 
-.col{
-   width: 250px;
-}
-}
- 
-.vaser_feature{
-   padding:5% 6%;
-  text-align: left;
-    .point_wrap {
-       justify-content: space-between;
-   }
-   h1{
-       padding-bottom: 5%;
-   }
-
-.vaser_point_text{
- 
-   .num{
-       @include gold;
-       h4{
-        margin-bottom: 0;
-        padding-left: 10px;
-       }
-       p.content{
-           padding-bottom: 10px;
-           border-bottom:solid 1px #aaa1a1;
-           padding-bottom:20px;
-          margin:20px 0 20px 40px;
-     }
-       .title_wrap{
-           align-items: center;
-     
-     p{
-           margin-bottom: 0;
-           line-height: 0;
-           
-          
-       }
-     }
-   }
-   .vaser_point_num{
-       font-weight: 600;
-       color: white;
-       background-color: #c9ac64;
-       width: 30px;
-       height: 30px;
-       border-radius: 999em;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-
-}
-}
-
-.vaser_client{
-   background-image: url('../img/RWD_img/vaser/vaser_client.webp');
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 600px;
-   .content{
-       margin-top: 7%;    
-       p{
-           font-size: 20px;
-       @include gold;
-       border: solid #c9ac64 1px;
-       width: 60%;
-       height: 40px;
-       align-items: center;
-       display: flex;
-       justify-content: center;
-       margin: 2% auto;
-       border-radius: 20px;
-   }
-}}
-
-.vaser_body_part{
-   padding:5% 0;
-   h1{
-       padding-bottom: 3%;
-   }
-img{
-   padding-bottom:2%;
- 
-}
-
-}
-
-.vaser_success{
-   background-color: #fdf7f3cf;
-   display: flex;
-   justify-content: space-evenly;
-   padding:5% 20%;
-   margin-top: 5%;
-   h1{
-       padding-bottom: 5%;
-   }
-   .intro_img{
-       justify-content: space-evenly;
-       align-items: center;
-       margin-bottom:5%;
-p{
-   text-align: center;
-   height: 100px;
-   padding:5% 0;
-} 
-   }
-   p{
-       text-align: left;
-   }
-.tri{
-width: 10px;
-height: 100px;
-}
-.highlight{
-   display: flex;
-align-items: center;
-padding-top: 20px;
-p{    
-    background: white;
-   padding: 20px 40px;
-   position: relative;
-   left: -3%;
-   z-index: 1;
-   border-radius:30px;
-} 
-img{
-   z-index: 2;
-}
-}
-.col{
-   width: 200px;
-}
-}
-.vaser_6_points_lg {
-   margin-top: 3%;
-   text-align: center;
-   padding:3% 22%;
-   justify-content: space-around;
-h1{
-   padding:30px 0 10px
-}
-   p {
-       line-height: 25px;
-   }
-
-
-   h4 {
-       font-size:20px;
-       margin-bottom: 5%;
-   }
-
-   .point_row{
-       display: flex;
-       justify-content: space-evenly;
-
-       .card {
-           margin:2% 0;
-           width: 300px;
-           padding: 15px;
-           height: auto;
-           border-radius: 20px;
-           box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
-
-           img {
-               width: 48%;
-               margin: auto;
-               height: auto;
-           }
-
-           .card-body {
-               padding: 30px 0 0;
-               text-align-last: center;
-           }
-       }
-
-       .card-title {
-           padding:0
-       }
-   }
-
-}
-
-.vaser_other_function{
-   background-color: rgba(253, 247, 243, 0.5019607843);
-   display: flex;
-   justify-content: space-evenly;
-   padding:5% 20%;
-   margin-top: 5%;
-   h1{
-       padding-bottom: 5%;
-   }
-.vaser_intro_text{
-   text-align: left;
-} 
-.intro_img{
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-padding-bottom: 5%;
-p{
-   padding-top: 20px;
-}
-.tri{
-   width: 10px;
-   }
-} 
-.col{
-   width: 250px;
-}
-}
-
-.vaser_table{
-   margin: 5% auto;
-   justify-content: center;
-   display: flex;
-   flex-direction: column;
-   padding:0 7%;
-   h1{
-       padding-bottom: 4%;
-   }
-   p{
-       text-align: left;
-   }
-table{
-   width: 100%;
-}
-}
-
-
-
-
-}
-}
-
-
-@media (min-width: 992px) and (max-width:1400px){
-   .nice_project_page{
-
-       #vaser_page_content_1{
-           padding:5% 20% 0;
-       }
-      
-       .vaser_story_title{
-           @include  flex_story_title;
-          width:45%;
-           }
-   
-     .vaser_intro{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:5% 18%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-   p{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding:5% 0;
-       img{
-           width:100%;
-       }
-       .col{
-           width: 170px;
-       }
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
-       .tri{
-           width: 60px;
-          img{
-           width: 35%;
-          }
-           }
-   } 
- 
-   }
-     
-   .vaser_feature{
-       padding:5% 11%;
-      text-align: left;
-        .point_wrap {
-           justify-content: space-between;
-       }
-       h1{
-           padding-bottom: 5%;
-       }
-   
-   .vaser_point_text{
-     
-       .num{
-           @include gold;
-           h4{
-            margin-bottom: 0;
-            padding-left: 10px;
-           }
-           p.content{
-               padding-bottom: 10px;
-               border-bottom:solid 1px #aaa1a1;
-               padding-bottom:20px;
-              margin:20px 0 20px 40px;
-         }
-           .title_wrap{
-               align-items: center;
-         
-         p{
-               margin-bottom: 0;
-               line-height: 0;
-               
-              
-           }
-         }
-       }
-       .vaser_point_num{
-           font-weight: 600;
-           color: white;
-           background-color: #c9ac64;
-           width: 30px;
-           height: 30px;
-           border-radius: 999em;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       }
-   
-   }
-   }
-   
-   .vaser_client{
-       background-image: url('../img/RWD_img/vaser/vaser_client.webp');
-       background-repeat: no-repeat;
-       background-position: center;
-       height: 600px;
-       .content{
-           margin-top: 7%;    
-           p{
-               font-size: 20px;
-           @include gold;
-           border: solid #c9ac64 1px;
-           width: 60%;
-           height: 40px;
-           align-items: center;
-           display: flex;
-           justify-content: center;
-           margin: 2% auto;
-           border-radius: 20px;
-       }
-   }}
-   
-   .vaser_body_part{
-       padding:5%;
-       h1{
-           padding-bottom: 3%;
-       }
-   img{
-       padding-bottom:2%;
-       width: auto;
-     
-   }
-   
-   }
-   
-   .vaser_success{
-       background-color: #fdf7f3cf;
-       display: flex;
-       justify-content: space-evenly;
-       padding:5% 16%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-       .intro_img{
-           justify-content: space-evenly;
-           align-items: center;
-           margin-bottom:5%;
-   p{
-       text-align: center;
-       height: 100px;
-       padding:5% 0;
-   } 
-       }
-       p{
-           text-align: left;
-       }
-   .tri{
-   width: 10px;
-   height: 100px;
-   }
-   .highlight{
-       display: flex;
-    align-items: center;
-    padding-top: 20px;
-    p{    
-        background: white;
-       padding: 20px 30px;
-       position: relative;
-       left: -2%;
-       z-index: 1;
-       border-radius:30px;
-   } 
-   img{
-       z-index: 2;
-   }
-   }
-   .col{
-       width: 200px;
-   }
-   }
-   .vaser_6_points_lg {
-       margin-top: 3%;
-       text-align: center;
-       padding:3% 13% 3% 17%;
-       justify-content: space-around;
-   h1{
-       padding:30px 0 10px
-   }
-       p {
-           line-height: 25px;
-       }
-   
-   
-       h4 {
-           font-size:20px;
-           margin-bottom: 5%;
-       }
-   
-       .point_row{
-           display: flex;
-           justify-content: space-evenly;
-   
-           .card {
-               margin:2% 0;
-               width: 300px;
-               padding: 15px;
-               height: auto;
-               border-radius: 20px;
-               box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
-   
-               img {
-                   width: 48%;
-                   margin: auto;
-                   height: auto;
-               }
-   
-               .card-body {
-                   padding: 30px 0 0;
-                   text-align-last: center;
-               }
-           }
-   
-           .card-title {
-               padding:0
-           }
-       }
-   
-   }
-   
-   .vaser_other_function{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:5% 18%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-   .vaser_intro_text{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding:0 0 5%;
-       img{
-           width:100%;
-       }
-       .col{
-           width: 170px;
-       }
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
-       .tri{
-           width: 60px;
-          img{
-           width: 35%;
-          }
-           }
-   } 
- 
-   }
-   
-   .vaser_table{
-       margin: 5% auto;
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       padding:0 7%;
-       h1{
-           padding-bottom: 4%;
-       }
-       p{
-           text-align: left;
-       }
-   table{
-       width: 100%;
-   }
-   }
-   
-   
-
-   }
-}
-
-@media (min-width: 576px) and (max-width: 992px) {
-   .nice_project_page{
-
-       #vaser_page_content_1{
-           padding:5%;
-       }
-      
-       .vaser_story_title{
-           @include  flex_story_title;
-          width:40%;
-           }
-   
-     .vaser_intro{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:5%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-   p{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       margin:auto;
-       padding:5% 0;
-       img{
-           width:100%;
-       }
-       .col{
-           width: 140px;
-       }
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
-       .tri{
-           width: 40px;
-           margin-bottom: 50px;
-           }
-   } 
- 
-   }
-     
-   .vaser_feature{
-      text-align: left;
-      padding:5% 0;
-        .point_wrap {
-           justify-content: space-between;
-       }
-       h1{
-           padding-bottom: 5%;
-       }
-   
-   .vaser_point_text{
-     
-       .num{
-           @include gold;
-           h4{
-            margin-bottom: 0;
-            padding-left: 10px;
-           }
-           p.content{
-               padding-bottom: 10px;
-               border-bottom:solid 1px #aaa1a1;
-               padding-bottom:20px;
-              margin:20px 0 20px 40px;
-         }
-           .title_wrap{
-               align-items: center;
-         
-         p{
-               margin-bottom: 0;
-               line-height: 0;
-               
-              
-           }
-         }
-       }
-       .vaser_point_num{
-           font-weight: 600;
-           color: white;
-           background-color: #c9ac64;
-           width: 30px;
-           height: 30px;
-           border-radius: 999em;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       }
-   
-   }
-   }
-   
-   .vaser_client{
-       background-image: url('../img/RWD_img/vaser/vaser_client.webp');
-       background-repeat: no-repeat;
-       background-position: center;
-       height: 600px;
-       .content{
-           margin-top: 15%;    
-           p{
-               font-size: 20px;
-               background: #ffffff70;
-           @include gold;
-           border: solid #c9ac64 1px;
-           width: 80%;
-           height: 40px;
-           align-items: center;
-           display: flex;
-           justify-content: center;
-           margin: 2% auto;
-           border-radius: 20px;
-       }
-   }}
-   
-   .vaser_body_part{
-       padding:5%;
-       h1{
-           padding-bottom: 3%;
-       }
-
-   
-   }
-   
-   .vaser_success{
-       background-color: #fdf7f3cf;
-       display: flex;
-       justify-content: space-evenly;
-       padding:5%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-       .intro_img{
-           justify-content: space-between;
-           align-items: center;
-           margin:0 auto 10%;
-   p{
-       text-align: center;
-       height: 100px;
-       padding:5% 0;
-   } 
-       }
-       p{
-           text-align: left;
-       }
-   .tri{
-       width:35px;
-       margin-bottom: 100px;
-   }
-   .highlight{
-       display: flex;
-    align-items: center;
-    padding-top: 20px;
-    margin:auto;
-    p{    
-       background: white;
-       padding: 20px 17px 20px 45px;
-       position: relative;
-       left: -5%;
-       z-index: 1;
-       border-radius:30px;
-   } 
-   img{
-       z-index: 2;
-   }
-   }
-   .col{
-       width: 140px;
-   }
-   }
-   .vaser_6_points_sm {
-       margin-top: 3%;
-       text-align: center;
-       padding:5%;
-       justify-content: space-around;
-   h1{
-       padding:30px 0 10px
-   }
-       p {
-           line-height: 25px;
-       }
-   
-   
-       h4 {
-           font-size:20px;
-           margin-bottom: 5%;
-       }
-   
-       .point_row{
-           display: flex;
-           justify-content: space-evenly;
-   
-           .card {
-               margin:2% 0;
-               width: 300px;
-               padding: 15px;
-               height: auto;
-               border-radius: 20px;
-               box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
-   
-               img {
-                   width: 48%;
-                   margin: auto;
-                   height: auto;
-               }
-   
-               .card-body {
-                   padding: 30px 0 0;
-                   text-align-last: center;
-               }
-           }
-   
-           .card-title {
-               padding:0
-           }
-       }
-   
-   }
-   
-   .vaser_other_function{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:5%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-   .vaser_intro_text{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content: space-between;
-       margin:auto;
-       align-items: center;
-       padding:5% 0;
-       img{
-           width:100%;
-       }
-       .col{
-           width: 140px;
-       }
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
-       .tri{
-           width: 40px;
-           margin-bottom: 50px;
-           }
-   }
- 
-   }
-   
-   .vaser_table{
-       margin: 5% auto;
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       h1{
-           padding-bottom: 4%;
-       }
-       p{
-           text-align: left;
-       }
-   table{
-       width: 100%;
-   }
-   }
-   
- 
-   }
-   }
-
-@media (min-width: 0px) and (max-width: 576px){
-   .nice_project_page{
-
-       #vaser_page_content_1{
-           padding:5%;
-       }
-      
-       .vaser_story_title{
-           @include  flex_story_title;
-          width:70%;
-          span{
-           font-size:30px;
-          }
-           }
-   
-     .vaser_intro{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:5%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-   p{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content:center;
-            padding:5% 0 15%;
-     margin:auto;
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
-       .tri{
-           display: none; 
-        }
-   } 
- 
-   }
-     
-   .vaser_feature{
-      text-align: left;
-      padding:10% 5%;
-        .point_wrap {
-        flex-direction: column;
-       }
-       h1{
-           padding-bottom: 5%;
-       }
-   
-   .vaser_point_text{
-     
-       .num{
-           @include gold;
-           h4{
-            margin-bottom: 0;
-            padding-left: 10px;
-           }
-           p.content{
-               padding-bottom: 10px;
-               border-bottom:solid 1px #aaa1a1;
-               padding-bottom:20px;
-              margin:20px 0 20px 40px;
-         }
-           .title_wrap{
-               align-items: center;
-         
-         p{
-               margin-bottom: 0;
-               line-height: 0;
-               
-              
-           }
-         }
-       }
-       .vaser_point_num{
-           font-weight: 600;
-           color: white;
-           background-color: #c9ac64;
-           width: 30px;
-           height: 30px;
-           border-radius: 999em;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       }
+  .nice_project_page{
   
-   } .vaser_machine{
-       padding-top: 5%;
-   }
-   }
-   
-   .vaser_client{
-       background-image: url('../img/RWD_img/vaser/vaser_client.webp');
-       background-repeat: no-repeat;
-       background-position: center;
-       height: 600px;
-       .content{
-           margin-top: 15%;    
-           p{
-               font-size: 20px;
-@include gold;
-background: rgba(255, 255, 255, 0.4392156863);
-    border: solid #c9ac64 1px;
-    width: 95%;
-    padding: 20px;
-    height: 70px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 5% auto;
-    border-radius: 20px;
-       }
-   }}
-   
-   .vaser_body_part{
-       padding:5%;
-       h1{
-           padding-bottom: 3%;
-       }
-
-   
-   }
-   
-   .vaser_success{
-       background-color: #fdf7f3cf;
-       display: flex;
-       justify-content: space-evenly;
-       padding:5%;
-       margin-top: 5%;
-       h1{
-           padding-bottom: 5%;
-       }
-       .intro_img{
-           display: flex;
-           justify-content:space-evenly;
-margin:0 auto 25%;
-   p{
-       text-align: center;
-       height: 100px;
-       padding:5% 0;
-   } 
-       }
-       p{
-           text-align: left;
-       }
-   .tri{
-      display:none;
-   }
-   .highlight{
-       display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-    p{    
-       background: white;
-       padding: 20px;
-       border-radius:30px;
-   } 
-   img{
-       width:70%;
-       padding-bottom: 10%;
-   }
-   }
-   }
-   .vaser_6_points_sm {
-       margin-top: 3%;
-       text-align: center;
-       padding:5%;
-       justify-content: space-around;
-   h1{
-       padding:30px 0 10px
-   }
-       p {
-           line-height: 25px;
-       }
-   
-   
-       h4 {
-           font-size:20px;
-           margin-bottom: 5%;
-       }
-   
-       .point_row{
-           display: flex;
-           justify-content: space-evenly;
-   
-           .card {
-               margin:2% 0;
-               width: 300px;
-               padding: 15px;
-               height: auto;
-               border-radius: 20px;
-               box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
-   
-               img {
-                   width: 48%;
-                   margin: auto;
-                   height: auto;
-               }
-   
-               .card-body {
-                   padding: 30px 0 0;
-                   text-align-last: center;
-               }
-           }
-   
-           .card-title {
-               padding:0
-           }
-       }
-   
-   }
-   
-   .vaser_other_function{
-       background-color: rgba(253, 247, 243, 0.5019607843);
-       display: flex;
-       justify-content: space-evenly;
-       padding:10% 5%;
-       margin-top: 5%;
+     #vaser_page_content_1{
+         padding:5% 20% 0;
+     }
     
-   .vaser_intro_text{
-       text-align: left;
-   } 
-   .intro_img{
-       display: flex;
-       justify-content: space-evenly;
-       padding-bottom:5%;
-       margin: auto;
-       img{
-           width:100%;
+     .vaser_story_title{
+         @include  flex_story_title;
+        width:35%;
+         }
+  
+   .vaser_intro{
+     background-color: rgba(253, 247, 243, 0.5019607843);
+     display: flex;
+     justify-content: space-evenly;
+     padding:5% 20%;
+     margin-top: 5%;
+     h1{
+         padding-bottom: 5%;
+     }
+  p{
+     text-align: left;
+  } 
+  .intro_img{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding:5% 0;
+     p{
+         padding-top: 10px;
+         text-align: center;
+         height: 100px;
+     }
+     .tri{
+         width: 10px;
+         }
+  } 
+  .col{
+     width: 250px;
+  }
+  }
+   
+  .vaser_feature{
+     padding:5% 6%;
+    text-align: left;
+      .point_wrap {
+         justify-content: space-between;
+     }
+     h1{
+         padding-bottom: 5%;
+     }
+  
+  .vaser_point_text{
+   
+     .num{
+         @include gold;
+         h4{
+          margin-bottom: 0;
+          padding-left: 10px;
+         }
+         p.content{
+             padding-bottom: 10px;
+             border-bottom:solid 1px #aaa1a1;
+             padding-bottom:20px;
+            margin:20px 0 20px 40px;
        }
-      
-       p{
-           padding-top: 10px;
-           text-align: center;
-           height: 100px;
-       }
+         .title_wrap{
+             align-items: center;
        
-   }
- .tri{
-   display: none;
-           }
-   }
-   
-   .vaser_table{
-       margin:5% auto;
-       padding:5%;
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       h1{
-           padding-bottom: 4%;
-       }
        p{
-           text-align: left;
+             margin-bottom: 0;
+             line-height: 0;
+             
+            
+         }
        }
-   table{
-       width: 100%;
-   }
-   }
+     }
+     .vaser_point_num{
+         font-weight: 600;
+         color: white;
+         background-color: #c9ac64;
+         width: 30px;
+         height: 30px;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+  
+  }
+  }
+  
+  .vaser_client{
+     background-image: url('../img/RWD_img/vaser/vaser_client.webp');
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 600px;
+     .content{
+         margin-top: 7%;    
+         p{
+             font-size: 20px;
+         @include gold;
+         border: solid #c9ac64 1px;
+         width: 60%;
+         height: 40px;
+         align-items: center;
+         display: flex;
+         justify-content: center;
+         margin: 2% auto;
+         border-radius: 20px;
+     }
+  }}
+  
+  .vaser_body_part{
+     padding:5% 0;
+     h1{
+         padding-bottom: 3%;
+     }
+  img{
+     padding-bottom:2%;
    
-
-   }
-   } 
+  }
+  
+  }
+  
+  .vaser_success{
+     background-color: #fdf7f3cf;
+     display: flex;
+     justify-content: space-evenly;
+     padding:5% 20%;
+     margin-top: 5%;
+     h1{
+         padding-bottom: 5%;
+     }
+     .intro_img{
+         justify-content: space-evenly;
+         align-items: center;
+         margin-bottom:5%;
+  p{
+     text-align: center;
+     height: 100px;
+     padding:5% 0;
+  } 
+     }
+     p{
+         text-align: left;
+     }
+  .tri{
+  width: 10px;
+  height: 100px;
+  }
+  .highlight{
+     display: flex;
+  align-items: center;
+  padding-top: 20px;
+  p{    
+      background: white;
+     padding: 20px 40px;
+     position: relative;
+     left: -3%;
+     z-index: 1;
+     border-radius:30px;
+  } 
+  img{
+     z-index: 2;
+  }
+  }
+  .col{
+     width: 200px;
+  }
+  }
+  .vaser_6_points_lg {
+     margin-top: 3%;
+     text-align: center;
+     padding:3% 22%;
+     justify-content: space-around;
+  h1{
+     padding:30px 0 10px
+  }
+     p {
+         line-height: 25px;
+     }
+  
+  
+     h4 {
+         font-size:20px;
+         margin-bottom: 5%;
+     }
+  
+     .point_row{
+         display: flex;
+         justify-content: space-evenly;
+  
+         .card {
+             margin:2% 0;
+             width: 300px;
+             padding: 15px;
+             height: auto;
+             border-radius: 20px;
+             box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
+  
+             img {
+                 width: 48%;
+                 margin: auto;
+                 height: auto;
+             }
+  
+             .card-body {
+                 padding: 30px 0 0;
+                 text-align-last: center;
+             }
+         }
+  
+         .card-title {
+             padding:0
+         }
+     }
+  
+  }
+  
+  .vaser_other_function{
+     background-color: rgba(253, 247, 243, 0.5019607843);
+     display: flex;
+     justify-content: space-evenly;
+     padding:5% 20%;
+     margin-top: 5%;
+     h1{
+         padding-bottom: 5%;
+     }
+  .vaser_intro_text{
+     text-align: left;
+  } 
+  .intro_img{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+  padding-bottom: 5%;
+  p{
+     padding-top: 20px;
+  }
+  .tri{
+     width: 10px;
+     }
+  } 
+  .col{
+     width: 250px;
+  }
+  }
+  
+  .vaser_table{
+     margin: 5% auto;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     padding:0 7%;
+     h1{
+         padding-bottom: 4%;
+     }
+     p{
+         text-align: left;
+     }
+  table{
+     width: 100%;
+  }
+  }
+  
+  
+  
+  
+  }
+  }
+  
+  
+  @media (min-width: 992px) and (max-width:1400px){
+     .nice_project_page{
+  
+         #vaser_page_content_1{
+             padding:5% 20% 0;
+         }
+        
+         .vaser_story_title{
+             @include  flex_story_title;
+            width:45%;
+             }
+     
+       .vaser_intro{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:5% 18%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+     p{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding:5% 0;
+         img{
+             width:100%;
+         }
+         .col{
+             width: 170px;
+         }
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         .tri{
+             width: 60px;
+            img{
+             width: 35%;
+            }
+             }
+     } 
+   
+     }
+       
+     .vaser_feature{
+         padding:5% 11%;
+        text-align: left;
+          .point_wrap {
+             justify-content: space-between;
+         }
+         h1{
+             padding-bottom: 5%;
+         }
+     
+     .vaser_point_text{
+       
+         .num{
+             @include gold;
+             h4{
+              margin-bottom: 0;
+              padding-left: 10px;
+             }
+             p.content{
+                 padding-bottom: 10px;
+                 border-bottom:solid 1px #aaa1a1;
+                 padding-bottom:20px;
+                margin:20px 0 20px 40px;
+           }
+             .title_wrap{
+                 align-items: center;
+           
+           p{
+                 margin-bottom: 0;
+                 line-height: 0;
+                 
+                
+             }
+           }
+         }
+         .vaser_point_num{
+             font-weight: 600;
+             color: white;
+             background-color: #c9ac64;
+             width: 30px;
+             height: 30px;
+             border-radius: 999em;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+     
+     }
+     }
+     
+     .vaser_client{
+         background-image: url('../img/RWD_img/vaser/vaser_client.webp');
+         background-repeat: no-repeat;
+         background-position: center;
+         height: 600px;
+         .content{
+             margin-top: 7%;    
+             p{
+                 font-size: 20px;
+             @include gold;
+             border: solid #c9ac64 1px;
+             width: 60%;
+             height: 40px;
+             align-items: center;
+             display: flex;
+             justify-content: center;
+             margin: 2% auto;
+             border-radius: 20px;
+         }
+     }}
+     
+     .vaser_body_part{
+         padding:5%;
+         h1{
+             padding-bottom: 3%;
+         }
+     img{
+         padding-bottom:2%;
+         width: auto;
+       
+     }
+     
+     }
+     
+     .vaser_success{
+         background-color: #fdf7f3cf;
+         display: flex;
+         justify-content: space-evenly;
+         padding:5% 16%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+         .intro_img{
+             justify-content: space-evenly;
+             align-items: center;
+             margin-bottom:5%;
+     p{
+         text-align: center;
+         height: 100px;
+         padding:5% 0;
+     } 
+         }
+         p{
+             text-align: left;
+         }
+     .tri{
+     width: 10px;
+     height: 100px;
+     }
+     .highlight{
+         display: flex;
+      align-items: center;
+      padding-top: 20px;
+      p{    
+          background: white;
+         padding: 20px 30px;
+         position: relative;
+         left: -2%;
+         z-index: 1;
+         border-radius:30px;
+     } 
+     img{
+         z-index: 2;
+     }
+     }
+     .col{
+         width: 200px;
+     }
+     }
+     .vaser_6_points_lg {
+         margin-top: 3%;
+         text-align: center;
+         padding:3% 13% 3% 17%;
+         justify-content: space-around;
+     h1{
+         padding:30px 0 10px
+     }
+         p {
+             line-height: 25px;
+         }
+     
+     
+         h4 {
+             font-size:20px;
+             margin-bottom: 5%;
+         }
+     
+         .point_row{
+             display: flex;
+             justify-content: space-evenly;
+     
+             .card {
+                 margin:2% 0;
+                 width: 300px;
+                 padding: 15px;
+                 height: auto;
+                 border-radius: 20px;
+                 box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
+     
+                 img {
+                     width: 48%;
+                     margin: auto;
+                     height: auto;
+                 }
+     
+                 .card-body {
+                     padding: 30px 0 0;
+                     text-align-last: center;
+                 }
+             }
+     
+             .card-title {
+                 padding:0
+             }
+         }
+     
+     }
+     
+     .vaser_other_function{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:5% 18%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+     .vaser_intro_text{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding:0 0 5%;
+         img{
+             width:100%;
+         }
+         .col{
+             width: 170px;
+         }
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         .tri{
+             width: 60px;
+            img{
+             width: 35%;
+            }
+             }
+     } 
+   
+     }
+     
+     .vaser_table{
+         margin: 5% auto;
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         padding:0 7%;
+         h1{
+             padding-bottom: 4%;
+         }
+         p{
+             text-align: left;
+         }
+     table{
+         width: 100%;
+     }
+     }
+     
+     
+  
+     }
+  }
+  
+  @media (min-width: 576px) and (max-width: 992px) {
+     .nice_project_page{
+  
+         #vaser_page_content_1{
+             padding:5%;
+         }
+        
+         .vaser_story_title{
+             @include  flex_story_title;
+            width:40%;
+             }
+     
+       .vaser_intro{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:5%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+     p{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin:auto;
+         padding:5% 0;
+         img{
+             width:100%;
+         }
+         .col{
+             width: 140px;
+         }
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         .tri{
+             width: 40px;
+             margin-bottom: 50px;
+             }
+     } 
+   
+     }
+       
+     .vaser_feature{
+        text-align: left;
+        padding:5% 0;
+          .point_wrap {
+             justify-content: space-between;
+         }
+         h1{
+             padding-bottom: 5%;
+         }
+     
+     .vaser_point_text{
+       
+         .num{
+             @include gold;
+             h4{
+              margin-bottom: 0;
+              padding-left: 10px;
+             }
+             p.content{
+                 padding-bottom: 10px;
+                 border-bottom:solid 1px #aaa1a1;
+                 padding-bottom:20px;
+                margin:20px 0 20px 40px;
+           }
+             .title_wrap{
+                 align-items: center;
+           
+           p{
+                 margin-bottom: 0;
+                 line-height: 0;
+                 
+                
+             }
+           }
+         }
+         .vaser_point_num{
+             font-weight: 600;
+             color: white;
+             background-color: #c9ac64;
+             width: 30px;
+             height: 30px;
+             border-radius: 999em;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+     
+     }
+     }
+     
+     .vaser_client{
+         background-image: url('../img/RWD_img/vaser/vaser_client.webp');
+         background-repeat: no-repeat;
+         background-position: center;
+         height: 600px;
+         .content{
+             margin-top: 15%;    
+             p{
+                 font-size: 20px;
+                 background: #ffffff70;
+             @include gold;
+             border: solid #c9ac64 1px;
+             width: 80%;
+             height: 40px;
+             align-items: center;
+             display: flex;
+             justify-content: center;
+             margin: 2% auto;
+             border-radius: 20px;
+         }
+     }}
+     
+     .vaser_body_part{
+         padding:5%;
+         h1{
+             padding-bottom: 3%;
+         }
+  
+     
+     }
+     
+     .vaser_success{
+         background-color: #fdf7f3cf;
+         display: flex;
+         justify-content: space-evenly;
+         padding:5%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+         .intro_img{
+             justify-content: space-between;
+             align-items: center;
+             margin:0 auto 10%;
+     p{
+         text-align: center;
+         height: 100px;
+         padding:5% 0;
+     } 
+         }
+         p{
+             text-align: left;
+         }
+     .tri{
+         width:35px;
+         margin-bottom: 100px;
+     }
+     .highlight{
+         display: flex;
+      align-items: center;
+      padding-top: 20px;
+      margin:auto;
+      p{    
+         background: white;
+         padding: 20px 17px 20px 45px;
+         position: relative;
+         left: -5%;
+         z-index: 1;
+         border-radius:30px;
+     } 
+     img{
+         z-index: 2;
+     }
+     }
+     .col{
+         width: 140px;
+     }
+     }
+     .vaser_6_points_sm {
+         margin-top: 3%;
+         text-align: center;
+         padding:5%;
+         justify-content: space-around;
+     h1{
+         padding:30px 0 10px
+     }
+         p {
+             line-height: 25px;
+         }
+     
+     
+         h4 {
+             font-size:20px;
+             margin-bottom: 5%;
+         }
+     
+         .point_row{
+             display: flex;
+             justify-content: space-evenly;
+     
+             .card {
+                 margin:2% 0;
+                 width: 300px;
+                 padding: 15px;
+                 height: auto;
+                 border-radius: 20px;
+                 box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
+     
+                 img {
+                     width: 48%;
+                     margin: auto;
+                     height: auto;
+                 }
+     
+                 .card-body {
+                     padding: 30px 0 0;
+                     text-align-last: center;
+                 }
+             }
+     
+             .card-title {
+                 padding:0
+             }
+         }
+     
+     }
+     
+     .vaser_other_function{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:5%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+     .vaser_intro_text{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content: space-between;
+         margin:auto;
+         align-items: center;
+         padding:5% 0;
+         img{
+             width:100%;
+         }
+         .col{
+             width: 140px;
+         }
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         .tri{
+             width: 40px;
+             margin-bottom: 50px;
+             }
+     }
+   
+     }
+     
+     .vaser_table{
+         margin: 5% auto;
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         h1{
+             padding-bottom: 4%;
+         }
+         p{
+             text-align: left;
+         }
+     table{
+         width: 100%;
+     }
+     }
+     
+   
+     }
+     }
+  
+  @media (min-width: 0px) and (max-width: 576px){
+     .nice_project_page{
+  
+         #vaser_page_content_1{
+             padding:5%;
+         }
+        
+         .vaser_story_title{
+             @include  flex_story_title;
+            width:70%;
+            span{
+             font-size:30px;
+            }
+             }
+     
+       .vaser_intro{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:5%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+     p{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content:center;
+              padding:5% 0 15%;
+       margin:auto;
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         .tri{
+             display: none; 
+          }
+     } 
+   
+     }
+       
+     .vaser_feature{
+        text-align: left;
+        padding:10% 5%;
+          .point_wrap {
+          flex-direction: column;
+         }
+         h1{
+             padding-bottom: 5%;
+         }
+     
+     .vaser_point_text{
+       
+         .num{
+             @include gold;
+             h4{
+              margin-bottom: 0;
+              padding-left: 10px;
+             }
+             p.content{
+                 padding-bottom: 10px;
+                 border-bottom:solid 1px #aaa1a1;
+                 padding-bottom:20px;
+                margin:20px 0 20px 40px;
+           }
+             .title_wrap{
+                 align-items: center;
+           
+           p{
+                 margin-bottom: 0;
+                 line-height: 0;
+                 
+                
+             }
+           }
+         }
+         .vaser_point_num{
+             font-weight: 600;
+             color: white;
+             background-color: #c9ac64;
+             width: 30px;
+             height: 30px;
+             border-radius: 999em;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+     } .vaser_machine{
+         padding-top: 5%;
+     }
+     }
+     
+     .vaser_client{
+         background-image: url('../img/RWD_img/vaser/vaser_client.webp');
+         background-repeat: no-repeat;
+         background-position: center;
+         height: 600px;
+         .content{
+             margin-top: 15%;    
+             p{
+                 font-size: 20px;
+  @include gold;
+  background: rgba(255, 255, 255, 0.4392156863);
+      border: solid #c9ac64 1px;
+      width: 95%;
+      padding: 20px;
+      height: 70px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin: 5% auto;
+      border-radius: 20px;
+         }
+     }}
+     
+     .vaser_body_part{
+         padding:5%;
+         h1{
+             padding-bottom: 3%;
+         }
+  
+     
+     }
+     
+     .vaser_success{
+         background-color: #fdf7f3cf;
+         display: flex;
+         justify-content: space-evenly;
+         padding:5%;
+         margin-top: 5%;
+         h1{
+             padding-bottom: 5%;
+         }
+         .intro_img{
+             display: flex;
+             justify-content:space-evenly;
+  margin:0 auto 25%;
+     p{
+         text-align: center;
+         height: 100px;
+         padding:5% 0;
+     } 
+         }
+         p{
+             text-align: left;
+         }
+     .tri{
+        display:none;
+     }
+     .highlight{
+         display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 20px;
+      p{    
+         background: white;
+         padding: 20px;
+         border-radius:30px;
+     } 
+     img{
+         width:70%;
+         padding-bottom: 10%;
+     }
+     }
+     }
+     .vaser_6_points_sm {
+         margin-top: 3%;
+         text-align: center;
+         padding:5%;
+         justify-content: space-around;
+     h1{
+         padding:30px 0 10px
+     }
+         p {
+             line-height: 25px;
+         }
+     
+     
+         h4 {
+             font-size:20px;
+             margin-bottom: 5%;
+         }
+     
+         .point_row{
+             display: flex;
+             justify-content: space-evenly;
+     
+             .card {
+                 margin:2% 0;
+                 width: 300px;
+                 padding: 15px;
+                 height: auto;
+                 border-radius: 20px;
+                 box-shadow: -2px 1px 12px 7px rgb(154 126 60 / 24%);
+     
+                 img {
+                     width: 48%;
+                     margin: auto;
+                     height: auto;
+                 }
+     
+                 .card-body {
+                     padding: 30px 0 0;
+                     text-align-last: center;
+                 }
+             }
+     
+             .card-title {
+                 padding:0
+             }
+         }
+     
+     }
+     
+     .vaser_other_function{
+         background-color: rgba(253, 247, 243, 0.5019607843);
+         display: flex;
+         justify-content: space-evenly;
+         padding:10% 5%;
+         margin-top: 5%;
+      
+     .vaser_intro_text{
+         text-align: left;
+     } 
+     .intro_img{
+         display: flex;
+         justify-content: space-evenly;
+         padding-bottom:5%;
+         margin: auto;
+         img{
+             width:100%;
+         }
+        
+         p{
+             padding-top: 10px;
+             text-align: center;
+             height: 100px;
+         }
+         
+     }
+   .tri{
+     display: none;
+             }
+     }
+     
+     .vaser_table{
+         margin:5% auto;
+         padding:5%;
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         h1{
+             padding-bottom: 4%;
+         }
+         p{
+             text-align: left;
+         }
+     table{
+         width: 100%;
+     }
+     }
+     
+  
+     }
+     } 

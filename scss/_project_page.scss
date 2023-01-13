@@ -7,12 +7,10 @@
         position: relative;
 }
 
-body {
+body.visible {
     background-image: url('../img/RWD_img/bg_white_line.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    padding: 0;
 }
 
 .doc_slideshow p {
@@ -89,6 +87,23 @@ button{
     color: white;
     width: 200px;
  border:1px solid #C3B086;
+ margin:3% 0 5%;
+}
+.crisp_btn_case {
+    background-color: #C3B086;
+    border-radius: 20px;
+    color: white;
+ border:1px solid #C3B086;
+ margin:3% 0 5%;
+ a{
+    color:white;
+
+ }
+ a:hover{
+    background-color: transparent;
+    transition: 0.7s;
+    color: black;
+ }
 }
 
 .crisp_btn:hover,
@@ -224,6 +239,13 @@ table-layout: fixed;
         position: absolute;
     }
 }
+.nc_feature{
+    padding:3%;
+ 
+h1{
+    padding-bottom:20px
+}
+}
 
 @media (min-width: 1400px) {
     .nice_project_page {
@@ -236,7 +258,7 @@ table{
         }
 
         .banner {
-            width: 1660px;
+            width:100%;
         }
 
         .project_title,
@@ -262,6 +284,211 @@ table{
             margin-top: -24px;
         margin-bottom: 50px;
         }
+        .nc_feature{
+            flex-direction: column;
+            display: flex;
+              
+        }
+        .nc_feature_xl{
+            display: flex !important;
+            justify-content: center;
+
+            .box1 {
+                float: left;
+            position: relative;
+            width: calc(642px - 320px);
+            height: calc(500px - 40px);
+            box-shadow: #dedede 3px 3px 3px;
+            background: url("https://i.ibb.co/gyNrSkF/extend-doctor-surgery.webp") -350px -0px no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            transition: all 0.6s;
+            &:hover {
+              width:  calc(450px - 10px);
+              background-position: 0 0;
+            background-size:cover;
+              .nc_overlay{
+                opacity:1;
+              }
+              .title{
+                opacity: 0;
+              }
+            } 
+            .title{
+                opacity: 1;
+                position: absolute;
+                background: #ae955c61;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                h1{
+                    top: 50%;
+                    position: absolute;
+                    left: 35%;
+                    color: white;
+                    animation: beat .50s infinite alternate;
+                }
+              }
+              @keyframes beat{
+                to { transform: scale(1.1); }
+            }
+            .nc_overlay{
+              padding:5%;
+              background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                          position: absolute;
+                        color:white;
+                          left: 0;
+                          top: 0;
+                          bottom: 0;
+                          right: 0;
+                          opacity: 0;
+                          transition: all 0.4s ease-in-out 0s;
+            h1{
+                text-align: start;
+                color: #d3c094;
+            }
+                          p{
+                text-align: start;
+                display: content;
+                width: 400px;
+                color: white;
+              
+              }
+            }
+          }
+          .box2 {
+            margin:0 2%;
+                   float: left;
+            position: relative;
+            width: calc(642px - 320px);
+            height: calc(500px - 40px);
+            box-shadow: #dedede 3px 3px 3px;
+            background: url("https://i.ibb.co/kqZc5Qf/extend-surgery-room.webp") -350px -0px no-repeat;
+           background-size: cover;
+            overflow: hidden;
+            transition: all 0.6s;
+            
+            &:hover {
+                width:  calc(450px - 10px);
+                background-position: 0 0;
+              background-size:cover;
+                .nc_overlay{
+                  opacity:1;
+                }
+                .title{
+                  opacity: 0;
+                }
+              } 
+              .title{
+                  opacity: 1;
+                  position: absolute;
+                  background: #ae955c61;
+                  left: 0;
+                  top: 0;
+                  bottom: 0;
+                  right: 0;
+                  h1{
+                      top: 50%;
+                      position: absolute;
+                      left: 35%;
+                      color: white;
+                      animation: beat .50s infinite alternate;
+                  }
+                }
+                @keyframes beat{
+                  to { transform: scale(1.1); }
+              }
+              .nc_overlay{
+                padding:5%;
+                background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                            position: absolute;
+                          color:white;
+                            left: 0;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            opacity: 0;
+                            transition: all 0.4s ease-in-out 0s;
+              h1{
+                  text-align: start;
+                  color: #d3c094;
+              }
+                            p{
+                  text-align: start;
+                  display: content;
+                  width: 400px;
+                  color: white;
+                
+                }
+              }
+          }
+          .box3 {
+                   float: left;
+            position: relative;
+            width: calc(642px - 320px);
+            height: calc(500px - 40px);
+            box-shadow: #dedede 3px 3px 3px;
+            background: url("https://i.ibb.co/2W4g1ZB/extend-sebbin-certificate.webp") -350px -0px no-repeat;
+          background-size: cover;
+            overflow: hidden;
+            transition: all 0.6s;
+            
+            &:hover {
+                width:  calc(450px - 10px);
+                background-position: 0 0;
+              background-size:cover;
+                .nc_overlay{
+                  opacity:1;
+                }
+                .title{
+                  opacity: 0;
+                }
+              } 
+              .title{
+                  opacity: 1;
+                  position: absolute;
+                  background: #ae955c61;
+                  left: 0;
+                  top: 0;
+                  bottom: 0;
+                  right: 0;
+                  h1{
+                      top: 50%;
+                      position: absolute;
+                      left: 35%;
+                      color: white;
+                      animation: beat .50s infinite alternate;
+                  }
+                }
+                @keyframes beat{
+                  to { transform: scale(1.1); }
+              }
+              .nc_overlay{
+                padding:5%;
+                background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                            position: absolute;
+                          color:white;
+                            left: 0;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            opacity: 0;
+                            transition: all 0.4s ease-in-out 0s;
+              h1{
+                  text-align: start;
+                  color: #d3c094;
+              }
+                            p{
+                  text-align: start;
+                  display: content;
+                  width: 400px;
+                  color: white;
+                
+                }
+              } 
+          }
+        }
     }
 
     .nice_share {
@@ -276,10 +503,7 @@ table{
         }
     }
 
-    .nice_project_qa h1 {
 
-        margin-bottom: 50px;
-    }
    .nice_surgery{
     background-image: -webkit-linear-gradient(left, transparent 660px,#ffffff80 300px, #f2e9d5 100%);
     width: 100%;
@@ -334,7 +558,7 @@ table{
     }
 
     .banner {
-        width: 1240px ;
+        width:100% ;
     }
 
     .nice_share {
@@ -360,7 +584,210 @@ table{
     .page_content_bottom {
         padding: 1% 18% 0 21%;
     }
+    .nc_feature{
+        flex-direction: column;
+        display: flex;
+          
+    }
+    .nc_feature_xl{
+        display: flex !important;
+        justify-content: center;
 
+        .box1 {
+            float: left;
+        position: relative;
+        width: calc(642px - 375px);
+        height: calc(500px - 40px);
+        box-shadow: #dedede 3px 3px 3px;
+        background: url("https://i.ibb.co/gyNrSkF/extend-doctor-surgery.webp") -350px -0px no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        transition: all 0.6s;
+        &:hover {
+            width:  calc(450px - 100px);
+            background-position: 0 0;
+          background-size:cover;
+            .nc_overlay{
+              opacity:1;
+            }
+            .title{
+              opacity: 0;
+            }
+          } 
+          .title{
+              opacity: 1;
+              position: absolute;
+              background: #ae955c61;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              h1{
+                  top: 50%;
+                  position: absolute;
+                  left: 35%;
+                  color: white;
+                  animation: beat .50s infinite alternate;
+              }
+            }
+            @keyframes beat{
+              to { transform: scale(1.1); }
+          }
+          .nc_overlay{
+            padding:5%;
+            background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                        position: absolute;
+                      color:white;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all 0.4s ease-in-out 0s;
+          h1{
+              text-align: start;
+              color: #d3c094;
+          }
+                        p{
+              text-align: start;
+              display: content;
+              width: 320px;
+              color: white;
+            
+            }
+          }
+      }
+      .box2 {
+        margin:0 2%;
+               float: left;
+        position: relative;
+        width: calc(642px - 375px);
+        height: calc(500px - 40px);
+        box-shadow: #dedede 3px 3px 3px;
+        background: url("https://i.ibb.co/kqZc5Qf/extend-surgery-room.webp") -350px -0px no-repeat;
+       background-size: cover;
+        overflow: hidden;
+        transition: all 0.6s;
+        
+        &:hover {
+            width:  calc(450px - 100px);
+            background-position: 0 0;
+          background-size:cover;
+            .nc_overlay{
+              opacity:1;
+            }
+            .title{
+              opacity: 0;
+            }
+          } 
+          .title{
+              opacity: 1;
+              position: absolute;
+              background: #ae955c61;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              h1{
+                  top: 50%;
+                  position: absolute;
+                  left: 35%;
+                  color: white;
+                  animation: beat .50s infinite alternate;
+              }
+            }
+            @keyframes beat{
+              to { transform: scale(1.1); }
+          }
+          .nc_overlay{
+            padding:5%;
+            background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                        position: absolute;
+                      color:white;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all 0.4s ease-in-out 0s;
+          h1{
+              text-align: start;
+              color: #d3c094;
+          }
+                        p{
+              text-align: start;
+              display: content;
+              width: 320px;
+              color: white;
+            
+            }
+          }
+      }
+      .box3 {
+               float: left;
+        position: relative;
+        width: calc(642px - 375px);
+        height: calc(500px - 40px);
+        box-shadow: #dedede 3px 3px 3px;
+        background: url("https://i.ibb.co/2W4g1ZB/extend-sebbin-certificate.webp") -350px -0px no-repeat;
+      background-size: cover;
+        overflow: hidden;
+        transition: all 0.6s;
+        &:hover {
+            width:  calc(450px - 100px);
+            background-position: 0 0;
+          background-size:cover;
+            .nc_overlay{
+              opacity:1;
+            }
+            .title{
+              opacity: 0;
+            }
+          } 
+          .title{
+              opacity: 1;
+              position: absolute;
+              background: #ae955c61;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              h1{
+                  top: 50%;
+                  position: absolute;
+                  left: 35%;
+                  color: white;
+                  animation: beat .50s infinite alternate;
+              }
+            }
+            @keyframes beat{
+              to { transform: scale(1.1); }
+          }
+          .nc_overlay{
+            padding:5%;
+            background: linear-gradient(0.25turn, #0c0c0cd9, #9898984f);
+                        position: absolute;
+                      color:white;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all 0.4s ease-in-out 0s;
+          h1{
+              text-align: start;
+              color: #d3c094;
+          }
+                        p{
+              text-align: start;
+              display: content;
+              width: 320px;
+              color: white;
+            
+            }
+          }
+      }
+    }
     .nice_project_qa h1 {
 
         margin-bottom: 50px;
@@ -449,7 +876,98 @@ img{width:100%    }
     .page_content_bottom {
         padding: 0 5%;
     }
-  
+
+    .nc_feature_md{
+
+display: flex;
+padding:0 5% 5%;
+        .box1 {
+            box-shadow: #dedede 3px 3px 3px;
+        position: relative;
+           background: url("https://i.ibb.co/gyNrSkF/extend-doctor-surgery.webp")-180px no-repeat;
+           background-size: cover;
+           width: 45%;
+           height: 430px;
+           
+        .nc_overlay{
+            padding: 5%;
+            background: linear-gradient(0.25turn, #4d4b4bd9, rgba(152, 152, 152, 0.3098039216));
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            color: white;
+            left: 0;
+            top: 0;
+        h1{
+            text-align: start;
+            color: #d3c094;
+        }
+                      p{
+            text-align: start;
+            color: white;
+            line-height: 25px;
+          }
+        }
+    }
+
+      .box2 {
+        margin:0 2%;
+        position: relative;
+        box-shadow: #dedede 3px 3px 3px;
+        background: url("https://i.ibb.co/kqZc5Qf/extend-surgery-room.webp") -180px no-repeat;
+        background-size: cover;
+        width: 45%;
+        height: 430px;
+        
+        .nc_overlay{
+            padding: 5%;
+            background: linear-gradient(0.25turn, #4d4b4bd9, rgba(152, 152, 152, 0.3098039216));
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            color: white;
+            left: 0;
+            top: 0;
+        h1{
+            text-align: start;
+            color: #d3c094;
+        }
+                      p{
+            text-align: start;
+            color: white;
+          line-height: 25px;
+          }
+        }
+      }
+      .box3 {
+        position: relative;
+        box-shadow: #dedede 3px 3px 3px;
+        background: url("https://i.ibb.co/2W4g1ZB/extend-sebbin-certificate.webp") -180px no-repeat;
+        background-size: cover;
+        width: 45%;
+        height: 430px;
+        .nc_overlay{
+            padding: 5%;
+            background: linear-gradient(0.25turn, #4d4b4bd9, rgba(152, 152, 152, 0.3098039216));
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            color: white;
+            left: 0;
+            top: 0;
+        h1{
+            text-align: start;
+            color: #d3c094;
+        }
+                      p{
+            text-align: start;
+            color: white;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+
         .nice_surgery{
             background-image: -webkit-linear-gradient(left, transparent 100px,#ffffff80 300px, #f2e9d5 100%);
             width: 100%;
@@ -504,6 +1022,7 @@ img{width:100%    }
            }
            }
 }
+
 
 @media (min-width: 0px) and (max-width: 576px) {
   
@@ -568,6 +1087,96 @@ width:100%;
             }
         }
     }
+    .nc_feature_xs{
+       
+        .nc_feature_slide{
+             padding:5%;
+            .slide1{
+                position:relative;
+                .text{
+                    p{
+                        position: absolute;
+                        top: 20%;
+                        text-align: start;
+                        left: 20%;
+                        width: 100%;
+                        transform: translate(-20%, -20%);
+                        padding: 20px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    h1{
+                        
+                        position: absolute;
+                        top: 0;
+                        text-align: start;
+                        width: 100%;
+                        text-shadow: #666464 3px 1px 10px;
+                        padding: 20px;
+                        color: white;
+                        font-size: 31px;
+                        
+                    }
+                }
+            }
+        .slide2{
+                position:relative;
+                .text{
+                    p{
+                        position: absolute;
+                        top: 32%;
+                        text-align: start;
+                        left: 20%;
+                        width: 100%;
+                        transform: translate(-20%, -25%);
+                        padding: 20px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    h1{
+                        
+                        position: absolute;
+                        top: 0;
+                        text-align: start;
+                        width: 100%;
+                        text-shadow: #666464 3px 1px 10px;
+                        padding: 20px;
+                        color: white;
+                        font-size: 31px;
+                        
+                    }
+                }
+            }
+           .slide3{
+                position:relative;
+                .text{
+                    p{
+                        position: absolute;
+                        top: 30%;
+                        text-align: start;
+                        left: 20%;
+                        width: 100%;
+                        transform: translate(-20%, -25%);
+                        padding: 20px;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    h1{
+                        
+                        position: absolute;
+                        top: 0;
+                        text-align: start;
+                        width: 100%;
+                        text-shadow: #666464 3px 1px 10px;
+                        padding: 20px;
+                        color: white;
+                        font-size: 31px;
+                        
+                    }
+                }
+            }
+        }
+    }
     .doc_slideshow {
         margin-bottom: 11%;
         .owl-dots{
@@ -578,7 +1187,8 @@ width:100%;
        }
        }
     .nice_surgery{
-       p{ color:white; 
+       p{ 
+        color:white; 
          position: absolute;
     }
 
@@ -597,10 +1207,10 @@ width:100%;
         text-align-last: left;
         font-weight: 800;
     }
-    background-image: url('../img/RWD_img/doc_surgery_room_sm.webp');
-    background-size: cover;
+    background-image: url('../img/RWD_img/surgery_room_sm.webp');
     background-repeat: no-repeat;
-    height: 300px;
+    height: 450px;
+    background-size: contain;
     p{
         color: white;
         margin-top:86px;
@@ -610,7 +1220,6 @@ width:100%;
 }
 
 .surgery_tech{
-    margin-top: 20px;
     p.surgery_tech_title{
         font-size: 25px;
         margin: 30px 0 0 24px;
@@ -621,10 +1230,10 @@ width:100%;
         font-weight: 800;
     }
     margin-top: 20px;
-    background-image: url('../img/RWD_img/doc_surgery_tech_sm.webp');
+    background-image: url('../img/RWD_img/doc_tech_sm.webp');
     background-repeat: no-repeat;
-    height:500px;
-    background-position: center;
+    height: 450px;
+    background-size: cover;
     p{
         color: white;
         margin-top:86px;

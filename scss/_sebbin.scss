@@ -42,16 +42,14 @@ text-align: center;
 
 @media (min-width: 1400px){
     .nice_project_page{
-        .banner{
-            width:1660px
-        }
+    
         #sebbin_page_content_1,#sebbin_page_content_2{
-            padding:5% 18.4% 0 22%;
+            padding:5% 20% 0;
         }
-      
-       .sebbin_ba_02{
-        margin:6% 14% 2% 15%;
-       }
+      .content{
+        padding-top: 0 !important;
+      }
+   
        .sebbin_story_title{
         @include  flex_story_title;
        width:40%;
@@ -64,14 +62,16 @@ text-align: center;
         .slider_sec{
             display: flex;
         }
-        .sebbin_intro {
-            margin:20px 0 50px;
-            height: 150px;
-            .intro_text p{
-                position: absolute;
-                left: 7%;
-                top: 85%;
-            }
+        .sebbin_intro_content {
+            height: 300px;
+            background-color: rgba(248, 238, 230, 0.5215686275);
+            padding: 3% 20% 0;
+        }
+        .sebbin_ba_02{
+               padding:3% 14%  0;
+        }
+        .sebbin-intro{
+            padding:0 20%;
         }
         .intro_show_img img{
             margin:5% 0 10%;
@@ -248,8 +248,14 @@ text-align: center;
        .story_part{
         margin-bottom: 50px;
        }
-        
-   
+       .sebbin_intro_content {
+        height: 300px;
+        background-color: rgba(248, 238, 230, 0.5215686275);
+        padding: 3% 15% 0;
+    }
+   .sebbin-intro{
+    padding: 0 15%;
+   }
            .sebbin_ba_02{
             margin:6% 9% 0 10%;
            }
@@ -479,8 +485,17 @@ text-align: center;
     }
 
        .sebbin_ba_02{
-        margin:7% 1% 1% 4%;
+   padding:2%
        }
+       .sebbin_intro_content {
+        height: 290px;
+        background-color: rgba(248, 238, 230, 0.5215686275);
+        padding:5%;
+        .crisp_btn{
+            margin:0 !important
+        }
+    }
+ 
     .sebbin_intro {
         margin:20px 0 50px;
         height: 150px;
@@ -687,18 +702,24 @@ margin-bottom: 50px;
         #sebbin_page_content_1,#sebbin_page_content_2{
             padding:6%;
         }
-        .nice_extend_btn{
-            margin-bottom: 20% !important;
+        .crisp_btn{
+            margin-bottom: 20px;
         }
+        .sebbin_intro_content {
+            background-color: rgba(248, 238, 230, 0.5215686275);
+            padding: 5%;
+            .crisp_btn{
+                margin:0
+            }
+        }
+      
         .sebbin_ba_02{
           margin-bottom:30px;
         }
   .page_banner{
     margin-bottom: 20px;
   }
-  .story_part{
-    margin-bottom: 50px;
-  }
+ 
   .sebbin_story_title{
     @include  flex_story_title;
    width:75%;
@@ -714,6 +735,9 @@ margin-bottom: 50px;
 margin: auto; 
 margin:34% 0 70px 30px;
 }
+.sebbin-intro{
+    padding:5%
+}
 .sebbin_intro {
     margin:20px 0 50px;
     height: 150px;
@@ -724,6 +748,9 @@ margin:34% 0 70px 30px;
         top: 52%;
         font-size: 16px;
     }
+}
+.card{
+    margin:5% 0;
 }
         .card-body{
             text-align: left;
@@ -791,7 +818,7 @@ margin:34% 0 70px 30px;
     }
     .page_full_img{
          position: relative;  
-      
+      margin-top: 5%;
     }
     
     .breast_text h2{
@@ -841,7 +868,7 @@ margin:34% 0 70px 30px;
             }
     .material_content{
         text-align-last: left;
-        padding: 40px 23px 45%;
+        padding: 40px 23px 35%;
         margin:-30px 0 80px;
             border: 1px solid #987b30;
             position: relative;
@@ -857,6 +884,9 @@ margin:34% 0 70px 30px;
         flex-direction: column;
         align-items: center;
         display: flex;
+        p{
+            font-size:10px;
+        }
     }
     .material_img01{
         margin-right: 10px;
@@ -894,6 +924,11 @@ margin:34% 0 70px 30px;
     }
     
     }
+    }
+    .sublimity_img {
+        .img01 img{
+            width:100%
+        }
     }
     .nice_share {
     margin-bottom: 50px;

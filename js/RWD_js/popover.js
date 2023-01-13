@@ -5,7 +5,7 @@ var timer = setInterval(function() {
 closebtn.onclick = function() {
  count += 1;
   console.log(count)
-if(count === 2)
+if(count === 1)
 {
   clearInterval(timer)
 }

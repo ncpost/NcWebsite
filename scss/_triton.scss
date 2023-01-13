@@ -195,16 +195,22 @@ p{
 }
 
 .triton_body{
+ 
     h1{
         position: absolute;
     background: white;
-    top: -5%;
-    left: 23%;
+    top: 0%;
+    left: 25%;
     z-index: 1;
     padding: 0 30px;
     }
     .story_content{
         width: 100%;
+        padding: 30px 30px 20px;
+    border: 1px solid #987b30;
+    position: relative;
+    margin-top: 27px;
+    margin-bottom: 50px;
         p{
             margin-top: 2%;
     }
@@ -250,7 +256,7 @@ p{
  
   
 .triton_table{
-   position:relative; 
+ 
     table{
        
         width:100%;
@@ -260,23 +266,7 @@ p{
         margin:5% 0;
 
     }
-    img{
-        position: absolute;
-    }
-    .crown01{
-        top:68%
-    }
-    .crown02{
-        top: 35%;
-        left: 28%;
-    }
-    .crown03{
-        top: 52%;
-        left: 28%;
-    }
-    .crown04{
-        top:35%
-    }
+    
 }
 
 
@@ -311,9 +301,6 @@ p{
 }
 
 
-.nice_extend_btn{
-    margin: 20px 0 50px;
-}
 }
 }
 
@@ -505,17 +492,22 @@ p{
         h1{
             position: absolute;
         background: white;
-        top: -7%;
+        top:0%;
         left: 20%;
         z-index: 1;
         padding: 0 30px;
         }
         .story_content{
-            width: 100%;
-            p{
-                margin-top: 2%;
-        }
-    }
+          width: 100%;
+          padding: 30px 30px 20px;
+      border: 1px solid #987b30;
+      position: relative;
+      margin-top: 27px;
+      margin-bottom: 50px;
+          p{
+              margin-top: 2%;
+      }
+  }
         .triton_body_img_xl{
             display: flex !important;
             margin-top: 4%;
@@ -563,24 +555,7 @@ p{
         justify-content: center;
         flex-direction: column;
         margin:5% 0 10%;
-        position:relative; 
-        img{
-            position: absolute;
-        }
-        .crown01{
-            top:61%
-        }
-        .crown02{
-            top: 32%;
-            left: 36%;
-        }
-        .crown03{
-            top: 46%;
-            left: 36%;
-        }
-        .crown04{
-            top:32%
-        }
+      
     }
     
     
@@ -614,10 +589,7 @@ p{
             }
     }
     
-    
-    .nice_extend_btn{
-        margin: 20px 0 50px;
-    }
+
     }
 }
 
@@ -812,8 +784,8 @@ p{
             h1{
                 position: absolute;
             background: white;
-            top: -7%;
-            left: 20%;
+            top: -16%;
+            left: 19%;
             z-index: 1;
             padding: 0 30px;
             }
@@ -870,25 +842,7 @@ p{
             justify-content: center;
             flex-direction: column;
             margin:5% 0 10%;
-            position:relative; 
-            img{
-                position: absolute;
-                width:3%;
-            }
-            .crown01{
-                top:65%
-            }
-            .crown02{
-                top: 28%;
-                left: 36%;
-            }
-            .crown03{
-                top: 46%;
-                left: 36%;
-            }
-            .crown04{
-                top:28%
-            }
+            
         }
         
         
@@ -919,11 +873,7 @@ p{
             
                 }
         }
-        
-        
-        .nice_extend_btn{
-            margin: 20px 0 50px;
-        }
+   
         }
       
      
@@ -1123,8 +1073,8 @@ font-size: 15px;
         h1{
             position: absolute;
             background: white;
-            top: -2%;
-            left: 2%;
+            top: -9%;
+            left: 5%;
             z-index: 1;
             font-size: 24px;
         }
@@ -1190,26 +1140,7 @@ font-size: 15px;
       
     .triton_table{
         margin:5% 0 20%;
-        position:relative; 
-        img{
-            position: absolute;
-            width: 6%;
-        }
-        .crown01{
-            top:70%
-        }
-        .crown02{
-            top: 39%;
-            left: 32%;
-        }
-        .crown03{
-            top: 39%;
-    left: 32%;
-        }
-        .crown04{
-    top: 38%;
-    left: 71%;
-        }
+      
     }
     
     
@@ -1224,8 +1155,8 @@ font-size: 15px;
         }
         .number{    
             margin-right: 5%;
-            height: 28px;
-            width: 77px;
+            height: 40px;
+            width: 40px;
             background: #c3b180;
             border-radius: 999em;
             display: flex;
@@ -1236,18 +1167,14 @@ font-size: 15px;
             font-size:15px;
         }
         .alert01,.alert02{
-            
+            flex-direction: column;
             border-bottom: dotted 6px #c3c3c3;
             margin-bottom: 4%;
             padding-bottom: 20px;
         
             }
     }
-    
-    
-    .nice_extend_btn{
-        margin: 20px 0 50px;
-    }
+  
     }
 
     } 

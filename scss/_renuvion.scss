@@ -69,6 +69,11 @@
             .renuvion_surgery_stage {
                 justify-content: space-around;
                 align-items: baseline;
+                .stage02{
+                    #rf_title{
+                     padding-top: 43px;
+                             }          
+                         }
             }
         }
 
@@ -78,7 +83,9 @@
             text-align: center;
             padding: 3% 26%;
             justify-content: space-around;
-
+.crisp_btn{
+    margin-top: 10%;
+}
             p {
                 line-height: 25px;
             }
@@ -327,6 +334,7 @@
             h4 {
                 @include h4_font
             }
+         
 
             h5 {
                 margin: 5% 0;
@@ -336,7 +344,14 @@
             .renuvion_surgery_stage {
                 justify-content: space-around;
                 align-items: baseline;
+             
+            } 
+            .stage02{
+       #rf_title{
+        padding-top: 40px;
+                }          
             }
+    
         }
 
         .renuvion_point {
@@ -345,7 +360,9 @@
             text-align: center;
             padding: 3% 15%;
             justify-content: space-around;
-
+.crisp_btn{
+    margin-top: 5%;
+}
             p {
                 line-height: 25px;
             }
@@ -619,9 +636,7 @@
                 align-items: baseline;
             }
         }
-        .crisp_btn{
-            margin-bottom: 10%;
-        }
+  
 
         .renuvion_point {
             background-color: #f8eee685;
@@ -753,10 +768,10 @@
             }
 
             .renuvion_body_content {
-                margin-top: 20px;
+                padding: 22px 30px 20px;
                 @include gold_border;
                 margin-bottom: 0;
-                height: 470px !important;
+                height: 480px;
             }
 
             h4 {
@@ -935,9 +950,7 @@ img{
                 align-items: baseline;
             }
         }
-        .crisp_btn{
-            margin-bottom: 10px;
-        }
+      
 
         .renuvion_point {
             background-color: #f8eee685;

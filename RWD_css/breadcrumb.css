@@ -1,10 +1,13 @@
 .breadcrumb {
     font-size: 15px;
     margin: 21px 0 2px;
-    padding: 6px 8px;
+    padding: 6px;
     background-color: #c3b086;
     border-radius: 20px;
  
+}
+.breadcrumb-item a{
+    font-style: normal !important;
 }
 .breadcrumb a{
    color:black
@@ -12,19 +15,23 @@
 .breadcrumb a:link{
     color:black
  }
+ .breadcrumb .breadcrumb-item a:hover{
+    color: white;
+    background-color: transparent;
+ }
 @media (min-width: 1400px){
 .home_icon{
     margin:0 3px 4px !important;
     width: 20px !important;
 }
 }
-@media (min-width: 1365px) and (max-width:1400px){
+@media (min-width:992px) and (max-width:1400px){
     .home_icon{
         margin:0 3px 4px !important;
         width: 20px !important;
     }
 }
-@media (min-width: 576px) and (max-width: 821px) {
+@media (min-width: 576px) and (max-width: 992px) {
     .home_icon{
         margin:0 3px 4px !important;
         width: 20px !important;
@@ -36,8 +43,4 @@
         margin:0 3px 4px !important;
         width: 20px !important;
     }   
-}
-
-.breadcrumb-item.active{
-    color:black
 }

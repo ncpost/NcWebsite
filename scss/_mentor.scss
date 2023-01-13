@@ -29,7 +29,12 @@
         @include  flex_story_title;
        width:40%;
         }
-
+.mentor_ba{
+    padding: 0 26%;
+    .ba_01{
+        margin: 10% 0;
+    }
+}
     .mentor_intro_pt1{
         height:600px;
         position: relative;
@@ -253,11 +258,6 @@ p{
     }
 }
 
-
-
-.nice_extend_btn{
-    margin: 20px 0 50px;
-}
 }
 }
 
@@ -279,7 +279,12 @@ p{
     .mentor_story02_content{
         margin-bottom: 15%;
     }
-      
+    .mentor_ba{
+        padding: 0 26%;
+        .ba_01{
+            margin: 10% 0;
+        }
+    }  
         .mentor_intro_pt1{
             height:600px;
             position: relative;
@@ -296,7 +301,7 @@ p{
         }
       
         .mentor_type{
-            padding:0 12% 0 20%;
+            padding:0 10%;
             .crisp_btn{
                 margin-bottom: 10%;
             }
@@ -320,7 +325,7 @@ p{
             display: flex;
             flex-direction: column;
             font-weight: 800;
-            width: 40%;
+            width: 250px;
             align-items: center;
             img{
                 width:80%
@@ -369,7 +374,7 @@ p{
            
          #mentor_4point {
             border-bottom: #987b30 solid 1px;
-            width: 23%;
+            width: 30%;
             margin:auto;
             padding-bottom: 10px;
             margin-bottom:3%;
@@ -510,12 +515,7 @@ p{
     }
         }
     }
-    
-    
-    
-    .nice_extend_btn{
-        margin: 20px 0 50px;
-    }
+
     }
 }
 
@@ -523,12 +523,12 @@ p{
     .nice_project_page{
     
         #mentor_page_content_1{
-            padding:8% 5% 0;
+            padding:5%;
         }
      
         .mentor_story_title{
             @include  flex_story_title;
-           width:40%;
+           width:60%;
             }
      
         .mentor_intro_pt1{
@@ -537,8 +537,9 @@ p{
             margin:14% 0 0;
             .mentor_model img{
                 position: relative;
-                bottom: 22.5%;
-                left: 3%;
+    bottom: 14%;
+    left: 3%;
+    width: 90%;
             }
             .mentor_text_layout{
                 text-align: left;
@@ -609,7 +610,7 @@ p{
             background-image: linear-gradient(rgb(255 255 255 / 0%), #f4ede261);
             background-repeat: no-repeat;
             background-position: bottom;
-            margin: 9% 0 5%;
+            margin: 9% 0 0;
      
             .xtra_intro_text{
                 align-self: center;
@@ -770,11 +771,7 @@ p{
         }
     }
     
-    
-    
-    .nice_extend_btn{
-        margin: 20px 0 50px;
-    }
+
     }
   
  
@@ -839,7 +836,7 @@ p{
             flex-direction: column;
             font-weight: 800;
             align-items: center;
-            height: 50%;
+            height: 450px;
           }
 .type_03 img{
     width:80%;    
@@ -880,7 +877,7 @@ p{
             .xtra_intro_text{
                 align-self: center;
                 text-align:left;
-                padding-bottom:5%;
+                padding-bottom:15%;
             }
          }
            
@@ -997,10 +994,7 @@ p{
     }
     
     
-    
-    .nice_extend_btn{
-        margin: 20px 0 50px;
-    }
+
     }
 
     } 

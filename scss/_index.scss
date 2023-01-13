@@ -615,7 +615,8 @@ margin-top: 25px;
 
     .left_navbar {
       width: 170px;
-      height: 100%;
+      height: 100vh;
+  
 
       :hover {
         background-color: #060918;
@@ -1069,15 +1070,28 @@ margin-top: 25px;
     li:hover>.dropdown-menu {
       display: block;
       margin-left: 130px;
+      margin-top: -10px;
     }
 
     .left_navbar {
       width: 170px;
-      height: 100%;
-
+      height: 100vh;
+  button{
+    display: flex;
+    align-items: center;
+    ul li{
+      display: flex;
+      align-items: center;
+    }
+  }
       :hover {
         background-color: #060918;
         color: RGB(174, 149, 92);
+      }
+      li{
+        border-bottom: 1px grey solid;
+    width: 100%;
+    height: 45px;
       }
     }
 
@@ -1086,7 +1100,6 @@ margin-top: 25px;
       color: white;
       text-decoration: none;
       text-align-last: left;
-      border-bottom: 1px grey solid;
       width: 130px;
       padding: 15px 10px;
       font-size: 15px;

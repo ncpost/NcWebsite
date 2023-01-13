@@ -53,13 +53,13 @@
     .nice_project_page {
      #motiva_page_content_1,
         #motiva_page_content_2{
-            padding: 5% 18.4% 0 22%;
+            padding:5% 20% 0;
         }
    
         .motiva_story_title{
             
                 @include  flex_story_title;
-           width:33%;
+           width:40%;
         
             
         }
@@ -91,7 +91,7 @@
      
 
         .motiva_intro_content {
-            padding:3% 14% 2% 19%;
+            padding: 3% 20% 0;
             img{
                 margin:40px 0 0;
             }
@@ -181,7 +181,7 @@
        
     }
     .motiva_table{
-        margin:5% 0;
+        margin:5% 0 0;
     } 
   
     .motiva_model{
@@ -202,7 +202,7 @@
 
         #motiva_page_content_1,
         #motiva_page_content_2 {
-            padding:5% 11.4% 0 19%;
+            padding: 3% 20% 0;
         }
         .motiva_table{
             padding:0 2% 0 8%;
@@ -241,7 +241,7 @@
      
 
         .motiva_intro_content {
-            padding:3% 8% 2% 18%;
+            padding: 3% 20% 0;
             img{
                 margin:40px 0 0;
             }
@@ -395,6 +395,7 @@
 
         .motiva_intro_content {
             padding:5%;
+            height: 400px;
             img{
                 margin:40px 0 0;
             }

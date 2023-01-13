@@ -47,13 +47,10 @@
         margin-top: 4%;
     }
     .ftb_intro {
-        margin:20px 0 50px;
-        height: 150px;
-        .intro_text p{
-            position: absolute;
-            left: 7%;
-            top: 85%;
-        }
+        height: 340px;
+        background-color: rgba(248, 238, 230, 0.5215686275);
+        padding:3% 20%;
+     
         .intro_text h1{
             margin-bottom: 45px;
         }
@@ -198,9 +195,6 @@ h2,span,p {
     padding: 5px 23px;
 }
 
-.nice_extend_btn{
-    margin: 20px 0 50px;
-}
 }
 }
 
@@ -245,26 +239,10 @@ h2,span,p {
             margin-bottom: 50px;
          }
      .ftb_intro {
-         margin:20px 0 50px;
-         height: 150px;
-         position: relative;
-         .intro_bg{
-             top: 46%;
-             left: -1%;
-         }
-         
-         .intro_text h1{
-             left:29%
-         }
-        
-         .intro_text p{
-             left: 4%;
-             top:56%;
-             width: 90%;
-         }
-         .intro_bg,.intro_text h1,.intro_text p{
-        position: absolute;
-         }
+        height: 340px;
+        background-color: rgba(248, 238, 230, 0.5215686275);
+        padding: 3% 20%;
+    
      }
      .ftb_3point{
         
@@ -441,27 +419,11 @@ h2,span,p {
                 margin-bottom: 50px;
              }
          .ftb_intro {
-             margin:20px 0 50px;
-             height: 150px;
-             position: relative;
-             .intro_bg{
-                 top: 46%;
-                 left: 3%;
-             }
-             
-             .intro_text h1{
-                 left:30%
-             }
+            height: 300px;
+            background-color: rgba(248, 238, 230, 0.5215686275);
+            padding:5%;
+         
             
-             .intro_text p{
-                left: 10%;
-                top: 45%;
-                width: 81%;
-                font-size: 13px;
-             }
-             .intro_bg,.intro_text h1,.intro_text p{
-            position: absolute;
-             }
          }
          .ftb_3point{
              .ftb_point_list{
@@ -647,29 +609,12 @@ h2,span,p {
                 margin-bottom: 50px;
              }
          .ftb_intro {
-            height: 101px;
-            position: relative;
-             .intro_bg{
-                 top: 61%;
-                 left: 2%;
-             }
-             
-             .intro_text h1{
-                 left:12%
-             }
-            
-             .intro_text p{
-                left: 6%;
-                top: 73%;
-                width: 87%;
-                font-size: 18px;
-             }
-             .intro_bg,.intro_text h1,.intro_text p{
-            position: absolute;
-             }
+            height: 400px;
+            background-color: rgba(248, 238, 230, 0.5215686275);
+            padding:5%;
+         margin-top: 15%;
          }
          .ftb_3point{
-            margin-top:35%;
              .ftb_point_list{
          position:relative;
         
@@ -780,7 +725,7 @@ h2,span,p {
                  .success_num{
                      border: #ae955c 1px solid;
                      border-radius: 20px;
-                     padding: 5px 23px;
+                     padding: 5px 10px;
                      @include gold;
                      margin-right: 10px;
                  align-self: center;
@@ -814,4 +759,5 @@ h2,span,p {
         flex-flow: column-reverse;
      }
      }
+
 } 

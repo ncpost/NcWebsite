@@ -1,0 +1,754 @@
+
+@mixin  story_title {
+    position: absolute;
+    background-color: white;
+  }
+  @mixin gold{
+    color:#987b30 !important;
+  }
+  @mixin bottom_border{
+  position: absolute;
+  background: #c8c8c8;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  }
+  
+  @mixin title_bg{
+  height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+  }
+  
+  @mixin step_css{
+    border-radius: 999em;
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  @media (min-width: 1400px){
+  
+  .nice_project_page{
+  
+  .votiva_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 30%;
+  }
+    
+    #votiva_page_content_1{
+        padding:5% 19% 0;
+    }
+   
+  
+  
+  .votiva_story_caption{
+  flex-direction: column;
+  }
+  
+  
+  
+  
+  .votiva_logic_img{
+    margin-bottom: 5%;
+  p{
+    font-weight: 800;
+    color: #3a3838;
+    padding-top: 20px;
+  }
+    .col{
+    text-align: center;
+  }
+  }
+  
+  
+  
+  .votiva_client{
+      background-color: #f9f6f0;
+    height: 664px;
+    display: flex;
+    padding:0 10%;
+    .votiva_text_layout{
+            color:#987b30;
+            text-align: left;
+            color: #987b30;
+            align-self: center;
+            padding-right: 30%;
+          .point p{
+                @include gold ;
+                font-weight:600;
+                border:1px solid #C69C3E;
+                padding:5px 10px;
+                border-radius: 20px;
+                margin:13px 5px;
+                width: 120px;
+      text-align: center;
+              } 
+             } 
+            
+  }
+  .votiva_different_01{
+    
+    padding:4% 23% 2% 10%;
+    background-color: #f9f6f0;
+  display: flex;
+  p,h1{
+    text-align: left;
+  }
+  .votiva_text_layout{
+  align-self: center;
+           } 
+           .machine{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+              padding-top: 5%;
+              font-size:30px;
+              font-weight: 600;
+              @include gold;
+            }
+           }
+          
+  }
+  .votiva_different_02{
+   text-align: right;
+   .machine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+      padding-top: 5%;
+      font-size: 30px;
+      font-weight: 600;
+      @include gold;
+    }
+   }
+   .votiva_text_layout{
+  align-self: center;
+     } 
+  }
+  .votiva_care {
+    justify-content: space-evenly;
+  
+    h6 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+  
+    .card {
+        width: 40%;
+        text-align: left;
+        box-shadow: 0 3px 9px #00000040;
+  
+        .card-body {
+            padding: 20px;
+        }
+  
+        .card-header {
+            background: linear-gradient(45deg, #bea764, #b2a687);
+            padding: 20px;
+            color: white;
+  
+            h4 {
+                margin-left: 20px;
+                align-self: center;
+            }
+        }
+  
+    }
+  }
+  .votiva_alert{
+    text-align: left;
+    padding: 5% 0;
+     h1{
+         margin-bottom: 50px
+     }
+     p{
+         align-self: center;
+     }
+     .number{
+      padding: 2%;
+         margin-right: 4%;
+         height: 40px;
+     width: 40px;
+     background: #c3b180;
+     border-radius: 999em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     }
+     .alert{
+         text-align: left;
+         border-bottom: dotted 6px #c3c3c3;
+     
+         }
+  }
+  }
+  }
+  
+  
+  @media (min-width: 992px) and (max-width:1400px){
+    .nice_project_page{
+  
+      .votiva_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width: 45%;
+      }
+        
+        #votiva_page_content_1{
+            padding:5% 20% 0;
+        }
+       
+      
+      
+      .votiva_story_caption{
+      flex-direction: column;
+      }
+      
+      
+      
+      
+      .votiva_logic_img{
+        margin-bottom: 5%;
+        img{
+          width:100%;
+        }
+      p{
+        font-weight: 800;
+        color: #3a3838;
+        padding-top: 20px;
+      }
+        .col{
+        text-align: center;
+      }
+      }
+      
+      
+      
+      .votiva_client{
+          background-color: #f9f6f0;
+        height: 664px;
+        display: flex;
+        padding:0 5%;
+        .votiva_text_layout{
+                color:#987b30;
+                text-align: left;
+                color: #987b30;
+                align-self: center;
+                padding-right: 10%;
+              .point p{
+                    @include gold ;
+                    font-weight:600;
+                    border:1px solid #C69C3E;
+                    padding:5px 10px;
+                    border-radius: 20px;
+                    margin:13px 5px;
+                    width: 120px;
+          text-align: center;
+                  } 
+                 } 
+                
+      }
+      .votiva_different_01{
+        
+        padding:5% 12%;
+        background-color: #f9f6f0;
+      display: flex;
+      p,h1{
+        text-align: left;
+      }
+      .votiva_text_layout{
+      align-self: center;
+               } 
+               .machine{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                  padding-top: 5%;
+                  font-size:30px;
+                  font-weight: 600;
+                  @include gold;
+                }
+               }
+              
+      }
+      .votiva_different_02{
+       text-align: right;
+       padding:5% 5% 5% 7%;
+       .machine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          padding-top: 5%;
+          font-size: 30px;
+          font-weight: 600;
+          @include gold;
+        }
+       }
+       .votiva_text_layout{
+      align-self: center;
+         } 
+      }
+      .votiva_table{
+        padding:0 15%;
+      }
+      .votiva_care {
+        justify-content: space-evenly;
+      padding:5% 7%;
+        h6 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+      
+        .card {
+            width: 40%;
+            text-align: left;
+            box-shadow: 0 3px 9px #00000040;
+      
+            .card-body {
+                padding: 20px;
+            }
+      
+            .card-header {
+                background: linear-gradient(45deg, #bea764, #b2a687);
+                padding: 20px;
+                color: white;
+      
+                h4 {
+                    margin-left: 20px;
+                    align-self: center;
+                }
+            }
+      
+        }
+      }
+      .votiva_alert{
+        text-align: left;
+        padding: 5% 0;
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+             text-align: left;
+             border-bottom: dotted 6px #c3c3c3;
+         
+             }
+      }
+      }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 992px){
+    .nice_project_page{
+  
+      .votiva_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width: 40%;
+      }
+        
+        #votiva_page_content_1{
+            padding:8% 5% 0;
+        }
+       
+      
+      
+      .votiva_story_caption{
+      flex-direction: column;
+      }
+      
+      
+      
+      
+      .votiva_logic_img{
+        margin: 5% 0;
+        img{
+          width:100%;
+        }
+      p{
+        font-weight: 800;
+        color: #3a3838;
+        padding-top: 20px;
+      }
+        .col{
+        text-align: center;
+      }
+      }
+      
+    
+      
+      .votiva_client{
+          background-color: #f9f6f0;
+        display: flex;
+        padding:5% 0 0;
+      
+        .votiva_text_layout{
+                color:#987b30;
+                text-align: left;
+                color: #987b30;
+                align-self: center;
+              margin-right: 10%;
+              .point p{
+                    @include gold ;
+                    font-weight:600;
+                    border:1px solid #C69C3E;
+                    padding:5px 10px;
+                    border-radius: 20px;
+                    margin:13px 5px;
+                    width: 120px;
+          text-align: center;
+                  } 
+                 } 
+                
+      }
+      .votiva_different_01{
+        
+        padding:5%;
+        background-color: #f9f6f0;
+      display: flex;
+      img{
+        width: 80%;
+      }
+      p,h1{
+        text-align: left;
+      }
+      .votiva_text_layout{
+      align-self: center;
+               } 
+               .machine{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                  padding-top: 5%;
+                  font-size:30px;
+                  font-weight: 600;
+                  @include gold;
+                }
+               }
+              
+      }
+      .votiva_different_02{
+       text-align: right;
+       img{
+        width: 80%;
+      }
+       .machine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          padding-top: 5%;
+          font-size: 30px;
+          font-weight: 600;
+          @include gold;
+        }
+       }
+       .votiva_text_layout{
+      align-self: center;
+         } 
+      }
+      .votiva_table{
+        padding:5%;
+      }
+      .votiva_care {
+        justify-content: space-evenly;
+        h6 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+      
+        .card {
+            width: 46%;
+            text-align: left;
+            box-shadow: 0 3px 9px #00000040;
+      
+            .card-body {
+                padding: 20px;
+            }
+      
+            .card-header {
+                background: linear-gradient(45deg, #bea764, #b2a687);
+                padding: 20px;
+                color: white;
+      img{
+        width:50%
+      }
+                h4 {
+                    align-self: center;
+                }
+            }
+      
+        }
+      }
+      .votiva_alert{
+        text-align: left;
+        padding: 5% 0;
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+             text-align: left;
+             border-bottom: dotted 6px #c3c3c3;
+         
+             }
+      }
+      }
+        }
+  
+  @media (min-width: 0px) and (max-width: 576px){
+    .nice_project_page{
+  
+      .votiva_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width: 80%;
+        span{
+          font-size:30px;
+        }
+      }
+        
+        #votiva_page_content_1{
+            padding:8% 5% 0;
+        }
+       
+      
+      
+      .votiva_story_caption{
+      flex-direction: column;
+      }
+      
+      
+      
+      .votiva_feature img{
+        width: 100%;
+      }
+      .votiva_logic_img{
+        margin: 5% 0;
+        display: flex;
+        flex-direction: column;
+        img{
+          width:100%;
+        }
+      p{
+        font-weight: 800;
+        color: #3a3838;
+        padding-top: 20px;
+      }
+        .col{
+        text-align: center;
+      }
+      }
+   
+      
+      .votiva_client{
+                  background-color: #f9f6f0;
+          display: flex;
+          padding: 5% 0 0;
+          margin-top: 10%;
+        .votiva_model{
+          display: none;
+        }
+   h1{
+    text-align: center;
+   }
+   .point{
+    justify-content: center;
+    padding-bottom: 5%;
+   }
+        .votiva_text_layout{
+                color:#987b30;
+                text-align: left;
+                color: #987b30;
+                align-self: center;
+             padding:5%;
+              .point p{
+                    @include gold ;
+                    font-weight:600;
+                    border:1px solid #C69C3E;
+                    padding:5px 10px;
+                    border-radius: 20px;
+                    margin:13px 5px;
+          text-align: center;
+                  } 
+                 } 
+                
+      }
+      .votiva_different_title{
+  padding:0 5%;
+      }
+      .votiva_different_01{
+        padding:8% 5% 5%;
+        background-color: #f9f6f0;
+    .votiva_point_list{
+      display: flex;
+      flex-direction: column;
+    }
+      p,h1{
+        text-align: left;
+      }
+      .votiva_text_layout{
+      align-self: center;
+               } 
+               .machine{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                  padding-top: 5%;
+                  font-weight: 600;
+                  @include gold;
+                }
+               }
+              
+      }
+      .votiva_different_02{
+        padding:5% 0;
+       text-align: right;
+       .votiva_point_list{
+        display: flex;
+        flex-direction: column;
+      }
+       .machine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          padding-top: 5%;
+          font-weight: 600;
+          @include gold;
+        }
+       }
+       .votiva_text_layout{
+      align-self: center;
+         } 
+      }
+     
+      .votiva_care {
+      flex-direction: column;
+        h6 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+      
+        .card { 
+          margin-bottom:5%;
+            text-align: left;
+            box-shadow: 0 3px 9px #00000040;
+      
+            .card-body {
+                padding: 20px;
+            }
+      
+            .card-header {
+                background: linear-gradient(45deg, #bea764, #b2a687);
+                padding: 20px;
+                color: white;
+      img{
+        width:85%
+      }
+                h4 {
+                    align-self: center;
+                }
+            }
+      
+        }
+      }
+      .votiva_alert{
+        text-align: left;
+        padding: 5% 0;
+      
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+             text-align: center;
+             border-bottom: dotted 6px #c3c3c3;
+             flex-direction: column;
+             display: flex;
+             }
+      }
+      }
+    } 

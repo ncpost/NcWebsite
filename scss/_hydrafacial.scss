@@ -59,7 +59,7 @@
 
 .hydrafacial_intro{
   background-color: #fdf7f3;
-  padding:5% 18%;
+  padding:5% 18% 0;
   h1{
 padding-bottom: 50px;
   }
@@ -182,7 +182,7 @@ padding-bottom: 50px;
    
 .hydrafacial_probe_intro{
   background-color: #f9f6f0;
-  padding:5% 18%;
+  padding:5% 18% 0;
   h1.larger_h1{
     font-size:50px;
   }
@@ -464,7 +464,7 @@ img{
 .hydrafacial_acne_logic{
   text-align: left;
   flex-direction: column;
-  margin: 11% 0 20%;
+  margin:5% 0 20%;
   .title{
     h1.larger_h1{
       font-size:50px;
@@ -520,7 +520,6 @@ img{
 
 }
 }
-
 
 @media (min-width: 992px) and (max-width:1400px){
   .nice_project_page{
@@ -1846,10 +1845,8 @@ display: none;
   }
   
   }
-  .hydrafacial_page_table{
-    table{
-      width:100%;
-  }
+  .hydrafacial_table{
+ padding-top: 1px;
 }
   
   .hydrafacial_feature{

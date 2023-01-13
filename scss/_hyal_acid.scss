@@ -1,0 +1,1520 @@
+
+@mixin  story_title {
+    position: absolute;
+    background-color: white;
+  }
+  @mixin gold{
+    color:#987b30 !important;
+  }
+  @mixin bottom_border{
+  position: absolute;
+  background: #c8c8c8;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  }
+  
+  @mixin title_bg{
+  height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+  }
+  
+  @mixin step_css{
+    border-radius: 999em;
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .client_ba{
+    display: flex;
+      justify-content: center;
+      text-align: center;
+      .nav-pills{
+        .nav-link{
+          &:hover{
+            background-color: #987b30;
+            color:white !important;
+          }
+          border-radius: 0px;
+        }
+      }
+      .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff !important;
+        background-color: #987b30;
+        width: 100%;
+      }
+      ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 2% 30%;
+  
+          li{
+          
+              font-weight: 600;
+              list-style: none;
+              border: #AE955D 2px solid;
+              width: 120px;
+              
+              margin: 3% 0;
+              justify-content: center;
+            button{
+              width:100%;
+              border-radius: 0px;
+                          color: #987b30 !important;
+              &:hover{
+                background-color: #987b30;
+                color:white !important;
+              }
+            }
+            &:hover{
+              background-color: #987b30;
+              color:white;
+            }
+        }
+    }
+  
+     
+  }
+  
+  
+  
+  
+  @media (min-width: 1400px){
+  
+  .nice_project_page{
+  
+  .hyal_acid_story_title{
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width:30%;
+  }
+  
+    #hyal_acid_page_content_1{
+        padding:5% 19% 0;
+    }
+    .client_title{
+      margin-top: 3%;
+    }
+    .client_ba{
+   
+        padding:0 5%;
+       .page_content{
+       padding:4%
+    }
+  }
+  .hyal_acid_logic{
+    background-color: #f9f6f063;
+    text-align: center;
+    padding: 2% 20% 0;
+    .round{
+      padding:3% 20%
+    }
+  .pt1,.pt2{
+    margin: 5% 9%;
+    flex-direction: column;
+    border-radius: 999em;
+    border: 2px solid rgb(195, 176, 134);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  h4{
+    font-weight:600;
+    @include gold;
+    margin: 0;
+  }
+  p{
+    @include gold;
+    margin: 0;
+    font-weight:600
+  }
+  }
+  .plus{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    p{
+      font-size:50px;
+      @include gold;
+    }
+  } 
+  h1{
+      padding-bottom: 3%;
+    }
+     h4{
+        font-weight: 500;
+        padding:2% 0;
+      } 
+  .hg_content{
+    background: rgba(128, 128, 128, 0.2);
+    padding: 3%;
+    margin: 5% 13% 5% 11%;
+   
+    .point1,.point2{
+    span{
+      font-size:35px;
+      font-weight: 600;
+    }
+  }
+    .point1{
+      border-right: 2px solid rgba(66, 64, 64, 0.402);
+      margin-right:5%;
+    }
+  }
+  }
+  .hyal_acid_list{
+    h1{
+        margin-bottom: 10%;    
+    }
+    h4{
+        @include gold;
+        margin: 0;
+    }
+    .title{
+      align-items: center;
+    }
+   p.content{
+    padding-top: 10px;
+   }
+    p.hyal_acid_num{
+        height: 40px;
+        width: 40px;
+        background: #c3b180;
+        border-radius: 999em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    font-size:20px;
+  font-weight:600;
+  margin: 0 10px 0 0;
+   }
+  .hyal_acid_content01,.hyal_acid_content03{
+    padding-left: 10%;
+  }
+    .hyal_acid_text{
+        text-align: left;}
+        .hyal_acid_content02{
+          border-top: solid 1px #c3c3c3;
+              border-bottom: solid 1px #c3c3c3;
+         padding:5% 0;
+         margin:5% 0;
+         padding-left: 10%;
+          }
+  }
+  .hyal_acid_brand{
+  
+  .crisp_btn{
+    margin:3% 0;
+  }
+   table{
+    margin:0
+   }
+   img{
+    padding:5% 0;
+   }
+    #restylane{
+    h1{
+      color:#063463;
+      border-bottom:1px solid #063463;
+      padding-bottom: 10px;
+    }
+  }
+  #juvederm{
+    h1{
+      color:#91388e;
+      border-bottom:1px solid #91388e;
+      padding-bottom: 10px;
+    }
+  }
+  #hyadermis{
+    h1{
+      color:#6d5ca2;
+      border-bottom:1px solid #6d5ca2;
+      padding-bottom: 10px;
+    }
+  }
+  #princess{
+    h1{
+      color:#ac9c6a;
+      border-bottom:1px solid #ac9c6a;
+      padding-bottom: 10px;
+    }
+  }
+   .content{
+  p{
+    text-align: left;
+  }
+  
+  margin: 20px 0;
+      .no1{
+      .point{
+        background: #063463;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+      }  
+      .title{
+        color: #063463;
+        font-weight: 600;
+        border-right: 2px solid #063463;
+        padding-right: 10px;
+        margin: 0 10px;
+      }
+      }
+      .no2{
+        .point{
+          background: #91388e;
+          color: white;
+          border-radius: 20px;
+          padding: 5px 15px;
+        }  
+        .title{
+          color: #91388e;
+          font-weight: 600;
+          border-right: 2px solid #91388e;
+          padding-right: 10px;
+          margin: 0 10px;
+        }
+        }
+        .no3{
+          .point{
+            background: #6d5ca2;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+          }  
+          .title{
+            color: #6d5ca2;
+            font-weight: 600;
+            border-right: 2px solid #6d5ca2;
+            padding-right: 10px;
+            margin: 0 10px;
+          }
+          }
+          .no4{
+            .point{
+              background: #ac9c6a;
+              color: white;
+              border-radius: 20px;
+              padding: 5px 15px;
+            }  
+            .title{
+              color: #ac9c6a;
+              font-weight: 600;
+              border-right: 2px solid #ac9c6a;
+              padding-right: 10px;
+              margin: 0 10px;
+            }
+            }
+    }
+    .nav-tabs{
+      border: 0;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      margin: 5% 10% 0;
+      li{
+          width: 200px;
+        border: 1px solid #987B30;
+        button{
+          text-align: center;
+        }
+      }
+      .nav-link{
+        margin:auto;
+        @include gold;
+        border-radius:0;
+        width: 100%;
+      }
+    }
+  
+      .nav-tabs .nav-link.active {
+        color: white !important;
+        background-color: #987B30;
+        width: 100%;
+        }
+        .nav-link:hover {
+          border-color:transparent;
+      }
+  }
+  
+  .hyal_acid_type{
+    background: #f9f6f0;
+    padding: 5% 15% 0;
+    text-align: left;
+   
+    .img{
+      text-align: center;
+    }
+    h1{
+      padding-bottom: 20px;
+    }
+    h5{
+      padding-bottom: 20px;
+    }
+    .content{ 
+      justify-content: center;
+  table{
+    margin-top: 5%;
+  }
+  
+  .point_middle{
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:20px 0 0;
+    margin-bottom:20px
+  }
+    }
+  }
+  .hyal_acid_face_part{
+    margin-top: 5%;
+    h1{
+      padding-bottom: 3%;
+    }
+  }
+  .hyal_acid_client{
+    background-color: #d7d7d75c;
+    justify-content: center;
+    padding: 3% 0;
+    .img{
+      margin-right: 5%;
+    }
+    h5{
+      font-weight: 800;
+      padding-bottom: 10px;
+    }
+    p,h5{
+          margin-bottom: 0;
+      text-align: left;
+    }
+  }
+  
+  .hyal_acid_alert{
+    text-align: left;
+    padding: 5% 0;
+     h1{
+         margin-bottom: 50px
+     }
+     p{
+         align-self: center;
+     }
+     .number{
+      padding: 2%;
+         margin-right: 4%;
+         height: 40px;
+     width: 40px;
+     background: #c3b180;
+     border-radius: 999em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     }
+     .alert{
+         text-align: left;
+         border-bottom: dotted 6px #c3c3c3;
+     
+         }
+         .crisp_btn{
+          margin:3% 0 5%;
+        }
+  }
+  }
+  }
+  
+  
+  @media (min-width: 992px) and (max-width:1400px){
+    .nice_project_page{
+  
+      .hyal_acid_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width:40%;
+      }
+    
+      .client_ba{
+   
+        padding:0 10%;
+       .page_content{
+       padding:8% 4% 5%
+    }
+  
+  }  
+  
+        #hyal_acid_page_content_1{
+            padding:5% 19% 0;
+        }
+      
+       
+      
+      .hyal_acid_logic{
+        background-color: #f9f6f063;
+        text-align: center;
+        padding: 2% 20% 0;
+        .round{
+          padding:3% 20%
+        }
+      .pt1,.pt2{
+        margin: 5% 9%;
+        flex-direction: column;
+        border-radius: 999em;
+        border: 2px solid rgb(195, 176, 134);
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      h4{
+        font-weight:600;
+        @include gold;
+        margin: 0;
+      }
+      p{
+        @include gold;
+        margin: 0;
+        font-weight:600
+      }
+      }
+      .plus{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        p{
+          font-size:50px;
+          @include gold;
+        }
+      } 
+      h1{
+          padding-bottom: 3%;
+        }
+         h4{
+            font-weight: 500;
+            padding:2% 0;
+          } 
+      .hg_content{
+        background: rgba(128, 128, 128, 0.2);
+        padding: 3%;
+       margin-bottom: 3%;
+        .point1,.point2{
+        span{
+          font-size:30px;
+          font-weight: 600;
+        }
+      }
+        .point1{
+          border-right: 2px solid rgba(66, 64, 64, 0.402);
+          margin-right:5%;
+        }
+      }
+      }
+      .hyal_acid_list{
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin: 0;
+        }
+        .title{
+          align-items: center;
+        }
+       p.content{
+        padding-top: 10px;
+       }
+        p.hyal_acid_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+      font-weight:600;
+      margin: 0 10px 0 0;
+       }
+      .hyal_acid_content01,.hyal_acid_content03{
+        padding-left: 10%;
+      }
+        .hyal_acid_text{
+            text-align: left;}
+            .hyal_acid_content02{
+              border-top: solid 1px #c3c3c3;
+                  border-bottom: solid 1px #c3c3c3;
+             padding:5% 0;
+             margin:5% 0;
+             padding-left: 10%;
+              }
+      }
+      .hyal_acid_brand{
+       table{
+        margin:0
+       }
+       img{
+        padding:5% 0;
+       }
+        #restylane{
+        h1{
+          color:#063463;
+          border-bottom:1px solid #063463;
+          padding-bottom: 10px;
+        }
+      }
+      #juvederm{
+        h1{
+          color:#91388e;
+          border-bottom:1px solid #91388e;
+          padding-bottom: 10px;
+        }
+      }
+      #hyadermis{
+        h1{
+          color:#6d5ca2;
+          border-bottom:1px solid #6d5ca2;
+          padding-bottom: 10px;
+        }
+      }
+      #princess{
+        h1{
+          color:#ac9c6a;
+          border-bottom:1px solid #ac9c6a;
+          padding-bottom: 10px;
+        }
+      }
+       .content{
+      p{
+        text-align: left;
+      }
+      
+      margin: 20px 0;
+          .no1{
+          .point{
+            background: #063463;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+          }  
+          .title{
+            color: #063463;
+            font-weight: 600;
+            border-right: 2px solid #063463;
+            padding-right: 10px;
+            margin: 0 10px;
+          }
+          }
+          .no2{
+            .point{
+              background: #91388e;
+              color: white;
+              border-radius: 20px;
+              padding: 5px 15px;
+            }  
+            .title{
+              color: #91388e;
+              font-weight: 600;
+              border-right: 2px solid #91388e;
+              padding-right: 10px;
+              margin: 0 10px;
+            }
+            }
+            .no3{
+              .point{
+                background: #6d5ca2;
+                color: white;
+                border-radius: 20px;
+                padding: 5px 15px;
+              }  
+              .title{
+                color: #6d5ca2;
+                font-weight: 600;
+                border-right: 2px solid #6d5ca2;
+                padding-right: 10px;
+                margin: 0 10px;
+              }
+              }
+              .no4{
+                .point{
+                  background: #ac9c6a;
+                  color: white;
+                  border-radius: 20px;
+                  padding: 5px 15px;
+                }  
+                .title{
+                  color: #ac9c6a;
+                  font-weight: 600;
+                  border-right: 2px solid #ac9c6a;
+                  padding-right: 10px;
+                  margin: 0 10px;
+                }
+                }
+        }
+        .nav-tabs{
+          border: 0;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 20px;
+          margin: 5% 0;
+          li{
+              width: 200px;
+            border: 1px solid #987B30;
+            button{
+              text-align: center;
+            }
+          }
+          .nav-link{
+            margin:auto;
+            @include gold;
+            border-radius:0;
+            width: 100%;
+          }
+        }
+      
+          .nav-tabs .nav-link.active {
+            color: white !important;
+            background-color: #987B30;
+            width: 100%;
+            }
+            .nav-link:hover {
+              border-color:transparent;
+          }
+          .crisp_btn{
+            margin:3% 0;
+          }
+      }
+      
+      .hyal_acid_type{
+        background: #f9f6f0;
+        padding: 5% 20%;
+        text-align: left;
+        flex-direction: column;
+        h5{
+          padding-bottom: 20px;
+        }
+        .content{
+          justify-content: center;
+      table{
+        margin-top: 5%;
+      }
+      
+      .point_middle{
+        border-top:1px solid grey;
+        border-bottom:1px solid grey;
+        padding:20px 0 0;
+        margin-bottom:20px
+      }
+        }
+      }
+      .hyal_acid_face_part{
+        margin-top: 5%;
+        h1{
+          padding-bottom: 3%;
+        }
+      }
+      .hyal_acid_client{
+        background-color: #d7d7d75c;
+        justify-content: center;
+        padding: 3% 0;
+        .img{
+          margin-right: 5%;
+        }
+        h5{
+          font-weight: 800;
+          padding-bottom: 10px;
+        }
+        p,h5{
+          margin-bottom: 0;
+          text-align: left;
+        }
+      }
+      
+      .hyal_acid_alert{
+        text-align: left;
+        padding: 5% 0;
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+             text-align: left;
+             border-bottom: dotted 6px #c3c3c3;
+         
+             }
+      .crisp_btn{
+        margin:5% 0;
+      }
+            }
+      }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 992px){
+    .nice_project_page{
+  
+      .hyal_acid_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width:40%;
+      }
+    
+        #hyal_acid_page_content_1,.client_ba_content{
+            padding:0 5%;
+        }
+        .client_title{
+          margin-top: 3%;
+        }
+        .client_ba{
+   
+        
+         .page_content{
+         padding:8% 4% 5%
+      }
+      ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 2% 10%;
+      }
+      .beforeAfter{
+        .a{
+                width: 720px !important;
+        }
+      }
+    }  
+     
+      .hyal_acid_logic{
+        background-color: #f9f6f063;
+        text-align: center;
+        padding:5% 5% 0;
+        margin-top: 5%;
+        .round{
+          padding:3% 20%
+        }
+      .pt1,.pt2{
+        margin: 5% 9%;
+        flex-direction: column;
+        border-radius: 999em;
+        border: 2px solid rgb(195, 176, 134);
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      h4{
+        font-weight:600;
+        @include gold;
+        margin: 0;
+      }
+      p{
+        @include gold;
+        margin: 0;
+        font-weight:600
+      }
+      }
+      .plus{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        p{
+          font-size:50px;
+          @include gold;
+        }
+      } 
+      h1{
+          padding-bottom: 3%;
+        }
+         h4{
+            font-weight: 500;
+            padding:2% 0;
+          } 
+      .hg_content{
+        background: rgba(128, 128, 128, 0.2);
+        padding: 3%;
+       margin-bottom: 3%;
+        .point1,.point2{
+        span{
+          font-size:20px;
+          font-weight: 600;
+        }
+      }
+        .point1{
+          border-right: 2px solid rgba(66, 64, 64, 0.402);
+          margin-right:5%;
+        }
+      }
+      .crisp_btn{
+        margin:3% 0 5%;
+      }
+      }
+      .hyal_acid_list{
+        margin:5% 0;
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin: 0;
+        }
+        .title{
+          align-items: center;
+        }
+       p.content{
+        padding-top: 10px;
+       }
+        p.hyal_acid_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+      font-weight:600;
+      margin: 0 10px 0 0;
+       }
+     
+        .hyal_acid_text{
+            text-align: left;}
+            .hyal_acid_content02{
+              border-top: solid 1px #c3c3c3;
+                  border-bottom: solid 1px #c3c3c3;
+             padding:5% 0;
+             margin:5% 0;
+              }
+      }
+      .hyal_acid_brand{
+  margin:10% 0 0;
+       table{
+        margin:0
+       }
+       img{
+        padding:5% 0;
+       }
+        #restylane{
+        h1{
+          color:#063463;
+          border-bottom:1px solid #063463;
+          padding-bottom: 10px;
+        }
+      }
+      #juvederm{
+        h1{
+          color:#91388e;
+          border-bottom:1px solid #91388e;
+          padding-bottom: 10px;
+        }
+      }
+      #hyadermis{
+        h1{
+          color:#6d5ca2;
+          border-bottom:1px solid #6d5ca2;
+          padding-bottom: 10px;
+        }
+      }
+      #princess{
+        h1{
+          color:#ac9c6a;
+          border-bottom:1px solid #ac9c6a;
+          padding-bottom: 10px;
+        }
+      }
+       .content{
+      p{
+        text-align: left;
+      }
+      
+      margin: 20px 0;
+          .no1{
+          .point{
+            background: #063463;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+          }  
+          .title{
+            color: #063463;
+            font-weight: 600;
+            border-right: 2px solid #063463;
+            padding-right: 10px;
+            margin: 0 10px;
+          }
+          }
+          .no2{
+            .point{
+              background: #91388e;
+              color: white;
+              border-radius: 20px;
+              padding: 5px 15px;
+            }  
+            .title{
+              color: #91388e;
+              font-weight: 600;
+              border-right: 2px solid #91388e;
+              padding-right: 10px;
+              margin: 0 10px;
+            }
+            }
+            .no3{
+              .point{
+                background: #6d5ca2;
+                color: white;
+                border-radius: 20px;
+                padding: 5px 15px;
+              }  
+              .title{
+                color: #6d5ca2;
+                font-weight: 600;
+                border-right: 2px solid #6d5ca2;
+                padding-right: 10px;
+                margin: 0 10px;
+              }
+              }
+              .no4{
+                .point{
+                  background: #ac9c6a;
+                  color: white;
+                  border-radius: 20px;
+                  padding: 5px 15px;
+                }  
+                .title{
+                  color: #ac9c6a;
+                  font-weight: 600;
+                  border-right: 2px solid #ac9c6a;
+                  padding-right: 10px;
+                  margin: 0 10px;
+                }
+                }
+        }
+        .nav-tabs{
+          border: 0;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 20px;
+          margin: 5% 0;
+          li{
+              width: 150px;
+            border: 1px solid #987B30;
+            button{
+              text-align: center;
+            }
+          }
+          .nav-link{
+            margin:auto;
+            @include gold;
+            border-radius:0;
+            width: 100%;
+          }
+        }
+      
+          .nav-tabs .nav-link.active {
+            color: white !important;
+            background-color: #987B30;
+            width: 100%;
+            }
+            .nav-link:hover {
+              border-color:transparent;
+          }
+          .crisp_btn{
+            margin:5% 0;
+          }
+      }
+      
+      .hyal_acid_type{
+        background: #f9f6f0;
+        padding: 5%;
+        text-align: left;
+        flex-direction: column;
+        h5{
+          padding-bottom: 20px;
+        }
+        .content{
+          justify-content: center;
+      table{
+        margin-top: 5%;
+      }
+      
+      .point_middle{
+        border-top:1px solid grey;
+        border-bottom:1px solid grey;
+        padding:20px 0 0;
+        margin-bottom:20px
+      }
+        }
+      }
+      .hyal_acid_face_part{
+        img{
+          width: 80%;
+        }
+        margin-top: 5%;
+        h1{
+          padding-bottom: 3%;
+        }
+      }
+      .hyal_acid_client{
+        background-color: #d7d7d75c;
+        justify-content: center;
+        padding:5%;
+        margin-bottom: 5%;
+        .img{
+          margin-right: 5%;
+        }
+        h5{
+          font-weight: 800;
+          padding-bottom: 10px;
+        }
+        p,h5{
+          margin-bottom: 0;
+          text-align: left;
+        }
+      }
+      
+      .hyal_acid_alert{
+        text-align: left;
+        padding: 5% 0;
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+             text-align: left;
+             border-bottom: dotted 6px #c3c3c3;
+         
+             }
+             .crisp_btn{
+              margin:5% 0;
+            }
+            }
+      }
+        }
+  
+  @media (min-width: 0px) and (max-width: 576px){
+    .nice_project_page{
+  
+      .hyal_acid_story_title{
+        background-color: #FFF;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        width:70%;
+        span{
+          font-size:30px
+        }
+      }
+    
+        #hyal_acid_page_content_1,.client_ba_content{
+            padding:0 5%;
+        }
+        
+        .client_title{
+          span{
+            font-size:30px
+          }
+        }
+        .client_ba{
+          .beforeAfter{
+            .a{
+                    width:350px !important;
+            }
+          }
+  margin:5%;
+          .page_content .col-12{
+          padding:0;
+          margin-top: 15%;
+       }
+       .page_content .container{
+        padding:0
+     }
+       ul {
+       padding:2% 0;
+       li{
+        width: 100px;
+       }
+       }
+     }  
+      .hyal_acid_logic{
+        background-color: #f9f6f063;
+        text-align: center;
+        padding:5%;
+        margin-top: 5%;
+        .round{
+          padding:3% 20%
+        }
+      .pt1,.pt2{
+        margin: 5% 9%;
+        flex-direction: column;
+        border-radius: 999em;
+        border: 2px solid rgb(195, 176, 134);
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      h4{
+        font-weight:600;
+        @include gold;
+        margin: 0;
+      }
+      p{
+        @include gold;
+        margin: 0;
+        font-weight:600
+      }
+      }
+      .plus{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        p{
+          font-size:50px;
+          @include gold;
+        }
+      } 
+      h1{
+          padding-bottom: 3%;
+        }
+         h4{
+            font-weight: 500;
+            padding:2% 0;
+          } 
+      .hg_content{
+        background: rgba(128, 128, 128, 0.2);
+        padding: 3%;
+       margin-bottom: 5%;
+        .point1,.point2{
+        span{
+          font-size:25px;
+          font-weight: 600;
+        }
+      }
+        .point1{
+          border-right: 2px solid rgba(66, 64, 64, 0.402);
+          margin-right:5%;
+        }
+      }
+      }
+      .hyal_acid_list{
+    margin:10% 0;
+        h1{
+            margin-bottom: 10%;    
+        }
+        h4{
+            @include gold;
+            margin: 0;
+        }
+        .title{
+          align-items: center;
+        }
+       p.content{
+        padding-top: 10px;
+       }
+        p.hyal_acid_num{
+            height: 40px;
+            width: 40px;
+            background: #c3b180;
+            border-radius: 999em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        font-size:20px;
+      font-weight:600;
+      margin: 0 10px 0 0;
+       }
+     
+        .hyal_acid_text{
+            text-align: left;}
+            .hyal_acid_content02{
+              border-top: solid 1px #c3c3c3;
+                  border-bottom: solid 1px #c3c3c3;
+             padding:5% 0;
+             margin:5% 0;
+              }
+              .hyal_acid_content01,.hyal_acid_content02,.hyal_acid_content03{
+                flex-direction: column;
+              }
+      }
+      .hyal_acid_brand{
+  margin:15% 0 0;
+       table{
+        margin:0
+       }
+       img{
+        padding:5% 0;
+       }
+        #restylane{
+        h1{
+          color:#063463;
+          border-bottom:1px solid #063463;
+          padding-bottom: 10px;
+        }
+      }
+      #juvederm{
+        h1{
+          color:#91388e;
+          border-bottom:1px solid #91388e;
+          padding-bottom: 10px;
+        }
+      }
+      #hyadermis{
+        h1{
+          color:#6d5ca2;
+          border-bottom:1px solid #6d5ca2;
+          padding-bottom: 10px;
+        }
+      }
+      #princess{
+        h1{
+          color:#ac9c6a;
+          border-bottom:1px solid #ac9c6a;
+          padding-bottom: 10px;
+        }
+      }
+       .content{
+      p{
+        text-align: left;
+      }
+          margin: 20px 0;
+          span.info{
+            display: block;
+            padding-top: 10px;
+          }
+          .no1{
+          .point{
+            background: #063463;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+          }  
+          .title{
+            color: #063463;
+            font-weight: 600;
+            padding-right: 10px;
+            margin: 0 10px;
+          }
+          }
+          .no2{
+            .point{
+              background: #91388e;
+              color: white;
+              border-radius: 20px;
+              padding: 5px 15px;
+            }  
+            .title{
+              color: #91388e;
+              font-weight: 600;
+              padding-right: 10px;
+              margin: 0 10px;
+            }
+            }
+            .no3{
+              .point{
+                background: #6d5ca2;
+                color: white;
+                border-radius: 20px;
+                padding: 5px 15px;
+              }  
+              .title{
+                color: #6d5ca2;
+                font-weight: 600;
+                padding-right: 10px;
+                margin: 0 10px;
+              }
+              }
+              .no4{
+                .point{
+                  background: #ac9c6a;
+                  color: white;
+                  border-radius: 20px;
+                  padding: 5px 15px;
+                }  
+                .title{
+                  color: #ac9c6a;
+                  font-weight: 600;
+                  padding-right: 10px;
+                  margin: 0 10px;
+                }
+                }
+        }
+        .nav-tabs{
+          border: 0;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      margin: 0% 10%;
+          li{
+            width: 130px;
+            border: 1px solid #987B30;
+           margin: 3% 0;
+            button{
+              text-align: center;
+            }
+          }
+          .nav-link{
+            margin:auto;
+            @include gold;
+            border-radius:0;
+            width: 100%;
+          }
+        }
+      
+          .nav-tabs .nav-link.active {
+            color: white !important;
+            background-color: #987B30;
+            width: 100%;
+            }
+            .nav-link:hover {
+              border-color:transparent;
+          }
+          .crisp_btn{
+            margin:8% 0;
+          }
+      }
+      
+      .hyal_acid_type{
+        background: #f9f6f0;
+        padding: 5%;
+        text-align: left;
+        span.title{
+          font-size: 28px;
+        }
+       
+        img{
+          padding-bottom: 5%;
+        }
+        .content{
+         flex-direction: column;
+      table{
+        margin-top: 5%;
+      }
+      
+      .point_middle{
+        border-top:1px solid grey;
+        border-bottom:1px solid grey;
+        padding:20px 0 0;
+        margin-bottom:20px
+      }
+        }
+      }
+      .hyal_acid_face_part{
+        img{
+          width: 80%;
+        }
+        margin-top: 5%;
+        h1{
+          padding-bottom: 3%;
+        }
+      }
+      .hyal_acid_client{
+        background-color: #d7d7d75c;
+        padding:5%;
+        margin-bottom: 5%;
+        h5{
+          font-weight: 800;
+          padding-bottom: 10px;
+        }
+        p,h5{
+          margin-left:10%;
+          margin-bottom: 0;
+          text-align: left;
+        }
+      }
+      
+      .hyal_acid_alert{
+        text-align: left;
+        padding: 5% 0;
+         h1{
+             margin-bottom: 50px
+         }
+         p{
+             align-self: center;
+         }
+         .number{
+          padding: 2%;
+             margin-right: 4%;
+             height: 40px;
+         width: 40px;
+         background: #c3b180;
+         border-radius: 999em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 20px;
+         font-weight: 600;
+         }
+         .alert{
+          flex-direction: column;
+             text-align: center;
+             border-bottom: dotted 6px #c3c3c3;
+                    }
+             .crisp_btn{
+              margin:5% 0 10%;
+            }
+      }
+      }
+    } 
